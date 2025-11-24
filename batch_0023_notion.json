@@ -1,0 +1,6008 @@
+{
+  "data_source_id": "7c5225aa-429b-4580-946e-ba5b1db2ca6d",
+  "batch_number": 23,
+  "record_count": 500,
+  "timestamp": "2025-11-24T04:56:09.590673",
+  "pages": [
+    {
+      "properties": {
+        "Ticker": "FDUS",
+        "Period": "2020-2024",
+        "Has Data": "__NO__",
+        "Batch Number": 23,
+        "date:Date:start": "2020-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:56:04.211898",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "FDUS",
+        "Period": "2015-2019",
+        "Has Data": "__NO__",
+        "Batch Number": 23,
+        "date:Date:start": "2015-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:56:04.221959",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "FDUS",
+        "Period": "2010-2014",
+        "Has Data": "__NO__",
+        "Batch Number": 23,
+        "date:Date:start": "2010-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:56:04.232732",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "FDUS",
+        "Period": "2005-2009",
+        "Has Data": "__NO__",
+        "Batch Number": 23,
+        "date:Date:start": "2005-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:56:04.243530",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "FDUS",
+        "Period": "2000-2004",
+        "Has Data": "__NO__",
+        "Batch Number": 23,
+        "date:Date:start": "2000-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:56:04.254293",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "FDX",
+        "Period": "2020-2024",
+        "Has Data": "__NO__",
+        "Batch Number": 23,
+        "date:Date:start": "2020-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:56:04.265123",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "FDX",
+        "Period": "2015-2019",
+        "Has Data": "__NO__",
+        "Batch Number": 23,
+        "date:Date:start": "2015-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:56:04.275888",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "FDX",
+        "Period": "2010-2014",
+        "Has Data": "__NO__",
+        "Batch Number": 23,
+        "date:Date:start": "2010-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:56:04.286785",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "FDX",
+        "Period": "2005-2009",
+        "Has Data": "__NO__",
+        "Batch Number": 23,
+        "date:Date:start": "2005-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:56:04.297670",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "FDX",
+        "Period": "2000-2004",
+        "Has Data": "__NO__",
+        "Batch Number": 23,
+        "date:Date:start": "2000-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:56:04.308496",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "FE",
+        "Period": "2020-2024",
+        "Has Data": "__NO__",
+        "Batch Number": 23,
+        "date:Date:start": "2020-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:56:04.319244",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "FE",
+        "Period": "2015-2019",
+        "Has Data": "__NO__",
+        "Batch Number": 23,
+        "date:Date:start": "2015-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:56:04.330002",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "FE",
+        "Period": "2010-2014",
+        "Has Data": "__NO__",
+        "Batch Number": 23,
+        "date:Date:start": "2010-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:56:04.340753",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "FE",
+        "Period": "2005-2009",
+        "Has Data": "__NO__",
+        "Batch Number": 23,
+        "date:Date:start": "2005-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:56:04.351567",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "FE",
+        "Period": "2000-2004",
+        "Has Data": "__NO__",
+        "Batch Number": 23,
+        "date:Date:start": "2000-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:56:04.362299",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "FEAM",
+        "Period": "2020-2024",
+        "Has Data": "__NO__",
+        "Batch Number": 23,
+        "date:Date:start": "2020-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:56:04.373078",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "FEAM",
+        "Period": "2015-2019",
+        "Has Data": "__NO__",
+        "Batch Number": 23,
+        "date:Date:start": "2015-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:56:04.383856",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "FEAM",
+        "Period": "2010-2014",
+        "Has Data": "__NO__",
+        "Batch Number": 23,
+        "date:Date:start": "2010-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:56:04.394545",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "FEAM",
+        "Period": "2005-2009",
+        "Has Data": "__NO__",
+        "Batch Number": 23,
+        "date:Date:start": "2005-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:56:04.405218",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "FEAM",
+        "Period": "2000-2004",
+        "Has Data": "__NO__",
+        "Batch Number": 23,
+        "date:Date:start": "2000-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:56:04.416075",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "FEBO",
+        "Period": "2020-2024",
+        "Has Data": "__NO__",
+        "Batch Number": 23,
+        "date:Date:start": "2020-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:56:04.426890",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "FEBO",
+        "Period": "2015-2019",
+        "Has Data": "__NO__",
+        "Batch Number": 23,
+        "date:Date:start": "2015-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:56:04.437664",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "FEBO",
+        "Period": "2010-2014",
+        "Has Data": "__NO__",
+        "Batch Number": 23,
+        "date:Date:start": "2010-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:56:04.448417",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "FEBO",
+        "Period": "2005-2009",
+        "Has Data": "__NO__",
+        "Batch Number": 23,
+        "date:Date:start": "2005-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:56:04.459196",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "FEBO",
+        "Period": "2000-2004",
+        "Has Data": "__NO__",
+        "Batch Number": 23,
+        "date:Date:start": "2000-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:56:04.469887",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "FEDU",
+        "Period": "2020-2024",
+        "Has Data": "__NO__",
+        "Batch Number": 23,
+        "date:Date:start": "2020-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:56:04.480748",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "FEDU",
+        "Period": "2015-2019",
+        "Has Data": "__NO__",
+        "Batch Number": 23,
+        "date:Date:start": "2015-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:56:04.491505",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "FEDU",
+        "Period": "2010-2014",
+        "Has Data": "__NO__",
+        "Batch Number": 23,
+        "date:Date:start": "2010-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:56:04.502297",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "FEDU",
+        "Period": "2005-2009",
+        "Has Data": "__NO__",
+        "Batch Number": 23,
+        "date:Date:start": "2005-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:56:04.512989",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "FEDU",
+        "Period": "2000-2004",
+        "Has Data": "__NO__",
+        "Batch Number": 23,
+        "date:Date:start": "2000-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:56:04.523747",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "FEIM",
+        "Period": "2020-2024",
+        "Has Data": "__NO__",
+        "Batch Number": 23,
+        "date:Date:start": "2020-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:56:04.534535",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "FEIM",
+        "Period": "2015-2019",
+        "Has Data": "__NO__",
+        "Batch Number": 23,
+        "date:Date:start": "2015-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:56:04.545289",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "FEIM",
+        "Period": "2010-2014",
+        "Has Data": "__NO__",
+        "Batch Number": 23,
+        "date:Date:start": "2010-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:56:04.556072",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "FEIM",
+        "Period": "2005-2009",
+        "Has Data": "__NO__",
+        "Batch Number": 23,
+        "date:Date:start": "2005-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:56:04.566834",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "FEIM",
+        "Period": "2000-2004",
+        "Has Data": "__NO__",
+        "Batch Number": 23,
+        "date:Date:start": "2000-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:56:04.577643",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "FELE",
+        "Period": "2020-2024",
+        "Has Data": "__NO__",
+        "Batch Number": 23,
+        "date:Date:start": "2020-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:56:04.588573",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "FELE",
+        "Period": "2015-2019",
+        "Has Data": "__NO__",
+        "Batch Number": 23,
+        "date:Date:start": "2015-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:56:04.599452",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "FELE",
+        "Period": "2010-2014",
+        "Has Data": "__NO__",
+        "Batch Number": 23,
+        "date:Date:start": "2010-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:56:04.610267",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "FELE",
+        "Period": "2005-2009",
+        "Has Data": "__NO__",
+        "Batch Number": 23,
+        "date:Date:start": "2005-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:56:04.621005",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "FELE",
+        "Period": "2000-2004",
+        "Has Data": "__NO__",
+        "Batch Number": 23,
+        "date:Date:start": "2000-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:56:04.631832",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "FEMY",
+        "Period": "2020-2024",
+        "Has Data": "__NO__",
+        "Batch Number": 23,
+        "date:Date:start": "2020-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:56:04.642693",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "FEMY",
+        "Period": "2015-2019",
+        "Has Data": "__NO__",
+        "Batch Number": 23,
+        "date:Date:start": "2015-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:56:04.653548",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "FEMY",
+        "Period": "2010-2014",
+        "Has Data": "__NO__",
+        "Batch Number": 23,
+        "date:Date:start": "2010-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:56:04.664402",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "FEMY",
+        "Period": "2005-2009",
+        "Has Data": "__NO__",
+        "Batch Number": 23,
+        "date:Date:start": "2005-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:56:04.675156",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "FEMY",
+        "Period": "2000-2004",
+        "Has Data": "__NO__",
+        "Batch Number": 23,
+        "date:Date:start": "2000-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:56:04.685983",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "FENC",
+        "Period": "2020-2024",
+        "Has Data": "__NO__",
+        "Batch Number": 23,
+        "date:Date:start": "2020-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:56:04.696749",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "FENC",
+        "Period": "2015-2019",
+        "Has Data": "__NO__",
+        "Batch Number": 23,
+        "date:Date:start": "2015-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:56:04.707517",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "FENC",
+        "Period": "2010-2014",
+        "Has Data": "__NO__",
+        "Batch Number": 23,
+        "date:Date:start": "2010-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:56:04.718331",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "FENC",
+        "Period": "2005-2009",
+        "Has Data": "__NO__",
+        "Batch Number": 23,
+        "date:Date:start": "2005-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:56:04.729126",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "FENC",
+        "Period": "2000-2004",
+        "Has Data": "__NO__",
+        "Batch Number": 23,
+        "date:Date:start": "2000-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:56:04.739883",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "FENG",
+        "Period": "2020-2024",
+        "Has Data": "__NO__",
+        "Batch Number": 23,
+        "date:Date:start": "2020-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:56:04.750544",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "FENG",
+        "Period": "2015-2019",
+        "Has Data": "__NO__",
+        "Batch Number": 23,
+        "date:Date:start": "2015-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:56:04.761218",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "FENG",
+        "Period": "2010-2014",
+        "Has Data": "__NO__",
+        "Batch Number": 23,
+        "date:Date:start": "2010-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:56:04.771936",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "FENG",
+        "Period": "2005-2009",
+        "Has Data": "__NO__",
+        "Batch Number": 23,
+        "date:Date:start": "2005-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:56:04.782620",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "FENG",
+        "Period": "2000-2004",
+        "Has Data": "__NO__",
+        "Batch Number": 23,
+        "date:Date:start": "2000-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:56:04.793471",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "FER",
+        "Period": "2020-2024",
+        "Has Data": "__NO__",
+        "Batch Number": 23,
+        "date:Date:start": "2020-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:56:04.804161",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "FER",
+        "Period": "2015-2019",
+        "Has Data": "__NO__",
+        "Batch Number": 23,
+        "date:Date:start": "2015-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:56:04.814992",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "FER",
+        "Period": "2010-2014",
+        "Has Data": "__NO__",
+        "Batch Number": 23,
+        "date:Date:start": "2010-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:56:04.825729",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "FER",
+        "Period": "2005-2009",
+        "Has Data": "__NO__",
+        "Batch Number": 23,
+        "date:Date:start": "2005-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:56:04.836440",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "FER",
+        "Period": "2000-2004",
+        "Has Data": "__NO__",
+        "Batch Number": 23,
+        "date:Date:start": "2000-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:56:04.847168",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "FERA",
+        "Period": "2020-2024",
+        "Has Data": "__NO__",
+        "Batch Number": 23,
+        "date:Date:start": "2020-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:56:04.857867",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "FERA",
+        "Period": "2015-2019",
+        "Has Data": "__NO__",
+        "Batch Number": 23,
+        "date:Date:start": "2015-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:56:04.868490",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "FERA",
+        "Period": "2010-2014",
+        "Has Data": "__NO__",
+        "Batch Number": 23,
+        "date:Date:start": "2010-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:56:04.879268",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "FERA",
+        "Period": "2005-2009",
+        "Has Data": "__NO__",
+        "Batch Number": 23,
+        "date:Date:start": "2005-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:56:04.890014",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "FERA",
+        "Period": "2000-2004",
+        "Has Data": "__NO__",
+        "Batch Number": 23,
+        "date:Date:start": "2000-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:56:04.900717",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "FERAR",
+        "Period": "2020-2024",
+        "Has Data": "__NO__",
+        "Batch Number": 23,
+        "date:Date:start": "2020-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:56:04.911458",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "FERAR",
+        "Period": "2015-2019",
+        "Has Data": "__NO__",
+        "Batch Number": 23,
+        "date:Date:start": "2015-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:56:04.922222",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "FERAR",
+        "Period": "2010-2014",
+        "Has Data": "__NO__",
+        "Batch Number": 23,
+        "date:Date:start": "2010-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:56:04.932996",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "FERAR",
+        "Period": "2005-2009",
+        "Has Data": "__NO__",
+        "Batch Number": 23,
+        "date:Date:start": "2005-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:56:04.943831",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "FERAR",
+        "Period": "2000-2004",
+        "Has Data": "__NO__",
+        "Batch Number": 23,
+        "date:Date:start": "2000-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:56:04.954652",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "FERAU",
+        "Period": "2020-2024",
+        "Has Data": "__NO__",
+        "Batch Number": 23,
+        "date:Date:start": "2020-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:56:04.965400",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "FERAU",
+        "Period": "2015-2019",
+        "Has Data": "__NO__",
+        "Batch Number": 23,
+        "date:Date:start": "2015-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:56:04.976154",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "FERAU",
+        "Period": "2010-2014",
+        "Has Data": "__NO__",
+        "Batch Number": 23,
+        "date:Date:start": "2010-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:56:04.987071",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "FERAU",
+        "Period": "2005-2009",
+        "Has Data": "__NO__",
+        "Batch Number": 23,
+        "date:Date:start": "2005-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:56:04.997752",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "FERAU",
+        "Period": "2000-2004",
+        "Has Data": "__NO__",
+        "Batch Number": 23,
+        "date:Date:start": "2000-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:56:05.008569",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "FERG",
+        "Period": "2020-2024",
+        "Has Data": "__NO__",
+        "Batch Number": 23,
+        "date:Date:start": "2020-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:56:05.019375",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "FERG",
+        "Period": "2015-2019",
+        "Has Data": "__NO__",
+        "Batch Number": 23,
+        "date:Date:start": "2015-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:56:05.030170",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "FERG",
+        "Period": "2010-2014",
+        "Has Data": "__NO__",
+        "Batch Number": 23,
+        "date:Date:start": "2010-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:56:05.040974",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "FERG",
+        "Period": "2005-2009",
+        "Has Data": "__NO__",
+        "Batch Number": 23,
+        "date:Date:start": "2005-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:56:05.051625",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "FERG",
+        "Period": "2000-2004",
+        "Has Data": "__NO__",
+        "Batch Number": 23,
+        "date:Date:start": "2000-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:56:05.062440",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "FET",
+        "Period": "2020-2024",
+        "Has Data": "__NO__",
+        "Batch Number": 23,
+        "date:Date:start": "2020-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:56:05.073289",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "FET",
+        "Period": "2015-2019",
+        "Has Data": "__NO__",
+        "Batch Number": 23,
+        "date:Date:start": "2015-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:56:05.084079",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "FET",
+        "Period": "2010-2014",
+        "Has Data": "__NO__",
+        "Batch Number": 23,
+        "date:Date:start": "2010-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:56:05.094783",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "FET",
+        "Period": "2005-2009",
+        "Has Data": "__NO__",
+        "Batch Number": 23,
+        "date:Date:start": "2005-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:56:05.105577",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "FET",
+        "Period": "2000-2004",
+        "Has Data": "__NO__",
+        "Batch Number": 23,
+        "date:Date:start": "2000-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:56:05.116358",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "FF",
+        "Period": "2020-2024",
+        "Has Data": "__NO__",
+        "Batch Number": 23,
+        "date:Date:start": "2020-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:56:05.127143",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "FF",
+        "Period": "2015-2019",
+        "Has Data": "__NO__",
+        "Batch Number": 23,
+        "date:Date:start": "2015-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:56:05.137915",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "FF",
+        "Period": "2010-2014",
+        "Has Data": "__NO__",
+        "Batch Number": 23,
+        "date:Date:start": "2010-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:56:05.148732",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "FF",
+        "Period": "2005-2009",
+        "Has Data": "__NO__",
+        "Batch Number": 23,
+        "date:Date:start": "2005-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:56:05.159469",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "FF",
+        "Period": "2000-2004",
+        "Has Data": "__NO__",
+        "Batch Number": 23,
+        "date:Date:start": "2000-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:56:05.170239",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "FFA",
+        "Period": "2020-2024",
+        "Has Data": "__NO__",
+        "Batch Number": 23,
+        "date:Date:start": "2020-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:56:05.184282",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "FFA",
+        "Period": "2015-2019",
+        "Has Data": "__NO__",
+        "Batch Number": 23,
+        "date:Date:start": "2015-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:56:05.194432",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "FFA",
+        "Period": "2010-2014",
+        "Has Data": "__NO__",
+        "Batch Number": 23,
+        "date:Date:start": "2010-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:56:05.204595",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "FFA",
+        "Period": "2005-2009",
+        "Has Data": "__NO__",
+        "Batch Number": 23,
+        "date:Date:start": "2005-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:56:05.214911",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "FFA",
+        "Period": "2000-2004",
+        "Has Data": "__NO__",
+        "Batch Number": 23,
+        "date:Date:start": "2000-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:56:05.225694",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "FFAI",
+        "Period": "2020-2024",
+        "Has Data": "__NO__",
+        "Batch Number": 23,
+        "date:Date:start": "2020-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:56:05.236554",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "FFAI",
+        "Period": "2015-2019",
+        "Has Data": "__NO__",
+        "Batch Number": 23,
+        "date:Date:start": "2015-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:56:05.247391",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "FFAI",
+        "Period": "2010-2014",
+        "Has Data": "__NO__",
+        "Batch Number": 23,
+        "date:Date:start": "2010-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:56:05.258147",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "FFAI",
+        "Period": "2005-2009",
+        "Has Data": "__NO__",
+        "Batch Number": 23,
+        "date:Date:start": "2005-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:56:05.268920",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "FFAI",
+        "Period": "2000-2004",
+        "Has Data": "__NO__",
+        "Batch Number": 23,
+        "date:Date:start": "2000-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:56:05.279775",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "FFAIW",
+        "Period": "2020-2024",
+        "Has Data": "__NO__",
+        "Batch Number": 23,
+        "date:Date:start": "2020-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:56:05.291188",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "FFAIW",
+        "Period": "2015-2019",
+        "Has Data": "__NO__",
+        "Batch Number": 23,
+        "date:Date:start": "2015-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:56:05.301229",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "FFAIW",
+        "Period": "2010-2014",
+        "Has Data": "__NO__",
+        "Batch Number": 23,
+        "date:Date:start": "2010-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:56:05.311988",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "FFAIW",
+        "Period": "2005-2009",
+        "Has Data": "__NO__",
+        "Batch Number": 23,
+        "date:Date:start": "2005-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:56:05.322716",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "FFAIW",
+        "Period": "2000-2004",
+        "Has Data": "__NO__",
+        "Batch Number": 23,
+        "date:Date:start": "2000-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:56:05.333481",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "FFBC",
+        "Period": "2020-2024",
+        "Has Data": "__NO__",
+        "Batch Number": 23,
+        "date:Date:start": "2020-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:56:05.344300",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "FFBC",
+        "Period": "2015-2019",
+        "Has Data": "__NO__",
+        "Batch Number": 23,
+        "date:Date:start": "2015-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:56:05.355131",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "FFBC",
+        "Period": "2010-2014",
+        "Has Data": "__NO__",
+        "Batch Number": 23,
+        "date:Date:start": "2010-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:56:05.365930",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "FFBC",
+        "Period": "2005-2009",
+        "Has Data": "__NO__",
+        "Batch Number": 23,
+        "date:Date:start": "2005-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:56:05.376684",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "FFBC",
+        "Period": "2000-2004",
+        "Has Data": "__NO__",
+        "Batch Number": 23,
+        "date:Date:start": "2000-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:56:05.387455",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "FFC",
+        "Period": "2020-2024",
+        "Has Data": "__NO__",
+        "Batch Number": 23,
+        "date:Date:start": "2020-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:56:05.398145",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "FFC",
+        "Period": "2015-2019",
+        "Has Data": "__NO__",
+        "Batch Number": 23,
+        "date:Date:start": "2015-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:56:05.408283",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "FFC",
+        "Period": "2010-2014",
+        "Has Data": "__NO__",
+        "Batch Number": 23,
+        "date:Date:start": "2010-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:56:05.418552",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "FFC",
+        "Period": "2005-2009",
+        "Has Data": "__NO__",
+        "Batch Number": 23,
+        "date:Date:start": "2005-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:56:05.429313",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "FFC",
+        "Period": "2000-2004",
+        "Has Data": "__NO__",
+        "Batch Number": 23,
+        "date:Date:start": "2000-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:56:05.440085",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "FFIC",
+        "Period": "2020-2024",
+        "Has Data": "__NO__",
+        "Batch Number": 23,
+        "date:Date:start": "2020-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:56:05.450991",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "FFIC",
+        "Period": "2015-2019",
+        "Has Data": "__NO__",
+        "Batch Number": 23,
+        "date:Date:start": "2015-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:56:05.461752",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "FFIC",
+        "Period": "2010-2014",
+        "Has Data": "__NO__",
+        "Batch Number": 23,
+        "date:Date:start": "2010-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:56:05.472765",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "FFIC",
+        "Period": "2005-2009",
+        "Has Data": "__NO__",
+        "Batch Number": 23,
+        "date:Date:start": "2005-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:56:05.483567",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "FFIC",
+        "Period": "2000-2004",
+        "Has Data": "__NO__",
+        "Batch Number": 23,
+        "date:Date:start": "2000-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:56:05.494435",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "FFIN",
+        "Period": "2020-2024",
+        "Has Data": "__NO__",
+        "Batch Number": 23,
+        "date:Date:start": "2020-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:56:05.505265",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "FFIN",
+        "Period": "2015-2019",
+        "Has Data": "__NO__",
+        "Batch Number": 23,
+        "date:Date:start": "2015-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:56:05.516046",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "FFIN",
+        "Period": "2010-2014",
+        "Has Data": "__NO__",
+        "Batch Number": 23,
+        "date:Date:start": "2010-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:56:05.526846",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "FFIN",
+        "Period": "2005-2009",
+        "Has Data": "__NO__",
+        "Batch Number": 23,
+        "date:Date:start": "2005-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:56:05.537605",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "FFIN",
+        "Period": "2000-2004",
+        "Has Data": "__NO__",
+        "Batch Number": 23,
+        "date:Date:start": "2000-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:56:05.548328",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "FFIV",
+        "Period": "2020-2024",
+        "Has Data": "__NO__",
+        "Batch Number": 23,
+        "date:Date:start": "2020-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:56:05.559049",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "FFIV",
+        "Period": "2015-2019",
+        "Has Data": "__NO__",
+        "Batch Number": 23,
+        "date:Date:start": "2015-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:56:05.569677",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "FFIV",
+        "Period": "2010-2014",
+        "Has Data": "__NO__",
+        "Batch Number": 23,
+        "date:Date:start": "2010-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:56:05.580530",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "FFIV",
+        "Period": "2005-2009",
+        "Has Data": "__NO__",
+        "Batch Number": 23,
+        "date:Date:start": "2005-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:56:05.591311",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "FFIV",
+        "Period": "2000-2004",
+        "Has Data": "__NO__",
+        "Batch Number": 23,
+        "date:Date:start": "2000-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:56:05.602165",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "FFWM",
+        "Period": "2020-2024",
+        "Has Data": "__NO__",
+        "Batch Number": 23,
+        "date:Date:start": "2020-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:56:05.612301",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "FFWM",
+        "Period": "2015-2019",
+        "Has Data": "__NO__",
+        "Batch Number": 23,
+        "date:Date:start": "2015-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:56:05.622594",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "FFWM",
+        "Period": "2010-2014",
+        "Has Data": "__NO__",
+        "Batch Number": 23,
+        "date:Date:start": "2010-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:56:05.633441",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "FFWM",
+        "Period": "2005-2009",
+        "Has Data": "__NO__",
+        "Batch Number": 23,
+        "date:Date:start": "2005-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:56:05.644257",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "FFWM",
+        "Period": "2000-2004",
+        "Has Data": "__NO__",
+        "Batch Number": 23,
+        "date:Date:start": "2000-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:56:05.655072",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "FG",
+        "Period": "2020-2024",
+        "Has Data": "__NO__",
+        "Batch Number": 23,
+        "date:Date:start": "2020-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:56:05.665869",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "FG",
+        "Period": "2015-2019",
+        "Has Data": "__NO__",
+        "Batch Number": 23,
+        "date:Date:start": "2015-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:56:05.676724",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "FG",
+        "Period": "2010-2014",
+        "Has Data": "__NO__",
+        "Batch Number": 23,
+        "date:Date:start": "2010-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:56:05.687434",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "FG",
+        "Period": "2005-2009",
+        "Has Data": "__NO__",
+        "Batch Number": 23,
+        "date:Date:start": "2005-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:56:05.698270",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "FG",
+        "Period": "2000-2004",
+        "Has Data": "__NO__",
+        "Batch Number": 23,
+        "date:Date:start": "2000-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:56:05.709075",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "FGBI",
+        "Period": "2020-2024",
+        "Has Data": "__NO__",
+        "Batch Number": 23,
+        "date:Date:start": "2020-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:56:05.719732",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "FGBI",
+        "Period": "2015-2019",
+        "Has Data": "__NO__",
+        "Batch Number": 23,
+        "date:Date:start": "2015-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:56:05.730550",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "FGBI",
+        "Period": "2010-2014",
+        "Has Data": "__NO__",
+        "Batch Number": 23,
+        "date:Date:start": "2010-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:56:05.741404",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "FGBI",
+        "Period": "2005-2009",
+        "Has Data": "__NO__",
+        "Batch Number": 23,
+        "date:Date:start": "2005-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:56:05.752150",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "FGBI",
+        "Period": "2000-2004",
+        "Has Data": "__NO__",
+        "Batch Number": 23,
+        "date:Date:start": "2000-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:56:05.762986",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "FGBIP",
+        "Period": "2020-2024",
+        "Has Data": "__NO__",
+        "Batch Number": 23,
+        "date:Date:start": "2020-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:56:05.773812",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "FGBIP",
+        "Period": "2015-2019",
+        "Has Data": "__NO__",
+        "Batch Number": 23,
+        "date:Date:start": "2015-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:56:05.784631",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "FGBIP",
+        "Period": "2010-2014",
+        "Has Data": "__NO__",
+        "Batch Number": 23,
+        "date:Date:start": "2010-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:56:05.795425",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "FGBIP",
+        "Period": "2005-2009",
+        "Has Data": "__NO__",
+        "Batch Number": 23,
+        "date:Date:start": "2005-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:56:05.806215",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "FGBIP",
+        "Period": "2000-2004",
+        "Has Data": "__NO__",
+        "Batch Number": 23,
+        "date:Date:start": "2000-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:56:05.816958",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "FGEN",
+        "Period": "2020-2024",
+        "Has Data": "__NO__",
+        "Batch Number": 23,
+        "date:Date:start": "2020-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:56:05.827727",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "FGEN",
+        "Period": "2015-2019",
+        "Has Data": "__NO__",
+        "Batch Number": 23,
+        "date:Date:start": "2015-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:56:05.838517",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "FGEN",
+        "Period": "2010-2014",
+        "Has Data": "__NO__",
+        "Batch Number": 23,
+        "date:Date:start": "2010-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:56:05.849337",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "FGEN",
+        "Period": "2005-2009",
+        "Has Data": "__NO__",
+        "Batch Number": 23,
+        "date:Date:start": "2005-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:56:05.860076",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "FGEN",
+        "Period": "2000-2004",
+        "Has Data": "__NO__",
+        "Batch Number": 23,
+        "date:Date:start": "2000-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:56:05.870895",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "FGF",
+        "Period": "2020-2024",
+        "Has Data": "__NO__",
+        "Batch Number": 23,
+        "date:Date:start": "2020-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:56:05.881676",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "FGF",
+        "Period": "2015-2019",
+        "Has Data": "__NO__",
+        "Batch Number": 23,
+        "date:Date:start": "2015-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:56:05.892436",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "FGF",
+        "Period": "2010-2014",
+        "Has Data": "__NO__",
+        "Batch Number": 23,
+        "date:Date:start": "2010-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:56:05.903159",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "FGF",
+        "Period": "2005-2009",
+        "Has Data": "__NO__",
+        "Batch Number": 23,
+        "date:Date:start": "2005-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:56:05.914084",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "FGF",
+        "Period": "2000-2004",
+        "Has Data": "__NO__",
+        "Batch Number": 23,
+        "date:Date:start": "2000-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:56:05.924840",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "FGFPP",
+        "Period": "2020-2024",
+        "Has Data": "__NO__",
+        "Batch Number": 23,
+        "date:Date:start": "2020-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:56:05.935612",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "FGFPP",
+        "Period": "2015-2019",
+        "Has Data": "__NO__",
+        "Batch Number": 23,
+        "date:Date:start": "2015-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:56:05.946453",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "FGFPP",
+        "Period": "2010-2014",
+        "Has Data": "__NO__",
+        "Batch Number": 23,
+        "date:Date:start": "2010-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:56:05.957168",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "FGFPP",
+        "Period": "2005-2009",
+        "Has Data": "__NO__",
+        "Batch Number": 23,
+        "date:Date:start": "2005-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:56:05.967957",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "FGFPP",
+        "Period": "2000-2004",
+        "Has Data": "__NO__",
+        "Batch Number": 23,
+        "date:Date:start": "2000-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:56:05.978690",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "FGI",
+        "Period": "2020-2024",
+        "Has Data": "__NO__",
+        "Batch Number": 23,
+        "date:Date:start": "2020-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:56:05.989449",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "FGI",
+        "Period": "2015-2019",
+        "Has Data": "__NO__",
+        "Batch Number": 23,
+        "date:Date:start": "2015-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:56:06.000236",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "FGI",
+        "Period": "2010-2014",
+        "Has Data": "__NO__",
+        "Batch Number": 23,
+        "date:Date:start": "2010-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:56:06.011040",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "FGI",
+        "Period": "2005-2009",
+        "Has Data": "__NO__",
+        "Batch Number": 23,
+        "date:Date:start": "2005-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:56:06.021971",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "FGI",
+        "Period": "2000-2004",
+        "Has Data": "__NO__",
+        "Batch Number": 23,
+        "date:Date:start": "2000-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:56:06.032693",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "FGIWW",
+        "Period": "2020-2024",
+        "Has Data": "__NO__",
+        "Batch Number": 23,
+        "date:Date:start": "2020-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:56:06.043480",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "FGIWW",
+        "Period": "2015-2019",
+        "Has Data": "__NO__",
+        "Batch Number": 23,
+        "date:Date:start": "2015-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:56:06.054238",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "FGIWW",
+        "Period": "2010-2014",
+        "Has Data": "__NO__",
+        "Batch Number": 23,
+        "date:Date:start": "2010-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:56:06.065017",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "FGIWW",
+        "Period": "2005-2009",
+        "Has Data": "__NO__",
+        "Batch Number": 23,
+        "date:Date:start": "2005-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:56:06.075887",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "FGIWW",
+        "Period": "2000-2004",
+        "Has Data": "__NO__",
+        "Batch Number": 23,
+        "date:Date:start": "2000-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:56:06.086657",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "FGL",
+        "Period": "2020-2024",
+        "Has Data": "__NO__",
+        "Batch Number": 23,
+        "date:Date:start": "2020-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:56:06.097426",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "FGL",
+        "Period": "2015-2019",
+        "Has Data": "__NO__",
+        "Batch Number": 23,
+        "date:Date:start": "2015-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:56:06.108165",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "FGL",
+        "Period": "2010-2014",
+        "Has Data": "__NO__",
+        "Batch Number": 23,
+        "date:Date:start": "2010-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:56:06.118897",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "FGL",
+        "Period": "2005-2009",
+        "Has Data": "__NO__",
+        "Batch Number": 23,
+        "date:Date:start": "2005-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:56:06.129557",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "FGL",
+        "Period": "2000-2004",
+        "Has Data": "__NO__",
+        "Batch Number": 23,
+        "date:Date:start": "2000-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:56:06.140310",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "FGMC",
+        "Period": "2020-2024",
+        "Has Data": "__NO__",
+        "Batch Number": 23,
+        "date:Date:start": "2020-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:56:06.151113",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "FGMC",
+        "Period": "2015-2019",
+        "Has Data": "__NO__",
+        "Batch Number": 23,
+        "date:Date:start": "2015-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:56:06.161873",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "FGMC",
+        "Period": "2010-2014",
+        "Has Data": "__NO__",
+        "Batch Number": 23,
+        "date:Date:start": "2010-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:56:06.172531",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "FGMC",
+        "Period": "2005-2009",
+        "Has Data": "__NO__",
+        "Batch Number": 23,
+        "date:Date:start": "2005-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:56:06.183215",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "FGMC",
+        "Period": "2000-2004",
+        "Has Data": "__NO__",
+        "Batch Number": 23,
+        "date:Date:start": "2000-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:56:06.193911",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "FGMCR",
+        "Period": "2020-2024",
+        "Has Data": "__NO__",
+        "Batch Number": 23,
+        "date:Date:start": "2020-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:56:06.204576",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "FGMCR",
+        "Period": "2015-2019",
+        "Has Data": "__NO__",
+        "Batch Number": 23,
+        "date:Date:start": "2015-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:56:06.215291",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "FGMCR",
+        "Period": "2010-2014",
+        "Has Data": "__NO__",
+        "Batch Number": 23,
+        "date:Date:start": "2010-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:56:06.225355",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "FGMCR",
+        "Period": "2005-2009",
+        "Has Data": "__NO__",
+        "Batch Number": 23,
+        "date:Date:start": "2005-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:56:06.236076",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "FGMCR",
+        "Period": "2000-2004",
+        "Has Data": "__NO__",
+        "Batch Number": 23,
+        "date:Date:start": "2000-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:56:06.246778",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "FGMCU",
+        "Period": "2020-2024",
+        "Has Data": "__NO__",
+        "Batch Number": 23,
+        "date:Date:start": "2020-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:56:06.257540",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "FGMCU",
+        "Period": "2015-2019",
+        "Has Data": "__NO__",
+        "Batch Number": 23,
+        "date:Date:start": "2015-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:56:06.268282",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "FGMCU",
+        "Period": "2010-2014",
+        "Has Data": "__NO__",
+        "Batch Number": 23,
+        "date:Date:start": "2010-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:56:06.278977",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "FGMCU",
+        "Period": "2005-2009",
+        "Has Data": "__NO__",
+        "Batch Number": 23,
+        "date:Date:start": "2005-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:56:06.289795",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "FGMCU",
+        "Period": "2000-2004",
+        "Has Data": "__NO__",
+        "Batch Number": 23,
+        "date:Date:start": "2000-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:56:06.300669",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "FGN",
+        "Period": "2020-2024",
+        "Has Data": "__NO__",
+        "Batch Number": 23,
+        "date:Date:start": "2020-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:56:06.311367",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "FGN",
+        "Period": "2015-2019",
+        "Has Data": "__NO__",
+        "Batch Number": 23,
+        "date:Date:start": "2015-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:56:06.322194",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "FGN",
+        "Period": "2010-2014",
+        "Has Data": "__NO__",
+        "Batch Number": 23,
+        "date:Date:start": "2010-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:56:06.332923",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "FGN",
+        "Period": "2005-2009",
+        "Has Data": "__NO__",
+        "Batch Number": 23,
+        "date:Date:start": "2005-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:56:06.343650",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "FGN",
+        "Period": "2000-2004",
+        "Has Data": "__NO__",
+        "Batch Number": 23,
+        "date:Date:start": "2000-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:56:06.354376",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "FGSN",
+        "Period": "2020-2024",
+        "Has Data": "__NO__",
+        "Batch Number": 23,
+        "date:Date:start": "2020-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:56:06.365791",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "FGSN",
+        "Period": "2015-2019",
+        "Has Data": "__NO__",
+        "Batch Number": 23,
+        "date:Date:start": "2015-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:56:06.375949",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "FGSN",
+        "Period": "2010-2014",
+        "Has Data": "__NO__",
+        "Batch Number": 23,
+        "date:Date:start": "2010-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:56:06.386734",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "FGSN",
+        "Period": "2005-2009",
+        "Has Data": "__NO__",
+        "Batch Number": 23,
+        "date:Date:start": "2005-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:56:06.397562",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "FGSN",
+        "Period": "2000-2004",
+        "Has Data": "__NO__",
+        "Batch Number": 23,
+        "date:Date:start": "2000-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:56:06.408381",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "FHB",
+        "Period": "2020-2024",
+        "Has Data": "__NO__",
+        "Batch Number": 23,
+        "date:Date:start": "2020-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:56:06.419151",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "FHB",
+        "Period": "2015-2019",
+        "Has Data": "__NO__",
+        "Batch Number": 23,
+        "date:Date:start": "2015-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:56:06.429940",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "FHB",
+        "Period": "2010-2014",
+        "Has Data": "__NO__",
+        "Batch Number": 23,
+        "date:Date:start": "2010-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:56:06.440707",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "FHB",
+        "Period": "2005-2009",
+        "Has Data": "__NO__",
+        "Batch Number": 23,
+        "date:Date:start": "2005-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:56:06.451583",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "FHB",
+        "Period": "2000-2004",
+        "Has Data": "__NO__",
+        "Batch Number": 23,
+        "date:Date:start": "2000-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:56:06.462356",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "FHI",
+        "Period": "2020-2024",
+        "Has Data": "__NO__",
+        "Batch Number": 23,
+        "date:Date:start": "2020-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:56:06.473160",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "FHI",
+        "Period": "2015-2019",
+        "Has Data": "__NO__",
+        "Batch Number": 23,
+        "date:Date:start": "2015-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:56:06.483841",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "FHI",
+        "Period": "2010-2014",
+        "Has Data": "__NO__",
+        "Batch Number": 23,
+        "date:Date:start": "2010-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:56:06.494610",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "FHI",
+        "Period": "2005-2009",
+        "Has Data": "__NO__",
+        "Batch Number": 23,
+        "date:Date:start": "2005-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:56:06.505336",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "FHI",
+        "Period": "2000-2004",
+        "Has Data": "__NO__",
+        "Batch Number": 23,
+        "date:Date:start": "2000-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:56:06.516107",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "FHN",
+        "Period": "2020-2024",
+        "Has Data": "__NO__",
+        "Batch Number": 23,
+        "date:Date:start": "2020-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:56:06.526851",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "FHN",
+        "Period": "2015-2019",
+        "Has Data": "__NO__",
+        "Batch Number": 23,
+        "date:Date:start": "2015-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:56:06.537561",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "FHN",
+        "Period": "2010-2014",
+        "Has Data": "__NO__",
+        "Batch Number": 23,
+        "date:Date:start": "2010-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:56:06.548354",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "FHN",
+        "Period": "2005-2009",
+        "Has Data": "__NO__",
+        "Batch Number": 23,
+        "date:Date:start": "2005-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:56:06.559082",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "FHN",
+        "Period": "2000-2004",
+        "Has Data": "__NO__",
+        "Batch Number": 23,
+        "date:Date:start": "2000-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:56:06.569824",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "FHTX",
+        "Period": "2020-2024",
+        "Has Data": "__NO__",
+        "Batch Number": 23,
+        "date:Date:start": "2020-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:56:06.580600",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "FHTX",
+        "Period": "2015-2019",
+        "Has Data": "__NO__",
+        "Batch Number": 23,
+        "date:Date:start": "2015-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:56:06.591387",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "FHTX",
+        "Period": "2010-2014",
+        "Has Data": "__NO__",
+        "Batch Number": 23,
+        "date:Date:start": "2010-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:56:06.602168",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "FHTX",
+        "Period": "2005-2009",
+        "Has Data": "__NO__",
+        "Batch Number": 23,
+        "date:Date:start": "2005-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:56:06.613041",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "FHTX",
+        "Period": "2000-2004",
+        "Has Data": "__NO__",
+        "Batch Number": 23,
+        "date:Date:start": "2000-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:56:06.623738",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "FI",
+        "Period": "2020-2024",
+        "Has Data": "__NO__",
+        "Batch Number": 23,
+        "date:Date:start": "2020-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:56:06.634504",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "FI",
+        "Period": "2015-2019",
+        "Has Data": "__NO__",
+        "Batch Number": 23,
+        "date:Date:start": "2015-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:56:06.645301",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "FI",
+        "Period": "2010-2014",
+        "Has Data": "__NO__",
+        "Batch Number": 23,
+        "date:Date:start": "2010-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:56:06.656016",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "FI",
+        "Period": "2005-2009",
+        "Has Data": "__NO__",
+        "Batch Number": 23,
+        "date:Date:start": "2005-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:56:06.666723",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "FI",
+        "Period": "2000-2004",
+        "Has Data": "__NO__",
+        "Batch Number": 23,
+        "date:Date:start": "2000-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:56:06.677583",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "FIBK",
+        "Period": "2020-2024",
+        "Has Data": "__NO__",
+        "Batch Number": 23,
+        "date:Date:start": "2020-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:56:06.688302",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "FIBK",
+        "Period": "2015-2019",
+        "Has Data": "__NO__",
+        "Batch Number": 23,
+        "date:Date:start": "2015-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:56:06.698987",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "FIBK",
+        "Period": "2010-2014",
+        "Has Data": "__NO__",
+        "Batch Number": 23,
+        "date:Date:start": "2010-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:56:06.709696",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "FIBK",
+        "Period": "2005-2009",
+        "Has Data": "__NO__",
+        "Batch Number": 23,
+        "date:Date:start": "2005-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:56:06.720420",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "FIBK",
+        "Period": "2000-2004",
+        "Has Data": "__NO__",
+        "Batch Number": 23,
+        "date:Date:start": "2000-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:56:06.731128",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "FICO",
+        "Period": "2020-2024",
+        "Has Data": "__NO__",
+        "Batch Number": 23,
+        "date:Date:start": "2020-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:56:06.741914",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "FICO",
+        "Period": "2015-2019",
+        "Has Data": "__NO__",
+        "Batch Number": 23,
+        "date:Date:start": "2015-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:56:06.752656",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "FICO",
+        "Period": "2010-2014",
+        "Has Data": "__NO__",
+        "Batch Number": 23,
+        "date:Date:start": "2010-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:56:06.763399",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "FICO",
+        "Period": "2005-2009",
+        "Has Data": "__NO__",
+        "Batch Number": 23,
+        "date:Date:start": "2005-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:56:06.774226",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "FICO",
+        "Period": "2000-2004",
+        "Has Data": "__NO__",
+        "Batch Number": 23,
+        "date:Date:start": "2000-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:56:06.785016",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "FIEE",
+        "Period": "2020-2024",
+        "Has Data": "__NO__",
+        "Batch Number": 23,
+        "date:Date:start": "2020-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:56:06.795780",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "FIEE",
+        "Period": "2015-2019",
+        "Has Data": "__NO__",
+        "Batch Number": 23,
+        "date:Date:start": "2015-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:56:06.806598",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "FIEE",
+        "Period": "2010-2014",
+        "Has Data": "__NO__",
+        "Batch Number": 23,
+        "date:Date:start": "2010-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:56:06.817366",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "FIEE",
+        "Period": "2005-2009",
+        "Has Data": "__NO__",
+        "Batch Number": 23,
+        "date:Date:start": "2005-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:56:06.828065",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "FIEE",
+        "Period": "2000-2004",
+        "Has Data": "__NO__",
+        "Batch Number": 23,
+        "date:Date:start": "2000-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:56:06.838893",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "FIGS",
+        "Period": "2020-2024",
+        "Has Data": "__NO__",
+        "Batch Number": 23,
+        "date:Date:start": "2020-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:56:06.849644",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "FIGS",
+        "Period": "2015-2019",
+        "Has Data": "__NO__",
+        "Batch Number": 23,
+        "date:Date:start": "2015-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:56:06.860350",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "FIGS",
+        "Period": "2010-2014",
+        "Has Data": "__NO__",
+        "Batch Number": 23,
+        "date:Date:start": "2010-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:56:06.871141",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "FIGS",
+        "Period": "2005-2009",
+        "Has Data": "__NO__",
+        "Batch Number": 23,
+        "date:Date:start": "2005-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:56:06.881837",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "FIGS",
+        "Period": "2000-2004",
+        "Has Data": "__NO__",
+        "Batch Number": 23,
+        "date:Date:start": "2000-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:56:06.892646",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "FIGXU",
+        "Period": "2020-2024",
+        "Has Data": "__NO__",
+        "Batch Number": 23,
+        "date:Date:start": "2020-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:56:06.903355",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "FIGXU",
+        "Period": "2015-2019",
+        "Has Data": "__NO__",
+        "Batch Number": 23,
+        "date:Date:start": "2015-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:56:06.914076",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "FIGXU",
+        "Period": "2010-2014",
+        "Has Data": "__NO__",
+        "Batch Number": 23,
+        "date:Date:start": "2010-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:56:06.924855",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "FIGXU",
+        "Period": "2005-2009",
+        "Has Data": "__NO__",
+        "Batch Number": 23,
+        "date:Date:start": "2005-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:56:06.935665",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "FIGXU",
+        "Period": "2000-2004",
+        "Has Data": "__NO__",
+        "Batch Number": 23,
+        "date:Date:start": "2000-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:56:06.946358",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "FIHL",
+        "Period": "2020-2024",
+        "Has Data": "__NO__",
+        "Batch Number": 23,
+        "date:Date:start": "2020-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:56:06.957054",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "FIHL",
+        "Period": "2015-2019",
+        "Has Data": "__NO__",
+        "Batch Number": 23,
+        "date:Date:start": "2015-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:56:06.967685",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "FIHL",
+        "Period": "2010-2014",
+        "Has Data": "__NO__",
+        "Batch Number": 23,
+        "date:Date:start": "2010-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:56:06.978424",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "FIHL",
+        "Period": "2005-2009",
+        "Has Data": "__NO__",
+        "Batch Number": 23,
+        "date:Date:start": "2005-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:56:06.989143",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "FIHL",
+        "Period": "2000-2004",
+        "Has Data": "__NO__",
+        "Batch Number": 23,
+        "date:Date:start": "2000-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:56:06.999893",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "FINS",
+        "Period": "2020-2024",
+        "Has Data": "__NO__",
+        "Batch Number": 23,
+        "date:Date:start": "2020-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:56:07.010673",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "FINS",
+        "Period": "2015-2019",
+        "Has Data": "__NO__",
+        "Batch Number": 23,
+        "date:Date:start": "2015-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:56:07.021432",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "FINS",
+        "Period": "2010-2014",
+        "Has Data": "__NO__",
+        "Batch Number": 23,
+        "date:Date:start": "2010-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:56:07.032234",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "FINS",
+        "Period": "2005-2009",
+        "Has Data": "__NO__",
+        "Batch Number": 23,
+        "date:Date:start": "2005-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:56:07.042952",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "FINS",
+        "Period": "2000-2004",
+        "Has Data": "__NO__",
+        "Batch Number": 23,
+        "date:Date:start": "2000-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:56:07.053763",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "FINV",
+        "Period": "2020-2024",
+        "Has Data": "__NO__",
+        "Batch Number": 23,
+        "date:Date:start": "2020-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:56:07.064603",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "FINV",
+        "Period": "2015-2019",
+        "Has Data": "__NO__",
+        "Batch Number": 23,
+        "date:Date:start": "2015-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:56:07.075283",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "FINV",
+        "Period": "2010-2014",
+        "Has Data": "__NO__",
+        "Batch Number": 23,
+        "date:Date:start": "2010-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:56:07.086035",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "FINV",
+        "Period": "2005-2009",
+        "Has Data": "__NO__",
+        "Batch Number": 23,
+        "date:Date:start": "2005-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:56:07.096750",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "FINV",
+        "Period": "2000-2004",
+        "Has Data": "__NO__",
+        "Batch Number": 23,
+        "date:Date:start": "2000-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:56:07.107540",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "FINW",
+        "Period": "2020-2024",
+        "Has Data": "__NO__",
+        "Batch Number": 23,
+        "date:Date:start": "2020-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:56:07.118334",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "FINW",
+        "Period": "2015-2019",
+        "Has Data": "__NO__",
+        "Batch Number": 23,
+        "date:Date:start": "2015-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:56:07.129037",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "FINW",
+        "Period": "2010-2014",
+        "Has Data": "__NO__",
+        "Batch Number": 23,
+        "date:Date:start": "2010-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:56:07.139787",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "FINW",
+        "Period": "2005-2009",
+        "Has Data": "__NO__",
+        "Batch Number": 23,
+        "date:Date:start": "2005-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:56:07.150512",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "FINW",
+        "Period": "2000-2004",
+        "Has Data": "__NO__",
+        "Batch Number": 23,
+        "date:Date:start": "2000-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:56:07.161299",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "FIP",
+        "Period": "2020-2024",
+        "Has Data": "__NO__",
+        "Batch Number": 23,
+        "date:Date:start": "2020-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:56:07.172039",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "FIP",
+        "Period": "2015-2019",
+        "Has Data": "__NO__",
+        "Batch Number": 23,
+        "date:Date:start": "2015-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:56:07.182818",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "FIP",
+        "Period": "2010-2014",
+        "Has Data": "__NO__",
+        "Batch Number": 23,
+        "date:Date:start": "2010-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:56:07.193639",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "FIP",
+        "Period": "2005-2009",
+        "Has Data": "__NO__",
+        "Batch Number": 23,
+        "date:Date:start": "2005-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:56:07.204385",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "FIP",
+        "Period": "2000-2004",
+        "Has Data": "__NO__",
+        "Batch Number": 23,
+        "date:Date:start": "2000-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:56:07.215149",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "FIS",
+        "Period": "2020-2024",
+        "Has Data": "__NO__",
+        "Batch Number": 23,
+        "date:Date:start": "2020-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:56:07.225896",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "FIS",
+        "Period": "2015-2019",
+        "Has Data": "__NO__",
+        "Batch Number": 23,
+        "date:Date:start": "2015-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:56:07.236597",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "FIS",
+        "Period": "2010-2014",
+        "Has Data": "__NO__",
+        "Batch Number": 23,
+        "date:Date:start": "2010-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:56:07.247081",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "FIS",
+        "Period": "2005-2009",
+        "Has Data": "__NO__",
+        "Batch Number": 23,
+        "date:Date:start": "2005-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:56:07.257776",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "FIS",
+        "Period": "2000-2004",
+        "Has Data": "__NO__",
+        "Batch Number": 23,
+        "date:Date:start": "2000-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:56:07.268577",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "FISI",
+        "Period": "2020-2024",
+        "Has Data": "__NO__",
+        "Batch Number": 23,
+        "date:Date:start": "2020-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:56:07.279306",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "FISI",
+        "Period": "2015-2019",
+        "Has Data": "__NO__",
+        "Batch Number": 23,
+        "date:Date:start": "2015-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:56:07.290084",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "FISI",
+        "Period": "2010-2014",
+        "Has Data": "__NO__",
+        "Batch Number": 23,
+        "date:Date:start": "2010-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:56:07.300837",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "FISI",
+        "Period": "2005-2009",
+        "Has Data": "__NO__",
+        "Batch Number": 23,
+        "date:Date:start": "2005-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:56:07.311622",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "FISI",
+        "Period": "2000-2004",
+        "Has Data": "__NO__",
+        "Batch Number": 23,
+        "date:Date:start": "2000-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:56:07.322382",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "FITB",
+        "Period": "2020-2024",
+        "Has Data": "__NO__",
+        "Batch Number": 23,
+        "date:Date:start": "2020-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:56:07.333159",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "FITB",
+        "Period": "2015-2019",
+        "Has Data": "__NO__",
+        "Batch Number": 23,
+        "date:Date:start": "2015-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:56:07.343847",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "FITB",
+        "Period": "2010-2014",
+        "Has Data": "__NO__",
+        "Batch Number": 23,
+        "date:Date:start": "2010-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:56:07.354570",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "FITB",
+        "Period": "2005-2009",
+        "Has Data": "__NO__",
+        "Batch Number": 23,
+        "date:Date:start": "2005-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:56:07.365338",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "FITB",
+        "Period": "2000-2004",
+        "Has Data": "__NO__",
+        "Batch Number": 23,
+        "date:Date:start": "2000-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:56:07.376076",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "FITBI",
+        "Period": "2020-2024",
+        "Has Data": "__NO__",
+        "Batch Number": 23,
+        "date:Date:start": "2020-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:56:07.386821",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "FITBI",
+        "Period": "2015-2019",
+        "Has Data": "__NO__",
+        "Batch Number": 23,
+        "date:Date:start": "2015-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:56:07.397588",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "FITBI",
+        "Period": "2010-2014",
+        "Has Data": "__NO__",
+        "Batch Number": 23,
+        "date:Date:start": "2010-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:56:07.408282",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "FITBI",
+        "Period": "2005-2009",
+        "Has Data": "__NO__",
+        "Batch Number": 23,
+        "date:Date:start": "2005-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:56:07.419087",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "FITBI",
+        "Period": "2000-2004",
+        "Has Data": "__NO__",
+        "Batch Number": 23,
+        "date:Date:start": "2000-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:56:07.429826",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "FITBO",
+        "Period": "2020-2024",
+        "Has Data": "__NO__",
+        "Batch Number": 23,
+        "date:Date:start": "2020-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:56:07.441205",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "FITBO",
+        "Period": "2015-2019",
+        "Has Data": "__NO__",
+        "Batch Number": 23,
+        "date:Date:start": "2015-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:56:07.451276",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "FITBO",
+        "Period": "2010-2014",
+        "Has Data": "__NO__",
+        "Batch Number": 23,
+        "date:Date:start": "2010-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:56:07.462088",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "FITBO",
+        "Period": "2005-2009",
+        "Has Data": "__NO__",
+        "Batch Number": 23,
+        "date:Date:start": "2005-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:56:07.472751",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "FITBO",
+        "Period": "2000-2004",
+        "Has Data": "__NO__",
+        "Batch Number": 23,
+        "date:Date:start": "2000-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:56:07.483428",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "FITBP",
+        "Period": "2020-2024",
+        "Has Data": "__NO__",
+        "Batch Number": 23,
+        "date:Date:start": "2020-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:56:07.494182",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "FITBP",
+        "Period": "2015-2019",
+        "Has Data": "__NO__",
+        "Batch Number": 23,
+        "date:Date:start": "2015-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:56:07.504863",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "FITBP",
+        "Period": "2010-2014",
+        "Has Data": "__NO__",
+        "Batch Number": 23,
+        "date:Date:start": "2010-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:56:07.515599",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "FITBP",
+        "Period": "2005-2009",
+        "Has Data": "__NO__",
+        "Batch Number": 23,
+        "date:Date:start": "2005-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:56:07.526406",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "FITBP",
+        "Period": "2000-2004",
+        "Has Data": "__NO__",
+        "Batch Number": 23,
+        "date:Date:start": "2000-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:56:07.537098",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "FIVE",
+        "Period": "2020-2024",
+        "Has Data": "__NO__",
+        "Batch Number": 23,
+        "date:Date:start": "2020-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:56:07.547845",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "FIVE",
+        "Period": "2015-2019",
+        "Has Data": "__NO__",
+        "Batch Number": 23,
+        "date:Date:start": "2015-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:56:07.558616",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "FIVE",
+        "Period": "2010-2014",
+        "Has Data": "__NO__",
+        "Batch Number": 23,
+        "date:Date:start": "2010-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:56:07.569416",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "FIVE",
+        "Period": "2005-2009",
+        "Has Data": "__NO__",
+        "Batch Number": 23,
+        "date:Date:start": "2005-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:56:07.580249",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "FIVE",
+        "Period": "2000-2004",
+        "Has Data": "__NO__",
+        "Batch Number": 23,
+        "date:Date:start": "2000-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:56:07.591007",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "FIVN",
+        "Period": "2020-2024",
+        "Has Data": "__NO__",
+        "Batch Number": 23,
+        "date:Date:start": "2020-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:56:07.601756",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "FIVN",
+        "Period": "2015-2019",
+        "Has Data": "__NO__",
+        "Batch Number": 23,
+        "date:Date:start": "2015-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:56:07.612530",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "FIVN",
+        "Period": "2010-2014",
+        "Has Data": "__NO__",
+        "Batch Number": 23,
+        "date:Date:start": "2010-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:56:07.623330",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "FIVN",
+        "Period": "2005-2009",
+        "Has Data": "__NO__",
+        "Batch Number": 23,
+        "date:Date:start": "2005-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:56:07.634105",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "FIVN",
+        "Period": "2000-2004",
+        "Has Data": "__NO__",
+        "Batch Number": 23,
+        "date:Date:start": "2000-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:56:07.644860",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "FIX",
+        "Period": "2020-2024",
+        "Has Data": "__NO__",
+        "Batch Number": 23,
+        "date:Date:start": "2020-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:56:07.655647",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "FIX",
+        "Period": "2015-2019",
+        "Has Data": "__NO__",
+        "Batch Number": 23,
+        "date:Date:start": "2015-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:56:07.666364",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "FIX",
+        "Period": "2010-2014",
+        "Has Data": "__NO__",
+        "Batch Number": 23,
+        "date:Date:start": "2010-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:56:07.677165",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "FIX",
+        "Period": "2005-2009",
+        "Has Data": "__NO__",
+        "Batch Number": 23,
+        "date:Date:start": "2005-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:56:07.687932",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "FIX",
+        "Period": "2000-2004",
+        "Has Data": "__NO__",
+        "Batch Number": 23,
+        "date:Date:start": "2000-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:56:07.698712",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "FIZZ",
+        "Period": "2020-2024",
+        "Has Data": "__NO__",
+        "Batch Number": 23,
+        "date:Date:start": "2020-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:56:07.709509",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "FIZZ",
+        "Period": "2015-2019",
+        "Has Data": "__NO__",
+        "Batch Number": 23,
+        "date:Date:start": "2015-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:56:07.720204",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "FIZZ",
+        "Period": "2010-2014",
+        "Has Data": "__NO__",
+        "Batch Number": 23,
+        "date:Date:start": "2010-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:56:07.730947",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "FIZZ",
+        "Period": "2005-2009",
+        "Has Data": "__NO__",
+        "Batch Number": 23,
+        "date:Date:start": "2005-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:56:07.741773",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "FIZZ",
+        "Period": "2000-2004",
+        "Has Data": "__NO__",
+        "Batch Number": 23,
+        "date:Date:start": "2000-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:56:07.752595",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "FKWL",
+        "Period": "2020-2024",
+        "Has Data": "__NO__",
+        "Batch Number": 23,
+        "date:Date:start": "2020-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:56:07.763307",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "FKWL",
+        "Period": "2015-2019",
+        "Has Data": "__NO__",
+        "Batch Number": 23,
+        "date:Date:start": "2015-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:56:07.774086",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "FKWL",
+        "Period": "2010-2014",
+        "Has Data": "__NO__",
+        "Batch Number": 23,
+        "date:Date:start": "2010-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:56:07.784942",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "FKWL",
+        "Period": "2005-2009",
+        "Has Data": "__NO__",
+        "Batch Number": 23,
+        "date:Date:start": "2005-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:56:07.795643",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "FKWL",
+        "Period": "2000-2004",
+        "Has Data": "__NO__",
+        "Batch Number": 23,
+        "date:Date:start": "2000-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:56:07.806361",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "FL",
+        "Period": "2020-2024",
+        "Has Data": "__NO__",
+        "Batch Number": 23,
+        "date:Date:start": "2020-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:56:07.817925",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "FL",
+        "Period": "2015-2019",
+        "Has Data": "__NO__",
+        "Batch Number": 23,
+        "date:Date:start": "2015-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:56:07.828679",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "FL",
+        "Period": "2010-2014",
+        "Has Data": "__NO__",
+        "Batch Number": 23,
+        "date:Date:start": "2010-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:56:07.839405",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "FL",
+        "Period": "2005-2009",
+        "Has Data": "__NO__",
+        "Batch Number": 23,
+        "date:Date:start": "2005-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:56:07.850214",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "FL",
+        "Period": "2000-2004",
+        "Has Data": "__NO__",
+        "Batch Number": 23,
+        "date:Date:start": "2000-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:56:07.860991",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "FLC",
+        "Period": "2020-2024",
+        "Has Data": "__NO__",
+        "Batch Number": 23,
+        "date:Date:start": "2020-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:56:07.871873",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "FLC",
+        "Period": "2015-2019",
+        "Has Data": "__NO__",
+        "Batch Number": 23,
+        "date:Date:start": "2015-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:56:07.882696",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "FLC",
+        "Period": "2010-2014",
+        "Has Data": "__NO__",
+        "Batch Number": 23,
+        "date:Date:start": "2010-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:56:07.893478",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "FLC",
+        "Period": "2005-2009",
+        "Has Data": "__NO__",
+        "Batch Number": 23,
+        "date:Date:start": "2005-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:56:07.904226",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "FLC",
+        "Period": "2000-2004",
+        "Has Data": "__NO__",
+        "Batch Number": 23,
+        "date:Date:start": "2000-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:56:07.914966",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "FLD",
+        "Period": "2020-2024",
+        "Has Data": "__NO__",
+        "Batch Number": 23,
+        "date:Date:start": "2020-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:56:07.925742",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "FLD",
+        "Period": "2015-2019",
+        "Has Data": "__NO__",
+        "Batch Number": 23,
+        "date:Date:start": "2015-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:56:07.936469",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "FLD",
+        "Period": "2010-2014",
+        "Has Data": "__NO__",
+        "Batch Number": 23,
+        "date:Date:start": "2010-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:56:07.946514",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "FLD",
+        "Period": "2005-2009",
+        "Has Data": "__NO__",
+        "Batch Number": 23,
+        "date:Date:start": "2005-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:56:07.956976",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "FLD",
+        "Period": "2000-2004",
+        "Has Data": "__NO__",
+        "Batch Number": 23,
+        "date:Date:start": "2000-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:56:07.967768",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "FLDDW",
+        "Period": "2020-2024",
+        "Has Data": "__NO__",
+        "Batch Number": 23,
+        "date:Date:start": "2020-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:56:07.978555",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "FLDDW",
+        "Period": "2015-2019",
+        "Has Data": "__NO__",
+        "Batch Number": 23,
+        "date:Date:start": "2015-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:56:07.989313",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "FLDDW",
+        "Period": "2010-2014",
+        "Has Data": "__NO__",
+        "Batch Number": 23,
+        "date:Date:start": "2010-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:56:08.000073",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "FLDDW",
+        "Period": "2005-2009",
+        "Has Data": "__NO__",
+        "Batch Number": 23,
+        "date:Date:start": "2005-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:56:08.010788",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "FLDDW",
+        "Period": "2000-2004",
+        "Has Data": "__NO__",
+        "Batch Number": 23,
+        "date:Date:start": "2000-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:56:08.021509",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "FLEX",
+        "Period": "2020-2024",
+        "Has Data": "__NO__",
+        "Batch Number": 23,
+        "date:Date:start": "2020-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:56:08.032270",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "FLEX",
+        "Period": "2015-2019",
+        "Has Data": "__NO__",
+        "Batch Number": 23,
+        "date:Date:start": "2015-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:56:08.042978",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "FLEX",
+        "Period": "2010-2014",
+        "Has Data": "__NO__",
+        "Batch Number": 23,
+        "date:Date:start": "2010-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:56:08.053710",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "FLEX",
+        "Period": "2005-2009",
+        "Has Data": "__NO__",
+        "Batch Number": 23,
+        "date:Date:start": "2005-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:56:08.064414",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "FLEX",
+        "Period": "2000-2004",
+        "Has Data": "__NO__",
+        "Batch Number": 23,
+        "date:Date:start": "2000-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:56:08.075171",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "FLG",
+        "Period": "2020-2024",
+        "Has Data": "__NO__",
+        "Batch Number": 23,
+        "date:Date:start": "2020-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:56:08.085904",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "FLG",
+        "Period": "2015-2019",
+        "Has Data": "__NO__",
+        "Batch Number": 23,
+        "date:Date:start": "2015-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:56:08.096601",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "FLG",
+        "Period": "2010-2014",
+        "Has Data": "__NO__",
+        "Batch Number": 23,
+        "date:Date:start": "2010-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:56:08.107314",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "FLG",
+        "Period": "2005-2009",
+        "Has Data": "__NO__",
+        "Batch Number": 23,
+        "date:Date:start": "2005-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:56:08.118189",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "FLG",
+        "Period": "2000-2004",
+        "Has Data": "__NO__",
+        "Batch Number": 23,
+        "date:Date:start": "2000-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:56:08.128949",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "FLGC",
+        "Period": "2020-2024",
+        "Has Data": "__NO__",
+        "Batch Number": 23,
+        "date:Date:start": "2020-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:56:08.139675",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "FLGC",
+        "Period": "2015-2019",
+        "Has Data": "__NO__",
+        "Batch Number": 23,
+        "date:Date:start": "2015-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:56:08.150463",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "FLGC",
+        "Period": "2010-2014",
+        "Has Data": "__NO__",
+        "Batch Number": 23,
+        "date:Date:start": "2010-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:56:08.161277",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "FLGC",
+        "Period": "2005-2009",
+        "Has Data": "__NO__",
+        "Batch Number": 23,
+        "date:Date:start": "2005-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:56:08.172217",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "FLGC",
+        "Period": "2000-2004",
+        "Has Data": "__NO__",
+        "Batch Number": 23,
+        "date:Date:start": "2000-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:56:08.182885",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "FLGT",
+        "Period": "2020-2024",
+        "Has Data": "__NO__",
+        "Batch Number": 23,
+        "date:Date:start": "2020-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:56:08.193758",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "FLGT",
+        "Period": "2015-2019",
+        "Has Data": "__NO__",
+        "Batch Number": 23,
+        "date:Date:start": "2015-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:56:08.204434",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "FLGT",
+        "Period": "2010-2014",
+        "Has Data": "__NO__",
+        "Batch Number": 23,
+        "date:Date:start": "2010-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:56:08.215298",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "FLGT",
+        "Period": "2005-2009",
+        "Has Data": "__NO__",
+        "Batch Number": 23,
+        "date:Date:start": "2005-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:56:08.226063",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "FLGT",
+        "Period": "2000-2004",
+        "Has Data": "__NO__",
+        "Batch Number": 23,
+        "date:Date:start": "2000-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:56:08.236925",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "FLL",
+        "Period": "2020-2024",
+        "Has Data": "__NO__",
+        "Batch Number": 23,
+        "date:Date:start": "2020-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:56:08.247630",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "FLL",
+        "Period": "2015-2019",
+        "Has Data": "__NO__",
+        "Batch Number": 23,
+        "date:Date:start": "2015-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:56:08.258391",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "FLL",
+        "Period": "2010-2014",
+        "Has Data": "__NO__",
+        "Batch Number": 23,
+        "date:Date:start": "2010-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:56:08.269161",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "FLL",
+        "Period": "2005-2009",
+        "Has Data": "__NO__",
+        "Batch Number": 23,
+        "date:Date:start": "2005-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:56:08.279910",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "FLL",
+        "Period": "2000-2004",
+        "Has Data": "__NO__",
+        "Batch Number": 23,
+        "date:Date:start": "2000-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:56:08.290794",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "FLNC",
+        "Period": "2020-2024",
+        "Has Data": "__NO__",
+        "Batch Number": 23,
+        "date:Date:start": "2020-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:56:08.301577",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "FLNC",
+        "Period": "2015-2019",
+        "Has Data": "__NO__",
+        "Batch Number": 23,
+        "date:Date:start": "2015-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:56:08.312241",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "FLNC",
+        "Period": "2010-2014",
+        "Has Data": "__NO__",
+        "Batch Number": 23,
+        "date:Date:start": "2010-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:56:08.322959",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "FLNC",
+        "Period": "2005-2009",
+        "Has Data": "__NO__",
+        "Batch Number": 23,
+        "date:Date:start": "2005-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:56:08.333709",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "FLNC",
+        "Period": "2000-2004",
+        "Has Data": "__NO__",
+        "Batch Number": 23,
+        "date:Date:start": "2000-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:56:08.344414",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "FLNG",
+        "Period": "2020-2024",
+        "Has Data": "__NO__",
+        "Batch Number": 23,
+        "date:Date:start": "2020-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:56:08.355158",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "FLNG",
+        "Period": "2015-2019",
+        "Has Data": "__NO__",
+        "Batch Number": 23,
+        "date:Date:start": "2015-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:56:08.365870",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "FLNG",
+        "Period": "2010-2014",
+        "Has Data": "__NO__",
+        "Batch Number": 23,
+        "date:Date:start": "2010-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:56:08.376545",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "FLNG",
+        "Period": "2005-2009",
+        "Has Data": "__NO__",
+        "Batch Number": 23,
+        "date:Date:start": "2005-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:56:08.387322",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "FLNG",
+        "Period": "2000-2004",
+        "Has Data": "__NO__",
+        "Batch Number": 23,
+        "date:Date:start": "2000-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:56:08.397993",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "FLNT",
+        "Period": "2020-2024",
+        "Has Data": "__NO__",
+        "Batch Number": 23,
+        "date:Date:start": "2020-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:56:08.408784",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "FLNT",
+        "Period": "2015-2019",
+        "Has Data": "__NO__",
+        "Batch Number": 23,
+        "date:Date:start": "2015-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:56:08.419543",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "FLNT",
+        "Period": "2010-2014",
+        "Has Data": "__NO__",
+        "Batch Number": 23,
+        "date:Date:start": "2010-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:56:08.430226",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "FLNT",
+        "Period": "2005-2009",
+        "Has Data": "__NO__",
+        "Batch Number": 23,
+        "date:Date:start": "2005-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:56:08.440978",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "FLNT",
+        "Period": "2000-2004",
+        "Has Data": "__NO__",
+        "Batch Number": 23,
+        "date:Date:start": "2000-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:56:08.451666",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "FLO",
+        "Period": "2020-2024",
+        "Has Data": "__NO__",
+        "Batch Number": 23,
+        "date:Date:start": "2020-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:56:08.461697",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "FLO",
+        "Period": "2015-2019",
+        "Has Data": "__NO__",
+        "Batch Number": 23,
+        "date:Date:start": "2015-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:56:08.471994",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "FLO",
+        "Period": "2010-2014",
+        "Has Data": "__NO__",
+        "Batch Number": 23,
+        "date:Date:start": "2010-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:56:08.482676",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "FLO",
+        "Period": "2005-2009",
+        "Has Data": "__NO__",
+        "Batch Number": 23,
+        "date:Date:start": "2005-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:56:08.493418",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "FLO",
+        "Period": "2000-2004",
+        "Has Data": "__NO__",
+        "Batch Number": 23,
+        "date:Date:start": "2000-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:56:08.504156",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "FLOC",
+        "Period": "2020-2024",
+        "Has Data": "__NO__",
+        "Batch Number": 23,
+        "date:Date:start": "2020-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:56:08.515553",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "FLOC",
+        "Period": "2015-2019",
+        "Has Data": "__NO__",
+        "Batch Number": 23,
+        "date:Date:start": "2015-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:56:08.525681",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "FLOC",
+        "Period": "2010-2014",
+        "Has Data": "__NO__",
+        "Batch Number": 23,
+        "date:Date:start": "2010-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:56:08.536562",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "FLOC",
+        "Period": "2005-2009",
+        "Has Data": "__NO__",
+        "Batch Number": 23,
+        "date:Date:start": "2005-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:56:08.547327",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "FLOC",
+        "Period": "2000-2004",
+        "Has Data": "__NO__",
+        "Batch Number": 23,
+        "date:Date:start": "2000-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:56:08.558149",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "FLR",
+        "Period": "2020-2024",
+        "Has Data": "__NO__",
+        "Batch Number": 23,
+        "date:Date:start": "2020-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:56:08.568896",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "FLR",
+        "Period": "2015-2019",
+        "Has Data": "__NO__",
+        "Batch Number": 23,
+        "date:Date:start": "2015-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:56:08.579654",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "FLR",
+        "Period": "2010-2014",
+        "Has Data": "__NO__",
+        "Batch Number": 23,
+        "date:Date:start": "2010-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:56:08.590371",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "FLR",
+        "Period": "2005-2009",
+        "Has Data": "__NO__",
+        "Batch Number": 23,
+        "date:Date:start": "2005-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:56:08.601153",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "FLR",
+        "Period": "2000-2004",
+        "Has Data": "__NO__",
+        "Batch Number": 23,
+        "date:Date:start": "2000-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:56:08.611863",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "FLS",
+        "Period": "2020-2024",
+        "Has Data": "__NO__",
+        "Batch Number": 23,
+        "date:Date:start": "2020-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:56:08.622610",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "FLS",
+        "Period": "2015-2019",
+        "Has Data": "__NO__",
+        "Batch Number": 23,
+        "date:Date:start": "2015-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:56:08.633365",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "FLS",
+        "Period": "2010-2014",
+        "Has Data": "__NO__",
+        "Batch Number": 23,
+        "date:Date:start": "2010-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:56:08.644176",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "FLS",
+        "Period": "2005-2009",
+        "Has Data": "__NO__",
+        "Batch Number": 23,
+        "date:Date:start": "2005-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:56:08.654850",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "FLS",
+        "Period": "2000-2004",
+        "Has Data": "__NO__",
+        "Batch Number": 23,
+        "date:Date:start": "2000-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:56:08.665596",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "FLUT",
+        "Period": "2020-2024",
+        "Has Data": "__NO__",
+        "Batch Number": 23,
+        "date:Date:start": "2020-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:56:08.676397",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "FLUT",
+        "Period": "2015-2019",
+        "Has Data": "__NO__",
+        "Batch Number": 23,
+        "date:Date:start": "2015-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:56:08.687074",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "FLUT",
+        "Period": "2010-2014",
+        "Has Data": "__NO__",
+        "Batch Number": 23,
+        "date:Date:start": "2010-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:56:08.697914",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "FLUT",
+        "Period": "2005-2009",
+        "Has Data": "__NO__",
+        "Batch Number": 23,
+        "date:Date:start": "2005-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:56:08.708612",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "FLUT",
+        "Period": "2000-2004",
+        "Has Data": "__NO__",
+        "Batch Number": 23,
+        "date:Date:start": "2000-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:56:08.719306",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "FLUX",
+        "Period": "2020-2024",
+        "Has Data": "__NO__",
+        "Batch Number": 23,
+        "date:Date:start": "2020-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:56:08.730069",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "FLUX",
+        "Period": "2015-2019",
+        "Has Data": "__NO__",
+        "Batch Number": 23,
+        "date:Date:start": "2015-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:56:08.740751",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "FLUX",
+        "Period": "2010-2014",
+        "Has Data": "__NO__",
+        "Batch Number": 23,
+        "date:Date:start": "2010-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:56:08.751411",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "FLUX",
+        "Period": "2005-2009",
+        "Has Data": "__NO__",
+        "Batch Number": 23,
+        "date:Date:start": "2005-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:56:08.762266",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "FLUX",
+        "Period": "2000-2004",
+        "Has Data": "__NO__",
+        "Batch Number": 23,
+        "date:Date:start": "2000-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:56:08.772940",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "FLWS",
+        "Period": "2020-2024",
+        "Has Data": "__NO__",
+        "Batch Number": 23,
+        "date:Date:start": "2020-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:56:08.783698",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "FLWS",
+        "Period": "2015-2019",
+        "Has Data": "__NO__",
+        "Batch Number": 23,
+        "date:Date:start": "2015-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:56:08.794492",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "FLWS",
+        "Period": "2010-2014",
+        "Has Data": "__NO__",
+        "Batch Number": 23,
+        "date:Date:start": "2010-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:56:08.805199",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "FLWS",
+        "Period": "2005-2009",
+        "Has Data": "__NO__",
+        "Batch Number": 23,
+        "date:Date:start": "2005-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:56:08.815997",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "FLWS",
+        "Period": "2000-2004",
+        "Has Data": "__NO__",
+        "Batch Number": 23,
+        "date:Date:start": "2000-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:56:08.826773",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "FLX",
+        "Period": "2020-2024",
+        "Has Data": "__NO__",
+        "Batch Number": 23,
+        "date:Date:start": "2020-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:56:08.837560",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "FLX",
+        "Period": "2015-2019",
+        "Has Data": "__NO__",
+        "Batch Number": 23,
+        "date:Date:start": "2015-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:56:08.848341",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "FLX",
+        "Period": "2010-2014",
+        "Has Data": "__NO__",
+        "Batch Number": 23,
+        "date:Date:start": "2010-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:56:08.859145",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "FLX",
+        "Period": "2005-2009",
+        "Has Data": "__NO__",
+        "Batch Number": 23,
+        "date:Date:start": "2005-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:56:08.869837",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "FLX",
+        "Period": "2000-2004",
+        "Has Data": "__NO__",
+        "Batch Number": 23,
+        "date:Date:start": "2000-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:56:08.880549",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "FLXS",
+        "Period": "2020-2024",
+        "Has Data": "__NO__",
+        "Batch Number": 23,
+        "date:Date:start": "2020-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:56:08.891285",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "FLXS",
+        "Period": "2015-2019",
+        "Has Data": "__NO__",
+        "Batch Number": 23,
+        "date:Date:start": "2015-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:56:08.902037",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "FLXS",
+        "Period": "2010-2014",
+        "Has Data": "__NO__",
+        "Batch Number": 23,
+        "date:Date:start": "2010-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:56:08.912796",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "FLXS",
+        "Period": "2005-2009",
+        "Has Data": "__NO__",
+        "Batch Number": 23,
+        "date:Date:start": "2005-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:56:08.923565",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "FLXS",
+        "Period": "2000-2004",
+        "Has Data": "__NO__",
+        "Batch Number": 23,
+        "date:Date:start": "2000-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:56:08.934361",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "FLY",
+        "Period": "2020-2024",
+        "Has Data": "__NO__",
+        "Batch Number": 23,
+        "date:Date:start": "2020-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:56:08.945105",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "FLY",
+        "Period": "2015-2019",
+        "Has Data": "__NO__",
+        "Batch Number": 23,
+        "date:Date:start": "2015-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:56:08.955798",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "FLY",
+        "Period": "2010-2014",
+        "Has Data": "__NO__",
+        "Batch Number": 23,
+        "date:Date:start": "2010-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:56:08.966571",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "FLY",
+        "Period": "2005-2009",
+        "Has Data": "__NO__",
+        "Batch Number": 23,
+        "date:Date:start": "2005-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:56:08.977341",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "FLY",
+        "Period": "2000-2004",
+        "Has Data": "__NO__",
+        "Batch Number": 23,
+        "date:Date:start": "2000-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:56:08.988077",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "FLYE",
+        "Period": "2020-2024",
+        "Has Data": "__NO__",
+        "Batch Number": 23,
+        "date:Date:start": "2020-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:56:08.998820",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "FLYE",
+        "Period": "2015-2019",
+        "Has Data": "__NO__",
+        "Batch Number": 23,
+        "date:Date:start": "2015-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:56:09.009510",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "FLYE",
+        "Period": "2010-2014",
+        "Has Data": "__NO__",
+        "Batch Number": 23,
+        "date:Date:start": "2010-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:56:09.020246",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "FLYE",
+        "Period": "2005-2009",
+        "Has Data": "__NO__",
+        "Batch Number": 23,
+        "date:Date:start": "2005-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:56:09.031037",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "FLYE",
+        "Period": "2000-2004",
+        "Has Data": "__NO__",
+        "Batch Number": 23,
+        "date:Date:start": "2000-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:56:09.041792",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "FLYW",
+        "Period": "2020-2024",
+        "Has Data": "__NO__",
+        "Batch Number": 23,
+        "date:Date:start": "2020-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:56:09.052642",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "FLYW",
+        "Period": "2015-2019",
+        "Has Data": "__NO__",
+        "Batch Number": 23,
+        "date:Date:start": "2015-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:56:09.063324",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "FLYW",
+        "Period": "2010-2014",
+        "Has Data": "__NO__",
+        "Batch Number": 23,
+        "date:Date:start": "2010-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:56:09.074062",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "FLYW",
+        "Period": "2005-2009",
+        "Has Data": "__NO__",
+        "Batch Number": 23,
+        "date:Date:start": "2005-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:56:09.084840",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "FLYW",
+        "Period": "2000-2004",
+        "Has Data": "__NO__",
+        "Batch Number": 23,
+        "date:Date:start": "2000-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:56:09.095629",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "FLYX",
+        "Period": "2020-2024",
+        "Has Data": "__NO__",
+        "Batch Number": 23,
+        "date:Date:start": "2020-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:56:09.106394",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "FLYX",
+        "Period": "2015-2019",
+        "Has Data": "__NO__",
+        "Batch Number": 23,
+        "date:Date:start": "2015-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:56:09.117077",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "FLYX",
+        "Period": "2010-2014",
+        "Has Data": "__NO__",
+        "Batch Number": 23,
+        "date:Date:start": "2010-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:56:09.127817",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "FLYX",
+        "Period": "2005-2009",
+        "Has Data": "__NO__",
+        "Batch Number": 23,
+        "date:Date:start": "2005-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:56:09.138550",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "FLYX",
+        "Period": "2000-2004",
+        "Has Data": "__NO__",
+        "Batch Number": 23,
+        "date:Date:start": "2000-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:56:09.149300",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "FLYY",
+        "Period": "2020-2024",
+        "Has Data": "__NO__",
+        "Batch Number": 23,
+        "date:Date:start": "2020-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:56:09.160113",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "FLYY",
+        "Period": "2015-2019",
+        "Has Data": "__NO__",
+        "Batch Number": 23,
+        "date:Date:start": "2015-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:56:09.170823",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "FLYY",
+        "Period": "2010-2014",
+        "Has Data": "__NO__",
+        "Batch Number": 23,
+        "date:Date:start": "2010-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:56:09.181562",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "FLYY",
+        "Period": "2005-2009",
+        "Has Data": "__NO__",
+        "Batch Number": 23,
+        "date:Date:start": "2005-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:56:09.192275",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "FLYY",
+        "Period": "2000-2004",
+        "Has Data": "__NO__",
+        "Batch Number": 23,
+        "date:Date:start": "2000-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:56:09.203060",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "FMAO",
+        "Period": "2020-2024",
+        "Has Data": "__NO__",
+        "Batch Number": 23,
+        "date:Date:start": "2020-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:56:09.213876",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "FMAO",
+        "Period": "2015-2019",
+        "Has Data": "__NO__",
+        "Batch Number": 23,
+        "date:Date:start": "2015-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:56:09.224618",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "FMAO",
+        "Period": "2010-2014",
+        "Has Data": "__NO__",
+        "Batch Number": 23,
+        "date:Date:start": "2010-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:56:09.235421",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "FMAO",
+        "Period": "2005-2009",
+        "Has Data": "__NO__",
+        "Batch Number": 23,
+        "date:Date:start": "2005-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:56:09.246152",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "FMAO",
+        "Period": "2000-2004",
+        "Has Data": "__NO__",
+        "Batch Number": 23,
+        "date:Date:start": "2000-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:56:09.256909",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "FMBH",
+        "Period": "2020-2024",
+        "Has Data": "__NO__",
+        "Batch Number": 23,
+        "date:Date:start": "2020-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:56:09.267660",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "FMBH",
+        "Period": "2015-2019",
+        "Has Data": "__NO__",
+        "Batch Number": 23,
+        "date:Date:start": "2015-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:56:09.278342",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "FMBH",
+        "Period": "2010-2014",
+        "Has Data": "__NO__",
+        "Batch Number": 23,
+        "date:Date:start": "2010-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:56:09.289179",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "FMBH",
+        "Period": "2005-2009",
+        "Has Data": "__NO__",
+        "Batch Number": 23,
+        "date:Date:start": "2005-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:56:09.299985",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "FMBH",
+        "Period": "2000-2004",
+        "Has Data": "__NO__",
+        "Batch Number": 23,
+        "date:Date:start": "2000-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:56:09.310687",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "FMC",
+        "Period": "2020-2024",
+        "Has Data": "__NO__",
+        "Batch Number": 23,
+        "date:Date:start": "2020-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:56:09.321352",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "FMC",
+        "Period": "2015-2019",
+        "Has Data": "__NO__",
+        "Batch Number": 23,
+        "date:Date:start": "2015-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:56:09.332215",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "FMC",
+        "Period": "2010-2014",
+        "Has Data": "__NO__",
+        "Batch Number": 23,
+        "date:Date:start": "2010-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:56:09.342921",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "FMC",
+        "Period": "2005-2009",
+        "Has Data": "__NO__",
+        "Batch Number": 23,
+        "date:Date:start": "2005-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:56:09.353696",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "FMC",
+        "Period": "2000-2004",
+        "Has Data": "__NO__",
+        "Batch Number": 23,
+        "date:Date:start": "2000-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:56:09.364409",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "FMFC",
+        "Period": "2020-2024",
+        "Has Data": "__NO__",
+        "Batch Number": 23,
+        "date:Date:start": "2020-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:56:09.375177",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "FMFC",
+        "Period": "2015-2019",
+        "Has Data": "__NO__",
+        "Batch Number": 23,
+        "date:Date:start": "2015-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:56:09.385907",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "FMFC",
+        "Period": "2010-2014",
+        "Has Data": "__NO__",
+        "Batch Number": 23,
+        "date:Date:start": "2010-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:56:09.396590",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "FMFC",
+        "Period": "2005-2009",
+        "Has Data": "__NO__",
+        "Batch Number": 23,
+        "date:Date:start": "2005-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:56:09.407280",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "FMFC",
+        "Period": "2000-2004",
+        "Has Data": "__NO__",
+        "Batch Number": 23,
+        "date:Date:start": "2000-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:56:09.418088",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "FMN",
+        "Period": "2020-2024",
+        "Has Data": "__NO__",
+        "Batch Number": 23,
+        "date:Date:start": "2020-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:56:09.428841",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "FMN",
+        "Period": "2015-2019",
+        "Has Data": "__NO__",
+        "Batch Number": 23,
+        "date:Date:start": "2015-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:56:09.439587",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "FMN",
+        "Period": "2010-2014",
+        "Has Data": "__NO__",
+        "Batch Number": 23,
+        "date:Date:start": "2010-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:56:09.450390",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "FMN",
+        "Period": "2005-2009",
+        "Has Data": "__NO__",
+        "Batch Number": 23,
+        "date:Date:start": "2005-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:56:09.461081",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "FMN",
+        "Period": "2000-2004",
+        "Has Data": "__NO__",
+        "Batch Number": 23,
+        "date:Date:start": "2000-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:56:09.471890",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "FMNB",
+        "Period": "2020-2024",
+        "Has Data": "__NO__",
+        "Batch Number": 23,
+        "date:Date:start": "2020-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:56:09.482648",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "FMNB",
+        "Period": "2015-2019",
+        "Has Data": "__NO__",
+        "Batch Number": 23,
+        "date:Date:start": "2015-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:56:09.493427",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "FMNB",
+        "Period": "2010-2014",
+        "Has Data": "__NO__",
+        "Batch Number": 23,
+        "date:Date:start": "2010-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:56:09.504067",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "FMNB",
+        "Period": "2005-2009",
+        "Has Data": "__NO__",
+        "Batch Number": 23,
+        "date:Date:start": "2005-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:56:09.514766",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "FMNB",
+        "Period": "2000-2004",
+        "Has Data": "__NO__",
+        "Batch Number": 23,
+        "date:Date:start": "2000-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:56:09.525518",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "FMS",
+        "Period": "2020-2024",
+        "Has Data": "__NO__",
+        "Batch Number": 23,
+        "date:Date:start": "2020-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:56:09.536262",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "FMS",
+        "Period": "2015-2019",
+        "Has Data": "__NO__",
+        "Batch Number": 23,
+        "date:Date:start": "2015-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:56:09.546991",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "FMS",
+        "Period": "2010-2014",
+        "Has Data": "__NO__",
+        "Batch Number": 23,
+        "date:Date:start": "2010-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:56:09.557801",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "FMS",
+        "Period": "2005-2009",
+        "Has Data": "__NO__",
+        "Batch Number": 23,
+        "date:Date:start": "2005-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:56:09.568462",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "FMS",
+        "Period": "2000-2004",
+        "Has Data": "__NO__",
+        "Batch Number": 23,
+        "date:Date:start": "2000-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:56:09.579306",
+        "date:Retrieved At:is_datetime": 1
+      }
+    }
+  ]
+}

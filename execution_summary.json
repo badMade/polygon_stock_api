@@ -1,0 +1,21 @@
+{
+  "execution": {
+    "status": "SUCCESS",
+    "start_time": "2025-11-24T04:43:51.730631",
+    "end_time": "2025-11-24T04:43:51.841783",
+    "duration": "0:00:00.111152"
+  },
+  "statistics": {
+    "total_tickers": 100,
+    "processed_tickers": 100,
+    "total_batches": 1,
+    "saved_records": 35,
+    "failed_count": 0,
+    "avg_time_per_ticker": 0.00111152
+  },
+  "database": {
+    "url": "https://www.notion.so/638a8018f09d4e159d6d84536f411441",
+    "data_source": "collection://7c5225aa-429b-4580-946e-ba5b1db2ca6d",
+    "batch_files": 1
+  }
+}

@@ -1,0 +1,6008 @@
+{
+  "data_source_id": "7c5225aa-429b-4580-946e-ba5b1db2ca6d",
+  "batch_number": 12,
+  "record_count": 500,
+  "timestamp": "2025-11-24T04:55:10.348756",
+  "pages": [
+    {
+      "properties": {
+        "Ticker": "CBNA",
+        "Period": "2020-2024",
+        "Has Data": "__NO__",
+        "Batch Number": 12,
+        "date:Date:start": "2020-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:55:04.959104",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "CBNA",
+        "Period": "2015-2019",
+        "Has Data": "__NO__",
+        "Batch Number": 12,
+        "date:Date:start": "2015-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:55:04.969578",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "CBNA",
+        "Period": "2010-2014",
+        "Has Data": "__NO__",
+        "Batch Number": 12,
+        "date:Date:start": "2010-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:55:04.980403",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "CBNA",
+        "Period": "2005-2009",
+        "Has Data": "__NO__",
+        "Batch Number": 12,
+        "date:Date:start": "2005-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:55:04.991141",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "CBNA",
+        "Period": "2000-2004",
+        "Has Data": "__NO__",
+        "Batch Number": 12,
+        "date:Date:start": "2000-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:55:05.001929",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "CBNK",
+        "Period": "2020-2024",
+        "Has Data": "__NO__",
+        "Batch Number": 12,
+        "date:Date:start": "2020-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:55:05.012800",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "CBNK",
+        "Period": "2015-2019",
+        "Has Data": "__NO__",
+        "Batch Number": 12,
+        "date:Date:start": "2015-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:55:05.023607",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "CBNK",
+        "Period": "2010-2014",
+        "Has Data": "__NO__",
+        "Batch Number": 12,
+        "date:Date:start": "2010-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:55:05.034279",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "CBNK",
+        "Period": "2005-2009",
+        "Has Data": "__NO__",
+        "Batch Number": 12,
+        "date:Date:start": "2005-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:55:05.045068",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "CBNK",
+        "Period": "2000-2004",
+        "Has Data": "__NO__",
+        "Batch Number": 12,
+        "date:Date:start": "2000-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:55:05.055895",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "CBRE",
+        "Period": "2020-2024",
+        "Has Data": "__NO__",
+        "Batch Number": 12,
+        "date:Date:start": "2020-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:55:05.066669",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "CBRE",
+        "Period": "2015-2019",
+        "Has Data": "__NO__",
+        "Batch Number": 12,
+        "date:Date:start": "2015-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:55:05.077527",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "CBRE",
+        "Period": "2010-2014",
+        "Has Data": "__NO__",
+        "Batch Number": 12,
+        "date:Date:start": "2010-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:55:05.088195",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "CBRE",
+        "Period": "2005-2009",
+        "Has Data": "__NO__",
+        "Batch Number": 12,
+        "date:Date:start": "2005-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:55:05.098931",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "CBRE",
+        "Period": "2000-2004",
+        "Has Data": "__NO__",
+        "Batch Number": 12,
+        "date:Date:start": "2000-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:55:05.109834",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "CBRL",
+        "Period": "2020-2024",
+        "Has Data": "__NO__",
+        "Batch Number": 12,
+        "date:Date:start": "2020-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:55:05.120508",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "CBRL",
+        "Period": "2015-2019",
+        "Has Data": "__NO__",
+        "Batch Number": 12,
+        "date:Date:start": "2015-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:55:05.131277",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "CBRL",
+        "Period": "2010-2014",
+        "Has Data": "__NO__",
+        "Batch Number": 12,
+        "date:Date:start": "2010-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:55:05.142066",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "CBRL",
+        "Period": "2005-2009",
+        "Has Data": "__NO__",
+        "Batch Number": 12,
+        "date:Date:start": "2005-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:55:05.152880",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "CBRL",
+        "Period": "2000-2004",
+        "Has Data": "__NO__",
+        "Batch Number": 12,
+        "date:Date:start": "2000-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:55:05.163629",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "CBSH",
+        "Period": "2020-2024",
+        "Has Data": "__NO__",
+        "Batch Number": 12,
+        "date:Date:start": "2020-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:55:05.174438",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "CBSH",
+        "Period": "2015-2019",
+        "Has Data": "__NO__",
+        "Batch Number": 12,
+        "date:Date:start": "2015-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:55:05.185231",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "CBSH",
+        "Period": "2010-2014",
+        "Has Data": "__NO__",
+        "Batch Number": 12,
+        "date:Date:start": "2010-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:55:05.196078",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "CBSH",
+        "Period": "2005-2009",
+        "Has Data": "__NO__",
+        "Batch Number": 12,
+        "date:Date:start": "2005-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:55:05.206762",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "CBSH",
+        "Period": "2000-2004",
+        "Has Data": "__NO__",
+        "Batch Number": 12,
+        "date:Date:start": "2000-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:55:05.217508",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "CBT",
+        "Period": "2020-2024",
+        "Has Data": "__NO__",
+        "Batch Number": 12,
+        "date:Date:start": "2020-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:55:05.228325",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "CBT",
+        "Period": "2015-2019",
+        "Has Data": "__NO__",
+        "Batch Number": 12,
+        "date:Date:start": "2015-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:55:05.239076",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "CBT",
+        "Period": "2010-2014",
+        "Has Data": "__NO__",
+        "Batch Number": 12,
+        "date:Date:start": "2010-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:55:05.249942",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "CBT",
+        "Period": "2005-2009",
+        "Has Data": "__NO__",
+        "Batch Number": 12,
+        "date:Date:start": "2005-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:55:05.260685",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "CBT",
+        "Period": "2000-2004",
+        "Has Data": "__NO__",
+        "Batch Number": 12,
+        "date:Date:start": "2000-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:55:05.271444",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "CBU",
+        "Period": "2020-2024",
+        "Has Data": "__NO__",
+        "Batch Number": 12,
+        "date:Date:start": "2020-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:55:05.282191",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "CBU",
+        "Period": "2015-2019",
+        "Has Data": "__NO__",
+        "Batch Number": 12,
+        "date:Date:start": "2015-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:55:05.292970",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "CBU",
+        "Period": "2010-2014",
+        "Has Data": "__NO__",
+        "Batch Number": 12,
+        "date:Date:start": "2010-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:55:05.303787",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "CBU",
+        "Period": "2005-2009",
+        "Has Data": "__NO__",
+        "Batch Number": 12,
+        "date:Date:start": "2005-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:55:05.314479",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "CBU",
+        "Period": "2000-2004",
+        "Has Data": "__NO__",
+        "Batch Number": 12,
+        "date:Date:start": "2000-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:55:05.325218",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "CBUS",
+        "Period": "2020-2024",
+        "Has Data": "__NO__",
+        "Batch Number": 12,
+        "date:Date:start": "2020-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:55:05.336102",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "CBUS",
+        "Period": "2015-2019",
+        "Has Data": "__NO__",
+        "Batch Number": 12,
+        "date:Date:start": "2015-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:55:05.346917",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "CBUS",
+        "Period": "2010-2014",
+        "Has Data": "__NO__",
+        "Batch Number": 12,
+        "date:Date:start": "2010-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:55:05.357603",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "CBUS",
+        "Period": "2005-2009",
+        "Has Data": "__NO__",
+        "Batch Number": 12,
+        "date:Date:start": "2005-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:55:05.368472",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "CBUS",
+        "Period": "2000-2004",
+        "Has Data": "__NO__",
+        "Batch Number": 12,
+        "date:Date:start": "2000-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:55:05.379249",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "CBZ",
+        "Period": "2020-2024",
+        "Has Data": "__NO__",
+        "Batch Number": 12,
+        "date:Date:start": "2020-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:55:05.390044",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "CBZ",
+        "Period": "2015-2019",
+        "Has Data": "__NO__",
+        "Batch Number": 12,
+        "date:Date:start": "2015-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:55:05.400833",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "CBZ",
+        "Period": "2010-2014",
+        "Has Data": "__NO__",
+        "Batch Number": 12,
+        "date:Date:start": "2010-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:55:05.411654",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "CBZ",
+        "Period": "2005-2009",
+        "Has Data": "__NO__",
+        "Batch Number": 12,
+        "date:Date:start": "2005-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:55:05.422492",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "CBZ",
+        "Period": "2000-2004",
+        "Has Data": "__NO__",
+        "Batch Number": 12,
+        "date:Date:start": "2000-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:55:05.433517",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "CC",
+        "Period": "2020-2024",
+        "Has Data": "__NO__",
+        "Batch Number": 12,
+        "date:Date:start": "2020-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:55:05.444310",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "CC",
+        "Period": "2015-2019",
+        "Has Data": "__NO__",
+        "Batch Number": 12,
+        "date:Date:start": "2015-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:55:05.455072",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "CC",
+        "Period": "2010-2014",
+        "Has Data": "__NO__",
+        "Batch Number": 12,
+        "date:Date:start": "2010-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:55:05.465845",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "CC",
+        "Period": "2005-2009",
+        "Has Data": "__NO__",
+        "Batch Number": 12,
+        "date:Date:start": "2005-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:55:05.476610",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "CC",
+        "Period": "2000-2004",
+        "Has Data": "__NO__",
+        "Batch Number": 12,
+        "date:Date:start": "2000-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:55:05.487285",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "CCAP",
+        "Period": "2020-2024",
+        "Has Data": "__NO__",
+        "Batch Number": 12,
+        "date:Date:start": "2020-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:55:05.497978",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "CCAP",
+        "Period": "2015-2019",
+        "Has Data": "__NO__",
+        "Batch Number": 12,
+        "date:Date:start": "2015-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:55:05.508839",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "CCAP",
+        "Period": "2010-2014",
+        "Has Data": "__NO__",
+        "Batch Number": 12,
+        "date:Date:start": "2010-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:55:05.519480",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "CCAP",
+        "Period": "2005-2009",
+        "Has Data": "__NO__",
+        "Batch Number": 12,
+        "date:Date:start": "2005-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:55:05.530225",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "CCAP",
+        "Period": "2000-2004",
+        "Has Data": "__NO__",
+        "Batch Number": 12,
+        "date:Date:start": "2000-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:55:05.540921",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "CCB",
+        "Period": "2020-2024",
+        "Has Data": "__NO__",
+        "Batch Number": 12,
+        "date:Date:start": "2020-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:55:05.551584",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "CCB",
+        "Period": "2015-2019",
+        "Has Data": "__NO__",
+        "Batch Number": 12,
+        "date:Date:start": "2015-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:55:05.562485",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "CCB",
+        "Period": "2010-2014",
+        "Has Data": "__NO__",
+        "Batch Number": 12,
+        "date:Date:start": "2010-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:55:05.573244",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "CCB",
+        "Period": "2005-2009",
+        "Has Data": "__NO__",
+        "Batch Number": 12,
+        "date:Date:start": "2005-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:55:05.584063",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "CCB",
+        "Period": "2000-2004",
+        "Has Data": "__NO__",
+        "Batch Number": 12,
+        "date:Date:start": "2000-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:55:05.594754",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "CCBG",
+        "Period": "2020-2024",
+        "Has Data": "__NO__",
+        "Batch Number": 12,
+        "date:Date:start": "2020-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:55:05.605533",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "CCBG",
+        "Period": "2015-2019",
+        "Has Data": "__NO__",
+        "Batch Number": 12,
+        "date:Date:start": "2015-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:55:05.616251",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "CCBG",
+        "Period": "2010-2014",
+        "Has Data": "__NO__",
+        "Batch Number": 12,
+        "date:Date:start": "2010-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:55:05.627066",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "CCBG",
+        "Period": "2005-2009",
+        "Has Data": "__NO__",
+        "Batch Number": 12,
+        "date:Date:start": "2005-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:55:05.637710",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "CCBG",
+        "Period": "2000-2004",
+        "Has Data": "__NO__",
+        "Batch Number": 12,
+        "date:Date:start": "2000-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:55:05.648457",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "CCCC",
+        "Period": "2020-2024",
+        "Has Data": "__NO__",
+        "Batch Number": 12,
+        "date:Date:start": "2020-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:55:05.659177",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "CCCC",
+        "Period": "2015-2019",
+        "Has Data": "__NO__",
+        "Batch Number": 12,
+        "date:Date:start": "2015-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:55:05.669857",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "CCCC",
+        "Period": "2010-2014",
+        "Has Data": "__NO__",
+        "Batch Number": 12,
+        "date:Date:start": "2010-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:55:05.680541",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "CCCC",
+        "Period": "2005-2009",
+        "Has Data": "__NO__",
+        "Batch Number": 12,
+        "date:Date:start": "2005-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:55:05.691451",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "CCCC",
+        "Period": "2000-2004",
+        "Has Data": "__NO__",
+        "Batch Number": 12,
+        "date:Date:start": "2000-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:55:05.702216",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "CCCS",
+        "Period": "2020-2024",
+        "Has Data": "__NO__",
+        "Batch Number": 12,
+        "date:Date:start": "2020-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:55:05.713071",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "CCCS",
+        "Period": "2015-2019",
+        "Has Data": "__NO__",
+        "Batch Number": 12,
+        "date:Date:start": "2015-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:55:05.723747",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "CCCS",
+        "Period": "2010-2014",
+        "Has Data": "__NO__",
+        "Batch Number": 12,
+        "date:Date:start": "2010-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:55:05.734586",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "CCCS",
+        "Period": "2005-2009",
+        "Has Data": "__NO__",
+        "Batch Number": 12,
+        "date:Date:start": "2005-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:55:05.745343",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "CCCS",
+        "Period": "2000-2004",
+        "Has Data": "__NO__",
+        "Batch Number": 12,
+        "date:Date:start": "2000-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:55:05.756146",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "CCCX",
+        "Period": "2020-2024",
+        "Has Data": "__NO__",
+        "Batch Number": 12,
+        "date:Date:start": "2020-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:55:05.766932",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "CCCX",
+        "Period": "2015-2019",
+        "Has Data": "__NO__",
+        "Batch Number": 12,
+        "date:Date:start": "2015-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:55:05.777686",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "CCCX",
+        "Period": "2010-2014",
+        "Has Data": "__NO__",
+        "Batch Number": 12,
+        "date:Date:start": "2010-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:55:05.788388",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "CCCX",
+        "Period": "2005-2009",
+        "Has Data": "__NO__",
+        "Batch Number": 12,
+        "date:Date:start": "2005-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:55:05.799077",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "CCCX",
+        "Period": "2000-2004",
+        "Has Data": "__NO__",
+        "Batch Number": 12,
+        "date:Date:start": "2000-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:55:05.809855",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "CCCXU",
+        "Period": "2020-2024",
+        "Has Data": "__NO__",
+        "Batch Number": 12,
+        "date:Date:start": "2020-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:55:05.820607",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "CCCXU",
+        "Period": "2015-2019",
+        "Has Data": "__NO__",
+        "Batch Number": 12,
+        "date:Date:start": "2015-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:55:05.831401",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "CCCXU",
+        "Period": "2010-2014",
+        "Has Data": "__NO__",
+        "Batch Number": 12,
+        "date:Date:start": "2010-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:55:05.842152",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "CCCXU",
+        "Period": "2005-2009",
+        "Has Data": "__NO__",
+        "Batch Number": 12,
+        "date:Date:start": "2005-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:55:05.852946",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "CCCXU",
+        "Period": "2000-2004",
+        "Has Data": "__NO__",
+        "Batch Number": 12,
+        "date:Date:start": "2000-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:55:05.863682",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "CCCXW",
+        "Period": "2020-2024",
+        "Has Data": "__NO__",
+        "Batch Number": 12,
+        "date:Date:start": "2020-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:55:05.874470",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "CCCXW",
+        "Period": "2015-2019",
+        "Has Data": "__NO__",
+        "Batch Number": 12,
+        "date:Date:start": "2015-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:55:05.885206",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "CCCXW",
+        "Period": "2010-2014",
+        "Has Data": "__NO__",
+        "Batch Number": 12,
+        "date:Date:start": "2010-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:55:05.896034",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "CCCXW",
+        "Period": "2005-2009",
+        "Has Data": "__NO__",
+        "Batch Number": 12,
+        "date:Date:start": "2005-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:55:05.906786",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "CCCXW",
+        "Period": "2000-2004",
+        "Has Data": "__NO__",
+        "Batch Number": 12,
+        "date:Date:start": "2000-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:55:05.917548",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "CCD",
+        "Period": "2020-2024",
+        "Has Data": "__NO__",
+        "Batch Number": 12,
+        "date:Date:start": "2020-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:55:05.928264",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "CCD",
+        "Period": "2015-2019",
+        "Has Data": "__NO__",
+        "Batch Number": 12,
+        "date:Date:start": "2015-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:55:05.939004",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "CCD",
+        "Period": "2010-2014",
+        "Has Data": "__NO__",
+        "Batch Number": 12,
+        "date:Date:start": "2010-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:55:05.949757",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "CCD",
+        "Period": "2005-2009",
+        "Has Data": "__NO__",
+        "Batch Number": 12,
+        "date:Date:start": "2005-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:55:05.960632",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "CCD",
+        "Period": "2000-2004",
+        "Has Data": "__NO__",
+        "Batch Number": 12,
+        "date:Date:start": "2000-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:55:05.971410",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "CCEC",
+        "Period": "2020-2024",
+        "Has Data": "__NO__",
+        "Batch Number": 12,
+        "date:Date:start": "2020-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:55:05.982164",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "CCEC",
+        "Period": "2015-2019",
+        "Has Data": "__NO__",
+        "Batch Number": 12,
+        "date:Date:start": "2015-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:55:05.992955",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "CCEC",
+        "Period": "2010-2014",
+        "Has Data": "__NO__",
+        "Batch Number": 12,
+        "date:Date:start": "2010-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:55:06.003644",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "CCEC",
+        "Period": "2005-2009",
+        "Has Data": "__NO__",
+        "Batch Number": 12,
+        "date:Date:start": "2005-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:55:06.014368",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "CCEC",
+        "Period": "2000-2004",
+        "Has Data": "__NO__",
+        "Batch Number": 12,
+        "date:Date:start": "2000-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:55:06.025133",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "CCEL",
+        "Period": "2020-2024",
+        "Has Data": "__NO__",
+        "Batch Number": 12,
+        "date:Date:start": "2020-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:55:06.036566",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "CCEL",
+        "Period": "2015-2019",
+        "Has Data": "__NO__",
+        "Batch Number": 12,
+        "date:Date:start": "2015-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:55:06.046802",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "CCEL",
+        "Period": "2010-2014",
+        "Has Data": "__NO__",
+        "Batch Number": 12,
+        "date:Date:start": "2010-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:55:06.057614",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "CCEL",
+        "Period": "2005-2009",
+        "Has Data": "__NO__",
+        "Batch Number": 12,
+        "date:Date:start": "2005-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:55:06.068427",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "CCEL",
+        "Period": "2000-2004",
+        "Has Data": "__NO__",
+        "Batch Number": 12,
+        "date:Date:start": "2000-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:55:06.079182",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "CCEP",
+        "Period": "2020-2024",
+        "Has Data": "__NO__",
+        "Batch Number": 12,
+        "date:Date:start": "2020-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:55:06.089948",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "CCEP",
+        "Period": "2015-2019",
+        "Has Data": "__NO__",
+        "Batch Number": 12,
+        "date:Date:start": "2015-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:55:06.100657",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "CCEP",
+        "Period": "2010-2014",
+        "Has Data": "__NO__",
+        "Batch Number": 12,
+        "date:Date:start": "2010-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:55:06.111433",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "CCEP",
+        "Period": "2005-2009",
+        "Has Data": "__NO__",
+        "Batch Number": 12,
+        "date:Date:start": "2005-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:55:06.122069",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "CCEP",
+        "Period": "2000-2004",
+        "Has Data": "__NO__",
+        "Batch Number": 12,
+        "date:Date:start": "2000-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:55:06.132893",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "CCG",
+        "Period": "2020-2024",
+        "Has Data": "__NO__",
+        "Batch Number": 12,
+        "date:Date:start": "2020-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:55:06.143671",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "CCG",
+        "Period": "2015-2019",
+        "Has Data": "__NO__",
+        "Batch Number": 12,
+        "date:Date:start": "2015-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:55:06.154434",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "CCG",
+        "Period": "2010-2014",
+        "Has Data": "__NO__",
+        "Batch Number": 12,
+        "date:Date:start": "2010-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:55:06.165233",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "CCG",
+        "Period": "2005-2009",
+        "Has Data": "__NO__",
+        "Batch Number": 12,
+        "date:Date:start": "2005-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:55:06.175999",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "CCG",
+        "Period": "2000-2004",
+        "Has Data": "__NO__",
+        "Batch Number": 12,
+        "date:Date:start": "2000-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:55:06.186797",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "CCGWW",
+        "Period": "2020-2024",
+        "Has Data": "__NO__",
+        "Batch Number": 12,
+        "date:Date:start": "2020-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:55:06.197555",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "CCGWW",
+        "Period": "2015-2019",
+        "Has Data": "__NO__",
+        "Batch Number": 12,
+        "date:Date:start": "2015-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:55:06.208319",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "CCGWW",
+        "Period": "2010-2014",
+        "Has Data": "__NO__",
+        "Batch Number": 12,
+        "date:Date:start": "2010-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:55:06.219075",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "CCGWW",
+        "Period": "2005-2009",
+        "Has Data": "__NO__",
+        "Batch Number": 12,
+        "date:Date:start": "2005-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:55:06.229862",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "CCGWW",
+        "Period": "2000-2004",
+        "Has Data": "__NO__",
+        "Batch Number": 12,
+        "date:Date:start": "2000-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:55:06.240617",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "CCI",
+        "Period": "2020-2024",
+        "Has Data": "__NO__",
+        "Batch Number": 12,
+        "date:Date:start": "2020-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:55:06.251514",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "CCI",
+        "Period": "2015-2019",
+        "Has Data": "__NO__",
+        "Batch Number": 12,
+        "date:Date:start": "2015-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:55:06.262323",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "CCI",
+        "Period": "2010-2014",
+        "Has Data": "__NO__",
+        "Batch Number": 12,
+        "date:Date:start": "2010-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:55:06.273062",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "CCI",
+        "Period": "2005-2009",
+        "Has Data": "__NO__",
+        "Batch Number": 12,
+        "date:Date:start": "2005-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:55:06.283838",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "CCI",
+        "Period": "2000-2004",
+        "Has Data": "__NO__",
+        "Batch Number": 12,
+        "date:Date:start": "2000-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:55:06.294604",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "CCIA",
+        "Period": "2020-2024",
+        "Has Data": "__NO__",
+        "Batch Number": 12,
+        "date:Date:start": "2020-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:55:06.305378",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "CCIA",
+        "Period": "2015-2019",
+        "Has Data": "__NO__",
+        "Batch Number": 12,
+        "date:Date:start": "2015-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:55:06.316229",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "CCIA",
+        "Period": "2010-2014",
+        "Has Data": "__NO__",
+        "Batch Number": 12,
+        "date:Date:start": "2010-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:55:06.326990",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "CCIA",
+        "Period": "2005-2009",
+        "Has Data": "__NO__",
+        "Batch Number": 12,
+        "date:Date:start": "2005-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:55:06.337759",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "CCIA",
+        "Period": "2000-2004",
+        "Has Data": "__NO__",
+        "Batch Number": 12,
+        "date:Date:start": "2000-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:55:06.348550",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "CCIF",
+        "Period": "2020-2024",
+        "Has Data": "__NO__",
+        "Batch Number": 12,
+        "date:Date:start": "2020-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:55:06.359348",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "CCIF",
+        "Period": "2015-2019",
+        "Has Data": "__NO__",
+        "Batch Number": 12,
+        "date:Date:start": "2015-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:55:06.370040",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "CCIF",
+        "Period": "2010-2014",
+        "Has Data": "__NO__",
+        "Batch Number": 12,
+        "date:Date:start": "2010-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:55:06.380708",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "CCIF",
+        "Period": "2005-2009",
+        "Has Data": "__NO__",
+        "Batch Number": 12,
+        "date:Date:start": "2005-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:55:06.391540",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "CCIF",
+        "Period": "2000-2004",
+        "Has Data": "__NO__",
+        "Batch Number": 12,
+        "date:Date:start": "2000-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:55:06.402314",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "CCIIU",
+        "Period": "2020-2024",
+        "Has Data": "__NO__",
+        "Batch Number": 12,
+        "date:Date:start": "2020-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:55:06.413076",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "CCIIU",
+        "Period": "2015-2019",
+        "Has Data": "__NO__",
+        "Batch Number": 12,
+        "date:Date:start": "2015-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:55:06.423876",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "CCIIU",
+        "Period": "2010-2014",
+        "Has Data": "__NO__",
+        "Batch Number": 12,
+        "date:Date:start": "2010-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:55:06.434620",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "CCIIU",
+        "Period": "2005-2009",
+        "Has Data": "__NO__",
+        "Batch Number": 12,
+        "date:Date:start": "2005-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:55:06.445293",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "CCIIU",
+        "Period": "2000-2004",
+        "Has Data": "__NO__",
+        "Batch Number": 12,
+        "date:Date:start": "2000-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:55:06.456189",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "CCIR",
+        "Period": "2020-2024",
+        "Has Data": "__NO__",
+        "Batch Number": 12,
+        "date:Date:start": "2020-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:55:06.466992",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "CCIR",
+        "Period": "2015-2019",
+        "Has Data": "__NO__",
+        "Batch Number": 12,
+        "date:Date:start": "2015-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:55:06.477690",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "CCIR",
+        "Period": "2010-2014",
+        "Has Data": "__NO__",
+        "Batch Number": 12,
+        "date:Date:start": "2010-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:55:06.488534",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "CCIR",
+        "Period": "2005-2009",
+        "Has Data": "__NO__",
+        "Batch Number": 12,
+        "date:Date:start": "2005-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:55:06.499200",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "CCIR",
+        "Period": "2000-2004",
+        "Has Data": "__NO__",
+        "Batch Number": 12,
+        "date:Date:start": "2000-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:55:06.510049",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "CCIRU",
+        "Period": "2020-2024",
+        "Has Data": "__NO__",
+        "Batch Number": 12,
+        "date:Date:start": "2020-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:55:06.520828",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "CCIRU",
+        "Period": "2015-2019",
+        "Has Data": "__NO__",
+        "Batch Number": 12,
+        "date:Date:start": "2015-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:55:06.531569",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "CCIRU",
+        "Period": "2010-2014",
+        "Has Data": "__NO__",
+        "Batch Number": 12,
+        "date:Date:start": "2010-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:55:06.542306",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "CCIRU",
+        "Period": "2005-2009",
+        "Has Data": "__NO__",
+        "Batch Number": 12,
+        "date:Date:start": "2005-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:55:06.553167",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "CCIRU",
+        "Period": "2000-2004",
+        "Has Data": "__NO__",
+        "Batch Number": 12,
+        "date:Date:start": "2000-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:55:06.564023",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "CCIRW",
+        "Period": "2020-2024",
+        "Has Data": "__NO__",
+        "Batch Number": 12,
+        "date:Date:start": "2020-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:55:06.574803",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "CCIRW",
+        "Period": "2015-2019",
+        "Has Data": "__NO__",
+        "Batch Number": 12,
+        "date:Date:start": "2015-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:55:06.585579",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "CCIRW",
+        "Period": "2010-2014",
+        "Has Data": "__NO__",
+        "Batch Number": 12,
+        "date:Date:start": "2010-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:55:06.596303",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "CCIRW",
+        "Period": "2005-2009",
+        "Has Data": "__NO__",
+        "Batch Number": 12,
+        "date:Date:start": "2005-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:55:06.607087",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "CCIRW",
+        "Period": "2000-2004",
+        "Has Data": "__NO__",
+        "Batch Number": 12,
+        "date:Date:start": "2000-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:55:06.617704",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "CCIX",
+        "Period": "2020-2024",
+        "Has Data": "__NO__",
+        "Batch Number": 12,
+        "date:Date:start": "2020-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:55:06.628460",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "CCIX",
+        "Period": "2015-2019",
+        "Has Data": "__NO__",
+        "Batch Number": 12,
+        "date:Date:start": "2015-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:55:06.639201",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "CCIX",
+        "Period": "2010-2014",
+        "Has Data": "__NO__",
+        "Batch Number": 12,
+        "date:Date:start": "2010-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:55:06.649931",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "CCIX",
+        "Period": "2005-2009",
+        "Has Data": "__NO__",
+        "Batch Number": 12,
+        "date:Date:start": "2005-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:55:06.660607",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "CCIX",
+        "Period": "2000-2004",
+        "Has Data": "__NO__",
+        "Batch Number": 12,
+        "date:Date:start": "2000-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:55:06.671355",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "CCIXU",
+        "Period": "2020-2024",
+        "Has Data": "__NO__",
+        "Batch Number": 12,
+        "date:Date:start": "2020-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:55:06.682085",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "CCIXU",
+        "Period": "2015-2019",
+        "Has Data": "__NO__",
+        "Batch Number": 12,
+        "date:Date:start": "2015-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:55:06.692888",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "CCIXU",
+        "Period": "2010-2014",
+        "Has Data": "__NO__",
+        "Batch Number": 12,
+        "date:Date:start": "2010-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:55:06.703692",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "CCIXU",
+        "Period": "2005-2009",
+        "Has Data": "__NO__",
+        "Batch Number": 12,
+        "date:Date:start": "2005-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:55:06.714576",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "CCIXU",
+        "Period": "2000-2004",
+        "Has Data": "__NO__",
+        "Batch Number": 12,
+        "date:Date:start": "2000-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:55:06.725211",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "CCIXW",
+        "Period": "2020-2024",
+        "Has Data": "__NO__",
+        "Batch Number": 12,
+        "date:Date:start": "2020-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:55:06.736015",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "CCIXW",
+        "Period": "2015-2019",
+        "Has Data": "__NO__",
+        "Batch Number": 12,
+        "date:Date:start": "2015-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:55:06.746817",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "CCIXW",
+        "Period": "2010-2014",
+        "Has Data": "__NO__",
+        "Batch Number": 12,
+        "date:Date:start": "2010-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:55:06.757502",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "CCIXW",
+        "Period": "2005-2009",
+        "Has Data": "__NO__",
+        "Batch Number": 12,
+        "date:Date:start": "2005-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:55:06.768276",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "CCIXW",
+        "Period": "2000-2004",
+        "Has Data": "__NO__",
+        "Batch Number": 12,
+        "date:Date:start": "2000-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:55:06.779071",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "CCJ",
+        "Period": "2020-2024",
+        "Has Data": "__NO__",
+        "Batch Number": 12,
+        "date:Date:start": "2020-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:55:06.789859",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "CCJ",
+        "Period": "2015-2019",
+        "Has Data": "__NO__",
+        "Batch Number": 12,
+        "date:Date:start": "2015-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:55:06.800660",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "CCJ",
+        "Period": "2010-2014",
+        "Has Data": "__NO__",
+        "Batch Number": 12,
+        "date:Date:start": "2010-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:55:06.811349",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "CCJ",
+        "Period": "2005-2009",
+        "Has Data": "__NO__",
+        "Batch Number": 12,
+        "date:Date:start": "2005-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:55:06.822129",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "CCJ",
+        "Period": "2000-2004",
+        "Has Data": "__NO__",
+        "Batch Number": 12,
+        "date:Date:start": "2000-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:55:06.832927",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "CCK",
+        "Period": "2020-2024",
+        "Has Data": "__NO__",
+        "Batch Number": 12,
+        "date:Date:start": "2020-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:55:06.843741",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "CCK",
+        "Period": "2015-2019",
+        "Has Data": "__NO__",
+        "Batch Number": 12,
+        "date:Date:start": "2015-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:55:06.854640",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "CCK",
+        "Period": "2010-2014",
+        "Has Data": "__NO__",
+        "Batch Number": 12,
+        "date:Date:start": "2010-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:55:06.865372",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "CCK",
+        "Period": "2005-2009",
+        "Has Data": "__NO__",
+        "Batch Number": 12,
+        "date:Date:start": "2005-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:55:06.876140",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "CCK",
+        "Period": "2000-2004",
+        "Has Data": "__NO__",
+        "Batch Number": 12,
+        "date:Date:start": "2000-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:55:06.886927",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "CCL",
+        "Period": "2020-2024",
+        "Has Data": "__NO__",
+        "Batch Number": 12,
+        "date:Date:start": "2020-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:55:06.897665",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "CCL",
+        "Period": "2015-2019",
+        "Has Data": "__NO__",
+        "Batch Number": 12,
+        "date:Date:start": "2015-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:55:06.908583",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "CCL",
+        "Period": "2010-2014",
+        "Has Data": "__NO__",
+        "Batch Number": 12,
+        "date:Date:start": "2010-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:55:06.919402",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "CCL",
+        "Period": "2005-2009",
+        "Has Data": "__NO__",
+        "Batch Number": 12,
+        "date:Date:start": "2005-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:55:06.930168",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "CCL",
+        "Period": "2000-2004",
+        "Has Data": "__NO__",
+        "Batch Number": 12,
+        "date:Date:start": "2000-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:55:06.940969",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "CCLD",
+        "Period": "2020-2024",
+        "Has Data": "__NO__",
+        "Batch Number": 12,
+        "date:Date:start": "2020-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:55:06.951683",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "CCLD",
+        "Period": "2015-2019",
+        "Has Data": "__NO__",
+        "Batch Number": 12,
+        "date:Date:start": "2015-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:55:06.962362",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "CCLD",
+        "Period": "2010-2014",
+        "Has Data": "__NO__",
+        "Batch Number": 12,
+        "date:Date:start": "2010-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:55:06.973172",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "CCLD",
+        "Period": "2005-2009",
+        "Has Data": "__NO__",
+        "Batch Number": 12,
+        "date:Date:start": "2005-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:55:06.983848",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "CCLD",
+        "Period": "2000-2004",
+        "Has Data": "__NO__",
+        "Batch Number": 12,
+        "date:Date:start": "2000-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:55:06.994629",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "CCLDO",
+        "Period": "2020-2024",
+        "Has Data": "__NO__",
+        "Batch Number": 12,
+        "date:Date:start": "2020-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:55:07.005405",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "CCLDO",
+        "Period": "2015-2019",
+        "Has Data": "__NO__",
+        "Batch Number": 12,
+        "date:Date:start": "2015-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:55:07.016143",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "CCLDO",
+        "Period": "2010-2014",
+        "Has Data": "__NO__",
+        "Batch Number": 12,
+        "date:Date:start": "2010-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:55:07.026877",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "CCLDO",
+        "Period": "2005-2009",
+        "Has Data": "__NO__",
+        "Batch Number": 12,
+        "date:Date:start": "2005-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:55:07.037721",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "CCLDO",
+        "Period": "2000-2004",
+        "Has Data": "__NO__",
+        "Batch Number": 12,
+        "date:Date:start": "2000-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:55:07.048416",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "CCM",
+        "Period": "2020-2024",
+        "Has Data": "__NO__",
+        "Batch Number": 12,
+        "date:Date:start": "2020-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:55:07.059203",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "CCM",
+        "Period": "2015-2019",
+        "Has Data": "__NO__",
+        "Batch Number": 12,
+        "date:Date:start": "2015-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:55:07.069252",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "CCM",
+        "Period": "2010-2014",
+        "Has Data": "__NO__",
+        "Batch Number": 12,
+        "date:Date:start": "2010-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:55:07.079579",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "CCM",
+        "Period": "2005-2009",
+        "Has Data": "__NO__",
+        "Batch Number": 12,
+        "date:Date:start": "2005-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:55:07.090355",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "CCM",
+        "Period": "2000-2004",
+        "Has Data": "__NO__",
+        "Batch Number": 12,
+        "date:Date:start": "2000-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:55:07.101067",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "CCNE",
+        "Period": "2020-2024",
+        "Has Data": "__NO__",
+        "Batch Number": 12,
+        "date:Date:start": "2020-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:55:07.112407",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "CCNE",
+        "Period": "2015-2019",
+        "Has Data": "__NO__",
+        "Batch Number": 12,
+        "date:Date:start": "2015-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:55:07.122495",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "CCNE",
+        "Period": "2010-2014",
+        "Has Data": "__NO__",
+        "Batch Number": 12,
+        "date:Date:start": "2010-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:55:07.134406",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "CCNE",
+        "Period": "2005-2009",
+        "Has Data": "__NO__",
+        "Batch Number": 12,
+        "date:Date:start": "2005-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:55:07.145171",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "CCNE",
+        "Period": "2000-2004",
+        "Has Data": "__NO__",
+        "Batch Number": 12,
+        "date:Date:start": "2000-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:55:07.155998",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "CCNEP",
+        "Period": "2020-2024",
+        "Has Data": "__NO__",
+        "Batch Number": 12,
+        "date:Date:start": "2020-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:55:07.166813",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "CCNEP",
+        "Period": "2015-2019",
+        "Has Data": "__NO__",
+        "Batch Number": 12,
+        "date:Date:start": "2015-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:55:07.177676",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "CCNEP",
+        "Period": "2010-2014",
+        "Has Data": "__NO__",
+        "Batch Number": 12,
+        "date:Date:start": "2010-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:55:07.188424",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "CCNEP",
+        "Period": "2005-2009",
+        "Has Data": "__NO__",
+        "Batch Number": 12,
+        "date:Date:start": "2005-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:55:07.199171",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "CCNEP",
+        "Period": "2000-2004",
+        "Has Data": "__NO__",
+        "Batch Number": 12,
+        "date:Date:start": "2000-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:55:07.210011",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "CCO",
+        "Period": "2020-2024",
+        "Has Data": "__NO__",
+        "Batch Number": 12,
+        "date:Date:start": "2020-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:55:07.220690",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "CCO",
+        "Period": "2015-2019",
+        "Has Data": "__NO__",
+        "Batch Number": 12,
+        "date:Date:start": "2015-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:55:07.231474",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "CCO",
+        "Period": "2010-2014",
+        "Has Data": "__NO__",
+        "Batch Number": 12,
+        "date:Date:start": "2010-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:55:07.242371",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "CCO",
+        "Period": "2005-2009",
+        "Has Data": "__NO__",
+        "Batch Number": 12,
+        "date:Date:start": "2005-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:55:07.253048",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "CCO",
+        "Period": "2000-2004",
+        "Has Data": "__NO__",
+        "Batch Number": 12,
+        "date:Date:start": "2000-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:55:07.263931",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "CCOI",
+        "Period": "2020-2024",
+        "Has Data": "__NO__",
+        "Batch Number": 12,
+        "date:Date:start": "2020-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:55:07.274677",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "CCOI",
+        "Period": "2015-2019",
+        "Has Data": "__NO__",
+        "Batch Number": 12,
+        "date:Date:start": "2015-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:55:07.285526",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "CCOI",
+        "Period": "2010-2014",
+        "Has Data": "__NO__",
+        "Batch Number": 12,
+        "date:Date:start": "2010-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:55:07.296334",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "CCOI",
+        "Period": "2005-2009",
+        "Has Data": "__NO__",
+        "Batch Number": 12,
+        "date:Date:start": "2005-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:55:07.307052",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "CCOI",
+        "Period": "2000-2004",
+        "Has Data": "__NO__",
+        "Batch Number": 12,
+        "date:Date:start": "2000-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:55:07.317839",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "CCRD",
+        "Period": "2020-2024",
+        "Has Data": "__NO__",
+        "Batch Number": 12,
+        "date:Date:start": "2020-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:55:07.328514",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "CCRD",
+        "Period": "2015-2019",
+        "Has Data": "__NO__",
+        "Batch Number": 12,
+        "date:Date:start": "2015-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:55:07.339266",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "CCRD",
+        "Period": "2010-2014",
+        "Has Data": "__NO__",
+        "Batch Number": 12,
+        "date:Date:start": "2010-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:55:07.350063",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "CCRD",
+        "Period": "2005-2009",
+        "Has Data": "__NO__",
+        "Batch Number": 12,
+        "date:Date:start": "2005-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:55:07.360844",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "CCRD",
+        "Period": "2000-2004",
+        "Has Data": "__NO__",
+        "Batch Number": 12,
+        "date:Date:start": "2000-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:55:07.371588",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "CCRN",
+        "Period": "2020-2024",
+        "Has Data": "__NO__",
+        "Batch Number": 12,
+        "date:Date:start": "2020-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:55:07.382396",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "CCRN",
+        "Period": "2015-2019",
+        "Has Data": "__NO__",
+        "Batch Number": 12,
+        "date:Date:start": "2015-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:55:07.393275",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "CCRN",
+        "Period": "2010-2014",
+        "Has Data": "__NO__",
+        "Batch Number": 12,
+        "date:Date:start": "2010-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:55:07.403953",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "CCRN",
+        "Period": "2005-2009",
+        "Has Data": "__NO__",
+        "Batch Number": 12,
+        "date:Date:start": "2005-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:55:07.414805",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "CCRN",
+        "Period": "2000-2004",
+        "Has Data": "__NO__",
+        "Batch Number": 12,
+        "date:Date:start": "2000-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:55:07.425595",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "CCS",
+        "Period": "2020-2024",
+        "Has Data": "__NO__",
+        "Batch Number": 12,
+        "date:Date:start": "2020-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:55:07.436362",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "CCS",
+        "Period": "2015-2019",
+        "Has Data": "__NO__",
+        "Batch Number": 12,
+        "date:Date:start": "2015-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:55:07.447141",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "CCS",
+        "Period": "2010-2014",
+        "Has Data": "__NO__",
+        "Batch Number": 12,
+        "date:Date:start": "2010-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:55:07.458000",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "CCS",
+        "Period": "2005-2009",
+        "Has Data": "__NO__",
+        "Batch Number": 12,
+        "date:Date:start": "2005-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:55:07.468787",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "CCS",
+        "Period": "2000-2004",
+        "Has Data": "__NO__",
+        "Batch Number": 12,
+        "date:Date:start": "2000-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:55:07.479571",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "CCSI",
+        "Period": "2020-2024",
+        "Has Data": "__NO__",
+        "Batch Number": 12,
+        "date:Date:start": "2020-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:55:07.490369",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "CCSI",
+        "Period": "2015-2019",
+        "Has Data": "__NO__",
+        "Batch Number": 12,
+        "date:Date:start": "2015-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:55:07.501167",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "CCSI",
+        "Period": "2010-2014",
+        "Has Data": "__NO__",
+        "Batch Number": 12,
+        "date:Date:start": "2010-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:55:07.512012",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "CCSI",
+        "Period": "2005-2009",
+        "Has Data": "__NO__",
+        "Batch Number": 12,
+        "date:Date:start": "2005-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:55:07.522768",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "CCSI",
+        "Period": "2000-2004",
+        "Has Data": "__NO__",
+        "Batch Number": 12,
+        "date:Date:start": "2000-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:55:07.533567",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "CCTG",
+        "Period": "2020-2024",
+        "Has Data": "__NO__",
+        "Batch Number": 12,
+        "date:Date:start": "2020-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:55:07.544412",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "CCTG",
+        "Period": "2015-2019",
+        "Has Data": "__NO__",
+        "Batch Number": 12,
+        "date:Date:start": "2015-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:55:07.555084",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "CCTG",
+        "Period": "2010-2014",
+        "Has Data": "__NO__",
+        "Batch Number": 12,
+        "date:Date:start": "2010-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:55:07.565941",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "CCTG",
+        "Period": "2005-2009",
+        "Has Data": "__NO__",
+        "Batch Number": 12,
+        "date:Date:start": "2005-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:55:07.576839",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "CCTG",
+        "Period": "2000-2004",
+        "Has Data": "__NO__",
+        "Batch Number": 12,
+        "date:Date:start": "2000-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:55:07.587745",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "CCU",
+        "Period": "2020-2024",
+        "Has Data": "__NO__",
+        "Batch Number": 12,
+        "date:Date:start": "2020-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:55:07.598530",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "CCU",
+        "Period": "2015-2019",
+        "Has Data": "__NO__",
+        "Batch Number": 12,
+        "date:Date:start": "2015-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:55:07.609305",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "CCU",
+        "Period": "2010-2014",
+        "Has Data": "__NO__",
+        "Batch Number": 12,
+        "date:Date:start": "2010-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:55:07.620024",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "CCU",
+        "Period": "2005-2009",
+        "Has Data": "__NO__",
+        "Batch Number": 12,
+        "date:Date:start": "2005-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:55:07.630716",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "CCU",
+        "Period": "2000-2004",
+        "Has Data": "__NO__",
+        "Batch Number": 12,
+        "date:Date:start": "2000-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:55:07.641266",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "CCZ",
+        "Period": "2020-2024",
+        "Has Data": "__NO__",
+        "Batch Number": 12,
+        "date:Date:start": "2020-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:55:07.652082",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "CCZ",
+        "Period": "2015-2019",
+        "Has Data": "__NO__",
+        "Batch Number": 12,
+        "date:Date:start": "2015-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:55:07.662876",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "CCZ",
+        "Period": "2010-2014",
+        "Has Data": "__NO__",
+        "Batch Number": 12,
+        "date:Date:start": "2010-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:55:07.673659",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "CCZ",
+        "Period": "2005-2009",
+        "Has Data": "__NO__",
+        "Batch Number": 12,
+        "date:Date:start": "2005-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:55:07.684433",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "CCZ",
+        "Period": "2000-2004",
+        "Has Data": "__NO__",
+        "Batch Number": 12,
+        "date:Date:start": "2000-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:55:07.695238",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "CDE",
+        "Period": "2020-2024",
+        "Has Data": "__NO__",
+        "Batch Number": 12,
+        "date:Date:start": "2020-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:55:07.706105",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "CDE",
+        "Period": "2015-2019",
+        "Has Data": "__NO__",
+        "Batch Number": 12,
+        "date:Date:start": "2015-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:55:07.716876",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "CDE",
+        "Period": "2010-2014",
+        "Has Data": "__NO__",
+        "Batch Number": 12,
+        "date:Date:start": "2010-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:55:07.727638",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "CDE",
+        "Period": "2005-2009",
+        "Has Data": "__NO__",
+        "Batch Number": 12,
+        "date:Date:start": "2005-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:55:07.738463",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "CDE",
+        "Period": "2000-2004",
+        "Has Data": "__NO__",
+        "Batch Number": 12,
+        "date:Date:start": "2000-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:55:07.749252",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "CDIO",
+        "Period": "2020-2024",
+        "Has Data": "__NO__",
+        "Batch Number": 12,
+        "date:Date:start": "2020-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:55:07.760041",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "CDIO",
+        "Period": "2015-2019",
+        "Has Data": "__NO__",
+        "Batch Number": 12,
+        "date:Date:start": "2015-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:55:07.770785",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "CDIO",
+        "Period": "2010-2014",
+        "Has Data": "__NO__",
+        "Batch Number": 12,
+        "date:Date:start": "2010-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:55:07.781560",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "CDIO",
+        "Period": "2005-2009",
+        "Has Data": "__NO__",
+        "Batch Number": 12,
+        "date:Date:start": "2005-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:55:07.792349",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "CDIO",
+        "Period": "2000-2004",
+        "Has Data": "__NO__",
+        "Batch Number": 12,
+        "date:Date:start": "2000-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:55:07.803039",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "CDIOW",
+        "Period": "2020-2024",
+        "Has Data": "__NO__",
+        "Batch Number": 12,
+        "date:Date:start": "2020-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:55:07.813861",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "CDIOW",
+        "Period": "2015-2019",
+        "Has Data": "__NO__",
+        "Batch Number": 12,
+        "date:Date:start": "2015-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:55:07.824474",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "CDIOW",
+        "Period": "2010-2014",
+        "Has Data": "__NO__",
+        "Batch Number": 12,
+        "date:Date:start": "2010-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:55:07.835275",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "CDIOW",
+        "Period": "2005-2009",
+        "Has Data": "__NO__",
+        "Batch Number": 12,
+        "date:Date:start": "2005-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:55:07.845957",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "CDIOW",
+        "Period": "2000-2004",
+        "Has Data": "__NO__",
+        "Batch Number": 12,
+        "date:Date:start": "2000-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:55:07.856636",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "CDLR",
+        "Period": "2020-2024",
+        "Has Data": "__NO__",
+        "Batch Number": 12,
+        "date:Date:start": "2020-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:55:07.867300",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "CDLR",
+        "Period": "2015-2019",
+        "Has Data": "__NO__",
+        "Batch Number": 12,
+        "date:Date:start": "2015-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:55:07.878038",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "CDLR",
+        "Period": "2010-2014",
+        "Has Data": "__NO__",
+        "Batch Number": 12,
+        "date:Date:start": "2010-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:55:07.888857",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "CDLR",
+        "Period": "2005-2009",
+        "Has Data": "__NO__",
+        "Batch Number": 12,
+        "date:Date:start": "2005-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:55:07.899570",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "CDLR",
+        "Period": "2000-2004",
+        "Has Data": "__NO__",
+        "Batch Number": 12,
+        "date:Date:start": "2000-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:55:07.910314",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "CDLX",
+        "Period": "2020-2024",
+        "Has Data": "__NO__",
+        "Batch Number": 12,
+        "date:Date:start": "2020-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:55:07.921067",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "CDLX",
+        "Period": "2015-2019",
+        "Has Data": "__NO__",
+        "Batch Number": 12,
+        "date:Date:start": "2015-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:55:07.931833",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "CDLX",
+        "Period": "2010-2014",
+        "Has Data": "__NO__",
+        "Batch Number": 12,
+        "date:Date:start": "2010-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:55:07.942548",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "CDLX",
+        "Period": "2005-2009",
+        "Has Data": "__NO__",
+        "Batch Number": 12,
+        "date:Date:start": "2005-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:55:07.953335",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "CDLX",
+        "Period": "2000-2004",
+        "Has Data": "__NO__",
+        "Batch Number": 12,
+        "date:Date:start": "2000-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:55:07.964014",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "CDNA",
+        "Period": "2020-2024",
+        "Has Data": "__NO__",
+        "Batch Number": 12,
+        "date:Date:start": "2020-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:55:07.974713",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "CDNA",
+        "Period": "2015-2019",
+        "Has Data": "__NO__",
+        "Batch Number": 12,
+        "date:Date:start": "2015-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:55:07.985374",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "CDNA",
+        "Period": "2010-2014",
+        "Has Data": "__NO__",
+        "Batch Number": 12,
+        "date:Date:start": "2010-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:55:07.996177",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "CDNA",
+        "Period": "2005-2009",
+        "Has Data": "__NO__",
+        "Batch Number": 12,
+        "date:Date:start": "2005-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:55:08.007024",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "CDNA",
+        "Period": "2000-2004",
+        "Has Data": "__NO__",
+        "Batch Number": 12,
+        "date:Date:start": "2000-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:55:08.017847",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "CDNS",
+        "Period": "2020-2024",
+        "Has Data": "__NO__",
+        "Batch Number": 12,
+        "date:Date:start": "2020-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:55:08.028571",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "CDNS",
+        "Period": "2015-2019",
+        "Has Data": "__NO__",
+        "Batch Number": 12,
+        "date:Date:start": "2015-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:55:08.039352",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "CDNS",
+        "Period": "2010-2014",
+        "Has Data": "__NO__",
+        "Batch Number": 12,
+        "date:Date:start": "2010-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:55:08.050201",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "CDNS",
+        "Period": "2005-2009",
+        "Has Data": "__NO__",
+        "Batch Number": 12,
+        "date:Date:start": "2005-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:55:08.060973",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "CDNS",
+        "Period": "2000-2004",
+        "Has Data": "__NO__",
+        "Batch Number": 12,
+        "date:Date:start": "2000-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:55:08.071695",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "CDP",
+        "Period": "2020-2024",
+        "Has Data": "__NO__",
+        "Batch Number": 12,
+        "date:Date:start": "2020-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:55:08.082463",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "CDP",
+        "Period": "2015-2019",
+        "Has Data": "__NO__",
+        "Batch Number": 12,
+        "date:Date:start": "2015-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:55:08.093302",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "CDP",
+        "Period": "2010-2014",
+        "Has Data": "__NO__",
+        "Batch Number": 12,
+        "date:Date:start": "2010-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:55:08.104061",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "CDP",
+        "Period": "2005-2009",
+        "Has Data": "__NO__",
+        "Batch Number": 12,
+        "date:Date:start": "2005-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:55:08.114678",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "CDP",
+        "Period": "2000-2004",
+        "Has Data": "__NO__",
+        "Batch Number": 12,
+        "date:Date:start": "2000-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:55:08.125459",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "CDR",
+        "Period": "2020-2024",
+        "Has Data": "__NO__",
+        "Batch Number": 12,
+        "date:Date:start": "2020-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:55:08.136267",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "CDR",
+        "Period": "2015-2019",
+        "Has Data": "__NO__",
+        "Batch Number": 12,
+        "date:Date:start": "2015-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:55:08.147183",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "CDR",
+        "Period": "2010-2014",
+        "Has Data": "__NO__",
+        "Batch Number": 12,
+        "date:Date:start": "2010-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:55:08.157957",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "CDR",
+        "Period": "2005-2009",
+        "Has Data": "__NO__",
+        "Batch Number": 12,
+        "date:Date:start": "2005-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:55:08.168617",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "CDR",
+        "Period": "2000-2004",
+        "Has Data": "__NO__",
+        "Batch Number": 12,
+        "date:Date:start": "2000-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:55:08.179363",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "CDRE",
+        "Period": "2020-2024",
+        "Has Data": "__NO__",
+        "Batch Number": 12,
+        "date:Date:start": "2020-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:55:08.190635",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "CDRE",
+        "Period": "2015-2019",
+        "Has Data": "__NO__",
+        "Batch Number": 12,
+        "date:Date:start": "2015-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:55:08.200892",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "CDRE",
+        "Period": "2010-2014",
+        "Has Data": "__NO__",
+        "Batch Number": 12,
+        "date:Date:start": "2010-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:55:08.211671",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "CDRE",
+        "Period": "2005-2009",
+        "Has Data": "__NO__",
+        "Batch Number": 12,
+        "date:Date:start": "2005-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:55:08.222515",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "CDRE",
+        "Period": "2000-2004",
+        "Has Data": "__NO__",
+        "Batch Number": 12,
+        "date:Date:start": "2000-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:55:08.233278",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "CDRO",
+        "Period": "2020-2024",
+        "Has Data": "__NO__",
+        "Batch Number": 12,
+        "date:Date:start": "2020-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:55:08.244113",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "CDRO",
+        "Period": "2015-2019",
+        "Has Data": "__NO__",
+        "Batch Number": 12,
+        "date:Date:start": "2015-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:55:08.254934",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "CDRO",
+        "Period": "2010-2014",
+        "Has Data": "__NO__",
+        "Batch Number": 12,
+        "date:Date:start": "2010-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:55:08.265672",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "CDRO",
+        "Period": "2005-2009",
+        "Has Data": "__NO__",
+        "Batch Number": 12,
+        "date:Date:start": "2005-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:55:08.276440",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "CDRO",
+        "Period": "2000-2004",
+        "Has Data": "__NO__",
+        "Batch Number": 12,
+        "date:Date:start": "2000-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:55:08.287247",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "CDROW",
+        "Period": "2020-2024",
+        "Has Data": "__NO__",
+        "Batch Number": 12,
+        "date:Date:start": "2020-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:55:08.298086",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "CDROW",
+        "Period": "2015-2019",
+        "Has Data": "__NO__",
+        "Batch Number": 12,
+        "date:Date:start": "2015-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:55:08.308843",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "CDROW",
+        "Period": "2010-2014",
+        "Has Data": "__NO__",
+        "Batch Number": 12,
+        "date:Date:start": "2010-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:55:08.319802",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "CDROW",
+        "Period": "2005-2009",
+        "Has Data": "__NO__",
+        "Batch Number": 12,
+        "date:Date:start": "2005-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:55:08.330604",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "CDROW",
+        "Period": "2000-2004",
+        "Has Data": "__NO__",
+        "Batch Number": 12,
+        "date:Date:start": "2000-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:55:08.341495",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "CDT",
+        "Period": "2020-2024",
+        "Has Data": "__NO__",
+        "Batch Number": 12,
+        "date:Date:start": "2020-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:55:08.352281",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "CDT",
+        "Period": "2015-2019",
+        "Has Data": "__NO__",
+        "Batch Number": 12,
+        "date:Date:start": "2015-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:55:08.366255",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "CDT",
+        "Period": "2010-2014",
+        "Has Data": "__NO__",
+        "Batch Number": 12,
+        "date:Date:start": "2010-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:55:08.376962",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "CDT",
+        "Period": "2005-2009",
+        "Has Data": "__NO__",
+        "Batch Number": 12,
+        "date:Date:start": "2005-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:55:08.387770",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "CDT",
+        "Period": "2000-2004",
+        "Has Data": "__NO__",
+        "Batch Number": 12,
+        "date:Date:start": "2000-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:55:08.398617",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "CDTG",
+        "Period": "2020-2024",
+        "Has Data": "__NO__",
+        "Batch Number": 12,
+        "date:Date:start": "2020-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:55:08.409282",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "CDTG",
+        "Period": "2015-2019",
+        "Has Data": "__NO__",
+        "Batch Number": 12,
+        "date:Date:start": "2015-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:55:08.420075",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "CDTG",
+        "Period": "2010-2014",
+        "Has Data": "__NO__",
+        "Batch Number": 12,
+        "date:Date:start": "2010-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:55:08.430801",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "CDTG",
+        "Period": "2005-2009",
+        "Has Data": "__NO__",
+        "Batch Number": 12,
+        "date:Date:start": "2005-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:55:08.441670",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "CDTG",
+        "Period": "2000-2004",
+        "Has Data": "__NO__",
+        "Batch Number": 12,
+        "date:Date:start": "2000-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:55:08.452426",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "CDTTW",
+        "Period": "2020-2024",
+        "Has Data": "__NO__",
+        "Batch Number": 12,
+        "date:Date:start": "2020-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:55:08.463243",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "CDTTW",
+        "Period": "2015-2019",
+        "Has Data": "__NO__",
+        "Batch Number": 12,
+        "date:Date:start": "2015-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:55:08.474041",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "CDTTW",
+        "Period": "2010-2014",
+        "Has Data": "__NO__",
+        "Batch Number": 12,
+        "date:Date:start": "2010-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:55:08.484812",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "CDTTW",
+        "Period": "2005-2009",
+        "Has Data": "__NO__",
+        "Batch Number": 12,
+        "date:Date:start": "2005-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:55:08.494876",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "CDTTW",
+        "Period": "2000-2004",
+        "Has Data": "__NO__",
+        "Batch Number": 12,
+        "date:Date:start": "2000-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:55:08.505301",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "CDTX",
+        "Period": "2020-2024",
+        "Has Data": "__NO__",
+        "Batch Number": 12,
+        "date:Date:start": "2020-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:55:08.516244",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "CDTX",
+        "Period": "2015-2019",
+        "Has Data": "__NO__",
+        "Batch Number": 12,
+        "date:Date:start": "2015-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:55:08.527075",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "CDTX",
+        "Period": "2010-2014",
+        "Has Data": "__NO__",
+        "Batch Number": 12,
+        "date:Date:start": "2010-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:55:08.537891",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "CDTX",
+        "Period": "2005-2009",
+        "Has Data": "__NO__",
+        "Batch Number": 12,
+        "date:Date:start": "2005-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:55:08.548744",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "CDTX",
+        "Period": "2000-2004",
+        "Has Data": "__NO__",
+        "Batch Number": 12,
+        "date:Date:start": "2000-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:55:08.559606",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "CDW",
+        "Period": "2020-2024",
+        "Has Data": "__NO__",
+        "Batch Number": 12,
+        "date:Date:start": "2020-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:55:08.570460",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "CDW",
+        "Period": "2015-2019",
+        "Has Data": "__NO__",
+        "Batch Number": 12,
+        "date:Date:start": "2015-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:55:08.581377",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "CDW",
+        "Period": "2010-2014",
+        "Has Data": "__NO__",
+        "Batch Number": 12,
+        "date:Date:start": "2010-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:55:08.592093",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "CDW",
+        "Period": "2005-2009",
+        "Has Data": "__NO__",
+        "Batch Number": 12,
+        "date:Date:start": "2005-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:55:08.602985",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "CDW",
+        "Period": "2000-2004",
+        "Has Data": "__NO__",
+        "Batch Number": 12,
+        "date:Date:start": "2000-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:55:08.613785",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "CDXS",
+        "Period": "2020-2024",
+        "Has Data": "__NO__",
+        "Batch Number": 12,
+        "date:Date:start": "2020-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:55:08.624493",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "CDXS",
+        "Period": "2015-2019",
+        "Has Data": "__NO__",
+        "Batch Number": 12,
+        "date:Date:start": "2015-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:55:08.635279",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "CDXS",
+        "Period": "2010-2014",
+        "Has Data": "__NO__",
+        "Batch Number": 12,
+        "date:Date:start": "2010-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:55:08.645653",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "CDXS",
+        "Period": "2005-2009",
+        "Has Data": "__NO__",
+        "Batch Number": 12,
+        "date:Date:start": "2005-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:55:08.655705",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "CDXS",
+        "Period": "2000-2004",
+        "Has Data": "__NO__",
+        "Batch Number": 12,
+        "date:Date:start": "2000-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:55:08.666467",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "CDZI",
+        "Period": "2020-2024",
+        "Has Data": "__NO__",
+        "Batch Number": 12,
+        "date:Date:start": "2020-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:55:08.677340",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "CDZI",
+        "Period": "2015-2019",
+        "Has Data": "__NO__",
+        "Batch Number": 12,
+        "date:Date:start": "2015-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:55:08.688078",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "CDZI",
+        "Period": "2010-2014",
+        "Has Data": "__NO__",
+        "Batch Number": 12,
+        "date:Date:start": "2010-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:55:08.698918",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "CDZI",
+        "Period": "2005-2009",
+        "Has Data": "__NO__",
+        "Batch Number": 12,
+        "date:Date:start": "2005-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:55:08.709711",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "CDZI",
+        "Period": "2000-2004",
+        "Has Data": "__NO__",
+        "Batch Number": 12,
+        "date:Date:start": "2000-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:55:08.720520",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "CDZIP",
+        "Period": "2020-2024",
+        "Has Data": "__NO__",
+        "Batch Number": 12,
+        "date:Date:start": "2020-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:55:08.731275",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "CDZIP",
+        "Period": "2015-2019",
+        "Has Data": "__NO__",
+        "Batch Number": 12,
+        "date:Date:start": "2015-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:55:08.742141",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "CDZIP",
+        "Period": "2010-2014",
+        "Has Data": "__NO__",
+        "Batch Number": 12,
+        "date:Date:start": "2010-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:55:08.752971",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "CDZIP",
+        "Period": "2005-2009",
+        "Has Data": "__NO__",
+        "Batch Number": 12,
+        "date:Date:start": "2005-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:55:08.763794",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "CDZIP",
+        "Period": "2000-2004",
+        "Has Data": "__NO__",
+        "Batch Number": 12,
+        "date:Date:start": "2000-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:55:08.774499",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "CE",
+        "Period": "2020-2024",
+        "Has Data": "__NO__",
+        "Batch Number": 12,
+        "date:Date:start": "2020-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:55:08.785319",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "CE",
+        "Period": "2015-2019",
+        "Has Data": "__NO__",
+        "Batch Number": 12,
+        "date:Date:start": "2015-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:55:08.796151",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "CE",
+        "Period": "2010-2014",
+        "Has Data": "__NO__",
+        "Batch Number": 12,
+        "date:Date:start": "2010-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:55:08.806998",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "CE",
+        "Period": "2005-2009",
+        "Has Data": "__NO__",
+        "Batch Number": 12,
+        "date:Date:start": "2005-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:55:08.817866",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "CE",
+        "Period": "2000-2004",
+        "Has Data": "__NO__",
+        "Batch Number": 12,
+        "date:Date:start": "2000-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:55:08.828803",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "CECO",
+        "Period": "2020-2024",
+        "Has Data": "__NO__",
+        "Batch Number": 12,
+        "date:Date:start": "2020-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:55:08.839609",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "CECO",
+        "Period": "2015-2019",
+        "Has Data": "__NO__",
+        "Batch Number": 12,
+        "date:Date:start": "2015-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:55:08.850324",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "CECO",
+        "Period": "2010-2014",
+        "Has Data": "__NO__",
+        "Batch Number": 12,
+        "date:Date:start": "2010-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:55:08.861086",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "CECO",
+        "Period": "2005-2009",
+        "Has Data": "__NO__",
+        "Batch Number": 12,
+        "date:Date:start": "2005-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:55:08.871973",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "CECO",
+        "Period": "2000-2004",
+        "Has Data": "__NO__",
+        "Batch Number": 12,
+        "date:Date:start": "2000-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:55:08.882747",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "CEE",
+        "Period": "2020-2024",
+        "Has Data": "__NO__",
+        "Batch Number": 12,
+        "date:Date:start": "2020-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:55:08.893458",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "CEE",
+        "Period": "2015-2019",
+        "Has Data": "__NO__",
+        "Batch Number": 12,
+        "date:Date:start": "2015-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:55:08.904237",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "CEE",
+        "Period": "2010-2014",
+        "Has Data": "__NO__",
+        "Batch Number": 12,
+        "date:Date:start": "2010-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:55:08.915024",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "CEE",
+        "Period": "2005-2009",
+        "Has Data": "__NO__",
+        "Batch Number": 12,
+        "date:Date:start": "2005-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:55:08.925844",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "CEE",
+        "Period": "2000-2004",
+        "Has Data": "__NO__",
+        "Batch Number": 12,
+        "date:Date:start": "2000-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:55:08.936594",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "CEG",
+        "Period": "2020-2024",
+        "Has Data": "__NO__",
+        "Batch Number": 12,
+        "date:Date:start": "2020-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:55:08.947491",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "CEG",
+        "Period": "2015-2019",
+        "Has Data": "__NO__",
+        "Batch Number": 12,
+        "date:Date:start": "2015-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:55:08.958255",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "CEG",
+        "Period": "2010-2014",
+        "Has Data": "__NO__",
+        "Batch Number": 12,
+        "date:Date:start": "2010-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:55:08.969004",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "CEG",
+        "Period": "2005-2009",
+        "Has Data": "__NO__",
+        "Batch Number": 12,
+        "date:Date:start": "2005-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:55:08.979747",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "CEG",
+        "Period": "2000-2004",
+        "Has Data": "__NO__",
+        "Batch Number": 12,
+        "date:Date:start": "2000-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:55:08.990577",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "CELC",
+        "Period": "2020-2024",
+        "Has Data": "__NO__",
+        "Batch Number": 12,
+        "date:Date:start": "2020-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:55:09.001418",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "CELC",
+        "Period": "2015-2019",
+        "Has Data": "__NO__",
+        "Batch Number": 12,
+        "date:Date:start": "2015-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:55:09.012157",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "CELC",
+        "Period": "2010-2014",
+        "Has Data": "__NO__",
+        "Batch Number": 12,
+        "date:Date:start": "2010-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:55:09.023009",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "CELC",
+        "Period": "2005-2009",
+        "Has Data": "__NO__",
+        "Batch Number": 12,
+        "date:Date:start": "2005-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:55:09.033803",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "CELC",
+        "Period": "2000-2004",
+        "Has Data": "__NO__",
+        "Batch Number": 12,
+        "date:Date:start": "2000-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:55:09.044721",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "CELH",
+        "Period": "2020-2024",
+        "Has Data": "__NO__",
+        "Batch Number": 12,
+        "date:Date:start": "2020-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:55:09.055639",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "CELH",
+        "Period": "2015-2019",
+        "Has Data": "__NO__",
+        "Batch Number": 12,
+        "date:Date:start": "2015-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:55:09.066472",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "CELH",
+        "Period": "2010-2014",
+        "Has Data": "__NO__",
+        "Batch Number": 12,
+        "date:Date:start": "2010-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:55:09.077275",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "CELH",
+        "Period": "2005-2009",
+        "Has Data": "__NO__",
+        "Batch Number": 12,
+        "date:Date:start": "2005-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:55:09.088129",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "CELH",
+        "Period": "2000-2004",
+        "Has Data": "__NO__",
+        "Batch Number": 12,
+        "date:Date:start": "2000-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:55:09.099097",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "CELU",
+        "Period": "2020-2024",
+        "Has Data": "__NO__",
+        "Batch Number": 12,
+        "date:Date:start": "2020-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:55:09.109910",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "CELU",
+        "Period": "2015-2019",
+        "Has Data": "__NO__",
+        "Batch Number": 12,
+        "date:Date:start": "2015-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:55:09.120600",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "CELU",
+        "Period": "2010-2014",
+        "Has Data": "__NO__",
+        "Batch Number": 12,
+        "date:Date:start": "2010-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:55:09.131416",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "CELU",
+        "Period": "2005-2009",
+        "Has Data": "__NO__",
+        "Batch Number": 12,
+        "date:Date:start": "2005-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:55:09.142213",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "CELU",
+        "Period": "2000-2004",
+        "Has Data": "__NO__",
+        "Batch Number": 12,
+        "date:Date:start": "2000-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:55:09.152966",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "CELUW",
+        "Period": "2020-2024",
+        "Has Data": "__NO__",
+        "Batch Number": 12,
+        "date:Date:start": "2020-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:55:09.163739",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "CELUW",
+        "Period": "2015-2019",
+        "Has Data": "__NO__",
+        "Batch Number": 12,
+        "date:Date:start": "2015-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:55:09.174486",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "CELUW",
+        "Period": "2010-2014",
+        "Has Data": "__NO__",
+        "Batch Number": 12,
+        "date:Date:start": "2010-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:55:09.185314",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "CELUW",
+        "Period": "2005-2009",
+        "Has Data": "__NO__",
+        "Batch Number": 12,
+        "date:Date:start": "2005-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:55:09.196074",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "CELUW",
+        "Period": "2000-2004",
+        "Has Data": "__NO__",
+        "Batch Number": 12,
+        "date:Date:start": "2000-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:55:09.206908",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "CELZ",
+        "Period": "2020-2024",
+        "Has Data": "__NO__",
+        "Batch Number": 12,
+        "date:Date:start": "2020-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:55:09.217694",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "CELZ",
+        "Period": "2015-2019",
+        "Has Data": "__NO__",
+        "Batch Number": 12,
+        "date:Date:start": "2015-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:55:09.228371",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "CELZ",
+        "Period": "2010-2014",
+        "Has Data": "__NO__",
+        "Batch Number": 12,
+        "date:Date:start": "2010-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:55:09.239191",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "CELZ",
+        "Period": "2005-2009",
+        "Has Data": "__NO__",
+        "Batch Number": 12,
+        "date:Date:start": "2005-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:55:09.250102",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "CELZ",
+        "Period": "2000-2004",
+        "Has Data": "__NO__",
+        "Batch Number": 12,
+        "date:Date:start": "2000-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:55:09.260946",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "CENN",
+        "Period": "2020-2024",
+        "Has Data": "__NO__",
+        "Batch Number": 12,
+        "date:Date:start": "2020-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:55:09.272352",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "CENN",
+        "Period": "2015-2019",
+        "Has Data": "__NO__",
+        "Batch Number": 12,
+        "date:Date:start": "2015-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:55:09.282453",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "CENN",
+        "Period": "2010-2014",
+        "Has Data": "__NO__",
+        "Batch Number": 12,
+        "date:Date:start": "2010-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:55:09.293272",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "CENN",
+        "Period": "2005-2009",
+        "Has Data": "__NO__",
+        "Batch Number": 12,
+        "date:Date:start": "2005-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:55:09.304152",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "CENN",
+        "Period": "2000-2004",
+        "Has Data": "__NO__",
+        "Batch Number": 12,
+        "date:Date:start": "2000-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:55:09.314965",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "CENT",
+        "Period": "2020-2024",
+        "Has Data": "__NO__",
+        "Batch Number": 12,
+        "date:Date:start": "2020-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:55:09.325756",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "CENT",
+        "Period": "2015-2019",
+        "Has Data": "__NO__",
+        "Batch Number": 12,
+        "date:Date:start": "2015-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:55:09.336589",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "CENT",
+        "Period": "2010-2014",
+        "Has Data": "__NO__",
+        "Batch Number": 12,
+        "date:Date:start": "2010-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:55:09.347388",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "CENT",
+        "Period": "2005-2009",
+        "Has Data": "__NO__",
+        "Batch Number": 12,
+        "date:Date:start": "2005-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:55:09.358183",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "CENT",
+        "Period": "2000-2004",
+        "Has Data": "__NO__",
+        "Batch Number": 12,
+        "date:Date:start": "2000-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:55:09.368995",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "CENTA",
+        "Period": "2020-2024",
+        "Has Data": "__NO__",
+        "Batch Number": 12,
+        "date:Date:start": "2020-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:55:09.379800",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "CENTA",
+        "Period": "2015-2019",
+        "Has Data": "__NO__",
+        "Batch Number": 12,
+        "date:Date:start": "2015-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:55:09.390614",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "CENTA",
+        "Period": "2010-2014",
+        "Has Data": "__NO__",
+        "Batch Number": 12,
+        "date:Date:start": "2010-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:55:09.401510",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "CENTA",
+        "Period": "2005-2009",
+        "Has Data": "__NO__",
+        "Batch Number": 12,
+        "date:Date:start": "2005-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:55:09.412302",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "CENTA",
+        "Period": "2000-2004",
+        "Has Data": "__NO__",
+        "Batch Number": 12,
+        "date:Date:start": "2000-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:55:09.423077",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "CENX",
+        "Period": "2020-2024",
+        "Has Data": "__NO__",
+        "Batch Number": 12,
+        "date:Date:start": "2020-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:55:09.433782",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "CENX",
+        "Period": "2015-2019",
+        "Has Data": "__NO__",
+        "Batch Number": 12,
+        "date:Date:start": "2015-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:55:09.444657",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "CENX",
+        "Period": "2010-2014",
+        "Has Data": "__NO__",
+        "Batch Number": 12,
+        "date:Date:start": "2010-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:55:09.455453",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "CENX",
+        "Period": "2005-2009",
+        "Has Data": "__NO__",
+        "Batch Number": 12,
+        "date:Date:start": "2005-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:55:09.466252",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "CENX",
+        "Period": "2000-2004",
+        "Has Data": "__NO__",
+        "Batch Number": 12,
+        "date:Date:start": "2000-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:55:09.477083",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "CEP",
+        "Period": "2020-2024",
+        "Has Data": "__NO__",
+        "Batch Number": 12,
+        "date:Date:start": "2020-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:55:09.487850",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "CEP",
+        "Period": "2015-2019",
+        "Has Data": "__NO__",
+        "Batch Number": 12,
+        "date:Date:start": "2015-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:55:09.498752",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "CEP",
+        "Period": "2010-2014",
+        "Has Data": "__NO__",
+        "Batch Number": 12,
+        "date:Date:start": "2010-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:55:09.509444",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "CEP",
+        "Period": "2005-2009",
+        "Has Data": "__NO__",
+        "Batch Number": 12,
+        "date:Date:start": "2005-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:55:09.520148",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "CEP",
+        "Period": "2000-2004",
+        "Has Data": "__NO__",
+        "Batch Number": 12,
+        "date:Date:start": "2000-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:55:09.530927",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "CEPO",
+        "Period": "2020-2024",
+        "Has Data": "__NO__",
+        "Batch Number": 12,
+        "date:Date:start": "2020-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:55:09.541702",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "CEPO",
+        "Period": "2015-2019",
+        "Has Data": "__NO__",
+        "Batch Number": 12,
+        "date:Date:start": "2015-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:55:09.552486",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "CEPO",
+        "Period": "2010-2014",
+        "Has Data": "__NO__",
+        "Batch Number": 12,
+        "date:Date:start": "2010-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:55:09.563253",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "CEPO",
+        "Period": "2005-2009",
+        "Has Data": "__NO__",
+        "Batch Number": 12,
+        "date:Date:start": "2005-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:55:09.573954",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "CEPO",
+        "Period": "2000-2004",
+        "Has Data": "__NO__",
+        "Batch Number": 12,
+        "date:Date:start": "2000-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:55:09.584604",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "CEPT",
+        "Period": "2020-2024",
+        "Has Data": "__NO__",
+        "Batch Number": 12,
+        "date:Date:start": "2020-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:55:09.595398",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "CEPT",
+        "Period": "2015-2019",
+        "Has Data": "__NO__",
+        "Batch Number": 12,
+        "date:Date:start": "2015-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:55:09.606177",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "CEPT",
+        "Period": "2010-2014",
+        "Has Data": "__NO__",
+        "Batch Number": 12,
+        "date:Date:start": "2010-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:55:09.617043",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "CEPT",
+        "Period": "2005-2009",
+        "Has Data": "__NO__",
+        "Batch Number": 12,
+        "date:Date:start": "2005-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:55:09.627824",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "CEPT",
+        "Period": "2000-2004",
+        "Has Data": "__NO__",
+        "Batch Number": 12,
+        "date:Date:start": "2000-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:55:09.638549",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "CEPU",
+        "Period": "2020-2024",
+        "Has Data": "__NO__",
+        "Batch Number": 12,
+        "date:Date:start": "2020-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:55:09.649275",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "CEPU",
+        "Period": "2015-2019",
+        "Has Data": "__NO__",
+        "Batch Number": 12,
+        "date:Date:start": "2015-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:55:09.660082",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "CEPU",
+        "Period": "2010-2014",
+        "Has Data": "__NO__",
+        "Batch Number": 12,
+        "date:Date:start": "2010-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:55:09.670702",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "CEPU",
+        "Period": "2005-2009",
+        "Has Data": "__NO__",
+        "Batch Number": 12,
+        "date:Date:start": "2005-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:55:09.681433",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "CEPU",
+        "Period": "2000-2004",
+        "Has Data": "__NO__",
+        "Batch Number": 12,
+        "date:Date:start": "2000-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:55:09.692092",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "CERO",
+        "Period": "2020-2024",
+        "Has Data": "__NO__",
+        "Batch Number": 12,
+        "date:Date:start": "2020-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:55:09.702959",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "CERO",
+        "Period": "2015-2019",
+        "Has Data": "__NO__",
+        "Batch Number": 12,
+        "date:Date:start": "2015-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:55:09.713651",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "CERO",
+        "Period": "2010-2014",
+        "Has Data": "__NO__",
+        "Batch Number": 12,
+        "date:Date:start": "2010-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:55:09.724453",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "CERO",
+        "Period": "2005-2009",
+        "Has Data": "__NO__",
+        "Batch Number": 12,
+        "date:Date:start": "2005-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:55:09.735083",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "CERO",
+        "Period": "2000-2004",
+        "Has Data": "__NO__",
+        "Batch Number": 12,
+        "date:Date:start": "2000-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:55:09.745876",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "CEROW",
+        "Period": "2020-2024",
+        "Has Data": "__NO__",
+        "Batch Number": 12,
+        "date:Date:start": "2020-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:55:09.756677",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "CEROW",
+        "Period": "2015-2019",
+        "Has Data": "__NO__",
+        "Batch Number": 12,
+        "date:Date:start": "2015-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:55:09.767530",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "CEROW",
+        "Period": "2010-2014",
+        "Has Data": "__NO__",
+        "Batch Number": 12,
+        "date:Date:start": "2010-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:55:09.778416",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "CEROW",
+        "Period": "2005-2009",
+        "Has Data": "__NO__",
+        "Batch Number": 12,
+        "date:Date:start": "2005-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:55:09.789259",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "CEROW",
+        "Period": "2000-2004",
+        "Has Data": "__NO__",
+        "Batch Number": 12,
+        "date:Date:start": "2000-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:55:09.800088",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "CERS",
+        "Period": "2020-2024",
+        "Has Data": "__NO__",
+        "Batch Number": 12,
+        "date:Date:start": "2020-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:55:09.810925",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "CERS",
+        "Period": "2015-2019",
+        "Has Data": "__NO__",
+        "Batch Number": 12,
+        "date:Date:start": "2015-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:55:09.821715",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "CERS",
+        "Period": "2010-2014",
+        "Has Data": "__NO__",
+        "Batch Number": 12,
+        "date:Date:start": "2010-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:55:09.832441",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "CERS",
+        "Period": "2005-2009",
+        "Has Data": "__NO__",
+        "Batch Number": 12,
+        "date:Date:start": "2005-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:55:09.843162",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "CERS",
+        "Period": "2000-2004",
+        "Has Data": "__NO__",
+        "Batch Number": 12,
+        "date:Date:start": "2000-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:55:09.853850",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "CERT",
+        "Period": "2020-2024",
+        "Has Data": "__NO__",
+        "Batch Number": 12,
+        "date:Date:start": "2020-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:55:09.864547",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "CERT",
+        "Period": "2015-2019",
+        "Has Data": "__NO__",
+        "Batch Number": 12,
+        "date:Date:start": "2015-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:55:09.875300",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "CERT",
+        "Period": "2010-2014",
+        "Has Data": "__NO__",
+        "Batch Number": 12,
+        "date:Date:start": "2010-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:55:09.886002",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "CERT",
+        "Period": "2005-2009",
+        "Has Data": "__NO__",
+        "Batch Number": 12,
+        "date:Date:start": "2005-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:55:09.896765",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "CERT",
+        "Period": "2000-2004",
+        "Has Data": "__NO__",
+        "Batch Number": 12,
+        "date:Date:start": "2000-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:55:09.907512",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "CET",
+        "Period": "2020-2024",
+        "Has Data": "__NO__",
+        "Batch Number": 12,
+        "date:Date:start": "2020-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:55:09.918208",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "CET",
+        "Period": "2015-2019",
+        "Has Data": "__NO__",
+        "Batch Number": 12,
+        "date:Date:start": "2015-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:55:09.928943",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "CET",
+        "Period": "2010-2014",
+        "Has Data": "__NO__",
+        "Batch Number": 12,
+        "date:Date:start": "2010-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:55:09.939705",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "CET",
+        "Period": "2005-2009",
+        "Has Data": "__NO__",
+        "Batch Number": 12,
+        "date:Date:start": "2005-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:55:09.950484",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "CET",
+        "Period": "2000-2004",
+        "Has Data": "__NO__",
+        "Batch Number": 12,
+        "date:Date:start": "2000-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:55:09.961161",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "CETX",
+        "Period": "2020-2024",
+        "Has Data": "__NO__",
+        "Batch Number": 12,
+        "date:Date:start": "2020-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:55:09.971884",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "CETX",
+        "Period": "2015-2019",
+        "Has Data": "__NO__",
+        "Batch Number": 12,
+        "date:Date:start": "2015-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:55:09.982668",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "CETX",
+        "Period": "2010-2014",
+        "Has Data": "__NO__",
+        "Batch Number": 12,
+        "date:Date:start": "2010-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:55:09.993343",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "CETX",
+        "Period": "2005-2009",
+        "Has Data": "__NO__",
+        "Batch Number": 12,
+        "date:Date:start": "2005-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:55:10.004091",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "CETX",
+        "Period": "2000-2004",
+        "Has Data": "__NO__",
+        "Batch Number": 12,
+        "date:Date:start": "2000-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:55:10.014886",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "CETY",
+        "Period": "2020-2024",
+        "Has Data": "__NO__",
+        "Batch Number": 12,
+        "date:Date:start": "2020-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:55:10.025674",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "CETY",
+        "Period": "2015-2019",
+        "Has Data": "__NO__",
+        "Batch Number": 12,
+        "date:Date:start": "2015-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:55:10.036463",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "CETY",
+        "Period": "2010-2014",
+        "Has Data": "__NO__",
+        "Batch Number": 12,
+        "date:Date:start": "2010-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:55:10.047141",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "CETY",
+        "Period": "2005-2009",
+        "Has Data": "__NO__",
+        "Batch Number": 12,
+        "date:Date:start": "2005-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:55:10.057840",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "CETY",
+        "Period": "2000-2004",
+        "Has Data": "__NO__",
+        "Batch Number": 12,
+        "date:Date:start": "2000-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:55:10.068576",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "CEV",
+        "Period": "2020-2024",
+        "Has Data": "__NO__",
+        "Batch Number": 12,
+        "date:Date:start": "2020-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:55:10.079368",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "CEV",
+        "Period": "2015-2019",
+        "Has Data": "__NO__",
+        "Batch Number": 12,
+        "date:Date:start": "2015-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:55:10.090045",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "CEV",
+        "Period": "2010-2014",
+        "Has Data": "__NO__",
+        "Batch Number": 12,
+        "date:Date:start": "2010-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:55:10.100775",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "CEV",
+        "Period": "2005-2009",
+        "Has Data": "__NO__",
+        "Batch Number": 12,
+        "date:Date:start": "2005-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:55:10.111557",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "CEV",
+        "Period": "2000-2004",
+        "Has Data": "__NO__",
+        "Batch Number": 12,
+        "date:Date:start": "2000-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:55:10.122319",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "CEVA",
+        "Period": "2020-2024",
+        "Has Data": "__NO__",
+        "Batch Number": 12,
+        "date:Date:start": "2020-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:55:10.133077",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "CEVA",
+        "Period": "2015-2019",
+        "Has Data": "__NO__",
+        "Batch Number": 12,
+        "date:Date:start": "2015-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:55:10.143821",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "CEVA",
+        "Period": "2010-2014",
+        "Has Data": "__NO__",
+        "Batch Number": 12,
+        "date:Date:start": "2010-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:55:10.154582",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "CEVA",
+        "Period": "2005-2009",
+        "Has Data": "__NO__",
+        "Batch Number": 12,
+        "date:Date:start": "2005-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:55:10.165351",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "CEVA",
+        "Period": "2000-2004",
+        "Has Data": "__NO__",
+        "Batch Number": 12,
+        "date:Date:start": "2000-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:55:10.176161",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "CF",
+        "Period": "2020-2024",
+        "Has Data": "__NO__",
+        "Batch Number": 12,
+        "date:Date:start": "2020-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:55:10.186925",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "CF",
+        "Period": "2015-2019",
+        "Has Data": "__NO__",
+        "Batch Number": 12,
+        "date:Date:start": "2015-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:55:10.197706",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "CF",
+        "Period": "2010-2014",
+        "Has Data": "__NO__",
+        "Batch Number": 12,
+        "date:Date:start": "2010-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:55:10.208407",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "CF",
+        "Period": "2005-2009",
+        "Has Data": "__NO__",
+        "Batch Number": 12,
+        "date:Date:start": "2005-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:55:10.219090",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "CF",
+        "Period": "2000-2004",
+        "Has Data": "__NO__",
+        "Batch Number": 12,
+        "date:Date:start": "2000-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:55:10.229843",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "CFBK",
+        "Period": "2020-2024",
+        "Has Data": "__NO__",
+        "Batch Number": 12,
+        "date:Date:start": "2020-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:55:10.240631",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "CFBK",
+        "Period": "2015-2019",
+        "Has Data": "__NO__",
+        "Batch Number": 12,
+        "date:Date:start": "2015-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:55:10.251471",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "CFBK",
+        "Period": "2010-2014",
+        "Has Data": "__NO__",
+        "Batch Number": 12,
+        "date:Date:start": "2010-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:55:10.262210",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "CFBK",
+        "Period": "2005-2009",
+        "Has Data": "__NO__",
+        "Batch Number": 12,
+        "date:Date:start": "2005-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:55:10.272971",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "CFBK",
+        "Period": "2000-2004",
+        "Has Data": "__NO__",
+        "Batch Number": 12,
+        "date:Date:start": "2000-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:55:10.283774",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "CFFI",
+        "Period": "2020-2024",
+        "Has Data": "__NO__",
+        "Batch Number": 12,
+        "date:Date:start": "2020-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:55:10.294421",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "CFFI",
+        "Period": "2015-2019",
+        "Has Data": "__NO__",
+        "Batch Number": 12,
+        "date:Date:start": "2015-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:55:10.305225",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "CFFI",
+        "Period": "2010-2014",
+        "Has Data": "__NO__",
+        "Batch Number": 12,
+        "date:Date:start": "2010-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:55:10.315967",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "CFFI",
+        "Period": "2005-2009",
+        "Has Data": "__NO__",
+        "Batch Number": 12,
+        "date:Date:start": "2005-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:55:10.326735",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "CFFI",
+        "Period": "2000-2004",
+        "Has Data": "__NO__",
+        "Batch Number": 12,
+        "date:Date:start": "2000-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:55:10.337406",
+        "date:Retrieved At:is_datetime": 1
+      }
+    }
+  ]
+}

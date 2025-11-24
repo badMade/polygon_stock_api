@@ -1,0 +1,6008 @@
+{
+  "data_source_id": "7c5225aa-429b-4580-946e-ba5b1db2ca6d",
+  "batch_number": 26,
+  "record_count": 500,
+  "timestamp": "2025-11-24T04:56:25.743861",
+  "pages": [
+    {
+      "properties": {
+        "Ticker": "GFL",
+        "Period": "2020-2024",
+        "Has Data": "__NO__",
+        "Batch Number": 26,
+        "date:Date:start": "2020-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:56:20.366433",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "GFL",
+        "Period": "2015-2019",
+        "Has Data": "__NO__",
+        "Batch Number": 26,
+        "date:Date:start": "2015-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:56:20.377070",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "GFL",
+        "Period": "2010-2014",
+        "Has Data": "__NO__",
+        "Batch Number": 26,
+        "date:Date:start": "2010-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:56:20.387780",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "GFL",
+        "Period": "2005-2009",
+        "Has Data": "__NO__",
+        "Batch Number": 26,
+        "date:Date:start": "2005-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:56:20.398564",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "GFL",
+        "Period": "2000-2004",
+        "Has Data": "__NO__",
+        "Batch Number": 26,
+        "date:Date:start": "2000-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:56:20.409345",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "GFR",
+        "Period": "2020-2024",
+        "Has Data": "__NO__",
+        "Batch Number": 26,
+        "date:Date:start": "2020-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:56:20.420068",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "GFR",
+        "Period": "2015-2019",
+        "Has Data": "__NO__",
+        "Batch Number": 26,
+        "date:Date:start": "2015-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:56:20.430835",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "GFR",
+        "Period": "2010-2014",
+        "Has Data": "__NO__",
+        "Batch Number": 26,
+        "date:Date:start": "2010-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:56:20.441623",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "GFR",
+        "Period": "2005-2009",
+        "Has Data": "__NO__",
+        "Batch Number": 26,
+        "date:Date:start": "2005-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:56:20.451734",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "GFR",
+        "Period": "2000-2004",
+        "Has Data": "__NO__",
+        "Batch Number": 26,
+        "date:Date:start": "2000-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:56:20.461970",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "GFS",
+        "Period": "2020-2024",
+        "Has Data": "__NO__",
+        "Batch Number": 26,
+        "date:Date:start": "2020-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:56:20.472714",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "GFS",
+        "Period": "2015-2019",
+        "Has Data": "__NO__",
+        "Batch Number": 26,
+        "date:Date:start": "2015-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:56:20.483419",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "GFS",
+        "Period": "2010-2014",
+        "Has Data": "__NO__",
+        "Batch Number": 26,
+        "date:Date:start": "2010-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:56:20.494150",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "GFS",
+        "Period": "2005-2009",
+        "Has Data": "__NO__",
+        "Batch Number": 26,
+        "date:Date:start": "2005-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:56:20.504858",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "GFS",
+        "Period": "2000-2004",
+        "Has Data": "__NO__",
+        "Batch Number": 26,
+        "date:Date:start": "2000-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:56:20.515620",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "GGAL",
+        "Period": "2020-2024",
+        "Has Data": "__NO__",
+        "Batch Number": 26,
+        "date:Date:start": "2020-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:56:20.526360",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "GGAL",
+        "Period": "2015-2019",
+        "Has Data": "__NO__",
+        "Batch Number": 26,
+        "date:Date:start": "2015-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:56:20.537071",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "GGAL",
+        "Period": "2010-2014",
+        "Has Data": "__NO__",
+        "Batch Number": 26,
+        "date:Date:start": "2010-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:56:20.547834",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "GGAL",
+        "Period": "2005-2009",
+        "Has Data": "__NO__",
+        "Batch Number": 26,
+        "date:Date:start": "2005-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:56:20.558630",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "GGAL",
+        "Period": "2000-2004",
+        "Has Data": "__NO__",
+        "Batch Number": 26,
+        "date:Date:start": "2000-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:56:20.569421",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "GGB",
+        "Period": "2020-2024",
+        "Has Data": "__NO__",
+        "Batch Number": 26,
+        "date:Date:start": "2020-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:56:20.580231",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "GGB",
+        "Period": "2015-2019",
+        "Has Data": "__NO__",
+        "Batch Number": 26,
+        "date:Date:start": "2015-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:56:20.591021",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "GGB",
+        "Period": "2010-2014",
+        "Has Data": "__NO__",
+        "Batch Number": 26,
+        "date:Date:start": "2010-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:56:20.601857",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "GGB",
+        "Period": "2005-2009",
+        "Has Data": "__NO__",
+        "Batch Number": 26,
+        "date:Date:start": "2005-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:56:20.612520",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "GGB",
+        "Period": "2000-2004",
+        "Has Data": "__NO__",
+        "Batch Number": 26,
+        "date:Date:start": "2000-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:56:20.623271",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "GGG",
+        "Period": "2020-2024",
+        "Has Data": "__NO__",
+        "Batch Number": 26,
+        "date:Date:start": "2020-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:56:20.634069",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "GGG",
+        "Period": "2015-2019",
+        "Has Data": "__NO__",
+        "Batch Number": 26,
+        "date:Date:start": "2015-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:56:20.644675",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "GGG",
+        "Period": "2010-2014",
+        "Has Data": "__NO__",
+        "Batch Number": 26,
+        "date:Date:start": "2010-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:56:20.655364",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "GGG",
+        "Period": "2005-2009",
+        "Has Data": "__NO__",
+        "Batch Number": 26,
+        "date:Date:start": "2005-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:56:20.666077",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "GGG",
+        "Period": "2000-2004",
+        "Has Data": "__NO__",
+        "Batch Number": 26,
+        "date:Date:start": "2000-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:56:20.676916",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "GGN",
+        "Period": "2020-2024",
+        "Has Data": "__NO__",
+        "Batch Number": 26,
+        "date:Date:start": "2020-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:56:20.687704",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "GGN",
+        "Period": "2015-2019",
+        "Has Data": "__NO__",
+        "Batch Number": 26,
+        "date:Date:start": "2015-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:56:20.698352",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "GGN",
+        "Period": "2010-2014",
+        "Has Data": "__NO__",
+        "Batch Number": 26,
+        "date:Date:start": "2010-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:56:20.709133",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "GGN",
+        "Period": "2005-2009",
+        "Has Data": "__NO__",
+        "Batch Number": 26,
+        "date:Date:start": "2005-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:56:20.719877",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "GGN",
+        "Period": "2000-2004",
+        "Has Data": "__NO__",
+        "Batch Number": 26,
+        "date:Date:start": "2000-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:56:20.730586",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "GGR",
+        "Period": "2020-2024",
+        "Has Data": "__NO__",
+        "Batch Number": 26,
+        "date:Date:start": "2020-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:56:20.741349",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "GGR",
+        "Period": "2015-2019",
+        "Has Data": "__NO__",
+        "Batch Number": 26,
+        "date:Date:start": "2015-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:56:20.752160",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "GGR",
+        "Period": "2010-2014",
+        "Has Data": "__NO__",
+        "Batch Number": 26,
+        "date:Date:start": "2010-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:56:20.762931",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "GGR",
+        "Period": "2005-2009",
+        "Has Data": "__NO__",
+        "Batch Number": 26,
+        "date:Date:start": "2005-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:56:20.773623",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "GGR",
+        "Period": "2000-2004",
+        "Has Data": "__NO__",
+        "Batch Number": 26,
+        "date:Date:start": "2000-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:56:20.784344",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "GGROW",
+        "Period": "2020-2024",
+        "Has Data": "__NO__",
+        "Batch Number": 26,
+        "date:Date:start": "2020-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:56:20.795088",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "GGROW",
+        "Period": "2015-2019",
+        "Has Data": "__NO__",
+        "Batch Number": 26,
+        "date:Date:start": "2015-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:56:20.805747",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "GGROW",
+        "Period": "2010-2014",
+        "Has Data": "__NO__",
+        "Batch Number": 26,
+        "date:Date:start": "2010-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:56:20.816471",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "GGROW",
+        "Period": "2005-2009",
+        "Has Data": "__NO__",
+        "Batch Number": 26,
+        "date:Date:start": "2005-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:56:20.827321",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "GGROW",
+        "Period": "2000-2004",
+        "Has Data": "__NO__",
+        "Batch Number": 26,
+        "date:Date:start": "2000-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:56:20.838159",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "GGT",
+        "Period": "2020-2024",
+        "Has Data": "__NO__",
+        "Batch Number": 26,
+        "date:Date:start": "2020-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:56:20.848956",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "GGT",
+        "Period": "2015-2019",
+        "Has Data": "__NO__",
+        "Batch Number": 26,
+        "date:Date:start": "2015-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:56:20.859626",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "GGT",
+        "Period": "2010-2014",
+        "Has Data": "__NO__",
+        "Batch Number": 26,
+        "date:Date:start": "2010-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:56:20.870425",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "GGT",
+        "Period": "2005-2009",
+        "Has Data": "__NO__",
+        "Batch Number": 26,
+        "date:Date:start": "2005-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:56:20.881258",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "GGT",
+        "Period": "2000-2004",
+        "Has Data": "__NO__",
+        "Batch Number": 26,
+        "date:Date:start": "2000-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:56:20.892051",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "GGZ",
+        "Period": "2020-2024",
+        "Has Data": "__NO__",
+        "Batch Number": 26,
+        "date:Date:start": "2020-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:56:20.902707",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "GGZ",
+        "Period": "2015-2019",
+        "Has Data": "__NO__",
+        "Batch Number": 26,
+        "date:Date:start": "2015-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:56:20.913429",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "GGZ",
+        "Period": "2010-2014",
+        "Has Data": "__NO__",
+        "Batch Number": 26,
+        "date:Date:start": "2010-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:56:20.924173",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "GGZ",
+        "Period": "2005-2009",
+        "Has Data": "__NO__",
+        "Batch Number": 26,
+        "date:Date:start": "2005-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:56:20.934814",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "GGZ",
+        "Period": "2000-2004",
+        "Has Data": "__NO__",
+        "Batch Number": 26,
+        "date:Date:start": "2000-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:56:20.945549",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "GH",
+        "Period": "2020-2024",
+        "Has Data": "__NO__",
+        "Batch Number": 26,
+        "date:Date:start": "2020-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:56:20.956220",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "GH",
+        "Period": "2015-2019",
+        "Has Data": "__NO__",
+        "Batch Number": 26,
+        "date:Date:start": "2015-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:56:20.966928",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "GH",
+        "Period": "2010-2014",
+        "Has Data": "__NO__",
+        "Batch Number": 26,
+        "date:Date:start": "2010-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:56:20.977686",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "GH",
+        "Period": "2005-2009",
+        "Has Data": "__NO__",
+        "Batch Number": 26,
+        "date:Date:start": "2005-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:56:20.988446",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "GH",
+        "Period": "2000-2004",
+        "Has Data": "__NO__",
+        "Batch Number": 26,
+        "date:Date:start": "2000-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:56:20.999254",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "GHC",
+        "Period": "2020-2024",
+        "Has Data": "__NO__",
+        "Batch Number": 26,
+        "date:Date:start": "2020-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:56:21.010143",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "GHC",
+        "Period": "2015-2019",
+        "Has Data": "__NO__",
+        "Batch Number": 26,
+        "date:Date:start": "2015-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:56:21.020949",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "GHC",
+        "Period": "2010-2014",
+        "Has Data": "__NO__",
+        "Batch Number": 26,
+        "date:Date:start": "2010-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:56:21.031627",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "GHC",
+        "Period": "2005-2009",
+        "Has Data": "__NO__",
+        "Batch Number": 26,
+        "date:Date:start": "2005-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:56:21.042343",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "GHC",
+        "Period": "2000-2004",
+        "Has Data": "__NO__",
+        "Batch Number": 26,
+        "date:Date:start": "2000-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:56:21.053062",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "GHG",
+        "Period": "2020-2024",
+        "Has Data": "__NO__",
+        "Batch Number": 26,
+        "date:Date:start": "2020-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:56:21.063814",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "GHG",
+        "Period": "2015-2019",
+        "Has Data": "__NO__",
+        "Batch Number": 26,
+        "date:Date:start": "2015-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:56:21.074576",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "GHG",
+        "Period": "2010-2014",
+        "Has Data": "__NO__",
+        "Batch Number": 26,
+        "date:Date:start": "2010-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:56:21.085445",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "GHG",
+        "Period": "2005-2009",
+        "Has Data": "__NO__",
+        "Batch Number": 26,
+        "date:Date:start": "2005-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:56:21.096312",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "GHG",
+        "Period": "2000-2004",
+        "Has Data": "__NO__",
+        "Batch Number": 26,
+        "date:Date:start": "2000-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:56:21.107090",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "GHI",
+        "Period": "2020-2024",
+        "Has Data": "__NO__",
+        "Batch Number": 26,
+        "date:Date:start": "2020-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:56:21.117882",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "GHI",
+        "Period": "2015-2019",
+        "Has Data": "__NO__",
+        "Batch Number": 26,
+        "date:Date:start": "2015-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:56:21.128593",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "GHI",
+        "Period": "2010-2014",
+        "Has Data": "__NO__",
+        "Batch Number": 26,
+        "date:Date:start": "2010-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:56:21.139427",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "GHI",
+        "Period": "2005-2009",
+        "Has Data": "__NO__",
+        "Batch Number": 26,
+        "date:Date:start": "2005-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:56:21.150243",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "GHI",
+        "Period": "2000-2004",
+        "Has Data": "__NO__",
+        "Batch Number": 26,
+        "date:Date:start": "2000-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:56:21.161108",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "GHLD",
+        "Period": "2020-2024",
+        "Has Data": "__NO__",
+        "Batch Number": 26,
+        "date:Date:start": "2020-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:56:21.171905",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "GHLD",
+        "Period": "2015-2019",
+        "Has Data": "__NO__",
+        "Batch Number": 26,
+        "date:Date:start": "2015-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:56:21.182700",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "GHLD",
+        "Period": "2010-2014",
+        "Has Data": "__NO__",
+        "Batch Number": 26,
+        "date:Date:start": "2010-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:56:21.193452",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "GHLD",
+        "Period": "2005-2009",
+        "Has Data": "__NO__",
+        "Batch Number": 26,
+        "date:Date:start": "2005-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:56:21.204219",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "GHLD",
+        "Period": "2000-2004",
+        "Has Data": "__NO__",
+        "Batch Number": 26,
+        "date:Date:start": "2000-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:56:21.215043",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "GHM",
+        "Period": "2020-2024",
+        "Has Data": "__NO__",
+        "Batch Number": 26,
+        "date:Date:start": "2020-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:56:21.225795",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "GHM",
+        "Period": "2015-2019",
+        "Has Data": "__NO__",
+        "Batch Number": 26,
+        "date:Date:start": "2015-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:56:21.236564",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "GHM",
+        "Period": "2010-2014",
+        "Has Data": "__NO__",
+        "Batch Number": 26,
+        "date:Date:start": "2010-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:56:21.247409",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "GHM",
+        "Period": "2005-2009",
+        "Has Data": "__NO__",
+        "Batch Number": 26,
+        "date:Date:start": "2005-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:56:21.258214",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "GHM",
+        "Period": "2000-2004",
+        "Has Data": "__NO__",
+        "Batch Number": 26,
+        "date:Date:start": "2000-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:56:21.268990",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "GHRS",
+        "Period": "2020-2024",
+        "Has Data": "__NO__",
+        "Batch Number": 26,
+        "date:Date:start": "2020-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:56:21.279636",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "GHRS",
+        "Period": "2015-2019",
+        "Has Data": "__NO__",
+        "Batch Number": 26,
+        "date:Date:start": "2015-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:56:21.290423",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "GHRS",
+        "Period": "2010-2014",
+        "Has Data": "__NO__",
+        "Batch Number": 26,
+        "date:Date:start": "2010-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:56:21.301168",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "GHRS",
+        "Period": "2005-2009",
+        "Has Data": "__NO__",
+        "Batch Number": 26,
+        "date:Date:start": "2005-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:56:21.312043",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "GHRS",
+        "Period": "2000-2004",
+        "Has Data": "__NO__",
+        "Batch Number": 26,
+        "date:Date:start": "2000-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:56:21.322856",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "GHY",
+        "Period": "2020-2024",
+        "Has Data": "__NO__",
+        "Batch Number": 26,
+        "date:Date:start": "2020-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:56:21.333658",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "GHY",
+        "Period": "2015-2019",
+        "Has Data": "__NO__",
+        "Batch Number": 26,
+        "date:Date:start": "2015-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:56:21.344454",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "GHY",
+        "Period": "2010-2014",
+        "Has Data": "__NO__",
+        "Batch Number": 26,
+        "date:Date:start": "2010-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:56:21.355349",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "GHY",
+        "Period": "2005-2009",
+        "Has Data": "__NO__",
+        "Batch Number": 26,
+        "date:Date:start": "2005-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:56:21.366131",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "GHY",
+        "Period": "2000-2004",
+        "Has Data": "__NO__",
+        "Batch Number": 26,
+        "date:Date:start": "2000-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:56:21.376856",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "GIB",
+        "Period": "2020-2024",
+        "Has Data": "__NO__",
+        "Batch Number": 26,
+        "date:Date:start": "2020-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:56:21.387602",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "GIB",
+        "Period": "2015-2019",
+        "Has Data": "__NO__",
+        "Batch Number": 26,
+        "date:Date:start": "2015-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:56:21.398422",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "GIB",
+        "Period": "2010-2014",
+        "Has Data": "__NO__",
+        "Batch Number": 26,
+        "date:Date:start": "2010-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:56:21.409316",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "GIB",
+        "Period": "2005-2009",
+        "Has Data": "__NO__",
+        "Batch Number": 26,
+        "date:Date:start": "2005-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:56:21.420083",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "GIB",
+        "Period": "2000-2004",
+        "Has Data": "__NO__",
+        "Batch Number": 26,
+        "date:Date:start": "2000-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:56:21.430857",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "GIBO",
+        "Period": "2020-2024",
+        "Has Data": "__NO__",
+        "Batch Number": 26,
+        "date:Date:start": "2020-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:56:21.442318",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "GIBO",
+        "Period": "2015-2019",
+        "Has Data": "__NO__",
+        "Batch Number": 26,
+        "date:Date:start": "2015-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:56:21.452459",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "GIBO",
+        "Period": "2010-2014",
+        "Has Data": "__NO__",
+        "Batch Number": 26,
+        "date:Date:start": "2010-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:56:21.463213",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "GIBO",
+        "Period": "2005-2009",
+        "Has Data": "__NO__",
+        "Batch Number": 26,
+        "date:Date:start": "2005-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:56:21.474040",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "GIBO",
+        "Period": "2000-2004",
+        "Has Data": "__NO__",
+        "Batch Number": 26,
+        "date:Date:start": "2000-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:56:21.484762",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "GIBOW",
+        "Period": "2020-2024",
+        "Has Data": "__NO__",
+        "Batch Number": 26,
+        "date:Date:start": "2020-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:56:21.495616",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "GIBOW",
+        "Period": "2015-2019",
+        "Has Data": "__NO__",
+        "Batch Number": 26,
+        "date:Date:start": "2015-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:56:21.506400",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "GIBOW",
+        "Period": "2010-2014",
+        "Has Data": "__NO__",
+        "Batch Number": 26,
+        "date:Date:start": "2010-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:56:21.517195",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "GIBOW",
+        "Period": "2005-2009",
+        "Has Data": "__NO__",
+        "Batch Number": 26,
+        "date:Date:start": "2005-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:56:21.528096",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "GIBOW",
+        "Period": "2000-2004",
+        "Has Data": "__NO__",
+        "Batch Number": 26,
+        "date:Date:start": "2000-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:56:21.541531",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "GIC",
+        "Period": "2020-2024",
+        "Has Data": "__NO__",
+        "Batch Number": 26,
+        "date:Date:start": "2020-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:56:21.552225",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "GIC",
+        "Period": "2015-2019",
+        "Has Data": "__NO__",
+        "Batch Number": 26,
+        "date:Date:start": "2015-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:56:21.562937",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "GIC",
+        "Period": "2010-2014",
+        "Has Data": "__NO__",
+        "Batch Number": 26,
+        "date:Date:start": "2010-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:56:21.573638",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "GIC",
+        "Period": "2005-2009",
+        "Has Data": "__NO__",
+        "Batch Number": 26,
+        "date:Date:start": "2005-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:56:21.584402",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "GIC",
+        "Period": "2000-2004",
+        "Has Data": "__NO__",
+        "Batch Number": 26,
+        "date:Date:start": "2000-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:56:21.595229",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "GIFI",
+        "Period": "2020-2024",
+        "Has Data": "__NO__",
+        "Batch Number": 26,
+        "date:Date:start": "2020-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:56:21.606096",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "GIFI",
+        "Period": "2015-2019",
+        "Has Data": "__NO__",
+        "Batch Number": 26,
+        "date:Date:start": "2015-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:56:21.616912",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "GIFI",
+        "Period": "2010-2014",
+        "Has Data": "__NO__",
+        "Batch Number": 26,
+        "date:Date:start": "2010-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:56:21.627703",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "GIFI",
+        "Period": "2005-2009",
+        "Has Data": "__NO__",
+        "Batch Number": 26,
+        "date:Date:start": "2005-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:56:21.638509",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "GIFI",
+        "Period": "2000-2004",
+        "Has Data": "__NO__",
+        "Batch Number": 26,
+        "date:Date:start": "2000-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:56:21.649282",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "GIFT",
+        "Period": "2020-2024",
+        "Has Data": "__NO__",
+        "Batch Number": 26,
+        "date:Date:start": "2020-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:56:21.660135",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "GIFT",
+        "Period": "2015-2019",
+        "Has Data": "__NO__",
+        "Batch Number": 26,
+        "date:Date:start": "2015-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:56:21.670945",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "GIFT",
+        "Period": "2010-2014",
+        "Has Data": "__NO__",
+        "Batch Number": 26,
+        "date:Date:start": "2010-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:56:21.681622",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "GIFT",
+        "Period": "2005-2009",
+        "Has Data": "__NO__",
+        "Batch Number": 26,
+        "date:Date:start": "2005-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:56:21.692330",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "GIFT",
+        "Period": "2000-2004",
+        "Has Data": "__NO__",
+        "Batch Number": 26,
+        "date:Date:start": "2000-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:56:21.703092",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "GIG",
+        "Period": "2020-2024",
+        "Has Data": "__NO__",
+        "Batch Number": 26,
+        "date:Date:start": "2020-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:56:21.713781",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "GIG",
+        "Period": "2015-2019",
+        "Has Data": "__NO__",
+        "Batch Number": 26,
+        "date:Date:start": "2015-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:56:21.724578",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "GIG",
+        "Period": "2010-2014",
+        "Has Data": "__NO__",
+        "Batch Number": 26,
+        "date:Date:start": "2010-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:56:21.735273",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "GIG",
+        "Period": "2005-2009",
+        "Has Data": "__NO__",
+        "Batch Number": 26,
+        "date:Date:start": "2005-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:56:21.746021",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "GIG",
+        "Period": "2000-2004",
+        "Has Data": "__NO__",
+        "Batch Number": 26,
+        "date:Date:start": "2000-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:56:21.756754",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "GIGGW",
+        "Period": "2020-2024",
+        "Has Data": "__NO__",
+        "Batch Number": 26,
+        "date:Date:start": "2020-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:56:21.767527",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "GIGGW",
+        "Period": "2015-2019",
+        "Has Data": "__NO__",
+        "Batch Number": 26,
+        "date:Date:start": "2015-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:56:21.778221",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "GIGGW",
+        "Period": "2010-2014",
+        "Has Data": "__NO__",
+        "Batch Number": 26,
+        "date:Date:start": "2010-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:56:21.788947",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "GIGGW",
+        "Period": "2005-2009",
+        "Has Data": "__NO__",
+        "Batch Number": 26,
+        "date:Date:start": "2005-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:56:21.799585",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "GIGGW",
+        "Period": "2000-2004",
+        "Has Data": "__NO__",
+        "Batch Number": 26,
+        "date:Date:start": "2000-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:56:21.810302",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "GIGM",
+        "Period": "2020-2024",
+        "Has Data": "__NO__",
+        "Batch Number": 26,
+        "date:Date:start": "2020-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:56:21.821038",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "GIGM",
+        "Period": "2015-2019",
+        "Has Data": "__NO__",
+        "Batch Number": 26,
+        "date:Date:start": "2015-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:56:21.831785",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "GIGM",
+        "Period": "2010-2014",
+        "Has Data": "__NO__",
+        "Batch Number": 26,
+        "date:Date:start": "2010-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:56:21.842633",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "GIGM",
+        "Period": "2005-2009",
+        "Has Data": "__NO__",
+        "Batch Number": 26,
+        "date:Date:start": "2005-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:56:21.853376",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "GIGM",
+        "Period": "2000-2004",
+        "Has Data": "__NO__",
+        "Batch Number": 26,
+        "date:Date:start": "2000-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:56:21.864183",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "GIII",
+        "Period": "2020-2024",
+        "Has Data": "__NO__",
+        "Batch Number": 26,
+        "date:Date:start": "2020-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:56:21.874917",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "GIII",
+        "Period": "2015-2019",
+        "Has Data": "__NO__",
+        "Batch Number": 26,
+        "date:Date:start": "2015-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:56:21.885670",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "GIII",
+        "Period": "2010-2014",
+        "Has Data": "__NO__",
+        "Batch Number": 26,
+        "date:Date:start": "2010-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:56:21.896429",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "GIII",
+        "Period": "2005-2009",
+        "Has Data": "__NO__",
+        "Batch Number": 26,
+        "date:Date:start": "2005-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:56:21.907227",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "GIII",
+        "Period": "2000-2004",
+        "Has Data": "__NO__",
+        "Batch Number": 26,
+        "date:Date:start": "2000-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:56:21.918048",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "GIL",
+        "Period": "2020-2024",
+        "Has Data": "__NO__",
+        "Batch Number": 26,
+        "date:Date:start": "2020-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:56:21.928797",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "GIL",
+        "Period": "2015-2019",
+        "Has Data": "__NO__",
+        "Batch Number": 26,
+        "date:Date:start": "2015-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:56:21.939558",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "GIL",
+        "Period": "2010-2014",
+        "Has Data": "__NO__",
+        "Batch Number": 26,
+        "date:Date:start": "2010-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:56:21.950300",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "GIL",
+        "Period": "2005-2009",
+        "Has Data": "__NO__",
+        "Batch Number": 26,
+        "date:Date:start": "2005-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:56:21.961077",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "GIL",
+        "Period": "2000-2004",
+        "Has Data": "__NO__",
+        "Batch Number": 26,
+        "date:Date:start": "2000-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:56:21.971864",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "GILD",
+        "Period": "2020-2024",
+        "Has Data": "__NO__",
+        "Batch Number": 26,
+        "date:Date:start": "2020-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:56:21.982659",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "GILD",
+        "Period": "2015-2019",
+        "Has Data": "__NO__",
+        "Batch Number": 26,
+        "date:Date:start": "2015-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:56:21.993432",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "GILD",
+        "Period": "2010-2014",
+        "Has Data": "__NO__",
+        "Batch Number": 26,
+        "date:Date:start": "2010-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:56:22.004280",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "GILD",
+        "Period": "2005-2009",
+        "Has Data": "__NO__",
+        "Batch Number": 26,
+        "date:Date:start": "2005-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:56:22.015070",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "GILD",
+        "Period": "2000-2004",
+        "Has Data": "__NO__",
+        "Batch Number": 26,
+        "date:Date:start": "2000-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:56:22.025888",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "GILT",
+        "Period": "2020-2024",
+        "Has Data": "__NO__",
+        "Batch Number": 26,
+        "date:Date:start": "2020-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:56:22.036800",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "GILT",
+        "Period": "2015-2019",
+        "Has Data": "__NO__",
+        "Batch Number": 26,
+        "date:Date:start": "2015-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:56:22.047500",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "GILT",
+        "Period": "2010-2014",
+        "Has Data": "__NO__",
+        "Batch Number": 26,
+        "date:Date:start": "2010-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:56:22.058238",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "GILT",
+        "Period": "2005-2009",
+        "Has Data": "__NO__",
+        "Batch Number": 26,
+        "date:Date:start": "2005-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:56:22.068960",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "GILT",
+        "Period": "2000-2004",
+        "Has Data": "__NO__",
+        "Batch Number": 26,
+        "date:Date:start": "2000-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:56:22.079742",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "GIPR",
+        "Period": "2020-2024",
+        "Has Data": "__NO__",
+        "Batch Number": 26,
+        "date:Date:start": "2020-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:56:22.090418",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "GIPR",
+        "Period": "2015-2019",
+        "Has Data": "__NO__",
+        "Batch Number": 26,
+        "date:Date:start": "2015-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:56:22.101207",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "GIPR",
+        "Period": "2010-2014",
+        "Has Data": "__NO__",
+        "Batch Number": 26,
+        "date:Date:start": "2010-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:56:22.112103",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "GIPR",
+        "Period": "2005-2009",
+        "Has Data": "__NO__",
+        "Batch Number": 26,
+        "date:Date:start": "2005-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:56:22.122813",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "GIPR",
+        "Period": "2000-2004",
+        "Has Data": "__NO__",
+        "Batch Number": 26,
+        "date:Date:start": "2000-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:56:22.133617",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "GIPRW",
+        "Period": "2020-2024",
+        "Has Data": "__NO__",
+        "Batch Number": 26,
+        "date:Date:start": "2020-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:56:22.144446",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "GIPRW",
+        "Period": "2015-2019",
+        "Has Data": "__NO__",
+        "Batch Number": 26,
+        "date:Date:start": "2015-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:56:22.155155",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "GIPRW",
+        "Period": "2010-2014",
+        "Has Data": "__NO__",
+        "Batch Number": 26,
+        "date:Date:start": "2010-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:56:22.165948",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "GIPRW",
+        "Period": "2005-2009",
+        "Has Data": "__NO__",
+        "Batch Number": 26,
+        "date:Date:start": "2005-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:56:22.176756",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "GIPRW",
+        "Period": "2000-2004",
+        "Has Data": "__NO__",
+        "Batch Number": 26,
+        "date:Date:start": "2000-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:56:22.187421",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "GIS",
+        "Period": "2020-2024",
+        "Has Data": "__NO__",
+        "Batch Number": 26,
+        "date:Date:start": "2020-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:56:22.198144",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "GIS",
+        "Period": "2015-2019",
+        "Has Data": "__NO__",
+        "Batch Number": 26,
+        "date:Date:start": "2015-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:56:22.208880",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "GIS",
+        "Period": "2010-2014",
+        "Has Data": "__NO__",
+        "Batch Number": 26,
+        "date:Date:start": "2010-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:56:22.219647",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "GIS",
+        "Period": "2005-2009",
+        "Has Data": "__NO__",
+        "Batch Number": 26,
+        "date:Date:start": "2005-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:56:22.230278",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "GIS",
+        "Period": "2000-2004",
+        "Has Data": "__NO__",
+        "Batch Number": 26,
+        "date:Date:start": "2000-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:56:22.240985",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "GITS",
+        "Period": "2020-2024",
+        "Has Data": "__NO__",
+        "Batch Number": 26,
+        "date:Date:start": "2020-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:56:22.251854",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "GITS",
+        "Period": "2015-2019",
+        "Has Data": "__NO__",
+        "Batch Number": 26,
+        "date:Date:start": "2015-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:56:22.262673",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "GITS",
+        "Period": "2010-2014",
+        "Has Data": "__NO__",
+        "Batch Number": 26,
+        "date:Date:start": "2010-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:56:22.273481",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "GITS",
+        "Period": "2005-2009",
+        "Has Data": "__NO__",
+        "Batch Number": 26,
+        "date:Date:start": "2005-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:56:22.284236",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "GITS",
+        "Period": "2000-2004",
+        "Has Data": "__NO__",
+        "Batch Number": 26,
+        "date:Date:start": "2000-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:56:22.295004",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "GJH",
+        "Period": "2020-2024",
+        "Has Data": "__NO__",
+        "Batch Number": 26,
+        "date:Date:start": "2020-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:56:22.305774",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "GJH",
+        "Period": "2015-2019",
+        "Has Data": "__NO__",
+        "Batch Number": 26,
+        "date:Date:start": "2015-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:56:22.316552",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "GJH",
+        "Period": "2010-2014",
+        "Has Data": "__NO__",
+        "Batch Number": 26,
+        "date:Date:start": "2010-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:56:22.327210",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "GJH",
+        "Period": "2005-2009",
+        "Has Data": "__NO__",
+        "Batch Number": 26,
+        "date:Date:start": "2005-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:56:22.337897",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "GJH",
+        "Period": "2000-2004",
+        "Has Data": "__NO__",
+        "Batch Number": 26,
+        "date:Date:start": "2000-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:56:22.348641",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "GJO",
+        "Period": "2020-2024",
+        "Has Data": "__NO__",
+        "Batch Number": 26,
+        "date:Date:start": "2020-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:56:22.359382",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "GJO",
+        "Period": "2015-2019",
+        "Has Data": "__NO__",
+        "Batch Number": 26,
+        "date:Date:start": "2015-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:56:22.370141",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "GJO",
+        "Period": "2010-2014",
+        "Has Data": "__NO__",
+        "Batch Number": 26,
+        "date:Date:start": "2010-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:56:22.380885",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "GJO",
+        "Period": "2005-2009",
+        "Has Data": "__NO__",
+        "Batch Number": 26,
+        "date:Date:start": "2005-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:56:22.391645",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "GJO",
+        "Period": "2000-2004",
+        "Has Data": "__NO__",
+        "Batch Number": 26,
+        "date:Date:start": "2000-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:56:22.402346",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "GJP",
+        "Period": "2020-2024",
+        "Has Data": "__NO__",
+        "Batch Number": 26,
+        "date:Date:start": "2020-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:56:22.413613",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "GJP",
+        "Period": "2015-2019",
+        "Has Data": "__NO__",
+        "Batch Number": 26,
+        "date:Date:start": "2015-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:56:22.424335",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "GJP",
+        "Period": "2010-2014",
+        "Has Data": "__NO__",
+        "Batch Number": 26,
+        "date:Date:start": "2010-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:56:22.435070",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "GJP",
+        "Period": "2005-2009",
+        "Has Data": "__NO__",
+        "Batch Number": 26,
+        "date:Date:start": "2005-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:56:22.445816",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "GJP",
+        "Period": "2000-2004",
+        "Has Data": "__NO__",
+        "Batch Number": 26,
+        "date:Date:start": "2000-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:56:22.456495",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "GJS",
+        "Period": "2020-2024",
+        "Has Data": "__NO__",
+        "Batch Number": 26,
+        "date:Date:start": "2020-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:56:22.467318",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "GJS",
+        "Period": "2015-2019",
+        "Has Data": "__NO__",
+        "Batch Number": 26,
+        "date:Date:start": "2015-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:56:22.478038",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "GJS",
+        "Period": "2010-2014",
+        "Has Data": "__NO__",
+        "Batch Number": 26,
+        "date:Date:start": "2010-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:56:22.488741",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "GJS",
+        "Period": "2005-2009",
+        "Has Data": "__NO__",
+        "Batch Number": 26,
+        "date:Date:start": "2005-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:56:22.499509",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "GJS",
+        "Period": "2000-2004",
+        "Has Data": "__NO__",
+        "Batch Number": 26,
+        "date:Date:start": "2000-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:56:22.510303",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "GJT",
+        "Period": "2020-2024",
+        "Has Data": "__NO__",
+        "Batch Number": 26,
+        "date:Date:start": "2020-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:56:22.521550",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "GJT",
+        "Period": "2015-2019",
+        "Has Data": "__NO__",
+        "Batch Number": 26,
+        "date:Date:start": "2015-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:56:22.531684",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "GJT",
+        "Period": "2010-2014",
+        "Has Data": "__NO__",
+        "Batch Number": 26,
+        "date:Date:start": "2010-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:56:22.542616",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "GJT",
+        "Period": "2005-2009",
+        "Has Data": "__NO__",
+        "Batch Number": 26,
+        "date:Date:start": "2005-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:56:22.553376",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "GJT",
+        "Period": "2000-2004",
+        "Has Data": "__NO__",
+        "Batch Number": 26,
+        "date:Date:start": "2000-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:56:22.564168",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "GKOS",
+        "Period": "2020-2024",
+        "Has Data": "__NO__",
+        "Batch Number": 26,
+        "date:Date:start": "2020-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:56:22.575003",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "GKOS",
+        "Period": "2015-2019",
+        "Has Data": "__NO__",
+        "Batch Number": 26,
+        "date:Date:start": "2015-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:56:22.585822",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "GKOS",
+        "Period": "2010-2014",
+        "Has Data": "__NO__",
+        "Batch Number": 26,
+        "date:Date:start": "2010-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:56:22.596586",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "GKOS",
+        "Period": "2005-2009",
+        "Has Data": "__NO__",
+        "Batch Number": 26,
+        "date:Date:start": "2005-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:56:22.607413",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "GKOS",
+        "Period": "2000-2004",
+        "Has Data": "__NO__",
+        "Batch Number": 26,
+        "date:Date:start": "2000-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:56:22.618087",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "GL",
+        "Period": "2020-2024",
+        "Has Data": "__NO__",
+        "Batch Number": 26,
+        "date:Date:start": "2020-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:56:22.628899",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "GL",
+        "Period": "2015-2019",
+        "Has Data": "__NO__",
+        "Batch Number": 26,
+        "date:Date:start": "2015-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:56:22.639615",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "GL",
+        "Period": "2010-2014",
+        "Has Data": "__NO__",
+        "Batch Number": 26,
+        "date:Date:start": "2010-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:56:22.650361",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "GL",
+        "Period": "2005-2009",
+        "Has Data": "__NO__",
+        "Batch Number": 26,
+        "date:Date:start": "2005-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:56:22.661197",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "GL",
+        "Period": "2000-2004",
+        "Has Data": "__NO__",
+        "Batch Number": 26,
+        "date:Date:start": "2000-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:56:22.672015",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "GLAD",
+        "Period": "2020-2024",
+        "Has Data": "__NO__",
+        "Batch Number": 26,
+        "date:Date:start": "2020-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:56:22.682820",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "GLAD",
+        "Period": "2015-2019",
+        "Has Data": "__NO__",
+        "Batch Number": 26,
+        "date:Date:start": "2015-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:56:22.693652",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "GLAD",
+        "Period": "2010-2014",
+        "Has Data": "__NO__",
+        "Batch Number": 26,
+        "date:Date:start": "2010-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:56:22.704502",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "GLAD",
+        "Period": "2005-2009",
+        "Has Data": "__NO__",
+        "Batch Number": 26,
+        "date:Date:start": "2005-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:56:22.715290",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "GLAD",
+        "Period": "2000-2004",
+        "Has Data": "__NO__",
+        "Batch Number": 26,
+        "date:Date:start": "2000-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:56:22.726066",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "GLADZ",
+        "Period": "2020-2024",
+        "Has Data": "__NO__",
+        "Batch Number": 26,
+        "date:Date:start": "2020-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:56:22.736838",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "GLADZ",
+        "Period": "2015-2019",
+        "Has Data": "__NO__",
+        "Batch Number": 26,
+        "date:Date:start": "2015-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:56:22.747492",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "GLADZ",
+        "Period": "2010-2014",
+        "Has Data": "__NO__",
+        "Batch Number": 26,
+        "date:Date:start": "2010-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:56:22.758294",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "GLADZ",
+        "Period": "2005-2009",
+        "Has Data": "__NO__",
+        "Batch Number": 26,
+        "date:Date:start": "2005-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:56:22.769050",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "GLADZ",
+        "Period": "2000-2004",
+        "Has Data": "__NO__",
+        "Batch Number": 26,
+        "date:Date:start": "2000-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:56:22.779800",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "GLBE",
+        "Period": "2020-2024",
+        "Has Data": "__NO__",
+        "Batch Number": 26,
+        "date:Date:start": "2020-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:56:22.790606",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "GLBE",
+        "Period": "2015-2019",
+        "Has Data": "__NO__",
+        "Batch Number": 26,
+        "date:Date:start": "2015-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:56:22.801351",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "GLBE",
+        "Period": "2010-2014",
+        "Has Data": "__NO__",
+        "Batch Number": 26,
+        "date:Date:start": "2010-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:56:22.812148",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "GLBE",
+        "Period": "2005-2009",
+        "Has Data": "__NO__",
+        "Batch Number": 26,
+        "date:Date:start": "2005-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:56:22.822896",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "GLBE",
+        "Period": "2000-2004",
+        "Has Data": "__NO__",
+        "Batch Number": 26,
+        "date:Date:start": "2000-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:56:22.833679",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "GLBS",
+        "Period": "2020-2024",
+        "Has Data": "__NO__",
+        "Batch Number": 26,
+        "date:Date:start": "2020-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:56:22.844421",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "GLBS",
+        "Period": "2015-2019",
+        "Has Data": "__NO__",
+        "Batch Number": 26,
+        "date:Date:start": "2015-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:56:22.855064",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "GLBS",
+        "Period": "2010-2014",
+        "Has Data": "__NO__",
+        "Batch Number": 26,
+        "date:Date:start": "2010-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:56:22.865804",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "GLBS",
+        "Period": "2005-2009",
+        "Has Data": "__NO__",
+        "Batch Number": 26,
+        "date:Date:start": "2005-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:56:22.876561",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "GLBS",
+        "Period": "2000-2004",
+        "Has Data": "__NO__",
+        "Batch Number": 26,
+        "date:Date:start": "2000-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:56:22.887236",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "GLBZ",
+        "Period": "2020-2024",
+        "Has Data": "__NO__",
+        "Batch Number": 26,
+        "date:Date:start": "2020-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:56:22.897942",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "GLBZ",
+        "Period": "2015-2019",
+        "Has Data": "__NO__",
+        "Batch Number": 26,
+        "date:Date:start": "2015-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:56:22.908622",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "GLBZ",
+        "Period": "2010-2014",
+        "Has Data": "__NO__",
+        "Batch Number": 26,
+        "date:Date:start": "2010-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:56:22.919342",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "GLBZ",
+        "Period": "2005-2009",
+        "Has Data": "__NO__",
+        "Batch Number": 26,
+        "date:Date:start": "2005-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:56:22.930155",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "GLBZ",
+        "Period": "2000-2004",
+        "Has Data": "__NO__",
+        "Batch Number": 26,
+        "date:Date:start": "2000-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:56:22.940913",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "GLDD",
+        "Period": "2020-2024",
+        "Has Data": "__NO__",
+        "Batch Number": 26,
+        "date:Date:start": "2020-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:56:22.951667",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "GLDD",
+        "Period": "2015-2019",
+        "Has Data": "__NO__",
+        "Batch Number": 26,
+        "date:Date:start": "2015-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:56:22.962332",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "GLDD",
+        "Period": "2010-2014",
+        "Has Data": "__NO__",
+        "Batch Number": 26,
+        "date:Date:start": "2010-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:56:22.973056",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "GLDD",
+        "Period": "2005-2009",
+        "Has Data": "__NO__",
+        "Batch Number": 26,
+        "date:Date:start": "2005-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:56:22.983824",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "GLDD",
+        "Period": "2000-2004",
+        "Has Data": "__NO__",
+        "Batch Number": 26,
+        "date:Date:start": "2000-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:56:22.994521",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "GLDG",
+        "Period": "2020-2024",
+        "Has Data": "__NO__",
+        "Batch Number": 26,
+        "date:Date:start": "2020-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:56:23.005227",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "GLDG",
+        "Period": "2015-2019",
+        "Has Data": "__NO__",
+        "Batch Number": 26,
+        "date:Date:start": "2015-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:56:23.015963",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "GLDG",
+        "Period": "2010-2014",
+        "Has Data": "__NO__",
+        "Batch Number": 26,
+        "date:Date:start": "2010-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:56:23.026611",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "GLDG",
+        "Period": "2005-2009",
+        "Has Data": "__NO__",
+        "Batch Number": 26,
+        "date:Date:start": "2005-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:56:23.037276",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "GLDG",
+        "Period": "2000-2004",
+        "Has Data": "__NO__",
+        "Batch Number": 26,
+        "date:Date:start": "2000-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:56:23.048088",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "GLE",
+        "Period": "2020-2024",
+        "Has Data": "__NO__",
+        "Batch Number": 26,
+        "date:Date:start": "2020-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:56:23.058878",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "GLE",
+        "Period": "2015-2019",
+        "Has Data": "__NO__",
+        "Batch Number": 26,
+        "date:Date:start": "2015-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:56:23.069566",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "GLE",
+        "Period": "2010-2014",
+        "Has Data": "__NO__",
+        "Batch Number": 26,
+        "date:Date:start": "2010-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:56:23.080267",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "GLE",
+        "Period": "2005-2009",
+        "Has Data": "__NO__",
+        "Batch Number": 26,
+        "date:Date:start": "2005-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:56:23.091006",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "GLE",
+        "Period": "2000-2004",
+        "Has Data": "__NO__",
+        "Batch Number": 26,
+        "date:Date:start": "2000-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:56:23.101789",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "GLIBA",
+        "Period": "2020-2024",
+        "Has Data": "__NO__",
+        "Batch Number": 26,
+        "date:Date:start": "2020-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:56:23.112538",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "GLIBA",
+        "Period": "2015-2019",
+        "Has Data": "__NO__",
+        "Batch Number": 26,
+        "date:Date:start": "2015-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:56:23.123276",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "GLIBA",
+        "Period": "2010-2014",
+        "Has Data": "__NO__",
+        "Batch Number": 26,
+        "date:Date:start": "2010-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:56:23.134067",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "GLIBA",
+        "Period": "2005-2009",
+        "Has Data": "__NO__",
+        "Batch Number": 26,
+        "date:Date:start": "2005-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:56:23.144735",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "GLIBA",
+        "Period": "2000-2004",
+        "Has Data": "__NO__",
+        "Batch Number": 26,
+        "date:Date:start": "2000-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:56:23.155416",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "GLIBK",
+        "Period": "2020-2024",
+        "Has Data": "__NO__",
+        "Batch Number": 26,
+        "date:Date:start": "2020-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:56:23.166173",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "GLIBK",
+        "Period": "2015-2019",
+        "Has Data": "__NO__",
+        "Batch Number": 26,
+        "date:Date:start": "2015-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:56:23.176888",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "GLIBK",
+        "Period": "2010-2014",
+        "Has Data": "__NO__",
+        "Batch Number": 26,
+        "date:Date:start": "2010-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:56:23.187539",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "GLIBK",
+        "Period": "2005-2009",
+        "Has Data": "__NO__",
+        "Batch Number": 26,
+        "date:Date:start": "2005-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:56:23.198303",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "GLIBK",
+        "Period": "2000-2004",
+        "Has Data": "__NO__",
+        "Batch Number": 26,
+        "date:Date:start": "2000-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:56:23.209081",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "GLMD",
+        "Period": "2020-2024",
+        "Has Data": "__NO__",
+        "Batch Number": 26,
+        "date:Date:start": "2020-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:56:23.219837",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "GLMD",
+        "Period": "2015-2019",
+        "Has Data": "__NO__",
+        "Batch Number": 26,
+        "date:Date:start": "2015-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:56:23.230566",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "GLMD",
+        "Period": "2010-2014",
+        "Has Data": "__NO__",
+        "Batch Number": 26,
+        "date:Date:start": "2010-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:56:23.241297",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "GLMD",
+        "Period": "2005-2009",
+        "Has Data": "__NO__",
+        "Batch Number": 26,
+        "date:Date:start": "2005-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:56:23.252069",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "GLMD",
+        "Period": "2000-2004",
+        "Has Data": "__NO__",
+        "Batch Number": 26,
+        "date:Date:start": "2000-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:56:23.262891",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "GLNG",
+        "Period": "2020-2024",
+        "Has Data": "__NO__",
+        "Batch Number": 26,
+        "date:Date:start": "2020-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:56:23.273577",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "GLNG",
+        "Period": "2015-2019",
+        "Has Data": "__NO__",
+        "Batch Number": 26,
+        "date:Date:start": "2015-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:56:23.284330",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "GLNG",
+        "Period": "2010-2014",
+        "Has Data": "__NO__",
+        "Batch Number": 26,
+        "date:Date:start": "2010-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:56:23.295013",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "GLNG",
+        "Period": "2005-2009",
+        "Has Data": "__NO__",
+        "Batch Number": 26,
+        "date:Date:start": "2005-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:56:23.305711",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "GLNG",
+        "Period": "2000-2004",
+        "Has Data": "__NO__",
+        "Batch Number": 26,
+        "date:Date:start": "2000-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:56:23.316445",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "GLO",
+        "Period": "2020-2024",
+        "Has Data": "__NO__",
+        "Batch Number": 26,
+        "date:Date:start": "2020-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:56:23.327187",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "GLO",
+        "Period": "2015-2019",
+        "Has Data": "__NO__",
+        "Batch Number": 26,
+        "date:Date:start": "2015-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:56:23.338023",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "GLO",
+        "Period": "2010-2014",
+        "Has Data": "__NO__",
+        "Batch Number": 26,
+        "date:Date:start": "2010-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:56:23.348690",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "GLO",
+        "Period": "2005-2009",
+        "Has Data": "__NO__",
+        "Batch Number": 26,
+        "date:Date:start": "2005-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:56:23.359329",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "GLO",
+        "Period": "2000-2004",
+        "Has Data": "__NO__",
+        "Batch Number": 26,
+        "date:Date:start": "2000-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:56:23.370102",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "GLOB",
+        "Period": "2020-2024",
+        "Has Data": "__NO__",
+        "Batch Number": 26,
+        "date:Date:start": "2020-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:56:23.380838",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "GLOB",
+        "Period": "2015-2019",
+        "Has Data": "__NO__",
+        "Batch Number": 26,
+        "date:Date:start": "2015-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:56:23.391496",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "GLOB",
+        "Period": "2010-2014",
+        "Has Data": "__NO__",
+        "Batch Number": 26,
+        "date:Date:start": "2010-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:56:23.402205",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "GLOB",
+        "Period": "2005-2009",
+        "Has Data": "__NO__",
+        "Batch Number": 26,
+        "date:Date:start": "2005-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:56:23.413019",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "GLOB",
+        "Period": "2000-2004",
+        "Has Data": "__NO__",
+        "Batch Number": 26,
+        "date:Date:start": "2000-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:56:23.423718",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "GLOP",
+        "Period": "2020-2024",
+        "Has Data": "__NO__",
+        "Batch Number": 26,
+        "date:Date:start": "2020-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:56:23.434468",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "GLOP",
+        "Period": "2015-2019",
+        "Has Data": "__NO__",
+        "Batch Number": 26,
+        "date:Date:start": "2015-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:56:23.445126",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "GLOP",
+        "Period": "2010-2014",
+        "Has Data": "__NO__",
+        "Batch Number": 26,
+        "date:Date:start": "2010-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:56:23.455925",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "GLOP",
+        "Period": "2005-2009",
+        "Has Data": "__NO__",
+        "Batch Number": 26,
+        "date:Date:start": "2005-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:56:23.466693",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "GLOP",
+        "Period": "2000-2004",
+        "Has Data": "__NO__",
+        "Batch Number": 26,
+        "date:Date:start": "2000-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:56:23.477439",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "GLP",
+        "Period": "2020-2024",
+        "Has Data": "__NO__",
+        "Batch Number": 26,
+        "date:Date:start": "2020-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:56:23.488216",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "GLP",
+        "Period": "2015-2019",
+        "Has Data": "__NO__",
+        "Batch Number": 26,
+        "date:Date:start": "2015-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:56:23.498969",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "GLP",
+        "Period": "2010-2014",
+        "Has Data": "__NO__",
+        "Batch Number": 26,
+        "date:Date:start": "2010-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:56:23.509661",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "GLP",
+        "Period": "2005-2009",
+        "Has Data": "__NO__",
+        "Batch Number": 26,
+        "date:Date:start": "2005-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:56:23.520444",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "GLP",
+        "Period": "2000-2004",
+        "Has Data": "__NO__",
+        "Batch Number": 26,
+        "date:Date:start": "2000-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:56:23.531141",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "GLPG",
+        "Period": "2020-2024",
+        "Has Data": "__NO__",
+        "Batch Number": 26,
+        "date:Date:start": "2020-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:56:23.541911",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "GLPG",
+        "Period": "2015-2019",
+        "Has Data": "__NO__",
+        "Batch Number": 26,
+        "date:Date:start": "2015-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:56:23.552688",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "GLPG",
+        "Period": "2010-2014",
+        "Has Data": "__NO__",
+        "Batch Number": 26,
+        "date:Date:start": "2010-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:56:23.563427",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "GLPG",
+        "Period": "2005-2009",
+        "Has Data": "__NO__",
+        "Batch Number": 26,
+        "date:Date:start": "2005-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:56:23.574129",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "GLPG",
+        "Period": "2000-2004",
+        "Has Data": "__NO__",
+        "Batch Number": 26,
+        "date:Date:start": "2000-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:56:23.584863",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "GLPI",
+        "Period": "2020-2024",
+        "Has Data": "__NO__",
+        "Batch Number": 26,
+        "date:Date:start": "2020-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:56:23.596294",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "GLPI",
+        "Period": "2015-2019",
+        "Has Data": "__NO__",
+        "Batch Number": 26,
+        "date:Date:start": "2015-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:56:23.606370",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "GLPI",
+        "Period": "2010-2014",
+        "Has Data": "__NO__",
+        "Batch Number": 26,
+        "date:Date:start": "2010-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:56:23.617085",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "GLPI",
+        "Period": "2005-2009",
+        "Has Data": "__NO__",
+        "Batch Number": 26,
+        "date:Date:start": "2005-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:56:23.627876",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "GLPI",
+        "Period": "2000-2004",
+        "Has Data": "__NO__",
+        "Batch Number": 26,
+        "date:Date:start": "2000-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:56:23.638661",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "GLQ",
+        "Period": "2020-2024",
+        "Has Data": "__NO__",
+        "Batch Number": 26,
+        "date:Date:start": "2020-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:56:23.649357",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "GLQ",
+        "Period": "2015-2019",
+        "Has Data": "__NO__",
+        "Batch Number": 26,
+        "date:Date:start": "2015-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:56:23.660066",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "GLQ",
+        "Period": "2010-2014",
+        "Has Data": "__NO__",
+        "Batch Number": 26,
+        "date:Date:start": "2010-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:56:23.670888",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "GLQ",
+        "Period": "2005-2009",
+        "Has Data": "__NO__",
+        "Batch Number": 26,
+        "date:Date:start": "2005-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:56:23.681585",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "GLQ",
+        "Period": "2000-2004",
+        "Has Data": "__NO__",
+        "Batch Number": 26,
+        "date:Date:start": "2000-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:56:23.692222",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "GLRE",
+        "Period": "2020-2024",
+        "Has Data": "__NO__",
+        "Batch Number": 26,
+        "date:Date:start": "2020-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:56:23.702897",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "GLRE",
+        "Period": "2015-2019",
+        "Has Data": "__NO__",
+        "Batch Number": 26,
+        "date:Date:start": "2015-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:56:23.713620",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "GLRE",
+        "Period": "2010-2014",
+        "Has Data": "__NO__",
+        "Batch Number": 26,
+        "date:Date:start": "2010-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:56:23.724433",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "GLRE",
+        "Period": "2005-2009",
+        "Has Data": "__NO__",
+        "Batch Number": 26,
+        "date:Date:start": "2005-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:56:23.735140",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "GLRE",
+        "Period": "2000-2004",
+        "Has Data": "__NO__",
+        "Batch Number": 26,
+        "date:Date:start": "2000-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:56:23.745953",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "GLSI",
+        "Period": "2020-2024",
+        "Has Data": "__NO__",
+        "Batch Number": 26,
+        "date:Date:start": "2020-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:56:23.756675",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "GLSI",
+        "Period": "2015-2019",
+        "Has Data": "__NO__",
+        "Batch Number": 26,
+        "date:Date:start": "2015-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:56:23.767361",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "GLSI",
+        "Period": "2010-2014",
+        "Has Data": "__NO__",
+        "Batch Number": 26,
+        "date:Date:start": "2010-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:56:23.778071",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "GLSI",
+        "Period": "2005-2009",
+        "Has Data": "__NO__",
+        "Batch Number": 26,
+        "date:Date:start": "2005-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:56:23.788817",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "GLSI",
+        "Period": "2000-2004",
+        "Has Data": "__NO__",
+        "Batch Number": 26,
+        "date:Date:start": "2000-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:56:23.799592",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "GLTO",
+        "Period": "2020-2024",
+        "Has Data": "__NO__",
+        "Batch Number": 26,
+        "date:Date:start": "2020-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:56:23.810315",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "GLTO",
+        "Period": "2015-2019",
+        "Has Data": "__NO__",
+        "Batch Number": 26,
+        "date:Date:start": "2015-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:56:23.821047",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "GLTO",
+        "Period": "2010-2014",
+        "Has Data": "__NO__",
+        "Batch Number": 26,
+        "date:Date:start": "2010-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:56:23.831848",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "GLTO",
+        "Period": "2005-2009",
+        "Has Data": "__NO__",
+        "Batch Number": 26,
+        "date:Date:start": "2005-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:56:23.842533",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "GLTO",
+        "Period": "2000-2004",
+        "Has Data": "__NO__",
+        "Batch Number": 26,
+        "date:Date:start": "2000-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:56:23.853244",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "GLU",
+        "Period": "2020-2024",
+        "Has Data": "__NO__",
+        "Batch Number": 26,
+        "date:Date:start": "2020-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:56:23.863971",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "GLU",
+        "Period": "2015-2019",
+        "Has Data": "__NO__",
+        "Batch Number": 26,
+        "date:Date:start": "2015-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:56:23.874739",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "GLU",
+        "Period": "2010-2014",
+        "Has Data": "__NO__",
+        "Batch Number": 26,
+        "date:Date:start": "2010-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:56:23.885505",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "GLU",
+        "Period": "2005-2009",
+        "Has Data": "__NO__",
+        "Batch Number": 26,
+        "date:Date:start": "2005-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:56:23.896228",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "GLU",
+        "Period": "2000-2004",
+        "Has Data": "__NO__",
+        "Batch Number": 26,
+        "date:Date:start": "2000-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:56:23.906986",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "GLUE",
+        "Period": "2020-2024",
+        "Has Data": "__NO__",
+        "Batch Number": 26,
+        "date:Date:start": "2020-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:56:23.917708",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "GLUE",
+        "Period": "2015-2019",
+        "Has Data": "__NO__",
+        "Batch Number": 26,
+        "date:Date:start": "2015-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:56:23.928414",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "GLUE",
+        "Period": "2010-2014",
+        "Has Data": "__NO__",
+        "Batch Number": 26,
+        "date:Date:start": "2010-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:56:23.939188",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "GLUE",
+        "Period": "2005-2009",
+        "Has Data": "__NO__",
+        "Batch Number": 26,
+        "date:Date:start": "2005-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:56:23.949959",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "GLUE",
+        "Period": "2000-2004",
+        "Has Data": "__NO__",
+        "Batch Number": 26,
+        "date:Date:start": "2000-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:56:23.960686",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "GLV",
+        "Period": "2020-2024",
+        "Has Data": "__NO__",
+        "Batch Number": 26,
+        "date:Date:start": "2020-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:56:23.971371",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "GLV",
+        "Period": "2015-2019",
+        "Has Data": "__NO__",
+        "Batch Number": 26,
+        "date:Date:start": "2015-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:56:23.982164",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "GLV",
+        "Period": "2010-2014",
+        "Has Data": "__NO__",
+        "Batch Number": 26,
+        "date:Date:start": "2010-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:56:23.992944",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "GLV",
+        "Period": "2005-2009",
+        "Has Data": "__NO__",
+        "Batch Number": 26,
+        "date:Date:start": "2005-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:56:24.003678",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "GLV",
+        "Period": "2000-2004",
+        "Has Data": "__NO__",
+        "Batch Number": 26,
+        "date:Date:start": "2000-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:56:24.014413",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "GLW",
+        "Period": "2020-2024",
+        "Has Data": "__NO__",
+        "Batch Number": 26,
+        "date:Date:start": "2020-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:56:24.025153",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "GLW",
+        "Period": "2015-2019",
+        "Has Data": "__NO__",
+        "Batch Number": 26,
+        "date:Date:start": "2015-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:56:24.035819",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "GLW",
+        "Period": "2010-2014",
+        "Has Data": "__NO__",
+        "Batch Number": 26,
+        "date:Date:start": "2010-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:56:24.046551",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "GLW",
+        "Period": "2005-2009",
+        "Has Data": "__NO__",
+        "Batch Number": 26,
+        "date:Date:start": "2005-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:56:24.057199",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "GLW",
+        "Period": "2000-2004",
+        "Has Data": "__NO__",
+        "Batch Number": 26,
+        "date:Date:start": "2000-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:56:24.067940",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "GLXG",
+        "Period": "2020-2024",
+        "Has Data": "__NO__",
+        "Batch Number": 26,
+        "date:Date:start": "2020-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:56:24.078679",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "GLXG",
+        "Period": "2015-2019",
+        "Has Data": "__NO__",
+        "Batch Number": 26,
+        "date:Date:start": "2015-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:56:24.089319",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "GLXG",
+        "Period": "2010-2014",
+        "Has Data": "__NO__",
+        "Batch Number": 26,
+        "date:Date:start": "2010-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:56:24.099977",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "GLXG",
+        "Period": "2005-2009",
+        "Has Data": "__NO__",
+        "Batch Number": 26,
+        "date:Date:start": "2005-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:56:24.110665",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "GLXG",
+        "Period": "2000-2004",
+        "Has Data": "__NO__",
+        "Batch Number": 26,
+        "date:Date:start": "2000-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:56:24.121355",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "GLXY",
+        "Period": "2020-2024",
+        "Has Data": "__NO__",
+        "Batch Number": 26,
+        "date:Date:start": "2020-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:56:24.132087",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "GLXY",
+        "Period": "2015-2019",
+        "Has Data": "__NO__",
+        "Batch Number": 26,
+        "date:Date:start": "2015-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:56:24.142759",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "GLXY",
+        "Period": "2010-2014",
+        "Has Data": "__NO__",
+        "Batch Number": 26,
+        "date:Date:start": "2010-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:56:24.153506",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "GLXY",
+        "Period": "2005-2009",
+        "Has Data": "__NO__",
+        "Batch Number": 26,
+        "date:Date:start": "2005-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:56:24.164261",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "GLXY",
+        "Period": "2000-2004",
+        "Has Data": "__NO__",
+        "Batch Number": 26,
+        "date:Date:start": "2000-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:56:24.174991",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "GM",
+        "Period": "2020-2024",
+        "Has Data": "__NO__",
+        "Batch Number": 26,
+        "date:Date:start": "2020-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:56:24.185739",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "GM",
+        "Period": "2015-2019",
+        "Has Data": "__NO__",
+        "Batch Number": 26,
+        "date:Date:start": "2015-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:56:24.196353",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "GM",
+        "Period": "2010-2014",
+        "Has Data": "__NO__",
+        "Batch Number": 26,
+        "date:Date:start": "2010-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:56:24.207071",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "GM",
+        "Period": "2005-2009",
+        "Has Data": "__NO__",
+        "Batch Number": 26,
+        "date:Date:start": "2005-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:56:24.217837",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "GM",
+        "Period": "2000-2004",
+        "Has Data": "__NO__",
+        "Batch Number": 26,
+        "date:Date:start": "2000-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:56:24.228500",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "GMAB",
+        "Period": "2020-2024",
+        "Has Data": "__NO__",
+        "Batch Number": 26,
+        "date:Date:start": "2020-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:56:24.239222",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "GMAB",
+        "Period": "2015-2019",
+        "Has Data": "__NO__",
+        "Batch Number": 26,
+        "date:Date:start": "2015-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:56:24.249978",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "GMAB",
+        "Period": "2010-2014",
+        "Has Data": "__NO__",
+        "Batch Number": 26,
+        "date:Date:start": "2010-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:56:24.260723",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "GMAB",
+        "Period": "2005-2009",
+        "Has Data": "__NO__",
+        "Batch Number": 26,
+        "date:Date:start": "2005-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:56:24.271475",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "GMAB",
+        "Period": "2000-2004",
+        "Has Data": "__NO__",
+        "Batch Number": 26,
+        "date:Date:start": "2000-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:56:24.282151",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "GME",
+        "Period": "2020-2024",
+        "Has Data": "__NO__",
+        "Batch Number": 26,
+        "date:Date:start": "2020-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:56:24.292919",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "GME",
+        "Period": "2015-2019",
+        "Has Data": "__NO__",
+        "Batch Number": 26,
+        "date:Date:start": "2015-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:56:24.303607",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "GME",
+        "Period": "2010-2014",
+        "Has Data": "__NO__",
+        "Batch Number": 26,
+        "date:Date:start": "2010-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:56:24.314333",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "GME",
+        "Period": "2005-2009",
+        "Has Data": "__NO__",
+        "Batch Number": 26,
+        "date:Date:start": "2005-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:56:24.325043",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "GME",
+        "Period": "2000-2004",
+        "Has Data": "__NO__",
+        "Batch Number": 26,
+        "date:Date:start": "2000-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:56:24.335789",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "GMED",
+        "Period": "2020-2024",
+        "Has Data": "__NO__",
+        "Batch Number": 26,
+        "date:Date:start": "2020-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:56:24.346499",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "GMED",
+        "Period": "2015-2019",
+        "Has Data": "__NO__",
+        "Batch Number": 26,
+        "date:Date:start": "2015-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:56:24.357276",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "GMED",
+        "Period": "2010-2014",
+        "Has Data": "__NO__",
+        "Batch Number": 26,
+        "date:Date:start": "2010-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:56:24.368063",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "GMED",
+        "Period": "2005-2009",
+        "Has Data": "__NO__",
+        "Batch Number": 26,
+        "date:Date:start": "2005-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:56:24.378795",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "GMED",
+        "Period": "2000-2004",
+        "Has Data": "__NO__",
+        "Batch Number": 26,
+        "date:Date:start": "2000-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:56:24.389520",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "GMGI",
+        "Period": "2020-2024",
+        "Has Data": "__NO__",
+        "Batch Number": 26,
+        "date:Date:start": "2020-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:56:24.400233",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "GMGI",
+        "Period": "2015-2019",
+        "Has Data": "__NO__",
+        "Batch Number": 26,
+        "date:Date:start": "2015-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:56:24.410999",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "GMGI",
+        "Period": "2010-2014",
+        "Has Data": "__NO__",
+        "Batch Number": 26,
+        "date:Date:start": "2010-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:56:24.421749",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "GMGI",
+        "Period": "2005-2009",
+        "Has Data": "__NO__",
+        "Batch Number": 26,
+        "date:Date:start": "2005-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:56:24.432410",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "GMGI",
+        "Period": "2000-2004",
+        "Has Data": "__NO__",
+        "Batch Number": 26,
+        "date:Date:start": "2000-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:56:24.443137",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "GMHS",
+        "Period": "2020-2024",
+        "Has Data": "__NO__",
+        "Batch Number": 26,
+        "date:Date:start": "2020-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:56:24.453943",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "GMHS",
+        "Period": "2015-2019",
+        "Has Data": "__NO__",
+        "Batch Number": 26,
+        "date:Date:start": "2015-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:56:24.464602",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "GMHS",
+        "Period": "2010-2014",
+        "Has Data": "__NO__",
+        "Batch Number": 26,
+        "date:Date:start": "2010-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:56:24.475417",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "GMHS",
+        "Period": "2005-2009",
+        "Has Data": "__NO__",
+        "Batch Number": 26,
+        "date:Date:start": "2005-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:56:24.486146",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "GMHS",
+        "Period": "2000-2004",
+        "Has Data": "__NO__",
+        "Batch Number": 26,
+        "date:Date:start": "2000-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:56:24.496916",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "GMM",
+        "Period": "2020-2024",
+        "Has Data": "__NO__",
+        "Batch Number": 26,
+        "date:Date:start": "2020-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:56:24.507690",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "GMM",
+        "Period": "2015-2019",
+        "Has Data": "__NO__",
+        "Batch Number": 26,
+        "date:Date:start": "2015-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:56:24.518373",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "GMM",
+        "Period": "2010-2014",
+        "Has Data": "__NO__",
+        "Batch Number": 26,
+        "date:Date:start": "2010-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:56:24.529148",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "GMM",
+        "Period": "2005-2009",
+        "Has Data": "__NO__",
+        "Batch Number": 26,
+        "date:Date:start": "2005-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:56:24.539996",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "GMM",
+        "Period": "2000-2004",
+        "Has Data": "__NO__",
+        "Batch Number": 26,
+        "date:Date:start": "2000-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:56:24.550645",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "GMRE",
+        "Period": "2020-2024",
+        "Has Data": "__NO__",
+        "Batch Number": 26,
+        "date:Date:start": "2020-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:56:24.561480",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "GMRE",
+        "Period": "2015-2019",
+        "Has Data": "__NO__",
+        "Batch Number": 26,
+        "date:Date:start": "2015-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:56:24.572278",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "GMRE",
+        "Period": "2010-2014",
+        "Has Data": "__NO__",
+        "Batch Number": 26,
+        "date:Date:start": "2010-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:56:24.583005",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "GMRE",
+        "Period": "2005-2009",
+        "Has Data": "__NO__",
+        "Batch Number": 26,
+        "date:Date:start": "2005-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:56:24.593706",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "GMRE",
+        "Period": "2000-2004",
+        "Has Data": "__NO__",
+        "Batch Number": 26,
+        "date:Date:start": "2000-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:56:24.604527",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "GMS",
+        "Period": "2020-2024",
+        "Has Data": "__NO__",
+        "Batch Number": 26,
+        "date:Date:start": "2020-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:56:24.615259",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "GMS",
+        "Period": "2015-2019",
+        "Has Data": "__NO__",
+        "Batch Number": 26,
+        "date:Date:start": "2015-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:56:24.626046",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "GMS",
+        "Period": "2010-2014",
+        "Has Data": "__NO__",
+        "Batch Number": 26,
+        "date:Date:start": "2010-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:56:24.636848",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "GMS",
+        "Period": "2005-2009",
+        "Has Data": "__NO__",
+        "Batch Number": 26,
+        "date:Date:start": "2005-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:56:24.647608",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "GMS",
+        "Period": "2000-2004",
+        "Has Data": "__NO__",
+        "Batch Number": 26,
+        "date:Date:start": "2000-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:56:24.658362",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "GNE",
+        "Period": "2020-2024",
+        "Has Data": "__NO__",
+        "Batch Number": 26,
+        "date:Date:start": "2020-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:56:24.669589",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "GNE",
+        "Period": "2015-2019",
+        "Has Data": "__NO__",
+        "Batch Number": 26,
+        "date:Date:start": "2015-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:56:24.679823",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "GNE",
+        "Period": "2010-2014",
+        "Has Data": "__NO__",
+        "Batch Number": 26,
+        "date:Date:start": "2010-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:56:24.690482",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "GNE",
+        "Period": "2005-2009",
+        "Has Data": "__NO__",
+        "Batch Number": 26,
+        "date:Date:start": "2005-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:56:24.701300",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "GNE",
+        "Period": "2000-2004",
+        "Has Data": "__NO__",
+        "Batch Number": 26,
+        "date:Date:start": "2000-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:56:24.711998",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "GNFT",
+        "Period": "2020-2024",
+        "Has Data": "__NO__",
+        "Batch Number": 26,
+        "date:Date:start": "2020-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:56:24.722704",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "GNFT",
+        "Period": "2015-2019",
+        "Has Data": "__NO__",
+        "Batch Number": 26,
+        "date:Date:start": "2015-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:56:24.733349",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "GNFT",
+        "Period": "2010-2014",
+        "Has Data": "__NO__",
+        "Batch Number": 26,
+        "date:Date:start": "2010-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:56:24.744130",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "GNFT",
+        "Period": "2005-2009",
+        "Has Data": "__NO__",
+        "Batch Number": 26,
+        "date:Date:start": "2005-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:56:24.754943",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "GNFT",
+        "Period": "2000-2004",
+        "Has Data": "__NO__",
+        "Batch Number": 26,
+        "date:Date:start": "2000-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:56:24.765660",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "GNK",
+        "Period": "2020-2024",
+        "Has Data": "__NO__",
+        "Batch Number": 26,
+        "date:Date:start": "2020-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:56:24.776490",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "GNK",
+        "Period": "2015-2019",
+        "Has Data": "__NO__",
+        "Batch Number": 26,
+        "date:Date:start": "2015-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:56:24.787293",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "GNK",
+        "Period": "2010-2014",
+        "Has Data": "__NO__",
+        "Batch Number": 26,
+        "date:Date:start": "2010-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:56:24.798161",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "GNK",
+        "Period": "2005-2009",
+        "Has Data": "__NO__",
+        "Batch Number": 26,
+        "date:Date:start": "2005-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:56:24.808973",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "GNK",
+        "Period": "2000-2004",
+        "Has Data": "__NO__",
+        "Batch Number": 26,
+        "date:Date:start": "2000-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:56:24.819683",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "GNL",
+        "Period": "2020-2024",
+        "Has Data": "__NO__",
+        "Batch Number": 26,
+        "date:Date:start": "2020-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:56:24.830355",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "GNL",
+        "Period": "2015-2019",
+        "Has Data": "__NO__",
+        "Batch Number": 26,
+        "date:Date:start": "2015-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:56:24.841163",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "GNL",
+        "Period": "2010-2014",
+        "Has Data": "__NO__",
+        "Batch Number": 26,
+        "date:Date:start": "2010-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:56:24.851843",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "GNL",
+        "Period": "2005-2009",
+        "Has Data": "__NO__",
+        "Batch Number": 26,
+        "date:Date:start": "2005-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:56:24.862605",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "GNL",
+        "Period": "2000-2004",
+        "Has Data": "__NO__",
+        "Batch Number": 26,
+        "date:Date:start": "2000-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:56:24.873274",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "GNLN",
+        "Period": "2020-2024",
+        "Has Data": "__NO__",
+        "Batch Number": 26,
+        "date:Date:start": "2020-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:56:24.884036",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "GNLN",
+        "Period": "2015-2019",
+        "Has Data": "__NO__",
+        "Batch Number": 26,
+        "date:Date:start": "2015-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:56:24.894758",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "GNLN",
+        "Period": "2010-2014",
+        "Has Data": "__NO__",
+        "Batch Number": 26,
+        "date:Date:start": "2010-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:56:24.905549",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "GNLN",
+        "Period": "2005-2009",
+        "Has Data": "__NO__",
+        "Batch Number": 26,
+        "date:Date:start": "2005-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:56:24.916227",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "GNLN",
+        "Period": "2000-2004",
+        "Has Data": "__NO__",
+        "Batch Number": 26,
+        "date:Date:start": "2000-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:56:24.926972",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "GNLX",
+        "Period": "2020-2024",
+        "Has Data": "__NO__",
+        "Batch Number": 26,
+        "date:Date:start": "2020-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:56:24.937745",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "GNLX",
+        "Period": "2015-2019",
+        "Has Data": "__NO__",
+        "Batch Number": 26,
+        "date:Date:start": "2015-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:56:24.948499",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "GNLX",
+        "Period": "2010-2014",
+        "Has Data": "__NO__",
+        "Batch Number": 26,
+        "date:Date:start": "2010-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:56:24.959246",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "GNLX",
+        "Period": "2005-2009",
+        "Has Data": "__NO__",
+        "Batch Number": 26,
+        "date:Date:start": "2005-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:56:24.969948",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "GNLX",
+        "Period": "2000-2004",
+        "Has Data": "__NO__",
+        "Batch Number": 26,
+        "date:Date:start": "2000-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:56:24.980628",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "GNPX",
+        "Period": "2020-2024",
+        "Has Data": "__NO__",
+        "Batch Number": 26,
+        "date:Date:start": "2020-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:56:24.991420",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "GNPX",
+        "Period": "2015-2019",
+        "Has Data": "__NO__",
+        "Batch Number": 26,
+        "date:Date:start": "2015-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:56:25.002122",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "GNPX",
+        "Period": "2010-2014",
+        "Has Data": "__NO__",
+        "Batch Number": 26,
+        "date:Date:start": "2010-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:56:25.012873",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "GNPX",
+        "Period": "2005-2009",
+        "Has Data": "__NO__",
+        "Batch Number": 26,
+        "date:Date:start": "2005-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:56:25.023585",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "GNPX",
+        "Period": "2000-2004",
+        "Has Data": "__NO__",
+        "Batch Number": 26,
+        "date:Date:start": "2000-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:56:25.034263",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "GNRC",
+        "Period": "2020-2024",
+        "Has Data": "__NO__",
+        "Batch Number": 26,
+        "date:Date:start": "2020-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:56:25.045013",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "GNRC",
+        "Period": "2015-2019",
+        "Has Data": "__NO__",
+        "Batch Number": 26,
+        "date:Date:start": "2015-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:56:25.055701",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "GNRC",
+        "Period": "2010-2014",
+        "Has Data": "__NO__",
+        "Batch Number": 26,
+        "date:Date:start": "2010-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:56:25.066440",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "GNRC",
+        "Period": "2005-2009",
+        "Has Data": "__NO__",
+        "Batch Number": 26,
+        "date:Date:start": "2005-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:56:25.077176",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "GNRC",
+        "Period": "2000-2004",
+        "Has Data": "__NO__",
+        "Batch Number": 26,
+        "date:Date:start": "2000-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:56:25.087939",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "GNS",
+        "Period": "2020-2024",
+        "Has Data": "__NO__",
+        "Batch Number": 26,
+        "date:Date:start": "2020-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:56:25.098749",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "GNS",
+        "Period": "2015-2019",
+        "Has Data": "__NO__",
+        "Batch Number": 26,
+        "date:Date:start": "2015-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:56:25.109453",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "GNS",
+        "Period": "2010-2014",
+        "Has Data": "__NO__",
+        "Batch Number": 26,
+        "date:Date:start": "2010-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:56:25.120158",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "GNS",
+        "Period": "2005-2009",
+        "Has Data": "__NO__",
+        "Batch Number": 26,
+        "date:Date:start": "2005-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:56:25.131010",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "GNS",
+        "Period": "2000-2004",
+        "Has Data": "__NO__",
+        "Batch Number": 26,
+        "date:Date:start": "2000-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:56:25.141778",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "GNSS",
+        "Period": "2020-2024",
+        "Has Data": "__NO__",
+        "Batch Number": 26,
+        "date:Date:start": "2020-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:56:25.152421",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "GNSS",
+        "Period": "2015-2019",
+        "Has Data": "__NO__",
+        "Batch Number": 26,
+        "date:Date:start": "2015-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:56:25.163176",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "GNSS",
+        "Period": "2010-2014",
+        "Has Data": "__NO__",
+        "Batch Number": 26,
+        "date:Date:start": "2010-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:56:25.173869",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "GNSS",
+        "Period": "2005-2009",
+        "Has Data": "__NO__",
+        "Batch Number": 26,
+        "date:Date:start": "2005-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:56:25.184586",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "GNSS",
+        "Period": "2000-2004",
+        "Has Data": "__NO__",
+        "Batch Number": 26,
+        "date:Date:start": "2000-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:56:25.195265",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "GNT",
+        "Period": "2020-2024",
+        "Has Data": "__NO__",
+        "Batch Number": 26,
+        "date:Date:start": "2020-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:56:25.206007",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "GNT",
+        "Period": "2015-2019",
+        "Has Data": "__NO__",
+        "Batch Number": 26,
+        "date:Date:start": "2015-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:56:25.216796",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "GNT",
+        "Period": "2010-2014",
+        "Has Data": "__NO__",
+        "Batch Number": 26,
+        "date:Date:start": "2010-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:56:25.227582",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "GNT",
+        "Period": "2005-2009",
+        "Has Data": "__NO__",
+        "Batch Number": 26,
+        "date:Date:start": "2005-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:56:25.238225",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "GNT",
+        "Period": "2000-2004",
+        "Has Data": "__NO__",
+        "Batch Number": 26,
+        "date:Date:start": "2000-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:56:25.249004",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "GNTA",
+        "Period": "2020-2024",
+        "Has Data": "__NO__",
+        "Batch Number": 26,
+        "date:Date:start": "2020-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:56:25.259750",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "GNTA",
+        "Period": "2015-2019",
+        "Has Data": "__NO__",
+        "Batch Number": 26,
+        "date:Date:start": "2015-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:56:25.270487",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "GNTA",
+        "Period": "2010-2014",
+        "Has Data": "__NO__",
+        "Batch Number": 26,
+        "date:Date:start": "2010-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:56:25.281391",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "GNTA",
+        "Period": "2005-2009",
+        "Has Data": "__NO__",
+        "Batch Number": 26,
+        "date:Date:start": "2005-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:56:25.292097",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "GNTA",
+        "Period": "2000-2004",
+        "Has Data": "__NO__",
+        "Batch Number": 26,
+        "date:Date:start": "2000-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:56:25.302898",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "GNTX",
+        "Period": "2020-2024",
+        "Has Data": "__NO__",
+        "Batch Number": 26,
+        "date:Date:start": "2020-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:56:25.313707",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "GNTX",
+        "Period": "2015-2019",
+        "Has Data": "__NO__",
+        "Batch Number": 26,
+        "date:Date:start": "2015-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:56:25.324491",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "GNTX",
+        "Period": "2010-2014",
+        "Has Data": "__NO__",
+        "Batch Number": 26,
+        "date:Date:start": "2010-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:56:25.335320",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "GNTX",
+        "Period": "2005-2009",
+        "Has Data": "__NO__",
+        "Batch Number": 26,
+        "date:Date:start": "2005-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:56:25.346068",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "GNTX",
+        "Period": "2000-2004",
+        "Has Data": "__NO__",
+        "Batch Number": 26,
+        "date:Date:start": "2000-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:56:25.356855",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "GNTY",
+        "Period": "2020-2024",
+        "Has Data": "__NO__",
+        "Batch Number": 26,
+        "date:Date:start": "2020-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:56:25.367528",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "GNTY",
+        "Period": "2015-2019",
+        "Has Data": "__NO__",
+        "Batch Number": 26,
+        "date:Date:start": "2015-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:56:25.378260",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "GNTY",
+        "Period": "2010-2014",
+        "Has Data": "__NO__",
+        "Batch Number": 26,
+        "date:Date:start": "2010-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:56:25.388940",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "GNTY",
+        "Period": "2005-2009",
+        "Has Data": "__NO__",
+        "Batch Number": 26,
+        "date:Date:start": "2005-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:56:25.399688",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "GNTY",
+        "Period": "2000-2004",
+        "Has Data": "__NO__",
+        "Batch Number": 26,
+        "date:Date:start": "2000-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:56:25.410422",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "GNW",
+        "Period": "2020-2024",
+        "Has Data": "__NO__",
+        "Batch Number": 26,
+        "date:Date:start": "2020-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:56:25.421204",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "GNW",
+        "Period": "2015-2019",
+        "Has Data": "__NO__",
+        "Batch Number": 26,
+        "date:Date:start": "2015-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:56:25.431924",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "GNW",
+        "Period": "2010-2014",
+        "Has Data": "__NO__",
+        "Batch Number": 26,
+        "date:Date:start": "2010-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:56:25.442711",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "GNW",
+        "Period": "2005-2009",
+        "Has Data": "__NO__",
+        "Batch Number": 26,
+        "date:Date:start": "2005-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:56:25.453486",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "GNW",
+        "Period": "2000-2004",
+        "Has Data": "__NO__",
+        "Batch Number": 26,
+        "date:Date:start": "2000-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:56:25.464289",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "GO",
+        "Period": "2020-2024",
+        "Has Data": "__NO__",
+        "Batch Number": 26,
+        "date:Date:start": "2020-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:56:25.475038",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "GO",
+        "Period": "2015-2019",
+        "Has Data": "__NO__",
+        "Batch Number": 26,
+        "date:Date:start": "2015-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:56:25.485717",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "GO",
+        "Period": "2010-2014",
+        "Has Data": "__NO__",
+        "Batch Number": 26,
+        "date:Date:start": "2010-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:56:25.496350",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "GO",
+        "Period": "2005-2009",
+        "Has Data": "__NO__",
+        "Batch Number": 26,
+        "date:Date:start": "2005-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:56:25.507067",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "GO",
+        "Period": "2000-2004",
+        "Has Data": "__NO__",
+        "Batch Number": 26,
+        "date:Date:start": "2000-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:56:25.517883",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "GOCO",
+        "Period": "2020-2024",
+        "Has Data": "__NO__",
+        "Batch Number": 26,
+        "date:Date:start": "2020-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:56:25.528671",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "GOCO",
+        "Period": "2015-2019",
+        "Has Data": "__NO__",
+        "Batch Number": 26,
+        "date:Date:start": "2015-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:56:25.539370",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "GOCO",
+        "Period": "2010-2014",
+        "Has Data": "__NO__",
+        "Batch Number": 26,
+        "date:Date:start": "2010-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:56:25.550089",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "GOCO",
+        "Period": "2005-2009",
+        "Has Data": "__NO__",
+        "Batch Number": 26,
+        "date:Date:start": "2005-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:56:25.560877",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "GOCO",
+        "Period": "2000-2004",
+        "Has Data": "__NO__",
+        "Batch Number": 26,
+        "date:Date:start": "2000-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:56:25.571557",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "GOF",
+        "Period": "2020-2024",
+        "Has Data": "__NO__",
+        "Batch Number": 26,
+        "date:Date:start": "2020-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:56:25.582278",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "GOF",
+        "Period": "2015-2019",
+        "Has Data": "__NO__",
+        "Batch Number": 26,
+        "date:Date:start": "2015-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:56:25.593092",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "GOF",
+        "Period": "2010-2014",
+        "Has Data": "__NO__",
+        "Batch Number": 26,
+        "date:Date:start": "2010-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:56:25.603848",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "GOF",
+        "Period": "2005-2009",
+        "Has Data": "__NO__",
+        "Batch Number": 26,
+        "date:Date:start": "2005-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:56:25.614650",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "GOF",
+        "Period": "2000-2004",
+        "Has Data": "__NO__",
+        "Batch Number": 26,
+        "date:Date:start": "2000-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:56:25.625316",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "GOGL",
+        "Period": "2020-2024",
+        "Has Data": "__NO__",
+        "Batch Number": 26,
+        "date:Date:start": "2020-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:56:25.636044",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "GOGL",
+        "Period": "2015-2019",
+        "Has Data": "__NO__",
+        "Batch Number": 26,
+        "date:Date:start": "2015-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:56:25.646730",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "GOGL",
+        "Period": "2010-2014",
+        "Has Data": "__NO__",
+        "Batch Number": 26,
+        "date:Date:start": "2010-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:56:25.657424",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "GOGL",
+        "Period": "2005-2009",
+        "Has Data": "__NO__",
+        "Batch Number": 26,
+        "date:Date:start": "2005-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:56:25.668067",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "GOGL",
+        "Period": "2000-2004",
+        "Has Data": "__NO__",
+        "Batch Number": 26,
+        "date:Date:start": "2000-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:56:25.678748",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "GOGO",
+        "Period": "2020-2024",
+        "Has Data": "__NO__",
+        "Batch Number": 26,
+        "date:Date:start": "2020-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:56:25.689502",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "GOGO",
+        "Period": "2015-2019",
+        "Has Data": "__NO__",
+        "Batch Number": 26,
+        "date:Date:start": "2015-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:56:25.700223",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "GOGO",
+        "Period": "2010-2014",
+        "Has Data": "__NO__",
+        "Batch Number": 26,
+        "date:Date:start": "2010-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:56:25.711038",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "GOGO",
+        "Period": "2005-2009",
+        "Has Data": "__NO__",
+        "Batch Number": 26,
+        "date:Date:start": "2005-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:56:25.721737",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "GOGO",
+        "Period": "2000-2004",
+        "Has Data": "__NO__",
+        "Batch Number": 26,
+        "date:Date:start": "2000-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:56:25.732526",
+        "date:Retrieved At:is_datetime": 1
+      }
+    }
+  ]
+}

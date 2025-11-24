@@ -1,0 +1,6008 @@
+{
+  "data_source_id": "7c5225aa-429b-4580-946e-ba5b1db2ca6d",
+  "batch_number": 34,
+  "record_count": 500,
+  "timestamp": "2025-11-24T04:57:08.838416",
+  "pages": [
+    {
+      "properties": {
+        "Ticker": "KHC",
+        "Period": "2020-2024",
+        "Has Data": "__NO__",
+        "Batch Number": 34,
+        "date:Date:start": "2020-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:57:03.458490",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "KHC",
+        "Period": "2015-2019",
+        "Has Data": "__NO__",
+        "Batch Number": 34,
+        "date:Date:start": "2015-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:57:03.469162",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "KHC",
+        "Period": "2010-2014",
+        "Has Data": "__NO__",
+        "Batch Number": 34,
+        "date:Date:start": "2010-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:57:03.479998",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "KHC",
+        "Period": "2005-2009",
+        "Has Data": "__NO__",
+        "Batch Number": 34,
+        "date:Date:start": "2005-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:57:03.490781",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "KHC",
+        "Period": "2000-2004",
+        "Has Data": "__NO__",
+        "Batch Number": 34,
+        "date:Date:start": "2000-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:57:03.501533",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "KIDS",
+        "Period": "2020-2024",
+        "Has Data": "__NO__",
+        "Batch Number": 34,
+        "date:Date:start": "2020-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:57:03.512297",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "KIDS",
+        "Period": "2015-2019",
+        "Has Data": "__NO__",
+        "Batch Number": 34,
+        "date:Date:start": "2015-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:57:03.523090",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "KIDS",
+        "Period": "2010-2014",
+        "Has Data": "__NO__",
+        "Batch Number": 34,
+        "date:Date:start": "2010-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:57:03.533820",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "KIDS",
+        "Period": "2005-2009",
+        "Has Data": "__NO__",
+        "Batch Number": 34,
+        "date:Date:start": "2005-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:57:03.544634",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "KIDS",
+        "Period": "2000-2004",
+        "Has Data": "__NO__",
+        "Batch Number": 34,
+        "date:Date:start": "2000-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:57:03.555355",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "KIDZ",
+        "Period": "2020-2024",
+        "Has Data": "__NO__",
+        "Batch Number": 34,
+        "date:Date:start": "2020-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:57:03.566245",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "KIDZ",
+        "Period": "2015-2019",
+        "Has Data": "__NO__",
+        "Batch Number": 34,
+        "date:Date:start": "2015-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:57:03.576977",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "KIDZ",
+        "Period": "2010-2014",
+        "Has Data": "__NO__",
+        "Batch Number": 34,
+        "date:Date:start": "2010-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:57:03.587733",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "KIDZ",
+        "Period": "2005-2009",
+        "Has Data": "__NO__",
+        "Batch Number": 34,
+        "date:Date:start": "2005-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:57:03.598468",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "KIDZ",
+        "Period": "2000-2004",
+        "Has Data": "__NO__",
+        "Batch Number": 34,
+        "date:Date:start": "2000-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:57:03.609279",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "KIDZW",
+        "Period": "2020-2024",
+        "Has Data": "__NO__",
+        "Batch Number": 34,
+        "date:Date:start": "2020-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:57:03.620099",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "KIDZW",
+        "Period": "2015-2019",
+        "Has Data": "__NO__",
+        "Batch Number": 34,
+        "date:Date:start": "2015-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:57:03.630845",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "KIDZW",
+        "Period": "2010-2014",
+        "Has Data": "__NO__",
+        "Batch Number": 34,
+        "date:Date:start": "2010-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:57:03.641611",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "KIDZW",
+        "Period": "2005-2009",
+        "Has Data": "__NO__",
+        "Batch Number": 34,
+        "date:Date:start": "2005-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:57:03.652346",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "KIDZW",
+        "Period": "2000-2004",
+        "Has Data": "__NO__",
+        "Batch Number": 34,
+        "date:Date:start": "2000-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:57:03.663165",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "KIM",
+        "Period": "2020-2024",
+        "Has Data": "__NO__",
+        "Batch Number": 34,
+        "date:Date:start": "2020-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:57:03.673986",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "KIM",
+        "Period": "2015-2019",
+        "Has Data": "__NO__",
+        "Batch Number": 34,
+        "date:Date:start": "2015-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:57:03.684782",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "KIM",
+        "Period": "2010-2014",
+        "Has Data": "__NO__",
+        "Batch Number": 34,
+        "date:Date:start": "2010-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:57:03.695570",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "KIM",
+        "Period": "2005-2009",
+        "Has Data": "__NO__",
+        "Batch Number": 34,
+        "date:Date:start": "2005-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:57:03.706322",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "KIM",
+        "Period": "2000-2004",
+        "Has Data": "__NO__",
+        "Batch Number": 34,
+        "date:Date:start": "2000-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:57:03.717075",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "KINS",
+        "Period": "2020-2024",
+        "Has Data": "__NO__",
+        "Batch Number": 34,
+        "date:Date:start": "2020-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:57:03.727909",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "KINS",
+        "Period": "2015-2019",
+        "Has Data": "__NO__",
+        "Batch Number": 34,
+        "date:Date:start": "2015-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:57:03.738652",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "KINS",
+        "Period": "2010-2014",
+        "Has Data": "__NO__",
+        "Batch Number": 34,
+        "date:Date:start": "2010-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:57:03.749352",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "KINS",
+        "Period": "2005-2009",
+        "Has Data": "__NO__",
+        "Batch Number": 34,
+        "date:Date:start": "2005-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:57:03.760214",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "KINS",
+        "Period": "2000-2004",
+        "Has Data": "__NO__",
+        "Batch Number": 34,
+        "date:Date:start": "2000-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:57:03.770898",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "KIO",
+        "Period": "2020-2024",
+        "Has Data": "__NO__",
+        "Batch Number": 34,
+        "date:Date:start": "2020-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:57:03.781669",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "KIO",
+        "Period": "2015-2019",
+        "Has Data": "__NO__",
+        "Batch Number": 34,
+        "date:Date:start": "2015-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:57:03.792434",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "KIO",
+        "Period": "2010-2014",
+        "Has Data": "__NO__",
+        "Batch Number": 34,
+        "date:Date:start": "2010-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:57:03.803263",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "KIO",
+        "Period": "2005-2009",
+        "Has Data": "__NO__",
+        "Batch Number": 34,
+        "date:Date:start": "2005-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:57:03.814106",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "KIO",
+        "Period": "2000-2004",
+        "Has Data": "__NO__",
+        "Batch Number": 34,
+        "date:Date:start": "2000-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:57:03.824881",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "KITT",
+        "Period": "2020-2024",
+        "Has Data": "__NO__",
+        "Batch Number": 34,
+        "date:Date:start": "2020-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:57:03.835657",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "KITT",
+        "Period": "2015-2019",
+        "Has Data": "__NO__",
+        "Batch Number": 34,
+        "date:Date:start": "2015-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:57:03.846450",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "KITT",
+        "Period": "2010-2014",
+        "Has Data": "__NO__",
+        "Batch Number": 34,
+        "date:Date:start": "2010-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:57:03.857151",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "KITT",
+        "Period": "2005-2009",
+        "Has Data": "__NO__",
+        "Batch Number": 34,
+        "date:Date:start": "2005-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:57:03.867896",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "KITT",
+        "Period": "2000-2004",
+        "Has Data": "__NO__",
+        "Batch Number": 34,
+        "date:Date:start": "2000-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:57:03.878719",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "KITTW",
+        "Period": "2020-2024",
+        "Has Data": "__NO__",
+        "Batch Number": 34,
+        "date:Date:start": "2020-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:57:03.889364",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "KITTW",
+        "Period": "2015-2019",
+        "Has Data": "__NO__",
+        "Batch Number": 34,
+        "date:Date:start": "2015-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:57:03.900095",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "KITTW",
+        "Period": "2010-2014",
+        "Has Data": "__NO__",
+        "Batch Number": 34,
+        "date:Date:start": "2010-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:57:03.910867",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "KITTW",
+        "Period": "2005-2009",
+        "Has Data": "__NO__",
+        "Batch Number": 34,
+        "date:Date:start": "2005-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:57:03.921626",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "KITTW",
+        "Period": "2000-2004",
+        "Has Data": "__NO__",
+        "Batch Number": 34,
+        "date:Date:start": "2000-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:57:03.932360",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "KKR",
+        "Period": "2020-2024",
+        "Has Data": "__NO__",
+        "Batch Number": 34,
+        "date:Date:start": "2020-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:57:03.943184",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "KKR",
+        "Period": "2015-2019",
+        "Has Data": "__NO__",
+        "Batch Number": 34,
+        "date:Date:start": "2015-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:57:03.953960",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "KKR",
+        "Period": "2010-2014",
+        "Has Data": "__NO__",
+        "Batch Number": 34,
+        "date:Date:start": "2010-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:57:03.964796",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "KKR",
+        "Period": "2005-2009",
+        "Has Data": "__NO__",
+        "Batch Number": 34,
+        "date:Date:start": "2005-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:57:03.975562",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "KKR",
+        "Period": "2000-2004",
+        "Has Data": "__NO__",
+        "Batch Number": 34,
+        "date:Date:start": "2000-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:57:03.986400",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "KKRS",
+        "Period": "2020-2024",
+        "Has Data": "__NO__",
+        "Batch Number": 34,
+        "date:Date:start": "2020-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:57:03.997158",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "KKRS",
+        "Period": "2015-2019",
+        "Has Data": "__NO__",
+        "Batch Number": 34,
+        "date:Date:start": "2015-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:57:04.007916",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "KKRS",
+        "Period": "2010-2014",
+        "Has Data": "__NO__",
+        "Batch Number": 34,
+        "date:Date:start": "2010-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:57:04.018636",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "KKRS",
+        "Period": "2005-2009",
+        "Has Data": "__NO__",
+        "Batch Number": 34,
+        "date:Date:start": "2005-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:57:04.029388",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "KKRS",
+        "Period": "2000-2004",
+        "Has Data": "__NO__",
+        "Batch Number": 34,
+        "date:Date:start": "2000-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:57:04.040154",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "KKRT",
+        "Period": "2020-2024",
+        "Has Data": "__NO__",
+        "Batch Number": 34,
+        "date:Date:start": "2020-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:57:04.050932",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "KKRT",
+        "Period": "2015-2019",
+        "Has Data": "__NO__",
+        "Batch Number": 34,
+        "date:Date:start": "2015-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:57:04.061677",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "KKRT",
+        "Period": "2010-2014",
+        "Has Data": "__NO__",
+        "Batch Number": 34,
+        "date:Date:start": "2010-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:57:04.072343",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "KKRT",
+        "Period": "2005-2009",
+        "Has Data": "__NO__",
+        "Batch Number": 34,
+        "date:Date:start": "2005-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:57:04.083223",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "KKRT",
+        "Period": "2000-2004",
+        "Has Data": "__NO__",
+        "Batch Number": 34,
+        "date:Date:start": "2000-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:57:04.094084",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "KLAC",
+        "Period": "2020-2024",
+        "Has Data": "__NO__",
+        "Batch Number": 34,
+        "date:Date:start": "2020-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:57:04.104877",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "KLAC",
+        "Period": "2015-2019",
+        "Has Data": "__NO__",
+        "Batch Number": 34,
+        "date:Date:start": "2015-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:57:04.115681",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "KLAC",
+        "Period": "2010-2014",
+        "Has Data": "__NO__",
+        "Batch Number": 34,
+        "date:Date:start": "2010-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:57:04.126442",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "KLAC",
+        "Period": "2005-2009",
+        "Has Data": "__NO__",
+        "Batch Number": 34,
+        "date:Date:start": "2005-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:57:04.137212",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "KLAC",
+        "Period": "2000-2004",
+        "Has Data": "__NO__",
+        "Batch Number": 34,
+        "date:Date:start": "2000-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:57:04.147968",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "KLC",
+        "Period": "2020-2024",
+        "Has Data": "__NO__",
+        "Batch Number": 34,
+        "date:Date:start": "2020-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:57:04.158849",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "KLC",
+        "Period": "2015-2019",
+        "Has Data": "__NO__",
+        "Batch Number": 34,
+        "date:Date:start": "2015-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:57:04.169596",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "KLC",
+        "Period": "2010-2014",
+        "Has Data": "__NO__",
+        "Batch Number": 34,
+        "date:Date:start": "2010-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:57:04.180358",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "KLC",
+        "Period": "2005-2009",
+        "Has Data": "__NO__",
+        "Batch Number": 34,
+        "date:Date:start": "2005-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:57:04.191077",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "KLC",
+        "Period": "2000-2004",
+        "Has Data": "__NO__",
+        "Batch Number": 34,
+        "date:Date:start": "2000-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:57:04.201786",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "KLG",
+        "Period": "2020-2024",
+        "Has Data": "__NO__",
+        "Batch Number": 34,
+        "date:Date:start": "2020-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:57:04.212551",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "KLG",
+        "Period": "2015-2019",
+        "Has Data": "__NO__",
+        "Batch Number": 34,
+        "date:Date:start": "2015-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:57:04.223319",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "KLG",
+        "Period": "2010-2014",
+        "Has Data": "__NO__",
+        "Batch Number": 34,
+        "date:Date:start": "2010-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:57:04.234093",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "KLG",
+        "Period": "2005-2009",
+        "Has Data": "__NO__",
+        "Batch Number": 34,
+        "date:Date:start": "2005-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:57:04.244854",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "KLG",
+        "Period": "2000-2004",
+        "Has Data": "__NO__",
+        "Batch Number": 34,
+        "date:Date:start": "2000-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:57:04.255680",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "KLIC",
+        "Period": "2020-2024",
+        "Has Data": "__NO__",
+        "Batch Number": 34,
+        "date:Date:start": "2020-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:57:04.266468",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "KLIC",
+        "Period": "2015-2019",
+        "Has Data": "__NO__",
+        "Batch Number": 34,
+        "date:Date:start": "2015-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:57:04.277225",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "KLIC",
+        "Period": "2010-2014",
+        "Has Data": "__NO__",
+        "Batch Number": 34,
+        "date:Date:start": "2010-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:57:04.287976",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "KLIC",
+        "Period": "2005-2009",
+        "Has Data": "__NO__",
+        "Batch Number": 34,
+        "date:Date:start": "2005-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:57:04.298632",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "KLIC",
+        "Period": "2000-2004",
+        "Has Data": "__NO__",
+        "Batch Number": 34,
+        "date:Date:start": "2000-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:57:04.309339",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "KLRS",
+        "Period": "2020-2024",
+        "Has Data": "__NO__",
+        "Batch Number": 34,
+        "date:Date:start": "2020-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:57:04.320131",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "KLRS",
+        "Period": "2015-2019",
+        "Has Data": "__NO__",
+        "Batch Number": 34,
+        "date:Date:start": "2015-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:57:04.330827",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "KLRS",
+        "Period": "2010-2014",
+        "Has Data": "__NO__",
+        "Batch Number": 34,
+        "date:Date:start": "2010-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:57:04.341628",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "KLRS",
+        "Period": "2005-2009",
+        "Has Data": "__NO__",
+        "Batch Number": 34,
+        "date:Date:start": "2005-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:57:04.352345",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "KLRS",
+        "Period": "2000-2004",
+        "Has Data": "__NO__",
+        "Batch Number": 34,
+        "date:Date:start": "2000-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:57:04.363077",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "KLTO",
+        "Period": "2020-2024",
+        "Has Data": "__NO__",
+        "Batch Number": 34,
+        "date:Date:start": "2020-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:57:04.373878",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "KLTO",
+        "Period": "2015-2019",
+        "Has Data": "__NO__",
+        "Batch Number": 34,
+        "date:Date:start": "2015-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:57:04.384702",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "KLTO",
+        "Period": "2010-2014",
+        "Has Data": "__NO__",
+        "Batch Number": 34,
+        "date:Date:start": "2010-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:57:04.395357",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "KLTO",
+        "Period": "2005-2009",
+        "Has Data": "__NO__",
+        "Batch Number": 34,
+        "date:Date:start": "2005-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:57:04.406081",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "KLTO",
+        "Period": "2000-2004",
+        "Has Data": "__NO__",
+        "Batch Number": 34,
+        "date:Date:start": "2000-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:57:04.416840",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "KLTOW",
+        "Period": "2020-2024",
+        "Has Data": "__NO__",
+        "Batch Number": 34,
+        "date:Date:start": "2020-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:57:04.427553",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "KLTOW",
+        "Period": "2015-2019",
+        "Has Data": "__NO__",
+        "Batch Number": 34,
+        "date:Date:start": "2015-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:57:04.438306",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "KLTOW",
+        "Period": "2010-2014",
+        "Has Data": "__NO__",
+        "Batch Number": 34,
+        "date:Date:start": "2010-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:57:04.449035",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "KLTOW",
+        "Period": "2005-2009",
+        "Has Data": "__NO__",
+        "Batch Number": 34,
+        "date:Date:start": "2005-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:57:04.459847",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "KLTOW",
+        "Period": "2000-2004",
+        "Has Data": "__NO__",
+        "Batch Number": 34,
+        "date:Date:start": "2000-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:57:04.470562",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "KLTR",
+        "Period": "2020-2024",
+        "Has Data": "__NO__",
+        "Batch Number": 34,
+        "date:Date:start": "2020-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:57:04.481304",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "KLTR",
+        "Period": "2015-2019",
+        "Has Data": "__NO__",
+        "Batch Number": 34,
+        "date:Date:start": "2015-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:57:04.492023",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "KLTR",
+        "Period": "2010-2014",
+        "Has Data": "__NO__",
+        "Batch Number": 34,
+        "date:Date:start": "2010-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:57:04.502763",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "KLTR",
+        "Period": "2005-2009",
+        "Has Data": "__NO__",
+        "Batch Number": 34,
+        "date:Date:start": "2005-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:57:04.513513",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "KLTR",
+        "Period": "2000-2004",
+        "Has Data": "__NO__",
+        "Batch Number": 34,
+        "date:Date:start": "2000-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:57:04.524242",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "KLXE",
+        "Period": "2020-2024",
+        "Has Data": "__NO__",
+        "Batch Number": 34,
+        "date:Date:start": "2020-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:57:04.535595",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "KLXE",
+        "Period": "2015-2019",
+        "Has Data": "__NO__",
+        "Batch Number": 34,
+        "date:Date:start": "2015-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:57:04.545726",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "KLXE",
+        "Period": "2010-2014",
+        "Has Data": "__NO__",
+        "Batch Number": 34,
+        "date:Date:start": "2010-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:57:04.556438",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "KLXE",
+        "Period": "2005-2009",
+        "Has Data": "__NO__",
+        "Batch Number": 34,
+        "date:Date:start": "2005-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:57:04.567186",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "KLXE",
+        "Period": "2000-2004",
+        "Has Data": "__NO__",
+        "Batch Number": 34,
+        "date:Date:start": "2000-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:57:04.577932",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "KMB",
+        "Period": "2020-2024",
+        "Has Data": "__NO__",
+        "Batch Number": 34,
+        "date:Date:start": "2020-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:57:04.588688",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "KMB",
+        "Period": "2015-2019",
+        "Has Data": "__NO__",
+        "Batch Number": 34,
+        "date:Date:start": "2015-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:57:04.599455",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "KMB",
+        "Period": "2010-2014",
+        "Has Data": "__NO__",
+        "Batch Number": 34,
+        "date:Date:start": "2010-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:57:04.610166",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "KMB",
+        "Period": "2005-2009",
+        "Has Data": "__NO__",
+        "Batch Number": 34,
+        "date:Date:start": "2005-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:57:04.620961",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "KMB",
+        "Period": "2000-2004",
+        "Has Data": "__NO__",
+        "Batch Number": 34,
+        "date:Date:start": "2000-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:57:04.631672",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "KMDA",
+        "Period": "2020-2024",
+        "Has Data": "__NO__",
+        "Batch Number": 34,
+        "date:Date:start": "2020-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:57:04.642594",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "KMDA",
+        "Period": "2015-2019",
+        "Has Data": "__NO__",
+        "Batch Number": 34,
+        "date:Date:start": "2015-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:57:04.653170",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "KMDA",
+        "Period": "2010-2014",
+        "Has Data": "__NO__",
+        "Batch Number": 34,
+        "date:Date:start": "2010-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:57:04.663993",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "KMDA",
+        "Period": "2005-2009",
+        "Has Data": "__NO__",
+        "Batch Number": 34,
+        "date:Date:start": "2005-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:57:04.674692",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "KMDA",
+        "Period": "2000-2004",
+        "Has Data": "__NO__",
+        "Batch Number": 34,
+        "date:Date:start": "2000-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:57:04.685499",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "KMI",
+        "Period": "2020-2024",
+        "Has Data": "__NO__",
+        "Batch Number": 34,
+        "date:Date:start": "2020-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:57:04.696251",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "KMI",
+        "Period": "2015-2019",
+        "Has Data": "__NO__",
+        "Batch Number": 34,
+        "date:Date:start": "2015-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:57:04.706987",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "KMI",
+        "Period": "2010-2014",
+        "Has Data": "__NO__",
+        "Batch Number": 34,
+        "date:Date:start": "2010-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:57:04.717770",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "KMI",
+        "Period": "2005-2009",
+        "Has Data": "__NO__",
+        "Batch Number": 34,
+        "date:Date:start": "2005-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:57:04.728513",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "KMI",
+        "Period": "2000-2004",
+        "Has Data": "__NO__",
+        "Batch Number": 34,
+        "date:Date:start": "2000-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:57:04.739334",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "KMPB",
+        "Period": "2020-2024",
+        "Has Data": "__NO__",
+        "Batch Number": 34,
+        "date:Date:start": "2020-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:57:04.750142",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "KMPB",
+        "Period": "2015-2019",
+        "Has Data": "__NO__",
+        "Batch Number": 34,
+        "date:Date:start": "2015-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:57:04.760891",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "KMPB",
+        "Period": "2010-2014",
+        "Has Data": "__NO__",
+        "Batch Number": 34,
+        "date:Date:start": "2010-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:57:04.771555",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "KMPB",
+        "Period": "2005-2009",
+        "Has Data": "__NO__",
+        "Batch Number": 34,
+        "date:Date:start": "2005-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:57:04.782315",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "KMPB",
+        "Period": "2000-2004",
+        "Has Data": "__NO__",
+        "Batch Number": 34,
+        "date:Date:start": "2000-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:57:04.793071",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "KMPR",
+        "Period": "2020-2024",
+        "Has Data": "__NO__",
+        "Batch Number": 34,
+        "date:Date:start": "2020-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:57:04.803679",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "KMPR",
+        "Period": "2015-2019",
+        "Has Data": "__NO__",
+        "Batch Number": 34,
+        "date:Date:start": "2015-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:57:04.814459",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "KMPR",
+        "Period": "2010-2014",
+        "Has Data": "__NO__",
+        "Batch Number": 34,
+        "date:Date:start": "2010-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:57:04.825158",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "KMPR",
+        "Period": "2005-2009",
+        "Has Data": "__NO__",
+        "Batch Number": 34,
+        "date:Date:start": "2005-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:57:04.835888",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "KMPR",
+        "Period": "2000-2004",
+        "Has Data": "__NO__",
+        "Batch Number": 34,
+        "date:Date:start": "2000-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:57:04.846739",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "KMRK",
+        "Period": "2020-2024",
+        "Has Data": "__NO__",
+        "Batch Number": 34,
+        "date:Date:start": "2020-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:57:04.857428",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "KMRK",
+        "Period": "2015-2019",
+        "Has Data": "__NO__",
+        "Batch Number": 34,
+        "date:Date:start": "2015-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:57:04.868226",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "KMRK",
+        "Period": "2010-2014",
+        "Has Data": "__NO__",
+        "Batch Number": 34,
+        "date:Date:start": "2010-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:57:04.878921",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "KMRK",
+        "Period": "2005-2009",
+        "Has Data": "__NO__",
+        "Batch Number": 34,
+        "date:Date:start": "2005-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:57:04.889652",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "KMRK",
+        "Period": "2000-2004",
+        "Has Data": "__NO__",
+        "Batch Number": 34,
+        "date:Date:start": "2000-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:57:04.900447",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "KMT",
+        "Period": "2020-2024",
+        "Has Data": "__NO__",
+        "Batch Number": 34,
+        "date:Date:start": "2020-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:57:04.911178",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "KMT",
+        "Period": "2015-2019",
+        "Has Data": "__NO__",
+        "Batch Number": 34,
+        "date:Date:start": "2015-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:57:04.921938",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "KMT",
+        "Period": "2010-2014",
+        "Has Data": "__NO__",
+        "Batch Number": 34,
+        "date:Date:start": "2010-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:57:04.932595",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "KMT",
+        "Period": "2005-2009",
+        "Has Data": "__NO__",
+        "Batch Number": 34,
+        "date:Date:start": "2005-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:57:04.943261",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "KMT",
+        "Period": "2000-2004",
+        "Has Data": "__NO__",
+        "Batch Number": 34,
+        "date:Date:start": "2000-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:57:04.953987",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "KMTS",
+        "Period": "2020-2024",
+        "Has Data": "__NO__",
+        "Batch Number": 34,
+        "date:Date:start": "2020-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:57:04.964784",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "KMTS",
+        "Period": "2015-2019",
+        "Has Data": "__NO__",
+        "Batch Number": 34,
+        "date:Date:start": "2015-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:57:04.975430",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "KMTS",
+        "Period": "2010-2014",
+        "Has Data": "__NO__",
+        "Batch Number": 34,
+        "date:Date:start": "2010-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:57:04.986185",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "KMTS",
+        "Period": "2005-2009",
+        "Has Data": "__NO__",
+        "Batch Number": 34,
+        "date:Date:start": "2005-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:57:04.996898",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "KMTS",
+        "Period": "2000-2004",
+        "Has Data": "__NO__",
+        "Batch Number": 34,
+        "date:Date:start": "2000-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:57:05.007616",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "KMX",
+        "Period": "2020-2024",
+        "Has Data": "__NO__",
+        "Batch Number": 34,
+        "date:Date:start": "2020-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:57:05.018306",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "KMX",
+        "Period": "2015-2019",
+        "Has Data": "__NO__",
+        "Batch Number": 34,
+        "date:Date:start": "2015-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:57:05.029039",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "KMX",
+        "Period": "2010-2014",
+        "Has Data": "__NO__",
+        "Batch Number": 34,
+        "date:Date:start": "2010-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:57:05.039719",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "KMX",
+        "Period": "2005-2009",
+        "Has Data": "__NO__",
+        "Batch Number": 34,
+        "date:Date:start": "2005-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:57:05.050471",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "KMX",
+        "Period": "2000-2004",
+        "Has Data": "__NO__",
+        "Batch Number": 34,
+        "date:Date:start": "2000-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:57:05.061268",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "KN",
+        "Period": "2020-2024",
+        "Has Data": "__NO__",
+        "Batch Number": 34,
+        "date:Date:start": "2020-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:57:05.071975",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "KN",
+        "Period": "2015-2019",
+        "Has Data": "__NO__",
+        "Batch Number": 34,
+        "date:Date:start": "2015-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:57:05.082735",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "KN",
+        "Period": "2010-2014",
+        "Has Data": "__NO__",
+        "Batch Number": 34,
+        "date:Date:start": "2010-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:57:05.093590",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "KN",
+        "Period": "2005-2009",
+        "Has Data": "__NO__",
+        "Batch Number": 34,
+        "date:Date:start": "2005-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:57:05.104353",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "KN",
+        "Period": "2000-2004",
+        "Has Data": "__NO__",
+        "Batch Number": 34,
+        "date:Date:start": "2000-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:57:05.115074",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "KNDI",
+        "Period": "2020-2024",
+        "Has Data": "__NO__",
+        "Batch Number": 34,
+        "date:Date:start": "2020-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:57:05.125863",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "KNDI",
+        "Period": "2015-2019",
+        "Has Data": "__NO__",
+        "Batch Number": 34,
+        "date:Date:start": "2015-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:57:05.136564",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "KNDI",
+        "Period": "2010-2014",
+        "Has Data": "__NO__",
+        "Batch Number": 34,
+        "date:Date:start": "2010-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:57:05.147376",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "KNDI",
+        "Period": "2005-2009",
+        "Has Data": "__NO__",
+        "Batch Number": 34,
+        "date:Date:start": "2005-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:57:05.158058",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "KNDI",
+        "Period": "2000-2004",
+        "Has Data": "__NO__",
+        "Batch Number": 34,
+        "date:Date:start": "2000-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:57:05.168830",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "KNF",
+        "Period": "2020-2024",
+        "Has Data": "__NO__",
+        "Batch Number": 34,
+        "date:Date:start": "2020-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:57:05.179622",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "KNF",
+        "Period": "2015-2019",
+        "Has Data": "__NO__",
+        "Batch Number": 34,
+        "date:Date:start": "2015-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:57:05.190347",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "KNF",
+        "Period": "2010-2014",
+        "Has Data": "__NO__",
+        "Batch Number": 34,
+        "date:Date:start": "2010-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:57:05.201087",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "KNF",
+        "Period": "2005-2009",
+        "Has Data": "__NO__",
+        "Batch Number": 34,
+        "date:Date:start": "2005-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:57:05.211801",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "KNF",
+        "Period": "2000-2004",
+        "Has Data": "__NO__",
+        "Batch Number": 34,
+        "date:Date:start": "2000-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:57:05.222507",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "KNOP",
+        "Period": "2020-2024",
+        "Has Data": "__NO__",
+        "Batch Number": 34,
+        "date:Date:start": "2020-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:57:05.233203",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "KNOP",
+        "Period": "2015-2019",
+        "Has Data": "__NO__",
+        "Batch Number": 34,
+        "date:Date:start": "2015-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:57:05.243961",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "KNOP",
+        "Period": "2010-2014",
+        "Has Data": "__NO__",
+        "Batch Number": 34,
+        "date:Date:start": "2010-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:57:05.254700",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "KNOP",
+        "Period": "2005-2009",
+        "Has Data": "__NO__",
+        "Batch Number": 34,
+        "date:Date:start": "2005-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:57:05.265431",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "KNOP",
+        "Period": "2000-2004",
+        "Has Data": "__NO__",
+        "Batch Number": 34,
+        "date:Date:start": "2000-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:57:05.276199",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "KNSA",
+        "Period": "2020-2024",
+        "Has Data": "__NO__",
+        "Batch Number": 34,
+        "date:Date:start": "2020-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:57:05.286916",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "KNSA",
+        "Period": "2015-2019",
+        "Has Data": "__NO__",
+        "Batch Number": 34,
+        "date:Date:start": "2015-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:57:05.297594",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "KNSA",
+        "Period": "2010-2014",
+        "Has Data": "__NO__",
+        "Batch Number": 34,
+        "date:Date:start": "2010-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:57:05.308303",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "KNSA",
+        "Period": "2005-2009",
+        "Has Data": "__NO__",
+        "Batch Number": 34,
+        "date:Date:start": "2005-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:57:05.319059",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "KNSA",
+        "Period": "2000-2004",
+        "Has Data": "__NO__",
+        "Batch Number": 34,
+        "date:Date:start": "2000-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:57:05.329893",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "KNSL",
+        "Period": "2020-2024",
+        "Has Data": "__NO__",
+        "Batch Number": 34,
+        "date:Date:start": "2020-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:57:05.340668",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "KNSL",
+        "Period": "2015-2019",
+        "Has Data": "__NO__",
+        "Batch Number": 34,
+        "date:Date:start": "2015-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:57:05.351393",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "KNSL",
+        "Period": "2010-2014",
+        "Has Data": "__NO__",
+        "Batch Number": 34,
+        "date:Date:start": "2010-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:57:05.362140",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "KNSL",
+        "Period": "2005-2009",
+        "Has Data": "__NO__",
+        "Batch Number": 34,
+        "date:Date:start": "2005-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:57:05.373060",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "KNSL",
+        "Period": "2000-2004",
+        "Has Data": "__NO__",
+        "Batch Number": 34,
+        "date:Date:start": "2000-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:57:05.383809",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "KNTK",
+        "Period": "2020-2024",
+        "Has Data": "__NO__",
+        "Batch Number": 34,
+        "date:Date:start": "2020-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:57:05.394682",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "KNTK",
+        "Period": "2015-2019",
+        "Has Data": "__NO__",
+        "Batch Number": 34,
+        "date:Date:start": "2015-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:57:05.405500",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "KNTK",
+        "Period": "2010-2014",
+        "Has Data": "__NO__",
+        "Batch Number": 34,
+        "date:Date:start": "2010-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:57:05.416410",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "KNTK",
+        "Period": "2005-2009",
+        "Has Data": "__NO__",
+        "Batch Number": 34,
+        "date:Date:start": "2005-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:57:05.427183",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "KNTK",
+        "Period": "2000-2004",
+        "Has Data": "__NO__",
+        "Batch Number": 34,
+        "date:Date:start": "2000-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:57:05.438039",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "KNW",
+        "Period": "2020-2024",
+        "Has Data": "__NO__",
+        "Batch Number": 34,
+        "date:Date:start": "2020-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:57:05.448858",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "KNW",
+        "Period": "2015-2019",
+        "Has Data": "__NO__",
+        "Batch Number": 34,
+        "date:Date:start": "2015-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:57:05.459534",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "KNW",
+        "Period": "2010-2014",
+        "Has Data": "__NO__",
+        "Batch Number": 34,
+        "date:Date:start": "2010-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:57:05.470306",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "KNW",
+        "Period": "2005-2009",
+        "Has Data": "__NO__",
+        "Batch Number": 34,
+        "date:Date:start": "2005-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:57:05.481165",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "KNW",
+        "Period": "2000-2004",
+        "Has Data": "__NO__",
+        "Batch Number": 34,
+        "date:Date:start": "2000-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:57:05.491865",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "KNX",
+        "Period": "2020-2024",
+        "Has Data": "__NO__",
+        "Batch Number": 34,
+        "date:Date:start": "2020-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:57:05.502691",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "KNX",
+        "Period": "2015-2019",
+        "Has Data": "__NO__",
+        "Batch Number": 34,
+        "date:Date:start": "2015-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:57:05.513407",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "KNX",
+        "Period": "2010-2014",
+        "Has Data": "__NO__",
+        "Batch Number": 34,
+        "date:Date:start": "2010-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:57:05.524143",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "KNX",
+        "Period": "2005-2009",
+        "Has Data": "__NO__",
+        "Batch Number": 34,
+        "date:Date:start": "2005-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:57:05.534883",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "KNX",
+        "Period": "2000-2004",
+        "Has Data": "__NO__",
+        "Batch Number": 34,
+        "date:Date:start": "2000-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:57:05.545599",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "KO",
+        "Period": "2020-2024",
+        "Has Data": "__NO__",
+        "Batch Number": 34,
+        "date:Date:start": "2020-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:57:05.556455",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "KO",
+        "Period": "2015-2019",
+        "Has Data": "__NO__",
+        "Batch Number": 34,
+        "date:Date:start": "2015-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:57:05.567137",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "KO",
+        "Period": "2010-2014",
+        "Has Data": "__NO__",
+        "Batch Number": 34,
+        "date:Date:start": "2010-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:57:05.577899",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "KO",
+        "Period": "2005-2009",
+        "Has Data": "__NO__",
+        "Batch Number": 34,
+        "date:Date:start": "2005-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:57:05.588647",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "KO",
+        "Period": "2000-2004",
+        "Has Data": "__NO__",
+        "Batch Number": 34,
+        "date:Date:start": "2000-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:57:05.599396",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "KOD",
+        "Period": "2020-2024",
+        "Has Data": "__NO__",
+        "Batch Number": 34,
+        "date:Date:start": "2020-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:57:05.610750",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "KOD",
+        "Period": "2015-2019",
+        "Has Data": "__NO__",
+        "Batch Number": 34,
+        "date:Date:start": "2015-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:57:05.620974",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "KOD",
+        "Period": "2010-2014",
+        "Has Data": "__NO__",
+        "Batch Number": 34,
+        "date:Date:start": "2010-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:57:05.631738",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "KOD",
+        "Period": "2005-2009",
+        "Has Data": "__NO__",
+        "Batch Number": 34,
+        "date:Date:start": "2005-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:57:05.642537",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "KOD",
+        "Period": "2000-2004",
+        "Has Data": "__NO__",
+        "Batch Number": 34,
+        "date:Date:start": "2000-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:57:05.653263",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "KODK",
+        "Period": "2020-2024",
+        "Has Data": "__NO__",
+        "Batch Number": 34,
+        "date:Date:start": "2020-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:57:05.664100",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "KODK",
+        "Period": "2015-2019",
+        "Has Data": "__NO__",
+        "Batch Number": 34,
+        "date:Date:start": "2015-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:57:05.674813",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "KODK",
+        "Period": "2010-2014",
+        "Has Data": "__NO__",
+        "Batch Number": 34,
+        "date:Date:start": "2010-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:57:05.685659",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "KODK",
+        "Period": "2005-2009",
+        "Has Data": "__NO__",
+        "Batch Number": 34,
+        "date:Date:start": "2005-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:57:05.696406",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "KODK",
+        "Period": "2000-2004",
+        "Has Data": "__NO__",
+        "Batch Number": 34,
+        "date:Date:start": "2000-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:57:05.707198",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "KOF",
+        "Period": "2020-2024",
+        "Has Data": "__NO__",
+        "Batch Number": 34,
+        "date:Date:start": "2020-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:57:05.718001",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "KOF",
+        "Period": "2015-2019",
+        "Has Data": "__NO__",
+        "Batch Number": 34,
+        "date:Date:start": "2015-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:57:05.728793",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "KOF",
+        "Period": "2010-2014",
+        "Has Data": "__NO__",
+        "Batch Number": 34,
+        "date:Date:start": "2010-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:57:05.739621",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "KOF",
+        "Period": "2005-2009",
+        "Has Data": "__NO__",
+        "Batch Number": 34,
+        "date:Date:start": "2005-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:57:05.750431",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "KOF",
+        "Period": "2000-2004",
+        "Has Data": "__NO__",
+        "Batch Number": 34,
+        "date:Date:start": "2000-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:57:05.761245",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "KOP",
+        "Period": "2020-2024",
+        "Has Data": "__NO__",
+        "Batch Number": 34,
+        "date:Date:start": "2020-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:57:05.772002",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "KOP",
+        "Period": "2015-2019",
+        "Has Data": "__NO__",
+        "Batch Number": 34,
+        "date:Date:start": "2015-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:57:05.782742",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "KOP",
+        "Period": "2010-2014",
+        "Has Data": "__NO__",
+        "Batch Number": 34,
+        "date:Date:start": "2010-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:57:05.793503",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "KOP",
+        "Period": "2005-2009",
+        "Has Data": "__NO__",
+        "Batch Number": 34,
+        "date:Date:start": "2005-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:57:05.804254",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "KOP",
+        "Period": "2000-2004",
+        "Has Data": "__NO__",
+        "Batch Number": 34,
+        "date:Date:start": "2000-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:57:05.814993",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "KOPN",
+        "Period": "2020-2024",
+        "Has Data": "__NO__",
+        "Batch Number": 34,
+        "date:Date:start": "2020-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:57:05.825771",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "KOPN",
+        "Period": "2015-2019",
+        "Has Data": "__NO__",
+        "Batch Number": 34,
+        "date:Date:start": "2015-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:57:05.836411",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "KOPN",
+        "Period": "2010-2014",
+        "Has Data": "__NO__",
+        "Batch Number": 34,
+        "date:Date:start": "2010-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:57:05.847198",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "KOPN",
+        "Period": "2005-2009",
+        "Has Data": "__NO__",
+        "Batch Number": 34,
+        "date:Date:start": "2005-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:57:05.858015",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "KOPN",
+        "Period": "2000-2004",
+        "Has Data": "__NO__",
+        "Batch Number": 34,
+        "date:Date:start": "2000-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:57:05.868798",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "KORE",
+        "Period": "2020-2024",
+        "Has Data": "__NO__",
+        "Batch Number": 34,
+        "date:Date:start": "2020-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:57:05.879631",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "KORE",
+        "Period": "2015-2019",
+        "Has Data": "__NO__",
+        "Batch Number": 34,
+        "date:Date:start": "2015-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:57:05.890342",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "KORE",
+        "Period": "2010-2014",
+        "Has Data": "__NO__",
+        "Batch Number": 34,
+        "date:Date:start": "2010-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:57:05.901179",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "KORE",
+        "Period": "2005-2009",
+        "Has Data": "__NO__",
+        "Batch Number": 34,
+        "date:Date:start": "2005-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:57:05.911935",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "KORE",
+        "Period": "2000-2004",
+        "Has Data": "__NO__",
+        "Batch Number": 34,
+        "date:Date:start": "2000-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:57:05.922699",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "KOS",
+        "Period": "2020-2024",
+        "Has Data": "__NO__",
+        "Batch Number": 34,
+        "date:Date:start": "2020-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:57:05.933371",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "KOS",
+        "Period": "2015-2019",
+        "Has Data": "__NO__",
+        "Batch Number": 34,
+        "date:Date:start": "2015-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:57:05.944070",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "KOS",
+        "Period": "2010-2014",
+        "Has Data": "__NO__",
+        "Batch Number": 34,
+        "date:Date:start": "2010-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:57:05.954827",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "KOS",
+        "Period": "2005-2009",
+        "Has Data": "__NO__",
+        "Batch Number": 34,
+        "date:Date:start": "2005-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:57:05.965578",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "KOS",
+        "Period": "2000-2004",
+        "Has Data": "__NO__",
+        "Batch Number": 34,
+        "date:Date:start": "2000-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:57:05.975618",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "KOSS",
+        "Period": "2020-2024",
+        "Has Data": "__NO__",
+        "Batch Number": 34,
+        "date:Date:start": "2020-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:57:05.986139",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "KOSS",
+        "Period": "2015-2019",
+        "Has Data": "__NO__",
+        "Batch Number": 34,
+        "date:Date:start": "2015-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:57:05.996902",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "KOSS",
+        "Period": "2010-2014",
+        "Has Data": "__NO__",
+        "Batch Number": 34,
+        "date:Date:start": "2010-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:57:06.007711",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "KOSS",
+        "Period": "2005-2009",
+        "Has Data": "__NO__",
+        "Batch Number": 34,
+        "date:Date:start": "2005-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:57:06.018429",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "KOSS",
+        "Period": "2000-2004",
+        "Has Data": "__NO__",
+        "Batch Number": 34,
+        "date:Date:start": "2000-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:57:06.029204",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "KPLT",
+        "Period": "2020-2024",
+        "Has Data": "__NO__",
+        "Batch Number": 34,
+        "date:Date:start": "2020-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:57:06.039979",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "KPLT",
+        "Period": "2015-2019",
+        "Has Data": "__NO__",
+        "Batch Number": 34,
+        "date:Date:start": "2015-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:57:06.050862",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "KPLT",
+        "Period": "2010-2014",
+        "Has Data": "__NO__",
+        "Batch Number": 34,
+        "date:Date:start": "2010-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:57:06.061586",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "KPLT",
+        "Period": "2005-2009",
+        "Has Data": "__NO__",
+        "Batch Number": 34,
+        "date:Date:start": "2005-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:57:06.072331",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "KPLT",
+        "Period": "2000-2004",
+        "Has Data": "__NO__",
+        "Batch Number": 34,
+        "date:Date:start": "2000-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:57:06.083143",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "KPLTW",
+        "Period": "2020-2024",
+        "Has Data": "__NO__",
+        "Batch Number": 34,
+        "date:Date:start": "2020-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:57:06.093907",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "KPLTW",
+        "Period": "2015-2019",
+        "Has Data": "__NO__",
+        "Batch Number": 34,
+        "date:Date:start": "2015-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:57:06.104639",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "KPLTW",
+        "Period": "2010-2014",
+        "Has Data": "__NO__",
+        "Batch Number": 34,
+        "date:Date:start": "2010-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:57:06.115339",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "KPLTW",
+        "Period": "2005-2009",
+        "Has Data": "__NO__",
+        "Batch Number": 34,
+        "date:Date:start": "2005-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:57:06.126068",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "KPLTW",
+        "Period": "2000-2004",
+        "Has Data": "__NO__",
+        "Batch Number": 34,
+        "date:Date:start": "2000-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:57:06.136835",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "KPRX",
+        "Period": "2020-2024",
+        "Has Data": "__NO__",
+        "Batch Number": 34,
+        "date:Date:start": "2020-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:57:06.147712",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "KPRX",
+        "Period": "2015-2019",
+        "Has Data": "__NO__",
+        "Batch Number": 34,
+        "date:Date:start": "2015-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:57:06.158471",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "KPRX",
+        "Period": "2010-2014",
+        "Has Data": "__NO__",
+        "Batch Number": 34,
+        "date:Date:start": "2010-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:57:06.169215",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "KPRX",
+        "Period": "2005-2009",
+        "Has Data": "__NO__",
+        "Batch Number": 34,
+        "date:Date:start": "2005-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:57:06.179267",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "KPRX",
+        "Period": "2000-2004",
+        "Has Data": "__NO__",
+        "Batch Number": 34,
+        "date:Date:start": "2000-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:57:06.189733",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "KPTI",
+        "Period": "2020-2024",
+        "Has Data": "__NO__",
+        "Batch Number": 34,
+        "date:Date:start": "2020-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:57:06.200559",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "KPTI",
+        "Period": "2015-2019",
+        "Has Data": "__NO__",
+        "Batch Number": 34,
+        "date:Date:start": "2015-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:57:06.211233",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "KPTI",
+        "Period": "2010-2014",
+        "Has Data": "__NO__",
+        "Batch Number": 34,
+        "date:Date:start": "2010-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:57:06.221983",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "KPTI",
+        "Period": "2005-2009",
+        "Has Data": "__NO__",
+        "Batch Number": 34,
+        "date:Date:start": "2005-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:57:06.232718",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "KPTI",
+        "Period": "2000-2004",
+        "Has Data": "__NO__",
+        "Batch Number": 34,
+        "date:Date:start": "2000-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:57:06.243473",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "KR",
+        "Period": "2020-2024",
+        "Has Data": "__NO__",
+        "Batch Number": 34,
+        "date:Date:start": "2020-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:57:06.254216",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "KR",
+        "Period": "2015-2019",
+        "Has Data": "__NO__",
+        "Batch Number": 34,
+        "date:Date:start": "2015-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:57:06.264975",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "KR",
+        "Period": "2010-2014",
+        "Has Data": "__NO__",
+        "Batch Number": 34,
+        "date:Date:start": "2010-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:57:06.275708",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "KR",
+        "Period": "2005-2009",
+        "Has Data": "__NO__",
+        "Batch Number": 34,
+        "date:Date:start": "2005-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:57:06.286478",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "KR",
+        "Period": "2000-2004",
+        "Has Data": "__NO__",
+        "Batch Number": 34,
+        "date:Date:start": "2000-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:57:06.297314",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "KRC",
+        "Period": "2020-2024",
+        "Has Data": "__NO__",
+        "Batch Number": 34,
+        "date:Date:start": "2020-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:57:06.308063",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "KRC",
+        "Period": "2015-2019",
+        "Has Data": "__NO__",
+        "Batch Number": 34,
+        "date:Date:start": "2015-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:57:06.318941",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "KRC",
+        "Period": "2010-2014",
+        "Has Data": "__NO__",
+        "Batch Number": 34,
+        "date:Date:start": "2010-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:57:06.329701",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "KRC",
+        "Period": "2005-2009",
+        "Has Data": "__NO__",
+        "Batch Number": 34,
+        "date:Date:start": "2005-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:57:06.340576",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "KRC",
+        "Period": "2000-2004",
+        "Has Data": "__NO__",
+        "Batch Number": 34,
+        "date:Date:start": "2000-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:57:06.351407",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "KREF",
+        "Period": "2020-2024",
+        "Has Data": "__NO__",
+        "Batch Number": 34,
+        "date:Date:start": "2020-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:57:06.362210",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "KREF",
+        "Period": "2015-2019",
+        "Has Data": "__NO__",
+        "Batch Number": 34,
+        "date:Date:start": "2015-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:57:06.372932",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "KREF",
+        "Period": "2010-2014",
+        "Has Data": "__NO__",
+        "Batch Number": 34,
+        "date:Date:start": "2010-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:57:06.382961",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "KREF",
+        "Period": "2005-2009",
+        "Has Data": "__NO__",
+        "Batch Number": 34,
+        "date:Date:start": "2005-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:57:06.393371",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "KREF",
+        "Period": "2000-2004",
+        "Has Data": "__NO__",
+        "Batch Number": 34,
+        "date:Date:start": "2000-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:57:06.404129",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "KRG",
+        "Period": "2020-2024",
+        "Has Data": "__NO__",
+        "Batch Number": 34,
+        "date:Date:start": "2020-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:57:06.414919",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "KRG",
+        "Period": "2015-2019",
+        "Has Data": "__NO__",
+        "Batch Number": 34,
+        "date:Date:start": "2015-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:57:06.425771",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "KRG",
+        "Period": "2010-2014",
+        "Has Data": "__NO__",
+        "Batch Number": 34,
+        "date:Date:start": "2010-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:57:06.436577",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "KRG",
+        "Period": "2005-2009",
+        "Has Data": "__NO__",
+        "Batch Number": 34,
+        "date:Date:start": "2005-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:57:06.447388",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "KRG",
+        "Period": "2000-2004",
+        "Has Data": "__NO__",
+        "Batch Number": 34,
+        "date:Date:start": "2000-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:57:06.458056",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "KRKR",
+        "Period": "2020-2024",
+        "Has Data": "__NO__",
+        "Batch Number": 34,
+        "date:Date:start": "2020-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:57:06.468839",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "KRKR",
+        "Period": "2015-2019",
+        "Has Data": "__NO__",
+        "Batch Number": 34,
+        "date:Date:start": "2015-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:57:06.479498",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "KRKR",
+        "Period": "2010-2014",
+        "Has Data": "__NO__",
+        "Batch Number": 34,
+        "date:Date:start": "2010-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:57:06.490285",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "KRKR",
+        "Period": "2005-2009",
+        "Has Data": "__NO__",
+        "Batch Number": 34,
+        "date:Date:start": "2005-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:57:06.501053",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "KRKR",
+        "Period": "2000-2004",
+        "Has Data": "__NO__",
+        "Batch Number": 34,
+        "date:Date:start": "2000-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:57:06.511834",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "KRMD",
+        "Period": "2020-2024",
+        "Has Data": "__NO__",
+        "Batch Number": 34,
+        "date:Date:start": "2020-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:57:06.522774",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "KRMD",
+        "Period": "2015-2019",
+        "Has Data": "__NO__",
+        "Batch Number": 34,
+        "date:Date:start": "2015-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:57:06.533588",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "KRMD",
+        "Period": "2010-2014",
+        "Has Data": "__NO__",
+        "Batch Number": 34,
+        "date:Date:start": "2010-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:57:06.544392",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "KRMD",
+        "Period": "2005-2009",
+        "Has Data": "__NO__",
+        "Batch Number": 34,
+        "date:Date:start": "2005-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:57:06.555194",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "KRMD",
+        "Period": "2000-2004",
+        "Has Data": "__NO__",
+        "Batch Number": 34,
+        "date:Date:start": "2000-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:57:06.565912",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "KRMN",
+        "Period": "2020-2024",
+        "Has Data": "__NO__",
+        "Batch Number": 34,
+        "date:Date:start": "2020-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:57:06.576694",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "KRMN",
+        "Period": "2015-2019",
+        "Has Data": "__NO__",
+        "Batch Number": 34,
+        "date:Date:start": "2015-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:57:06.587378",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "KRMN",
+        "Period": "2010-2014",
+        "Has Data": "__NO__",
+        "Batch Number": 34,
+        "date:Date:start": "2010-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:57:06.598174",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "KRMN",
+        "Period": "2005-2009",
+        "Has Data": "__NO__",
+        "Batch Number": 34,
+        "date:Date:start": "2005-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:57:06.608974",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "KRMN",
+        "Period": "2000-2004",
+        "Has Data": "__NO__",
+        "Batch Number": 34,
+        "date:Date:start": "2000-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:57:06.619806",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "KRNT",
+        "Period": "2020-2024",
+        "Has Data": "__NO__",
+        "Batch Number": 34,
+        "date:Date:start": "2020-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:57:06.630622",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "KRNT",
+        "Period": "2015-2019",
+        "Has Data": "__NO__",
+        "Batch Number": 34,
+        "date:Date:start": "2015-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:57:06.641434",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "KRNT",
+        "Period": "2010-2014",
+        "Has Data": "__NO__",
+        "Batch Number": 34,
+        "date:Date:start": "2010-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:57:06.652231",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "KRNT",
+        "Period": "2005-2009",
+        "Has Data": "__NO__",
+        "Batch Number": 34,
+        "date:Date:start": "2005-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:57:06.663037",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "KRNT",
+        "Period": "2000-2004",
+        "Has Data": "__NO__",
+        "Batch Number": 34,
+        "date:Date:start": "2000-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:57:06.673738",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "KRNY",
+        "Period": "2020-2024",
+        "Has Data": "__NO__",
+        "Batch Number": 34,
+        "date:Date:start": "2020-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:57:06.685138",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "KRNY",
+        "Period": "2015-2019",
+        "Has Data": "__NO__",
+        "Batch Number": 34,
+        "date:Date:start": "2015-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:57:06.695319",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "KRNY",
+        "Period": "2010-2014",
+        "Has Data": "__NO__",
+        "Batch Number": 34,
+        "date:Date:start": "2010-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:57:06.706077",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "KRNY",
+        "Period": "2005-2009",
+        "Has Data": "__NO__",
+        "Batch Number": 34,
+        "date:Date:start": "2005-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:57:06.716893",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "KRNY",
+        "Period": "2000-2004",
+        "Has Data": "__NO__",
+        "Batch Number": 34,
+        "date:Date:start": "2000-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:57:06.727679",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "KRO",
+        "Period": "2020-2024",
+        "Has Data": "__NO__",
+        "Batch Number": 34,
+        "date:Date:start": "2020-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:57:06.738456",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "KRO",
+        "Period": "2015-2019",
+        "Has Data": "__NO__",
+        "Batch Number": 34,
+        "date:Date:start": "2015-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:57:06.749234",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "KRO",
+        "Period": "2010-2014",
+        "Has Data": "__NO__",
+        "Batch Number": 34,
+        "date:Date:start": "2010-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:57:06.759962",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "KRO",
+        "Period": "2005-2009",
+        "Has Data": "__NO__",
+        "Batch Number": 34,
+        "date:Date:start": "2005-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:57:06.770718",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "KRO",
+        "Period": "2000-2004",
+        "Has Data": "__NO__",
+        "Batch Number": 34,
+        "date:Date:start": "2000-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:57:06.781516",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "KROS",
+        "Period": "2020-2024",
+        "Has Data": "__NO__",
+        "Batch Number": 34,
+        "date:Date:start": "2020-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:57:06.792229",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "KROS",
+        "Period": "2015-2019",
+        "Has Data": "__NO__",
+        "Batch Number": 34,
+        "date:Date:start": "2015-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:57:06.802993",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "KROS",
+        "Period": "2010-2014",
+        "Has Data": "__NO__",
+        "Batch Number": 34,
+        "date:Date:start": "2010-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:57:06.813766",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "KROS",
+        "Period": "2005-2009",
+        "Has Data": "__NO__",
+        "Batch Number": 34,
+        "date:Date:start": "2005-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:57:06.824597",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "KROS",
+        "Period": "2000-2004",
+        "Has Data": "__NO__",
+        "Batch Number": 34,
+        "date:Date:start": "2000-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:57:06.835330",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "KRP",
+        "Period": "2020-2024",
+        "Has Data": "__NO__",
+        "Batch Number": 34,
+        "date:Date:start": "2020-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:57:06.846155",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "KRP",
+        "Period": "2015-2019",
+        "Has Data": "__NO__",
+        "Batch Number": 34,
+        "date:Date:start": "2015-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:57:06.856909",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "KRP",
+        "Period": "2010-2014",
+        "Has Data": "__NO__",
+        "Batch Number": 34,
+        "date:Date:start": "2010-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:57:06.867718",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "KRP",
+        "Period": "2005-2009",
+        "Has Data": "__NO__",
+        "Batch Number": 34,
+        "date:Date:start": "2005-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:57:06.878522",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "KRP",
+        "Period": "2000-2004",
+        "Has Data": "__NO__",
+        "Batch Number": 34,
+        "date:Date:start": "2000-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:57:06.889301",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "KRRO",
+        "Period": "2020-2024",
+        "Has Data": "__NO__",
+        "Batch Number": 34,
+        "date:Date:start": "2020-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:57:06.900219",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "KRRO",
+        "Period": "2015-2019",
+        "Has Data": "__NO__",
+        "Batch Number": 34,
+        "date:Date:start": "2015-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:57:06.910959",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "KRRO",
+        "Period": "2010-2014",
+        "Has Data": "__NO__",
+        "Batch Number": 34,
+        "date:Date:start": "2010-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:57:06.921665",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "KRRO",
+        "Period": "2005-2009",
+        "Has Data": "__NO__",
+        "Batch Number": 34,
+        "date:Date:start": "2005-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:57:06.932413",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "KRRO",
+        "Period": "2000-2004",
+        "Has Data": "__NO__",
+        "Batch Number": 34,
+        "date:Date:start": "2000-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:57:06.943142",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "KRT",
+        "Period": "2020-2024",
+        "Has Data": "__NO__",
+        "Batch Number": 34,
+        "date:Date:start": "2020-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:57:06.953929",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "KRT",
+        "Period": "2015-2019",
+        "Has Data": "__NO__",
+        "Batch Number": 34,
+        "date:Date:start": "2015-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:57:06.964708",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "KRT",
+        "Period": "2010-2014",
+        "Has Data": "__NO__",
+        "Batch Number": 34,
+        "date:Date:start": "2010-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:57:06.975456",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "KRT",
+        "Period": "2005-2009",
+        "Has Data": "__NO__",
+        "Batch Number": 34,
+        "date:Date:start": "2005-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:57:06.986237",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "KRT",
+        "Period": "2000-2004",
+        "Has Data": "__NO__",
+        "Batch Number": 34,
+        "date:Date:start": "2000-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:57:06.997019",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "KRUS",
+        "Period": "2020-2024",
+        "Has Data": "__NO__",
+        "Batch Number": 34,
+        "date:Date:start": "2020-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:57:07.007699",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "KRUS",
+        "Period": "2015-2019",
+        "Has Data": "__NO__",
+        "Batch Number": 34,
+        "date:Date:start": "2015-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:57:07.018372",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "KRUS",
+        "Period": "2010-2014",
+        "Has Data": "__NO__",
+        "Batch Number": 34,
+        "date:Date:start": "2010-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:57:07.029071",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "KRUS",
+        "Period": "2005-2009",
+        "Has Data": "__NO__",
+        "Batch Number": 34,
+        "date:Date:start": "2005-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:57:07.039879",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "KRUS",
+        "Period": "2000-2004",
+        "Has Data": "__NO__",
+        "Batch Number": 34,
+        "date:Date:start": "2000-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:57:07.050552",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "KRYS",
+        "Period": "2020-2024",
+        "Has Data": "__NO__",
+        "Batch Number": 34,
+        "date:Date:start": "2020-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:57:07.061340",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "KRYS",
+        "Period": "2015-2019",
+        "Has Data": "__NO__",
+        "Batch Number": 34,
+        "date:Date:start": "2015-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:57:07.072135",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "KRYS",
+        "Period": "2010-2014",
+        "Has Data": "__NO__",
+        "Batch Number": 34,
+        "date:Date:start": "2010-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:57:07.082878",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "KRYS",
+        "Period": "2005-2009",
+        "Has Data": "__NO__",
+        "Batch Number": 34,
+        "date:Date:start": "2005-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:57:07.093584",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "KRYS",
+        "Period": "2000-2004",
+        "Has Data": "__NO__",
+        "Batch Number": 34,
+        "date:Date:start": "2000-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:57:07.104282",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "KSCP",
+        "Period": "2020-2024",
+        "Has Data": "__NO__",
+        "Batch Number": 34,
+        "date:Date:start": "2020-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:57:07.115176",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "KSCP",
+        "Period": "2015-2019",
+        "Has Data": "__NO__",
+        "Batch Number": 34,
+        "date:Date:start": "2015-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:57:07.126090",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "KSCP",
+        "Period": "2010-2014",
+        "Has Data": "__NO__",
+        "Batch Number": 34,
+        "date:Date:start": "2010-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:57:07.136762",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "KSCP",
+        "Period": "2005-2009",
+        "Has Data": "__NO__",
+        "Batch Number": 34,
+        "date:Date:start": "2005-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:57:07.147559",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "KSCP",
+        "Period": "2000-2004",
+        "Has Data": "__NO__",
+        "Batch Number": 34,
+        "date:Date:start": "2000-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:57:07.158042",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "KSPI",
+        "Period": "2020-2024",
+        "Has Data": "__NO__",
+        "Batch Number": 34,
+        "date:Date:start": "2020-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:57:07.168866",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "KSPI",
+        "Period": "2015-2019",
+        "Has Data": "__NO__",
+        "Batch Number": 34,
+        "date:Date:start": "2015-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:57:07.179584",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "KSPI",
+        "Period": "2010-2014",
+        "Has Data": "__NO__",
+        "Batch Number": 34,
+        "date:Date:start": "2010-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:57:07.190291",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "KSPI",
+        "Period": "2005-2009",
+        "Has Data": "__NO__",
+        "Batch Number": 34,
+        "date:Date:start": "2005-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:57:07.201167",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "KSPI",
+        "Period": "2000-2004",
+        "Has Data": "__NO__",
+        "Batch Number": 34,
+        "date:Date:start": "2000-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:57:07.211995",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "KSS",
+        "Period": "2020-2024",
+        "Has Data": "__NO__",
+        "Batch Number": 34,
+        "date:Date:start": "2020-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:57:07.222794",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "KSS",
+        "Period": "2015-2019",
+        "Has Data": "__NO__",
+        "Batch Number": 34,
+        "date:Date:start": "2015-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:57:07.233540",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "KSS",
+        "Period": "2010-2014",
+        "Has Data": "__NO__",
+        "Batch Number": 34,
+        "date:Date:start": "2010-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:57:07.244379",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "KSS",
+        "Period": "2005-2009",
+        "Has Data": "__NO__",
+        "Batch Number": 34,
+        "date:Date:start": "2005-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:57:07.255157",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "KSS",
+        "Period": "2000-2004",
+        "Has Data": "__NO__",
+        "Batch Number": 34,
+        "date:Date:start": "2000-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:57:07.265757",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "KT",
+        "Period": "2020-2024",
+        "Has Data": "__NO__",
+        "Batch Number": 34,
+        "date:Date:start": "2020-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:57:07.276581",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "KT",
+        "Period": "2015-2019",
+        "Has Data": "__NO__",
+        "Batch Number": 34,
+        "date:Date:start": "2015-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:57:07.287283",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "KT",
+        "Period": "2010-2014",
+        "Has Data": "__NO__",
+        "Batch Number": 34,
+        "date:Date:start": "2010-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:57:07.298093",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "KT",
+        "Period": "2005-2009",
+        "Has Data": "__NO__",
+        "Batch Number": 34,
+        "date:Date:start": "2005-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:57:07.308845",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "KT",
+        "Period": "2000-2004",
+        "Has Data": "__NO__",
+        "Batch Number": 34,
+        "date:Date:start": "2000-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:57:07.319603",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "KTB",
+        "Period": "2020-2024",
+        "Has Data": "__NO__",
+        "Batch Number": 34,
+        "date:Date:start": "2020-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:57:07.330295",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "KTB",
+        "Period": "2015-2019",
+        "Has Data": "__NO__",
+        "Batch Number": 34,
+        "date:Date:start": "2015-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:57:07.341126",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "KTB",
+        "Period": "2010-2014",
+        "Has Data": "__NO__",
+        "Batch Number": 34,
+        "date:Date:start": "2010-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:57:07.351933",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "KTB",
+        "Period": "2005-2009",
+        "Has Data": "__NO__",
+        "Batch Number": 34,
+        "date:Date:start": "2005-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:57:07.362726",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "KTB",
+        "Period": "2000-2004",
+        "Has Data": "__NO__",
+        "Batch Number": 34,
+        "date:Date:start": "2000-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:57:07.373465",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "KTCC",
+        "Period": "2020-2024",
+        "Has Data": "__NO__",
+        "Batch Number": 34,
+        "date:Date:start": "2020-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:57:07.384239",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "KTCC",
+        "Period": "2015-2019",
+        "Has Data": "__NO__",
+        "Batch Number": 34,
+        "date:Date:start": "2015-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:57:07.395161",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "KTCC",
+        "Period": "2010-2014",
+        "Has Data": "__NO__",
+        "Batch Number": 34,
+        "date:Date:start": "2010-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:57:07.406055",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "KTCC",
+        "Period": "2005-2009",
+        "Has Data": "__NO__",
+        "Batch Number": 34,
+        "date:Date:start": "2005-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:57:07.416904",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "KTCC",
+        "Period": "2000-2004",
+        "Has Data": "__NO__",
+        "Batch Number": 34,
+        "date:Date:start": "2000-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:57:07.427682",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "KTF",
+        "Period": "2020-2024",
+        "Has Data": "__NO__",
+        "Batch Number": 34,
+        "date:Date:start": "2020-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:57:07.438497",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "KTF",
+        "Period": "2015-2019",
+        "Has Data": "__NO__",
+        "Batch Number": 34,
+        "date:Date:start": "2015-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:57:07.449167",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "KTF",
+        "Period": "2010-2014",
+        "Has Data": "__NO__",
+        "Batch Number": 34,
+        "date:Date:start": "2010-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:57:07.459885",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "KTF",
+        "Period": "2005-2009",
+        "Has Data": "__NO__",
+        "Batch Number": 34,
+        "date:Date:start": "2005-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:57:07.470641",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "KTF",
+        "Period": "2000-2004",
+        "Has Data": "__NO__",
+        "Batch Number": 34,
+        "date:Date:start": "2000-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:57:07.481380",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "KTH",
+        "Period": "2020-2024",
+        "Has Data": "__NO__",
+        "Batch Number": 34,
+        "date:Date:start": "2020-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:57:07.492081",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "KTH",
+        "Period": "2015-2019",
+        "Has Data": "__NO__",
+        "Batch Number": 34,
+        "date:Date:start": "2015-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:57:07.502972",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "KTH",
+        "Period": "2010-2014",
+        "Has Data": "__NO__",
+        "Batch Number": 34,
+        "date:Date:start": "2010-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:57:07.513842",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "KTH",
+        "Period": "2005-2009",
+        "Has Data": "__NO__",
+        "Batch Number": 34,
+        "date:Date:start": "2005-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:57:07.524649",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "KTH",
+        "Period": "2000-2004",
+        "Has Data": "__NO__",
+        "Batch Number": 34,
+        "date:Date:start": "2000-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:57:07.535336",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "KTN",
+        "Period": "2020-2024",
+        "Has Data": "__NO__",
+        "Batch Number": 34,
+        "date:Date:start": "2020-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:57:07.546068",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "KTN",
+        "Period": "2015-2019",
+        "Has Data": "__NO__",
+        "Batch Number": 34,
+        "date:Date:start": "2015-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:57:07.556879",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "KTN",
+        "Period": "2010-2014",
+        "Has Data": "__NO__",
+        "Batch Number": 34,
+        "date:Date:start": "2010-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:57:07.567549",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "KTN",
+        "Period": "2005-2009",
+        "Has Data": "__NO__",
+        "Batch Number": 34,
+        "date:Date:start": "2005-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:57:07.578319",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "KTN",
+        "Period": "2000-2004",
+        "Has Data": "__NO__",
+        "Batch Number": 34,
+        "date:Date:start": "2000-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:57:07.589084",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "KTOS",
+        "Period": "2020-2024",
+        "Has Data": "__NO__",
+        "Batch Number": 34,
+        "date:Date:start": "2020-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:57:07.599913",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "KTOS",
+        "Period": "2015-2019",
+        "Has Data": "__NO__",
+        "Batch Number": 34,
+        "date:Date:start": "2015-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:57:07.610646",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "KTOS",
+        "Period": "2010-2014",
+        "Has Data": "__NO__",
+        "Batch Number": 34,
+        "date:Date:start": "2010-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:57:07.621380",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "KTOS",
+        "Period": "2005-2009",
+        "Has Data": "__NO__",
+        "Batch Number": 34,
+        "date:Date:start": "2005-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:57:07.632336",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "KTOS",
+        "Period": "2000-2004",
+        "Has Data": "__NO__",
+        "Batch Number": 34,
+        "date:Date:start": "2000-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:57:07.643158",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "KTTA",
+        "Period": "2020-2024",
+        "Has Data": "__NO__",
+        "Batch Number": 34,
+        "date:Date:start": "2020-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:57:07.654050",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "KTTA",
+        "Period": "2015-2019",
+        "Has Data": "__NO__",
+        "Batch Number": 34,
+        "date:Date:start": "2015-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:57:07.664700",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "KTTA",
+        "Period": "2010-2014",
+        "Has Data": "__NO__",
+        "Batch Number": 34,
+        "date:Date:start": "2010-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:57:07.675448",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "KTTA",
+        "Period": "2005-2009",
+        "Has Data": "__NO__",
+        "Batch Number": 34,
+        "date:Date:start": "2005-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:57:07.686141",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "KTTA",
+        "Period": "2000-2004",
+        "Has Data": "__NO__",
+        "Batch Number": 34,
+        "date:Date:start": "2000-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:57:07.696915",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "KTTAW",
+        "Period": "2020-2024",
+        "Has Data": "__NO__",
+        "Batch Number": 34,
+        "date:Date:start": "2020-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:57:07.707631",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "KTTAW",
+        "Period": "2015-2019",
+        "Has Data": "__NO__",
+        "Batch Number": 34,
+        "date:Date:start": "2015-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:57:07.718407",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "KTTAW",
+        "Period": "2010-2014",
+        "Has Data": "__NO__",
+        "Batch Number": 34,
+        "date:Date:start": "2010-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:57:07.729202",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "KTTAW",
+        "Period": "2005-2009",
+        "Has Data": "__NO__",
+        "Batch Number": 34,
+        "date:Date:start": "2005-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:57:07.740019",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "KTTAW",
+        "Period": "2000-2004",
+        "Has Data": "__NO__",
+        "Batch Number": 34,
+        "date:Date:start": "2000-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:57:07.750864",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "KUKE",
+        "Period": "2020-2024",
+        "Has Data": "__NO__",
+        "Batch Number": 34,
+        "date:Date:start": "2020-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:57:07.762166",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "KUKE",
+        "Period": "2015-2019",
+        "Has Data": "__NO__",
+        "Batch Number": 34,
+        "date:Date:start": "2015-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:57:07.772435",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "KUKE",
+        "Period": "2010-2014",
+        "Has Data": "__NO__",
+        "Batch Number": 34,
+        "date:Date:start": "2010-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:57:07.783290",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "KUKE",
+        "Period": "2005-2009",
+        "Has Data": "__NO__",
+        "Batch Number": 34,
+        "date:Date:start": "2005-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:57:07.794161",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "KUKE",
+        "Period": "2000-2004",
+        "Has Data": "__NO__",
+        "Batch Number": 34,
+        "date:Date:start": "2000-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:57:07.804953",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "KULR",
+        "Period": "2020-2024",
+        "Has Data": "__NO__",
+        "Batch Number": 34,
+        "date:Date:start": "2020-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:57:07.815780",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "KULR",
+        "Period": "2015-2019",
+        "Has Data": "__NO__",
+        "Batch Number": 34,
+        "date:Date:start": "2015-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:57:07.826583",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "KULR",
+        "Period": "2010-2014",
+        "Has Data": "__NO__",
+        "Batch Number": 34,
+        "date:Date:start": "2010-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:57:07.837303",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "KULR",
+        "Period": "2005-2009",
+        "Has Data": "__NO__",
+        "Batch Number": 34,
+        "date:Date:start": "2005-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:57:07.848080",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "KULR",
+        "Period": "2000-2004",
+        "Has Data": "__NO__",
+        "Batch Number": 34,
+        "date:Date:start": "2000-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:57:07.858868",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "KURA",
+        "Period": "2020-2024",
+        "Has Data": "__NO__",
+        "Batch Number": 34,
+        "date:Date:start": "2020-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:57:07.869563",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "KURA",
+        "Period": "2015-2019",
+        "Has Data": "__NO__",
+        "Batch Number": 34,
+        "date:Date:start": "2015-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:57:07.880323",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "KURA",
+        "Period": "2010-2014",
+        "Has Data": "__NO__",
+        "Batch Number": 34,
+        "date:Date:start": "2010-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:57:07.891174",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "KURA",
+        "Period": "2005-2009",
+        "Has Data": "__NO__",
+        "Batch Number": 34,
+        "date:Date:start": "2005-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:57:07.901996",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "KURA",
+        "Period": "2000-2004",
+        "Has Data": "__NO__",
+        "Batch Number": 34,
+        "date:Date:start": "2000-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:57:07.912790",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "KVAC",
+        "Period": "2020-2024",
+        "Has Data": "__NO__",
+        "Batch Number": 34,
+        "date:Date:start": "2020-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:57:07.923589",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "KVAC",
+        "Period": "2015-2019",
+        "Has Data": "__NO__",
+        "Batch Number": 34,
+        "date:Date:start": "2015-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:57:07.934445",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "KVAC",
+        "Period": "2010-2014",
+        "Has Data": "__NO__",
+        "Batch Number": 34,
+        "date:Date:start": "2010-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:57:07.945280",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "KVAC",
+        "Period": "2005-2009",
+        "Has Data": "__NO__",
+        "Batch Number": 34,
+        "date:Date:start": "2005-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:57:07.956210",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "KVAC",
+        "Period": "2000-2004",
+        "Has Data": "__NO__",
+        "Batch Number": 34,
+        "date:Date:start": "2000-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:57:07.966984",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "KVACW",
+        "Period": "2020-2024",
+        "Has Data": "__NO__",
+        "Batch Number": 34,
+        "date:Date:start": "2020-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:57:07.977847",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "KVACW",
+        "Period": "2015-2019",
+        "Has Data": "__NO__",
+        "Batch Number": 34,
+        "date:Date:start": "2015-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:57:07.988642",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "KVACW",
+        "Period": "2010-2014",
+        "Has Data": "__NO__",
+        "Batch Number": 34,
+        "date:Date:start": "2010-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:57:07.999410",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "KVACW",
+        "Period": "2005-2009",
+        "Has Data": "__NO__",
+        "Batch Number": 34,
+        "date:Date:start": "2005-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:57:08.010175",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "KVACW",
+        "Period": "2000-2004",
+        "Has Data": "__NO__",
+        "Batch Number": 34,
+        "date:Date:start": "2000-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:57:08.020993",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "KVHI",
+        "Period": "2020-2024",
+        "Has Data": "__NO__",
+        "Batch Number": 34,
+        "date:Date:start": "2020-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:57:08.031739",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "KVHI",
+        "Period": "2015-2019",
+        "Has Data": "__NO__",
+        "Batch Number": 34,
+        "date:Date:start": "2015-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:57:08.042482",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "KVHI",
+        "Period": "2010-2014",
+        "Has Data": "__NO__",
+        "Batch Number": 34,
+        "date:Date:start": "2010-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:57:08.053152",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "KVHI",
+        "Period": "2005-2009",
+        "Has Data": "__NO__",
+        "Batch Number": 34,
+        "date:Date:start": "2005-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:57:08.063923",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "KVHI",
+        "Period": "2000-2004",
+        "Has Data": "__NO__",
+        "Batch Number": 34,
+        "date:Date:start": "2000-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:57:08.074695",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "KVUE",
+        "Period": "2020-2024",
+        "Has Data": "__NO__",
+        "Batch Number": 34,
+        "date:Date:start": "2020-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:57:08.085661",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "KVUE",
+        "Period": "2015-2019",
+        "Has Data": "__NO__",
+        "Batch Number": 34,
+        "date:Date:start": "2015-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:57:08.096636",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "KVUE",
+        "Period": "2010-2014",
+        "Has Data": "__NO__",
+        "Batch Number": 34,
+        "date:Date:start": "2010-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:57:08.107390",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "KVUE",
+        "Period": "2005-2009",
+        "Has Data": "__NO__",
+        "Batch Number": 34,
+        "date:Date:start": "2005-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:57:08.118161",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "KVUE",
+        "Period": "2000-2004",
+        "Has Data": "__NO__",
+        "Batch Number": 34,
+        "date:Date:start": "2000-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:57:08.129043",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "KVYO",
+        "Period": "2020-2024",
+        "Has Data": "__NO__",
+        "Batch Number": 34,
+        "date:Date:start": "2020-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:57:08.139729",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "KVYO",
+        "Period": "2015-2019",
+        "Has Data": "__NO__",
+        "Batch Number": 34,
+        "date:Date:start": "2015-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:57:08.150525",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "KVYO",
+        "Period": "2010-2014",
+        "Has Data": "__NO__",
+        "Batch Number": 34,
+        "date:Date:start": "2010-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:57:08.161366",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "KVYO",
+        "Period": "2005-2009",
+        "Has Data": "__NO__",
+        "Batch Number": 34,
+        "date:Date:start": "2005-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:57:08.172166",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "KVYO",
+        "Period": "2000-2004",
+        "Has Data": "__NO__",
+        "Batch Number": 34,
+        "date:Date:start": "2000-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:57:08.182916",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "KW",
+        "Period": "2020-2024",
+        "Has Data": "__NO__",
+        "Batch Number": 34,
+        "date:Date:start": "2020-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:57:08.193714",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "KW",
+        "Period": "2015-2019",
+        "Has Data": "__NO__",
+        "Batch Number": 34,
+        "date:Date:start": "2015-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:57:08.204605",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "KW",
+        "Period": "2010-2014",
+        "Has Data": "__NO__",
+        "Batch Number": 34,
+        "date:Date:start": "2010-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:57:08.215386",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "KW",
+        "Period": "2005-2009",
+        "Has Data": "__NO__",
+        "Batch Number": 34,
+        "date:Date:start": "2005-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:57:08.226094",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "KW",
+        "Period": "2000-2004",
+        "Has Data": "__NO__",
+        "Batch Number": 34,
+        "date:Date:start": "2000-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:57:08.236952",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "KWM",
+        "Period": "2020-2024",
+        "Has Data": "__NO__",
+        "Batch Number": 34,
+        "date:Date:start": "2020-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:57:08.247632",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "KWM",
+        "Period": "2015-2019",
+        "Has Data": "__NO__",
+        "Batch Number": 34,
+        "date:Date:start": "2015-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:57:08.258512",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "KWM",
+        "Period": "2010-2014",
+        "Has Data": "__NO__",
+        "Batch Number": 34,
+        "date:Date:start": "2010-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:57:08.269343",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "KWM",
+        "Period": "2005-2009",
+        "Has Data": "__NO__",
+        "Batch Number": 34,
+        "date:Date:start": "2005-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:57:08.280188",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "KWM",
+        "Period": "2000-2004",
+        "Has Data": "__NO__",
+        "Batch Number": 34,
+        "date:Date:start": "2000-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:57:08.291007",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "KWMWW",
+        "Period": "2020-2024",
+        "Has Data": "__NO__",
+        "Batch Number": 34,
+        "date:Date:start": "2020-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:57:08.301796",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "KWMWW",
+        "Period": "2015-2019",
+        "Has Data": "__NO__",
+        "Batch Number": 34,
+        "date:Date:start": "2015-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:57:08.312719",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "KWMWW",
+        "Period": "2010-2014",
+        "Has Data": "__NO__",
+        "Batch Number": 34,
+        "date:Date:start": "2010-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:57:08.323571",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "KWMWW",
+        "Period": "2005-2009",
+        "Has Data": "__NO__",
+        "Batch Number": 34,
+        "date:Date:start": "2005-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:57:08.334395",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "KWMWW",
+        "Period": "2000-2004",
+        "Has Data": "__NO__",
+        "Batch Number": 34,
+        "date:Date:start": "2000-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:57:08.345138",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "KWR",
+        "Period": "2020-2024",
+        "Has Data": "__NO__",
+        "Batch Number": 34,
+        "date:Date:start": "2020-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:57:08.355976",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "KWR",
+        "Period": "2015-2019",
+        "Has Data": "__NO__",
+        "Batch Number": 34,
+        "date:Date:start": "2015-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:57:08.366764",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "KWR",
+        "Period": "2010-2014",
+        "Has Data": "__NO__",
+        "Batch Number": 34,
+        "date:Date:start": "2010-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:57:08.377456",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "KWR",
+        "Period": "2005-2009",
+        "Has Data": "__NO__",
+        "Batch Number": 34,
+        "date:Date:start": "2005-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:57:08.388146",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "KWR",
+        "Period": "2000-2004",
+        "Has Data": "__NO__",
+        "Batch Number": 34,
+        "date:Date:start": "2000-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:57:08.398955",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "KXIN",
+        "Period": "2020-2024",
+        "Has Data": "__NO__",
+        "Batch Number": 34,
+        "date:Date:start": "2020-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:57:08.409699",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "KXIN",
+        "Period": "2015-2019",
+        "Has Data": "__NO__",
+        "Batch Number": 34,
+        "date:Date:start": "2015-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:57:08.419737",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "KXIN",
+        "Period": "2010-2014",
+        "Has Data": "__NO__",
+        "Batch Number": 34,
+        "date:Date:start": "2010-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:57:08.430095",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "KXIN",
+        "Period": "2005-2009",
+        "Has Data": "__NO__",
+        "Batch Number": 34,
+        "date:Date:start": "2005-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:57:08.440794",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "KXIN",
+        "Period": "2000-2004",
+        "Has Data": "__NO__",
+        "Batch Number": 34,
+        "date:Date:start": "2000-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:57:08.451506",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "KYMR",
+        "Period": "2020-2024",
+        "Has Data": "__NO__",
+        "Batch Number": 34,
+        "date:Date:start": "2020-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:57:08.462279",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "KYMR",
+        "Period": "2015-2019",
+        "Has Data": "__NO__",
+        "Batch Number": 34,
+        "date:Date:start": "2015-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:57:08.472966",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "KYMR",
+        "Period": "2010-2014",
+        "Has Data": "__NO__",
+        "Batch Number": 34,
+        "date:Date:start": "2010-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:57:08.483778",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "KYMR",
+        "Period": "2005-2009",
+        "Has Data": "__NO__",
+        "Batch Number": 34,
+        "date:Date:start": "2005-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:57:08.494487",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "KYMR",
+        "Period": "2000-2004",
+        "Has Data": "__NO__",
+        "Batch Number": 34,
+        "date:Date:start": "2000-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:57:08.505231",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "KYN",
+        "Period": "2020-2024",
+        "Has Data": "__NO__",
+        "Batch Number": 34,
+        "date:Date:start": "2020-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:57:08.516069",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "KYN",
+        "Period": "2015-2019",
+        "Has Data": "__NO__",
+        "Batch Number": 34,
+        "date:Date:start": "2015-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:57:08.526905",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "KYN",
+        "Period": "2010-2014",
+        "Has Data": "__NO__",
+        "Batch Number": 34,
+        "date:Date:start": "2010-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:57:08.537633",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "KYN",
+        "Period": "2005-2009",
+        "Has Data": "__NO__",
+        "Batch Number": 34,
+        "date:Date:start": "2005-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:57:08.548377",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "KYN",
+        "Period": "2000-2004",
+        "Has Data": "__NO__",
+        "Batch Number": 34,
+        "date:Date:start": "2000-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:57:08.559078",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "KYTX",
+        "Period": "2020-2024",
+        "Has Data": "__NO__",
+        "Batch Number": 34,
+        "date:Date:start": "2020-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:57:08.569890",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "KYTX",
+        "Period": "2015-2019",
+        "Has Data": "__NO__",
+        "Batch Number": 34,
+        "date:Date:start": "2015-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:57:08.580704",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "KYTX",
+        "Period": "2010-2014",
+        "Has Data": "__NO__",
+        "Batch Number": 34,
+        "date:Date:start": "2010-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:57:08.591469",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "KYTX",
+        "Period": "2005-2009",
+        "Has Data": "__NO__",
+        "Batch Number": 34,
+        "date:Date:start": "2005-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:57:08.602323",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "KYTX",
+        "Period": "2000-2004",
+        "Has Data": "__NO__",
+        "Batch Number": 34,
+        "date:Date:start": "2000-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:57:08.613068",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "KZIA",
+        "Period": "2020-2024",
+        "Has Data": "__NO__",
+        "Batch Number": 34,
+        "date:Date:start": "2020-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:57:08.623132",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "KZIA",
+        "Period": "2015-2019",
+        "Has Data": "__NO__",
+        "Batch Number": 34,
+        "date:Date:start": "2015-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:57:08.633618",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "KZIA",
+        "Period": "2010-2014",
+        "Has Data": "__NO__",
+        "Batch Number": 34,
+        "date:Date:start": "2010-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:57:08.644351",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "KZIA",
+        "Period": "2005-2009",
+        "Has Data": "__NO__",
+        "Batch Number": 34,
+        "date:Date:start": "2005-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:57:08.655152",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "KZIA",
+        "Period": "2000-2004",
+        "Has Data": "__NO__",
+        "Batch Number": 34,
+        "date:Date:start": "2000-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:57:08.666060",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "KZR",
+        "Period": "2020-2024",
+        "Has Data": "__NO__",
+        "Batch Number": 34,
+        "date:Date:start": "2020-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:57:08.676674",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "KZR",
+        "Period": "2015-2019",
+        "Has Data": "__NO__",
+        "Batch Number": 34,
+        "date:Date:start": "2015-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:57:08.687500",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "KZR",
+        "Period": "2010-2014",
+        "Has Data": "__NO__",
+        "Batch Number": 34,
+        "date:Date:start": "2010-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:57:08.698306",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "KZR",
+        "Period": "2005-2009",
+        "Has Data": "__NO__",
+        "Batch Number": 34,
+        "date:Date:start": "2005-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:57:08.708984",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "KZR",
+        "Period": "2000-2004",
+        "Has Data": "__NO__",
+        "Batch Number": 34,
+        "date:Date:start": "2000-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:57:08.719800",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "L",
+        "Period": "2020-2024",
+        "Has Data": "__NO__",
+        "Batch Number": 34,
+        "date:Date:start": "2020-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:57:08.730552",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "L",
+        "Period": "2015-2019",
+        "Has Data": "__NO__",
+        "Batch Number": 34,
+        "date:Date:start": "2015-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:57:08.741329",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "L",
+        "Period": "2010-2014",
+        "Has Data": "__NO__",
+        "Batch Number": 34,
+        "date:Date:start": "2010-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:57:08.752051",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "L",
+        "Period": "2005-2009",
+        "Has Data": "__NO__",
+        "Batch Number": 34,
+        "date:Date:start": "2005-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:57:08.762754",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "L",
+        "Period": "2000-2004",
+        "Has Data": "__NO__",
+        "Batch Number": 34,
+        "date:Date:start": "2000-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:57:08.773429",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "LAB",
+        "Period": "2020-2024",
+        "Has Data": "__NO__",
+        "Batch Number": 34,
+        "date:Date:start": "2020-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:57:08.784208",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "LAB",
+        "Period": "2015-2019",
+        "Has Data": "__NO__",
+        "Batch Number": 34,
+        "date:Date:start": "2015-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:57:08.794928",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "LAB",
+        "Period": "2010-2014",
+        "Has Data": "__NO__",
+        "Batch Number": 34,
+        "date:Date:start": "2010-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:57:08.805658",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "LAB",
+        "Period": "2005-2009",
+        "Has Data": "__NO__",
+        "Batch Number": 34,
+        "date:Date:start": "2005-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:57:08.816427",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "LAB",
+        "Period": "2000-2004",
+        "Has Data": "__NO__",
+        "Batch Number": 34,
+        "date:Date:start": "2000-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:57:08.827183",
+        "date:Retrieved At:is_datetime": 1
+      }
+    }
+  ]
+}

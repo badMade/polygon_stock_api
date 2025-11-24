@@ -1,0 +1,6008 @@
+{
+  "data_source_id": "7c5225aa-429b-4580-946e-ba5b1db2ca6d",
+  "batch_number": 55,
+  "record_count": 500,
+  "timestamp": "2025-11-24T04:59:02.012104",
+  "pages": [
+    {
+      "properties": {
+        "Ticker": "SITM",
+        "Period": "2020-2024",
+        "Has Data": "__NO__",
+        "Batch Number": 55,
+        "date:Date:start": "2020-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:58:56.628092",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "SITM",
+        "Period": "2015-2019",
+        "Has Data": "__NO__",
+        "Batch Number": 55,
+        "date:Date:start": "2015-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:58:56.638896",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "SITM",
+        "Period": "2010-2014",
+        "Has Data": "__NO__",
+        "Batch Number": 55,
+        "date:Date:start": "2010-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:58:56.649679",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "SITM",
+        "Period": "2005-2009",
+        "Has Data": "__NO__",
+        "Batch Number": 55,
+        "date:Date:start": "2005-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:58:56.660455",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "SITM",
+        "Period": "2000-2004",
+        "Has Data": "__NO__",
+        "Batch Number": 55,
+        "date:Date:start": "2000-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:58:56.671187",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "SJ",
+        "Period": "2020-2024",
+        "Has Data": "__NO__",
+        "Batch Number": 55,
+        "date:Date:start": "2020-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:58:56.681929",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "SJ",
+        "Period": "2015-2019",
+        "Has Data": "__NO__",
+        "Batch Number": 55,
+        "date:Date:start": "2015-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:58:56.692658",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "SJ",
+        "Period": "2010-2014",
+        "Has Data": "__NO__",
+        "Batch Number": 55,
+        "date:Date:start": "2010-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:58:56.703486",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "SJ",
+        "Period": "2005-2009",
+        "Has Data": "__NO__",
+        "Batch Number": 55,
+        "date:Date:start": "2005-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:58:56.714263",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "SJ",
+        "Period": "2000-2004",
+        "Has Data": "__NO__",
+        "Batch Number": 55,
+        "date:Date:start": "2000-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:58:56.724974",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "SJM",
+        "Period": "2020-2024",
+        "Has Data": "__NO__",
+        "Batch Number": 55,
+        "date:Date:start": "2020-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:58:56.735716",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "SJM",
+        "Period": "2015-2019",
+        "Has Data": "__NO__",
+        "Batch Number": 55,
+        "date:Date:start": "2015-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:58:56.746770",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "SJM",
+        "Period": "2010-2014",
+        "Has Data": "__NO__",
+        "Batch Number": 55,
+        "date:Date:start": "2010-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:58:56.757537",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "SJM",
+        "Period": "2005-2009",
+        "Has Data": "__NO__",
+        "Batch Number": 55,
+        "date:Date:start": "2005-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:58:56.768255",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "SJM",
+        "Period": "2000-2004",
+        "Has Data": "__NO__",
+        "Batch Number": 55,
+        "date:Date:start": "2000-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:58:56.779041",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "SJT",
+        "Period": "2020-2024",
+        "Has Data": "__NO__",
+        "Batch Number": 55,
+        "date:Date:start": "2020-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:58:56.789813",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "SJT",
+        "Period": "2015-2019",
+        "Has Data": "__NO__",
+        "Batch Number": 55,
+        "date:Date:start": "2015-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:58:56.800519",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "SJT",
+        "Period": "2010-2014",
+        "Has Data": "__NO__",
+        "Batch Number": 55,
+        "date:Date:start": "2010-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:58:56.811325",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "SJT",
+        "Period": "2005-2009",
+        "Has Data": "__NO__",
+        "Batch Number": 55,
+        "date:Date:start": "2005-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:58:56.822040",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "SJT",
+        "Period": "2000-2004",
+        "Has Data": "__NO__",
+        "Batch Number": 55,
+        "date:Date:start": "2000-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:58:56.832712",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "SKBL",
+        "Period": "2020-2024",
+        "Has Data": "__NO__",
+        "Batch Number": 55,
+        "date:Date:start": "2020-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:58:56.843524",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "SKBL",
+        "Period": "2015-2019",
+        "Has Data": "__NO__",
+        "Batch Number": 55,
+        "date:Date:start": "2015-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:58:56.854318",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "SKBL",
+        "Period": "2010-2014",
+        "Has Data": "__NO__",
+        "Batch Number": 55,
+        "date:Date:start": "2010-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:58:56.865154",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "SKBL",
+        "Period": "2005-2009",
+        "Has Data": "__NO__",
+        "Batch Number": 55,
+        "date:Date:start": "2005-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:58:56.875943",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "SKBL",
+        "Period": "2000-2004",
+        "Has Data": "__NO__",
+        "Batch Number": 55,
+        "date:Date:start": "2000-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:58:56.886705",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "SKE",
+        "Period": "2020-2024",
+        "Has Data": "__NO__",
+        "Batch Number": 55,
+        "date:Date:start": "2020-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:58:56.897476",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "SKE",
+        "Period": "2015-2019",
+        "Has Data": "__NO__",
+        "Batch Number": 55,
+        "date:Date:start": "2015-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:58:56.908298",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "SKE",
+        "Period": "2010-2014",
+        "Has Data": "__NO__",
+        "Batch Number": 55,
+        "date:Date:start": "2010-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:58:56.919044",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "SKE",
+        "Period": "2005-2009",
+        "Has Data": "__NO__",
+        "Batch Number": 55,
+        "date:Date:start": "2005-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:58:56.929831",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "SKE",
+        "Period": "2000-2004",
+        "Has Data": "__NO__",
+        "Batch Number": 55,
+        "date:Date:start": "2000-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:58:56.940470",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "SKIL",
+        "Period": "2020-2024",
+        "Has Data": "__NO__",
+        "Batch Number": 55,
+        "date:Date:start": "2020-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:58:56.951295",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "SKIL",
+        "Period": "2015-2019",
+        "Has Data": "__NO__",
+        "Batch Number": 55,
+        "date:Date:start": "2015-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:58:56.962039",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "SKIL",
+        "Period": "2010-2014",
+        "Has Data": "__NO__",
+        "Batch Number": 55,
+        "date:Date:start": "2010-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:58:56.972711",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "SKIL",
+        "Period": "2005-2009",
+        "Has Data": "__NO__",
+        "Batch Number": 55,
+        "date:Date:start": "2005-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:58:56.983491",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "SKIL",
+        "Period": "2000-2004",
+        "Has Data": "__NO__",
+        "Batch Number": 55,
+        "date:Date:start": "2000-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:58:56.994322",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "SKIN",
+        "Period": "2020-2024",
+        "Has Data": "__NO__",
+        "Batch Number": 55,
+        "date:Date:start": "2020-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:58:57.005105",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "SKIN",
+        "Period": "2015-2019",
+        "Has Data": "__NO__",
+        "Batch Number": 55,
+        "date:Date:start": "2015-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:58:57.015890",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "SKIN",
+        "Period": "2010-2014",
+        "Has Data": "__NO__",
+        "Batch Number": 55,
+        "date:Date:start": "2010-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:58:57.026549",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "SKIN",
+        "Period": "2005-2009",
+        "Has Data": "__NO__",
+        "Batch Number": 55,
+        "date:Date:start": "2005-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:58:57.037293",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "SKIN",
+        "Period": "2000-2004",
+        "Has Data": "__NO__",
+        "Batch Number": 55,
+        "date:Date:start": "2000-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:58:57.048141",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "SKK",
+        "Period": "2020-2024",
+        "Has Data": "__NO__",
+        "Batch Number": 55,
+        "date:Date:start": "2020-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:58:57.058930",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "SKK",
+        "Period": "2015-2019",
+        "Has Data": "__NO__",
+        "Batch Number": 55,
+        "date:Date:start": "2015-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:58:57.069694",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "SKK",
+        "Period": "2010-2014",
+        "Has Data": "__NO__",
+        "Batch Number": 55,
+        "date:Date:start": "2010-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:58:57.080439",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "SKK",
+        "Period": "2005-2009",
+        "Has Data": "__NO__",
+        "Batch Number": 55,
+        "date:Date:start": "2005-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:58:57.091168",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "SKK",
+        "Period": "2000-2004",
+        "Has Data": "__NO__",
+        "Batch Number": 55,
+        "date:Date:start": "2000-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:58:57.101934",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "SKLZ",
+        "Period": "2020-2024",
+        "Has Data": "__NO__",
+        "Batch Number": 55,
+        "date:Date:start": "2020-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:58:57.112733",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "SKLZ",
+        "Period": "2015-2019",
+        "Has Data": "__NO__",
+        "Batch Number": 55,
+        "date:Date:start": "2015-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:58:57.123541",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "SKLZ",
+        "Period": "2010-2014",
+        "Has Data": "__NO__",
+        "Batch Number": 55,
+        "date:Date:start": "2010-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:58:57.134268",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "SKLZ",
+        "Period": "2005-2009",
+        "Has Data": "__NO__",
+        "Batch Number": 55,
+        "date:Date:start": "2005-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:58:57.145106",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "SKLZ",
+        "Period": "2000-2004",
+        "Has Data": "__NO__",
+        "Batch Number": 55,
+        "date:Date:start": "2000-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:58:57.155881",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "SKM",
+        "Period": "2020-2024",
+        "Has Data": "__NO__",
+        "Batch Number": 55,
+        "date:Date:start": "2020-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:58:57.166650",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "SKM",
+        "Period": "2015-2019",
+        "Has Data": "__NO__",
+        "Batch Number": 55,
+        "date:Date:start": "2015-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:58:57.177438",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "SKM",
+        "Period": "2010-2014",
+        "Has Data": "__NO__",
+        "Batch Number": 55,
+        "date:Date:start": "2010-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:58:57.188134",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "SKM",
+        "Period": "2005-2009",
+        "Has Data": "__NO__",
+        "Batch Number": 55,
+        "date:Date:start": "2005-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:58:57.198822",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "SKM",
+        "Period": "2000-2004",
+        "Has Data": "__NO__",
+        "Batch Number": 55,
+        "date:Date:start": "2000-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:58:57.209560",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "SKT",
+        "Period": "2020-2024",
+        "Has Data": "__NO__",
+        "Batch Number": 55,
+        "date:Date:start": "2020-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:58:57.220350",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "SKT",
+        "Period": "2015-2019",
+        "Has Data": "__NO__",
+        "Batch Number": 55,
+        "date:Date:start": "2015-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:58:57.231095",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "SKT",
+        "Period": "2010-2014",
+        "Has Data": "__NO__",
+        "Batch Number": 55,
+        "date:Date:start": "2010-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:58:57.241866",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "SKT",
+        "Period": "2005-2009",
+        "Has Data": "__NO__",
+        "Batch Number": 55,
+        "date:Date:start": "2005-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:58:57.252575",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "SKT",
+        "Period": "2000-2004",
+        "Has Data": "__NO__",
+        "Batch Number": 55,
+        "date:Date:start": "2000-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:58:57.263267",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "SKWD",
+        "Period": "2020-2024",
+        "Has Data": "__NO__",
+        "Batch Number": 55,
+        "date:Date:start": "2020-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:58:57.274088",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "SKWD",
+        "Period": "2015-2019",
+        "Has Data": "__NO__",
+        "Batch Number": 55,
+        "date:Date:start": "2015-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:58:57.284852",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "SKWD",
+        "Period": "2010-2014",
+        "Has Data": "__NO__",
+        "Batch Number": 55,
+        "date:Date:start": "2010-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:58:57.295635",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "SKWD",
+        "Period": "2005-2009",
+        "Has Data": "__NO__",
+        "Batch Number": 55,
+        "date:Date:start": "2005-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:58:57.306365",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "SKWD",
+        "Period": "2000-2004",
+        "Has Data": "__NO__",
+        "Batch Number": 55,
+        "date:Date:start": "2000-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:58:57.317138",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "SKX",
+        "Period": "2020-2024",
+        "Has Data": "__NO__",
+        "Batch Number": 55,
+        "date:Date:start": "2020-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:58:57.327902",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "SKX",
+        "Period": "2015-2019",
+        "Has Data": "__NO__",
+        "Batch Number": 55,
+        "date:Date:start": "2015-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:58:57.338659",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "SKX",
+        "Period": "2010-2014",
+        "Has Data": "__NO__",
+        "Batch Number": 55,
+        "date:Date:start": "2010-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:58:57.349399",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "SKX",
+        "Period": "2005-2009",
+        "Has Data": "__NO__",
+        "Batch Number": 55,
+        "date:Date:start": "2005-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:58:57.360142",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "SKX",
+        "Period": "2000-2004",
+        "Has Data": "__NO__",
+        "Batch Number": 55,
+        "date:Date:start": "2000-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:58:57.370975",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "SKY",
+        "Period": "2020-2024",
+        "Has Data": "__NO__",
+        "Batch Number": 55,
+        "date:Date:start": "2020-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:58:57.381723",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "SKY",
+        "Period": "2015-2019",
+        "Has Data": "__NO__",
+        "Batch Number": 55,
+        "date:Date:start": "2015-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:58:57.392560",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "SKY",
+        "Period": "2010-2014",
+        "Has Data": "__NO__",
+        "Batch Number": 55,
+        "date:Date:start": "2010-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:58:57.403391",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "SKY",
+        "Period": "2005-2009",
+        "Has Data": "__NO__",
+        "Batch Number": 55,
+        "date:Date:start": "2005-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:58:57.418608",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "SKY",
+        "Period": "2000-2004",
+        "Has Data": "__NO__",
+        "Batch Number": 55,
+        "date:Date:start": "2000-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:58:57.429322",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "SKYE",
+        "Period": "2020-2024",
+        "Has Data": "__NO__",
+        "Batch Number": 55,
+        "date:Date:start": "2020-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:58:57.440142",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "SKYE",
+        "Period": "2015-2019",
+        "Has Data": "__NO__",
+        "Batch Number": 55,
+        "date:Date:start": "2015-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:58:57.450889",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "SKYE",
+        "Period": "2010-2014",
+        "Has Data": "__NO__",
+        "Batch Number": 55,
+        "date:Date:start": "2010-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:58:57.461689",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "SKYE",
+        "Period": "2005-2009",
+        "Has Data": "__NO__",
+        "Batch Number": 55,
+        "date:Date:start": "2005-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:58:57.472386",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "SKYE",
+        "Period": "2000-2004",
+        "Has Data": "__NO__",
+        "Batch Number": 55,
+        "date:Date:start": "2000-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:58:57.483147",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "SKYH",
+        "Period": "2020-2024",
+        "Has Data": "__NO__",
+        "Batch Number": 55,
+        "date:Date:start": "2020-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:58:57.493872",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "SKYH",
+        "Period": "2015-2019",
+        "Has Data": "__NO__",
+        "Batch Number": 55,
+        "date:Date:start": "2015-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:58:57.504576",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "SKYH",
+        "Period": "2010-2014",
+        "Has Data": "__NO__",
+        "Batch Number": 55,
+        "date:Date:start": "2010-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:58:57.515219",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "SKYH",
+        "Period": "2005-2009",
+        "Has Data": "__NO__",
+        "Batch Number": 55,
+        "date:Date:start": "2005-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:58:57.525936",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "SKYH",
+        "Period": "2000-2004",
+        "Has Data": "__NO__",
+        "Batch Number": 55,
+        "date:Date:start": "2000-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:58:57.536698",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "SKYQ",
+        "Period": "2020-2024",
+        "Has Data": "__NO__",
+        "Batch Number": 55,
+        "date:Date:start": "2020-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:58:57.547450",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "SKYQ",
+        "Period": "2015-2019",
+        "Has Data": "__NO__",
+        "Batch Number": 55,
+        "date:Date:start": "2015-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:58:57.558170",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "SKYQ",
+        "Period": "2010-2014",
+        "Has Data": "__NO__",
+        "Batch Number": 55,
+        "date:Date:start": "2010-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:58:57.568904",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "SKYQ",
+        "Period": "2005-2009",
+        "Has Data": "__NO__",
+        "Batch Number": 55,
+        "date:Date:start": "2005-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:58:57.579568",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "SKYQ",
+        "Period": "2000-2004",
+        "Has Data": "__NO__",
+        "Batch Number": 55,
+        "date:Date:start": "2000-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:58:57.590293",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "SKYT",
+        "Period": "2020-2024",
+        "Has Data": "__NO__",
+        "Batch Number": 55,
+        "date:Date:start": "2020-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:58:57.601050",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "SKYT",
+        "Period": "2015-2019",
+        "Has Data": "__NO__",
+        "Batch Number": 55,
+        "date:Date:start": "2015-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:58:57.611764",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "SKYT",
+        "Period": "2010-2014",
+        "Has Data": "__NO__",
+        "Batch Number": 55,
+        "date:Date:start": "2010-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:58:57.622406",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "SKYT",
+        "Period": "2005-2009",
+        "Has Data": "__NO__",
+        "Batch Number": 55,
+        "date:Date:start": "2005-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:58:57.633163",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "SKYT",
+        "Period": "2000-2004",
+        "Has Data": "__NO__",
+        "Batch Number": 55,
+        "date:Date:start": "2000-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:58:57.643878",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "SKYW",
+        "Period": "2020-2024",
+        "Has Data": "__NO__",
+        "Batch Number": 55,
+        "date:Date:start": "2020-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:58:57.654582",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "SKYW",
+        "Period": "2015-2019",
+        "Has Data": "__NO__",
+        "Batch Number": 55,
+        "date:Date:start": "2015-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:58:57.665331",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "SKYW",
+        "Period": "2010-2014",
+        "Has Data": "__NO__",
+        "Batch Number": 55,
+        "date:Date:start": "2010-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:58:57.676171",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "SKYW",
+        "Period": "2005-2009",
+        "Has Data": "__NO__",
+        "Batch Number": 55,
+        "date:Date:start": "2005-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:58:57.686876",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "SKYW",
+        "Period": "2000-2004",
+        "Has Data": "__NO__",
+        "Batch Number": 55,
+        "date:Date:start": "2000-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:58:57.697614",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "SKYX",
+        "Period": "2020-2024",
+        "Has Data": "__NO__",
+        "Batch Number": 55,
+        "date:Date:start": "2020-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:58:57.709001",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "SKYX",
+        "Period": "2015-2019",
+        "Has Data": "__NO__",
+        "Batch Number": 55,
+        "date:Date:start": "2015-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:58:57.719150",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "SKYX",
+        "Period": "2010-2014",
+        "Has Data": "__NO__",
+        "Batch Number": 55,
+        "date:Date:start": "2010-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:58:57.729850",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "SKYX",
+        "Period": "2005-2009",
+        "Has Data": "__NO__",
+        "Batch Number": 55,
+        "date:Date:start": "2005-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:58:57.740569",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "SKYX",
+        "Period": "2000-2004",
+        "Has Data": "__NO__",
+        "Batch Number": 55,
+        "date:Date:start": "2000-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:58:57.751199",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "SLAB",
+        "Period": "2020-2024",
+        "Has Data": "__NO__",
+        "Batch Number": 55,
+        "date:Date:start": "2020-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:58:57.761976",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "SLAB",
+        "Period": "2015-2019",
+        "Has Data": "__NO__",
+        "Batch Number": 55,
+        "date:Date:start": "2015-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:58:57.772642",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "SLAB",
+        "Period": "2010-2014",
+        "Has Data": "__NO__",
+        "Batch Number": 55,
+        "date:Date:start": "2010-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:58:57.783397",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "SLAB",
+        "Period": "2005-2009",
+        "Has Data": "__NO__",
+        "Batch Number": 55,
+        "date:Date:start": "2005-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:58:57.794169",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "SLAB",
+        "Period": "2000-2004",
+        "Has Data": "__NO__",
+        "Batch Number": 55,
+        "date:Date:start": "2000-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:58:57.804880",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "SLB",
+        "Period": "2020-2024",
+        "Has Data": "__NO__",
+        "Batch Number": 55,
+        "date:Date:start": "2020-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:58:57.815687",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "SLB",
+        "Period": "2015-2019",
+        "Has Data": "__NO__",
+        "Batch Number": 55,
+        "date:Date:start": "2015-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:58:57.826408",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "SLB",
+        "Period": "2010-2014",
+        "Has Data": "__NO__",
+        "Batch Number": 55,
+        "date:Date:start": "2010-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:58:57.837085",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "SLB",
+        "Period": "2005-2009",
+        "Has Data": "__NO__",
+        "Batch Number": 55,
+        "date:Date:start": "2005-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:58:57.847826",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "SLB",
+        "Period": "2000-2004",
+        "Has Data": "__NO__",
+        "Batch Number": 55,
+        "date:Date:start": "2000-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:58:57.858542",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "SLDB",
+        "Period": "2020-2024",
+        "Has Data": "__NO__",
+        "Batch Number": 55,
+        "date:Date:start": "2020-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:58:57.869213",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "SLDB",
+        "Period": "2015-2019",
+        "Has Data": "__NO__",
+        "Batch Number": 55,
+        "date:Date:start": "2015-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:58:57.879888",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "SLDB",
+        "Period": "2010-2014",
+        "Has Data": "__NO__",
+        "Batch Number": 55,
+        "date:Date:start": "2010-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:58:57.890655",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "SLDB",
+        "Period": "2005-2009",
+        "Has Data": "__NO__",
+        "Batch Number": 55,
+        "date:Date:start": "2005-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:58:57.901363",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "SLDB",
+        "Period": "2000-2004",
+        "Has Data": "__NO__",
+        "Batch Number": 55,
+        "date:Date:start": "2000-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:58:57.912146",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "SLDE",
+        "Period": "2020-2024",
+        "Has Data": "__NO__",
+        "Batch Number": 55,
+        "date:Date:start": "2020-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:58:57.923089",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "SLDE",
+        "Period": "2015-2019",
+        "Has Data": "__NO__",
+        "Batch Number": 55,
+        "date:Date:start": "2015-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:58:57.933932",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "SLDE",
+        "Period": "2010-2014",
+        "Has Data": "__NO__",
+        "Batch Number": 55,
+        "date:Date:start": "2010-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:58:57.944745",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "SLDE",
+        "Period": "2005-2009",
+        "Has Data": "__NO__",
+        "Batch Number": 55,
+        "date:Date:start": "2005-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:58:57.955474",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "SLDE",
+        "Period": "2000-2004",
+        "Has Data": "__NO__",
+        "Batch Number": 55,
+        "date:Date:start": "2000-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:58:57.966197",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "SLDP",
+        "Period": "2020-2024",
+        "Has Data": "__NO__",
+        "Batch Number": 55,
+        "date:Date:start": "2020-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:58:57.976944",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "SLDP",
+        "Period": "2015-2019",
+        "Has Data": "__NO__",
+        "Batch Number": 55,
+        "date:Date:start": "2015-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:58:57.987758",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "SLDP",
+        "Period": "2010-2014",
+        "Has Data": "__NO__",
+        "Batch Number": 55,
+        "date:Date:start": "2010-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:58:57.998520",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "SLDP",
+        "Period": "2005-2009",
+        "Has Data": "__NO__",
+        "Batch Number": 55,
+        "date:Date:start": "2005-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:58:58.009184",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "SLDP",
+        "Period": "2000-2004",
+        "Has Data": "__NO__",
+        "Batch Number": 55,
+        "date:Date:start": "2000-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:58:58.019877",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "SLDPW",
+        "Period": "2020-2024",
+        "Has Data": "__NO__",
+        "Batch Number": 55,
+        "date:Date:start": "2020-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:58:58.030563",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "SLDPW",
+        "Period": "2015-2019",
+        "Has Data": "__NO__",
+        "Batch Number": 55,
+        "date:Date:start": "2015-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:58:58.041199",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "SLDPW",
+        "Period": "2010-2014",
+        "Has Data": "__NO__",
+        "Batch Number": 55,
+        "date:Date:start": "2010-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:58:58.051945",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "SLDPW",
+        "Period": "2005-2009",
+        "Has Data": "__NO__",
+        "Batch Number": 55,
+        "date:Date:start": "2005-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:58:58.062722",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "SLDPW",
+        "Period": "2000-2004",
+        "Has Data": "__NO__",
+        "Batch Number": 55,
+        "date:Date:start": "2000-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:58:58.073372",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "SLE",
+        "Period": "2020-2024",
+        "Has Data": "__NO__",
+        "Batch Number": 55,
+        "date:Date:start": "2020-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:58:58.084166",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "SLE",
+        "Period": "2015-2019",
+        "Has Data": "__NO__",
+        "Batch Number": 55,
+        "date:Date:start": "2015-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:58:58.094999",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "SLE",
+        "Period": "2010-2014",
+        "Has Data": "__NO__",
+        "Batch Number": 55,
+        "date:Date:start": "2010-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:58:58.105712",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "SLE",
+        "Period": "2005-2009",
+        "Has Data": "__NO__",
+        "Batch Number": 55,
+        "date:Date:start": "2005-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:58:58.116466",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "SLE",
+        "Period": "2000-2004",
+        "Has Data": "__NO__",
+        "Batch Number": 55,
+        "date:Date:start": "2000-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:58:58.127192",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "SLF",
+        "Period": "2020-2024",
+        "Has Data": "__NO__",
+        "Batch Number": 55,
+        "date:Date:start": "2020-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:58:58.137914",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "SLF",
+        "Period": "2015-2019",
+        "Has Data": "__NO__",
+        "Batch Number": 55,
+        "date:Date:start": "2015-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:58:58.148635",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "SLF",
+        "Period": "2010-2014",
+        "Has Data": "__NO__",
+        "Batch Number": 55,
+        "date:Date:start": "2010-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:58:58.159373",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "SLF",
+        "Period": "2005-2009",
+        "Has Data": "__NO__",
+        "Batch Number": 55,
+        "date:Date:start": "2005-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:58:58.170081",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "SLF",
+        "Period": "2000-2004",
+        "Has Data": "__NO__",
+        "Batch Number": 55,
+        "date:Date:start": "2000-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:58:58.180815",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "SLG",
+        "Period": "2020-2024",
+        "Has Data": "__NO__",
+        "Batch Number": 55,
+        "date:Date:start": "2020-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:58:58.191633",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "SLG",
+        "Period": "2015-2019",
+        "Has Data": "__NO__",
+        "Batch Number": 55,
+        "date:Date:start": "2015-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:58:58.202364",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "SLG",
+        "Period": "2010-2014",
+        "Has Data": "__NO__",
+        "Batch Number": 55,
+        "date:Date:start": "2010-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:58:58.213153",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "SLG",
+        "Period": "2005-2009",
+        "Has Data": "__NO__",
+        "Batch Number": 55,
+        "date:Date:start": "2005-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:58:58.223929",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "SLG",
+        "Period": "2000-2004",
+        "Has Data": "__NO__",
+        "Batch Number": 55,
+        "date:Date:start": "2000-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:58:58.234742",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "SLGL",
+        "Period": "2020-2024",
+        "Has Data": "__NO__",
+        "Batch Number": 55,
+        "date:Date:start": "2020-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:58:58.245518",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "SLGL",
+        "Period": "2015-2019",
+        "Has Data": "__NO__",
+        "Batch Number": 55,
+        "date:Date:start": "2015-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:58:58.256165",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "SLGL",
+        "Period": "2010-2014",
+        "Has Data": "__NO__",
+        "Batch Number": 55,
+        "date:Date:start": "2010-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:58:58.267017",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "SLGL",
+        "Period": "2005-2009",
+        "Has Data": "__NO__",
+        "Batch Number": 55,
+        "date:Date:start": "2005-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:58:58.277789",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "SLGL",
+        "Period": "2000-2004",
+        "Has Data": "__NO__",
+        "Batch Number": 55,
+        "date:Date:start": "2000-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:58:58.288473",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "SLGN",
+        "Period": "2020-2024",
+        "Has Data": "__NO__",
+        "Batch Number": 55,
+        "date:Date:start": "2020-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:58:58.299252",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "SLGN",
+        "Period": "2015-2019",
+        "Has Data": "__NO__",
+        "Batch Number": 55,
+        "date:Date:start": "2015-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:58:58.310090",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "SLGN",
+        "Period": "2010-2014",
+        "Has Data": "__NO__",
+        "Batch Number": 55,
+        "date:Date:start": "2010-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:58:58.320983",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "SLGN",
+        "Period": "2005-2009",
+        "Has Data": "__NO__",
+        "Batch Number": 55,
+        "date:Date:start": "2005-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:58:58.331721",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "SLGN",
+        "Period": "2000-2004",
+        "Has Data": "__NO__",
+        "Batch Number": 55,
+        "date:Date:start": "2000-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:58:58.342400",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "SLI",
+        "Period": "2020-2024",
+        "Has Data": "__NO__",
+        "Batch Number": 55,
+        "date:Date:start": "2020-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:58:58.353184",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "SLI",
+        "Period": "2015-2019",
+        "Has Data": "__NO__",
+        "Batch Number": 55,
+        "date:Date:start": "2015-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:58:58.363988",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "SLI",
+        "Period": "2010-2014",
+        "Has Data": "__NO__",
+        "Batch Number": 55,
+        "date:Date:start": "2010-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:58:58.374694",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "SLI",
+        "Period": "2005-2009",
+        "Has Data": "__NO__",
+        "Batch Number": 55,
+        "date:Date:start": "2005-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:58:58.385388",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "SLI",
+        "Period": "2000-2004",
+        "Has Data": "__NO__",
+        "Batch Number": 55,
+        "date:Date:start": "2000-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:58:58.396187",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "SLM",
+        "Period": "2020-2024",
+        "Has Data": "__NO__",
+        "Batch Number": 55,
+        "date:Date:start": "2020-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:58:58.406901",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "SLM",
+        "Period": "2015-2019",
+        "Has Data": "__NO__",
+        "Batch Number": 55,
+        "date:Date:start": "2015-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:58:58.417669",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "SLM",
+        "Period": "2010-2014",
+        "Has Data": "__NO__",
+        "Batch Number": 55,
+        "date:Date:start": "2010-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:58:58.428417",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "SLM",
+        "Period": "2005-2009",
+        "Has Data": "__NO__",
+        "Batch Number": 55,
+        "date:Date:start": "2005-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:58:58.439149",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "SLM",
+        "Period": "2000-2004",
+        "Has Data": "__NO__",
+        "Batch Number": 55,
+        "date:Date:start": "2000-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:58:58.449869",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "SLMBP",
+        "Period": "2020-2024",
+        "Has Data": "__NO__",
+        "Batch Number": 55,
+        "date:Date:start": "2020-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:58:58.460591",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "SLMBP",
+        "Period": "2015-2019",
+        "Has Data": "__NO__",
+        "Batch Number": 55,
+        "date:Date:start": "2015-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:58:58.471406",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "SLMBP",
+        "Period": "2010-2014",
+        "Has Data": "__NO__",
+        "Batch Number": 55,
+        "date:Date:start": "2010-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:58:58.482278",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "SLMBP",
+        "Period": "2005-2009",
+        "Has Data": "__NO__",
+        "Batch Number": 55,
+        "date:Date:start": "2005-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:58:58.492968",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "SLMBP",
+        "Period": "2000-2004",
+        "Has Data": "__NO__",
+        "Batch Number": 55,
+        "date:Date:start": "2000-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:58:58.503764",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "SLN",
+        "Period": "2020-2024",
+        "Has Data": "__NO__",
+        "Batch Number": 55,
+        "date:Date:start": "2020-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:58:58.514521",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "SLN",
+        "Period": "2015-2019",
+        "Has Data": "__NO__",
+        "Batch Number": 55,
+        "date:Date:start": "2015-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:58:58.525242",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "SLN",
+        "Period": "2010-2014",
+        "Has Data": "__NO__",
+        "Batch Number": 55,
+        "date:Date:start": "2010-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:58:58.535932",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "SLN",
+        "Period": "2005-2009",
+        "Has Data": "__NO__",
+        "Batch Number": 55,
+        "date:Date:start": "2005-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:58:58.546662",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "SLN",
+        "Period": "2000-2004",
+        "Has Data": "__NO__",
+        "Batch Number": 55,
+        "date:Date:start": "2000-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:58:58.557351",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "SLND",
+        "Period": "2020-2024",
+        "Has Data": "__NO__",
+        "Batch Number": 55,
+        "date:Date:start": "2020-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:58:58.568102",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "SLND",
+        "Period": "2015-2019",
+        "Has Data": "__NO__",
+        "Batch Number": 55,
+        "date:Date:start": "2015-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:58:58.578786",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "SLND",
+        "Period": "2010-2014",
+        "Has Data": "__NO__",
+        "Batch Number": 55,
+        "date:Date:start": "2010-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:58:58.589593",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "SLND",
+        "Period": "2005-2009",
+        "Has Data": "__NO__",
+        "Batch Number": 55,
+        "date:Date:start": "2005-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:58:58.600434",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "SLND",
+        "Period": "2000-2004",
+        "Has Data": "__NO__",
+        "Batch Number": 55,
+        "date:Date:start": "2000-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:58:58.611134",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "SLNG",
+        "Period": "2020-2024",
+        "Has Data": "__NO__",
+        "Batch Number": 55,
+        "date:Date:start": "2020-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:58:58.621930",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "SLNG",
+        "Period": "2015-2019",
+        "Has Data": "__NO__",
+        "Batch Number": 55,
+        "date:Date:start": "2015-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:58:58.632619",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "SLNG",
+        "Period": "2010-2014",
+        "Has Data": "__NO__",
+        "Batch Number": 55,
+        "date:Date:start": "2010-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:58:58.643434",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "SLNG",
+        "Period": "2005-2009",
+        "Has Data": "__NO__",
+        "Batch Number": 55,
+        "date:Date:start": "2005-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:58:58.654086",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "SLNG",
+        "Period": "2000-2004",
+        "Has Data": "__NO__",
+        "Batch Number": 55,
+        "date:Date:start": "2000-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:58:58.664828",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "SLNH",
+        "Period": "2020-2024",
+        "Has Data": "__NO__",
+        "Batch Number": 55,
+        "date:Date:start": "2020-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:58:58.675643",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "SLNH",
+        "Period": "2015-2019",
+        "Has Data": "__NO__",
+        "Batch Number": 55,
+        "date:Date:start": "2015-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:58:58.686403",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "SLNH",
+        "Period": "2010-2014",
+        "Has Data": "__NO__",
+        "Batch Number": 55,
+        "date:Date:start": "2010-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:58:58.697194",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "SLNH",
+        "Period": "2005-2009",
+        "Has Data": "__NO__",
+        "Batch Number": 55,
+        "date:Date:start": "2005-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:58:58.707908",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "SLNH",
+        "Period": "2000-2004",
+        "Has Data": "__NO__",
+        "Batch Number": 55,
+        "date:Date:start": "2000-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:58:58.718676",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "SLNHP",
+        "Period": "2020-2024",
+        "Has Data": "__NO__",
+        "Batch Number": 55,
+        "date:Date:start": "2020-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:58:58.729379",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "SLNHP",
+        "Period": "2015-2019",
+        "Has Data": "__NO__",
+        "Batch Number": 55,
+        "date:Date:start": "2015-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:58:58.740078",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "SLNHP",
+        "Period": "2010-2014",
+        "Has Data": "__NO__",
+        "Batch Number": 55,
+        "date:Date:start": "2010-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:58:58.750851",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "SLNHP",
+        "Period": "2005-2009",
+        "Has Data": "__NO__",
+        "Batch Number": 55,
+        "date:Date:start": "2005-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:58:58.761580",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "SLNHP",
+        "Period": "2000-2004",
+        "Has Data": "__NO__",
+        "Batch Number": 55,
+        "date:Date:start": "2000-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:58:58.772313",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "SLNO",
+        "Period": "2020-2024",
+        "Has Data": "__NO__",
+        "Batch Number": 55,
+        "date:Date:start": "2020-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:58:58.783712",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "SLNO",
+        "Period": "2015-2019",
+        "Has Data": "__NO__",
+        "Batch Number": 55,
+        "date:Date:start": "2015-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:58:58.793757",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "SLNO",
+        "Period": "2010-2014",
+        "Has Data": "__NO__",
+        "Batch Number": 55,
+        "date:Date:start": "2010-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:58:58.804515",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "SLNO",
+        "Period": "2005-2009",
+        "Has Data": "__NO__",
+        "Batch Number": 55,
+        "date:Date:start": "2005-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:58:58.815239",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "SLNO",
+        "Period": "2000-2004",
+        "Has Data": "__NO__",
+        "Batch Number": 55,
+        "date:Date:start": "2000-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:58:58.826043",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "SLP",
+        "Period": "2020-2024",
+        "Has Data": "__NO__",
+        "Batch Number": 55,
+        "date:Date:start": "2020-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:58:58.836848",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "SLP",
+        "Period": "2015-2019",
+        "Has Data": "__NO__",
+        "Batch Number": 55,
+        "date:Date:start": "2015-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:58:58.847594",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "SLP",
+        "Period": "2010-2014",
+        "Has Data": "__NO__",
+        "Batch Number": 55,
+        "date:Date:start": "2010-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:58:58.858268",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "SLP",
+        "Period": "2005-2009",
+        "Has Data": "__NO__",
+        "Batch Number": 55,
+        "date:Date:start": "2005-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:58:58.868961",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "SLP",
+        "Period": "2000-2004",
+        "Has Data": "__NO__",
+        "Batch Number": 55,
+        "date:Date:start": "2000-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:58:58.879624",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "SLQT",
+        "Period": "2020-2024",
+        "Has Data": "__NO__",
+        "Batch Number": 55,
+        "date:Date:start": "2020-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:58:58.890418",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "SLQT",
+        "Period": "2015-2019",
+        "Has Data": "__NO__",
+        "Batch Number": 55,
+        "date:Date:start": "2015-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:58:58.901170",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "SLQT",
+        "Period": "2010-2014",
+        "Has Data": "__NO__",
+        "Batch Number": 55,
+        "date:Date:start": "2010-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:58:58.911990",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "SLQT",
+        "Period": "2005-2009",
+        "Has Data": "__NO__",
+        "Batch Number": 55,
+        "date:Date:start": "2005-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:58:58.922799",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "SLQT",
+        "Period": "2000-2004",
+        "Has Data": "__NO__",
+        "Batch Number": 55,
+        "date:Date:start": "2000-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:58:58.933656",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "SLRC",
+        "Period": "2020-2024",
+        "Has Data": "__NO__",
+        "Batch Number": 55,
+        "date:Date:start": "2020-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:58:58.944352",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "SLRC",
+        "Period": "2015-2019",
+        "Has Data": "__NO__",
+        "Batch Number": 55,
+        "date:Date:start": "2015-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:58:58.955069",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "SLRC",
+        "Period": "2010-2014",
+        "Has Data": "__NO__",
+        "Batch Number": 55,
+        "date:Date:start": "2010-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:58:58.965770",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "SLRC",
+        "Period": "2005-2009",
+        "Has Data": "__NO__",
+        "Batch Number": 55,
+        "date:Date:start": "2005-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:58:58.976509",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "SLRC",
+        "Period": "2000-2004",
+        "Has Data": "__NO__",
+        "Batch Number": 55,
+        "date:Date:start": "2000-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:58:58.987207",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "SLRX",
+        "Period": "2020-2024",
+        "Has Data": "__NO__",
+        "Batch Number": 55,
+        "date:Date:start": "2020-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:58:58.997960",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "SLRX",
+        "Period": "2015-2019",
+        "Has Data": "__NO__",
+        "Batch Number": 55,
+        "date:Date:start": "2015-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:58:59.008690",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "SLRX",
+        "Period": "2010-2014",
+        "Has Data": "__NO__",
+        "Batch Number": 55,
+        "date:Date:start": "2010-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:58:59.019434",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "SLRX",
+        "Period": "2005-2009",
+        "Has Data": "__NO__",
+        "Batch Number": 55,
+        "date:Date:start": "2005-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:58:59.030186",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "SLRX",
+        "Period": "2000-2004",
+        "Has Data": "__NO__",
+        "Batch Number": 55,
+        "date:Date:start": "2000-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:58:59.040926",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "SLS",
+        "Period": "2020-2024",
+        "Has Data": "__NO__",
+        "Batch Number": 55,
+        "date:Date:start": "2020-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:58:59.051714",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "SLS",
+        "Period": "2015-2019",
+        "Has Data": "__NO__",
+        "Batch Number": 55,
+        "date:Date:start": "2015-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:58:59.062482",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "SLS",
+        "Period": "2010-2014",
+        "Has Data": "__NO__",
+        "Batch Number": 55,
+        "date:Date:start": "2010-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:58:59.073277",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "SLS",
+        "Period": "2005-2009",
+        "Has Data": "__NO__",
+        "Batch Number": 55,
+        "date:Date:start": "2005-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:58:59.084054",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "SLS",
+        "Period": "2000-2004",
+        "Has Data": "__NO__",
+        "Batch Number": 55,
+        "date:Date:start": "2000-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:58:59.094789",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "SLSN",
+        "Period": "2020-2024",
+        "Has Data": "__NO__",
+        "Batch Number": 55,
+        "date:Date:start": "2020-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:58:59.105504",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "SLSN",
+        "Period": "2015-2019",
+        "Has Data": "__NO__",
+        "Batch Number": 55,
+        "date:Date:start": "2015-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:58:59.116191",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "SLSN",
+        "Period": "2010-2014",
+        "Has Data": "__NO__",
+        "Batch Number": 55,
+        "date:Date:start": "2010-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:58:59.126884",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "SLSN",
+        "Period": "2005-2009",
+        "Has Data": "__NO__",
+        "Batch Number": 55,
+        "date:Date:start": "2005-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:58:59.137578",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "SLSN",
+        "Period": "2000-2004",
+        "Has Data": "__NO__",
+        "Batch Number": 55,
+        "date:Date:start": "2000-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:58:59.148293",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "SLSR",
+        "Period": "2020-2024",
+        "Has Data": "__NO__",
+        "Batch Number": 55,
+        "date:Date:start": "2020-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:58:59.159079",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "SLSR",
+        "Period": "2015-2019",
+        "Has Data": "__NO__",
+        "Batch Number": 55,
+        "date:Date:start": "2015-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:58:59.169771",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "SLSR",
+        "Period": "2010-2014",
+        "Has Data": "__NO__",
+        "Batch Number": 55,
+        "date:Date:start": "2010-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:58:59.180511",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "SLSR",
+        "Period": "2005-2009",
+        "Has Data": "__NO__",
+        "Batch Number": 55,
+        "date:Date:start": "2005-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:58:59.191241",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "SLSR",
+        "Period": "2000-2004",
+        "Has Data": "__NO__",
+        "Batch Number": 55,
+        "date:Date:start": "2000-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:58:59.202017",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "SLVM",
+        "Period": "2020-2024",
+        "Has Data": "__NO__",
+        "Batch Number": 55,
+        "date:Date:start": "2020-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:58:59.212750",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "SLVM",
+        "Period": "2015-2019",
+        "Has Data": "__NO__",
+        "Batch Number": 55,
+        "date:Date:start": "2015-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:58:59.223498",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "SLVM",
+        "Period": "2010-2014",
+        "Has Data": "__NO__",
+        "Batch Number": 55,
+        "date:Date:start": "2010-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:58:59.234154",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "SLVM",
+        "Period": "2005-2009",
+        "Has Data": "__NO__",
+        "Batch Number": 55,
+        "date:Date:start": "2005-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:58:59.244906",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "SLVM",
+        "Period": "2000-2004",
+        "Has Data": "__NO__",
+        "Batch Number": 55,
+        "date:Date:start": "2000-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:58:59.255703",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "SLXN",
+        "Period": "2020-2024",
+        "Has Data": "__NO__",
+        "Batch Number": 55,
+        "date:Date:start": "2020-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:58:59.266516",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "SLXN",
+        "Period": "2015-2019",
+        "Has Data": "__NO__",
+        "Batch Number": 55,
+        "date:Date:start": "2015-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:58:59.277211",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "SLXN",
+        "Period": "2010-2014",
+        "Has Data": "__NO__",
+        "Batch Number": 55,
+        "date:Date:start": "2010-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:58:59.287959",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "SLXN",
+        "Period": "2005-2009",
+        "Has Data": "__NO__",
+        "Batch Number": 55,
+        "date:Date:start": "2005-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:58:59.298758",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "SLXN",
+        "Period": "2000-2004",
+        "Has Data": "__NO__",
+        "Batch Number": 55,
+        "date:Date:start": "2000-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:58:59.309525",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "SLXNW",
+        "Period": "2020-2024",
+        "Has Data": "__NO__",
+        "Batch Number": 55,
+        "date:Date:start": "2020-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:58:59.320218",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "SLXNW",
+        "Period": "2015-2019",
+        "Has Data": "__NO__",
+        "Batch Number": 55,
+        "date:Date:start": "2015-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:58:59.331038",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "SLXNW",
+        "Period": "2010-2014",
+        "Has Data": "__NO__",
+        "Batch Number": 55,
+        "date:Date:start": "2010-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:58:59.341888",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "SLXNW",
+        "Period": "2005-2009",
+        "Has Data": "__NO__",
+        "Batch Number": 55,
+        "date:Date:start": "2005-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:58:59.352656",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "SLXNW",
+        "Period": "2000-2004",
+        "Has Data": "__NO__",
+        "Batch Number": 55,
+        "date:Date:start": "2000-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:58:59.363404",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "SM",
+        "Period": "2020-2024",
+        "Has Data": "__NO__",
+        "Batch Number": 55,
+        "date:Date:start": "2020-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:58:59.374155",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "SM",
+        "Period": "2015-2019",
+        "Has Data": "__NO__",
+        "Batch Number": 55,
+        "date:Date:start": "2015-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:58:59.385063",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "SM",
+        "Period": "2010-2014",
+        "Has Data": "__NO__",
+        "Batch Number": 55,
+        "date:Date:start": "2010-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:58:59.395940",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "SM",
+        "Period": "2005-2009",
+        "Has Data": "__NO__",
+        "Batch Number": 55,
+        "date:Date:start": "2005-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:58:59.406716",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "SM",
+        "Period": "2000-2004",
+        "Has Data": "__NO__",
+        "Batch Number": 55,
+        "date:Date:start": "2000-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:58:59.417534",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "SMA",
+        "Period": "2020-2024",
+        "Has Data": "__NO__",
+        "Batch Number": 55,
+        "date:Date:start": "2020-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:58:59.428292",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "SMA",
+        "Period": "2015-2019",
+        "Has Data": "__NO__",
+        "Batch Number": 55,
+        "date:Date:start": "2015-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:58:59.439040",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "SMA",
+        "Period": "2010-2014",
+        "Has Data": "__NO__",
+        "Batch Number": 55,
+        "date:Date:start": "2010-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:58:59.449713",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "SMA",
+        "Period": "2005-2009",
+        "Has Data": "__NO__",
+        "Batch Number": 55,
+        "date:Date:start": "2005-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:58:59.460441",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "SMA",
+        "Period": "2000-2004",
+        "Has Data": "__NO__",
+        "Batch Number": 55,
+        "date:Date:start": "2000-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:58:59.471154",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "SMBC",
+        "Period": "2020-2024",
+        "Has Data": "__NO__",
+        "Batch Number": 55,
+        "date:Date:start": "2020-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:58:59.482083",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "SMBC",
+        "Period": "2015-2019",
+        "Has Data": "__NO__",
+        "Batch Number": 55,
+        "date:Date:start": "2015-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:58:59.492813",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "SMBC",
+        "Period": "2010-2014",
+        "Has Data": "__NO__",
+        "Batch Number": 55,
+        "date:Date:start": "2010-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:58:59.503659",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "SMBC",
+        "Period": "2005-2009",
+        "Has Data": "__NO__",
+        "Batch Number": 55,
+        "date:Date:start": "2005-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:58:59.514347",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "SMBC",
+        "Period": "2000-2004",
+        "Has Data": "__NO__",
+        "Batch Number": 55,
+        "date:Date:start": "2000-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:58:59.525070",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "SMBK",
+        "Period": "2020-2024",
+        "Has Data": "__NO__",
+        "Batch Number": 55,
+        "date:Date:start": "2020-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:58:59.535696",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "SMBK",
+        "Period": "2015-2019",
+        "Has Data": "__NO__",
+        "Batch Number": 55,
+        "date:Date:start": "2015-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:58:59.546312",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "SMBK",
+        "Period": "2010-2014",
+        "Has Data": "__NO__",
+        "Batch Number": 55,
+        "date:Date:start": "2010-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:58:59.557059",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "SMBK",
+        "Period": "2005-2009",
+        "Has Data": "__NO__",
+        "Batch Number": 55,
+        "date:Date:start": "2005-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:58:59.567849",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "SMBK",
+        "Period": "2000-2004",
+        "Has Data": "__NO__",
+        "Batch Number": 55,
+        "date:Date:start": "2000-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:58:59.578552",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "SMC",
+        "Period": "2020-2024",
+        "Has Data": "__NO__",
+        "Batch Number": 55,
+        "date:Date:start": "2020-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:58:59.589282",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "SMC",
+        "Period": "2015-2019",
+        "Has Data": "__NO__",
+        "Batch Number": 55,
+        "date:Date:start": "2015-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:58:59.600043",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "SMC",
+        "Period": "2010-2014",
+        "Has Data": "__NO__",
+        "Batch Number": 55,
+        "date:Date:start": "2010-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:58:59.610854",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "SMC",
+        "Period": "2005-2009",
+        "Has Data": "__NO__",
+        "Batch Number": 55,
+        "date:Date:start": "2005-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:58:59.621646",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "SMC",
+        "Period": "2000-2004",
+        "Has Data": "__NO__",
+        "Batch Number": 55,
+        "date:Date:start": "2000-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:58:59.632331",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "SMCI",
+        "Period": "2020-2024",
+        "Has Data": "__NO__",
+        "Batch Number": 55,
+        "date:Date:start": "2020-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:58:59.643191",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "SMCI",
+        "Period": "2015-2019",
+        "Has Data": "__NO__",
+        "Batch Number": 55,
+        "date:Date:start": "2015-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:58:59.653906",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "SMCI",
+        "Period": "2010-2014",
+        "Has Data": "__NO__",
+        "Batch Number": 55,
+        "date:Date:start": "2010-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:58:59.664632",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "SMCI",
+        "Period": "2005-2009",
+        "Has Data": "__NO__",
+        "Batch Number": 55,
+        "date:Date:start": "2005-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:58:59.675474",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "SMCI",
+        "Period": "2000-2004",
+        "Has Data": "__NO__",
+        "Batch Number": 55,
+        "date:Date:start": "2000-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:58:59.686299",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "SMFG",
+        "Period": "2020-2024",
+        "Has Data": "__NO__",
+        "Batch Number": 55,
+        "date:Date:start": "2020-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:58:59.697074",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "SMFG",
+        "Period": "2015-2019",
+        "Has Data": "__NO__",
+        "Batch Number": 55,
+        "date:Date:start": "2015-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:58:59.707903",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "SMFG",
+        "Period": "2010-2014",
+        "Has Data": "__NO__",
+        "Batch Number": 55,
+        "date:Date:start": "2010-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:58:59.718778",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "SMFG",
+        "Period": "2005-2009",
+        "Has Data": "__NO__",
+        "Batch Number": 55,
+        "date:Date:start": "2005-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:58:59.729466",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "SMFG",
+        "Period": "2000-2004",
+        "Has Data": "__NO__",
+        "Batch Number": 55,
+        "date:Date:start": "2000-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:58:59.740209",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "SMG",
+        "Period": "2020-2024",
+        "Has Data": "__NO__",
+        "Batch Number": 55,
+        "date:Date:start": "2020-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:58:59.750939",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "SMG",
+        "Period": "2015-2019",
+        "Has Data": "__NO__",
+        "Batch Number": 55,
+        "date:Date:start": "2015-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:58:59.761686",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "SMG",
+        "Period": "2010-2014",
+        "Has Data": "__NO__",
+        "Batch Number": 55,
+        "date:Date:start": "2010-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:58:59.772493",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "SMG",
+        "Period": "2005-2009",
+        "Has Data": "__NO__",
+        "Batch Number": 55,
+        "date:Date:start": "2005-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:58:59.783265",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "SMG",
+        "Period": "2000-2004",
+        "Has Data": "__NO__",
+        "Batch Number": 55,
+        "date:Date:start": "2000-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:58:59.793969",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "SMHI",
+        "Period": "2020-2024",
+        "Has Data": "__NO__",
+        "Batch Number": 55,
+        "date:Date:start": "2020-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:58:59.804728",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "SMHI",
+        "Period": "2015-2019",
+        "Has Data": "__NO__",
+        "Batch Number": 55,
+        "date:Date:start": "2015-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:58:59.815530",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "SMHI",
+        "Period": "2010-2014",
+        "Has Data": "__NO__",
+        "Batch Number": 55,
+        "date:Date:start": "2010-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:58:59.826209",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "SMHI",
+        "Period": "2005-2009",
+        "Has Data": "__NO__",
+        "Batch Number": 55,
+        "date:Date:start": "2005-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:58:59.837064",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "SMHI",
+        "Period": "2000-2004",
+        "Has Data": "__NO__",
+        "Batch Number": 55,
+        "date:Date:start": "2000-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:58:59.847810",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "SMID",
+        "Period": "2020-2024",
+        "Has Data": "__NO__",
+        "Batch Number": 55,
+        "date:Date:start": "2020-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:58:59.859127",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "SMID",
+        "Period": "2015-2019",
+        "Has Data": "__NO__",
+        "Batch Number": 55,
+        "date:Date:start": "2015-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:58:59.869206",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "SMID",
+        "Period": "2010-2014",
+        "Has Data": "__NO__",
+        "Batch Number": 55,
+        "date:Date:start": "2010-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:58:59.879962",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "SMID",
+        "Period": "2005-2009",
+        "Has Data": "__NO__",
+        "Batch Number": 55,
+        "date:Date:start": "2005-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:58:59.890720",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "SMID",
+        "Period": "2000-2004",
+        "Has Data": "__NO__",
+        "Batch Number": 55,
+        "date:Date:start": "2000-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:58:59.901525",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "SMLR",
+        "Period": "2020-2024",
+        "Has Data": "__NO__",
+        "Batch Number": 55,
+        "date:Date:start": "2020-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:58:59.912214",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "SMLR",
+        "Period": "2015-2019",
+        "Has Data": "__NO__",
+        "Batch Number": 55,
+        "date:Date:start": "2015-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:58:59.923019",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "SMLR",
+        "Period": "2010-2014",
+        "Has Data": "__NO__",
+        "Batch Number": 55,
+        "date:Date:start": "2010-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:58:59.933795",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "SMLR",
+        "Period": "2005-2009",
+        "Has Data": "__NO__",
+        "Batch Number": 55,
+        "date:Date:start": "2005-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:58:59.944469",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "SMLR",
+        "Period": "2000-2004",
+        "Has Data": "__NO__",
+        "Batch Number": 55,
+        "date:Date:start": "2000-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:58:59.955130",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "SMMT",
+        "Period": "2020-2024",
+        "Has Data": "__NO__",
+        "Batch Number": 55,
+        "date:Date:start": "2020-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:58:59.965961",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "SMMT",
+        "Period": "2015-2019",
+        "Has Data": "__NO__",
+        "Batch Number": 55,
+        "date:Date:start": "2015-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:58:59.976673",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "SMMT",
+        "Period": "2010-2014",
+        "Has Data": "__NO__",
+        "Batch Number": 55,
+        "date:Date:start": "2010-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:58:59.987515",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "SMMT",
+        "Period": "2005-2009",
+        "Has Data": "__NO__",
+        "Batch Number": 55,
+        "date:Date:start": "2005-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:58:59.998283",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "SMMT",
+        "Period": "2000-2004",
+        "Has Data": "__NO__",
+        "Batch Number": 55,
+        "date:Date:start": "2000-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:59:00.009078",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "SMSI",
+        "Period": "2020-2024",
+        "Has Data": "__NO__",
+        "Batch Number": 55,
+        "date:Date:start": "2020-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:59:00.019869",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "SMSI",
+        "Period": "2015-2019",
+        "Has Data": "__NO__",
+        "Batch Number": 55,
+        "date:Date:start": "2015-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:59:00.030630",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "SMSI",
+        "Period": "2010-2014",
+        "Has Data": "__NO__",
+        "Batch Number": 55,
+        "date:Date:start": "2010-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:59:00.041347",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "SMSI",
+        "Period": "2005-2009",
+        "Has Data": "__NO__",
+        "Batch Number": 55,
+        "date:Date:start": "2005-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:59:00.052134",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "SMSI",
+        "Period": "2000-2004",
+        "Has Data": "__NO__",
+        "Batch Number": 55,
+        "date:Date:start": "2000-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:59:00.062942",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "SMTC",
+        "Period": "2020-2024",
+        "Has Data": "__NO__",
+        "Batch Number": 55,
+        "date:Date:start": "2020-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:59:00.073676",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "SMTC",
+        "Period": "2015-2019",
+        "Has Data": "__NO__",
+        "Batch Number": 55,
+        "date:Date:start": "2015-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:59:00.084489",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "SMTC",
+        "Period": "2010-2014",
+        "Has Data": "__NO__",
+        "Batch Number": 55,
+        "date:Date:start": "2010-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:59:00.095228",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "SMTC",
+        "Period": "2005-2009",
+        "Has Data": "__NO__",
+        "Batch Number": 55,
+        "date:Date:start": "2005-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:59:00.105954",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "SMTC",
+        "Period": "2000-2004",
+        "Has Data": "__NO__",
+        "Batch Number": 55,
+        "date:Date:start": "2000-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:59:00.116657",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "SMTI",
+        "Period": "2020-2024",
+        "Has Data": "__NO__",
+        "Batch Number": 55,
+        "date:Date:start": "2020-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:59:00.127363",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "SMTI",
+        "Period": "2015-2019",
+        "Has Data": "__NO__",
+        "Batch Number": 55,
+        "date:Date:start": "2015-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:59:00.138070",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "SMTI",
+        "Period": "2010-2014",
+        "Has Data": "__NO__",
+        "Batch Number": 55,
+        "date:Date:start": "2010-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:59:00.148890",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "SMTI",
+        "Period": "2005-2009",
+        "Has Data": "__NO__",
+        "Batch Number": 55,
+        "date:Date:start": "2005-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:59:00.159657",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "SMTI",
+        "Period": "2000-2004",
+        "Has Data": "__NO__",
+        "Batch Number": 55,
+        "date:Date:start": "2000-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:59:00.170447",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "SMTK",
+        "Period": "2020-2024",
+        "Has Data": "__NO__",
+        "Batch Number": 55,
+        "date:Date:start": "2020-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:59:00.181279",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "SMTK",
+        "Period": "2015-2019",
+        "Has Data": "__NO__",
+        "Batch Number": 55,
+        "date:Date:start": "2015-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:59:00.192056",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "SMTK",
+        "Period": "2010-2014",
+        "Has Data": "__NO__",
+        "Batch Number": 55,
+        "date:Date:start": "2010-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:59:00.202855",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "SMTK",
+        "Period": "2005-2009",
+        "Has Data": "__NO__",
+        "Batch Number": 55,
+        "date:Date:start": "2005-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:59:00.213557",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "SMTK",
+        "Period": "2000-2004",
+        "Has Data": "__NO__",
+        "Batch Number": 55,
+        "date:Date:start": "2000-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:59:00.224408",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "SMWB",
+        "Period": "2020-2024",
+        "Has Data": "__NO__",
+        "Batch Number": 55,
+        "date:Date:start": "2020-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:59:00.235213",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "SMWB",
+        "Period": "2015-2019",
+        "Has Data": "__NO__",
+        "Batch Number": 55,
+        "date:Date:start": "2015-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:59:00.245962",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "SMWB",
+        "Period": "2010-2014",
+        "Has Data": "__NO__",
+        "Batch Number": 55,
+        "date:Date:start": "2010-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:59:00.256804",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "SMWB",
+        "Period": "2005-2009",
+        "Has Data": "__NO__",
+        "Batch Number": 55,
+        "date:Date:start": "2005-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:59:00.267638",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "SMWB",
+        "Period": "2000-2004",
+        "Has Data": "__NO__",
+        "Batch Number": 55,
+        "date:Date:start": "2000-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:59:00.278520",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "SMX",
+        "Period": "2020-2024",
+        "Has Data": "__NO__",
+        "Batch Number": 55,
+        "date:Date:start": "2020-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:59:00.289314",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "SMX",
+        "Period": "2015-2019",
+        "Has Data": "__NO__",
+        "Batch Number": 55,
+        "date:Date:start": "2015-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:59:00.300070",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "SMX",
+        "Period": "2010-2014",
+        "Has Data": "__NO__",
+        "Batch Number": 55,
+        "date:Date:start": "2010-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:59:00.310811",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "SMX",
+        "Period": "2005-2009",
+        "Has Data": "__NO__",
+        "Batch Number": 55,
+        "date:Date:start": "2005-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:59:00.321696",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "SMX",
+        "Period": "2000-2004",
+        "Has Data": "__NO__",
+        "Batch Number": 55,
+        "date:Date:start": "2000-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:59:00.332500",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "SMXT",
+        "Period": "2020-2024",
+        "Has Data": "__NO__",
+        "Batch Number": 55,
+        "date:Date:start": "2020-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:59:00.343339",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "SMXT",
+        "Period": "2015-2019",
+        "Has Data": "__NO__",
+        "Batch Number": 55,
+        "date:Date:start": "2015-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:59:00.354135",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "SMXT",
+        "Period": "2010-2014",
+        "Has Data": "__NO__",
+        "Batch Number": 55,
+        "date:Date:start": "2010-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:59:00.365010",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "SMXT",
+        "Period": "2005-2009",
+        "Has Data": "__NO__",
+        "Batch Number": 55,
+        "date:Date:start": "2005-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:59:00.375785",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "SMXT",
+        "Period": "2000-2004",
+        "Has Data": "__NO__",
+        "Batch Number": 55,
+        "date:Date:start": "2000-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:59:00.386661",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "SMXWW",
+        "Period": "2020-2024",
+        "Has Data": "__NO__",
+        "Batch Number": 55,
+        "date:Date:start": "2020-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:59:00.397490",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "SMXWW",
+        "Period": "2015-2019",
+        "Has Data": "__NO__",
+        "Batch Number": 55,
+        "date:Date:start": "2015-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:59:00.408146",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "SMXWW",
+        "Period": "2010-2014",
+        "Has Data": "__NO__",
+        "Batch Number": 55,
+        "date:Date:start": "2010-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:59:00.418917",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "SMXWW",
+        "Period": "2005-2009",
+        "Has Data": "__NO__",
+        "Batch Number": 55,
+        "date:Date:start": "2005-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:59:00.429637",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "SMXWW",
+        "Period": "2000-2004",
+        "Has Data": "__NO__",
+        "Batch Number": 55,
+        "date:Date:start": "2000-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:59:00.440457",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "SN",
+        "Period": "2020-2024",
+        "Has Data": "__NO__",
+        "Batch Number": 55,
+        "date:Date:start": "2020-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:59:00.451219",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "SN",
+        "Period": "2015-2019",
+        "Has Data": "__NO__",
+        "Batch Number": 55,
+        "date:Date:start": "2015-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:59:00.461879",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "SN",
+        "Period": "2010-2014",
+        "Has Data": "__NO__",
+        "Batch Number": 55,
+        "date:Date:start": "2010-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:59:00.472562",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "SN",
+        "Period": "2005-2009",
+        "Has Data": "__NO__",
+        "Batch Number": 55,
+        "date:Date:start": "2005-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:59:00.483264",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "SN",
+        "Period": "2000-2004",
+        "Has Data": "__NO__",
+        "Batch Number": 55,
+        "date:Date:start": "2000-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:59:00.494067",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "SNA",
+        "Period": "2020-2024",
+        "Has Data": "__NO__",
+        "Batch Number": 55,
+        "date:Date:start": "2020-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:59:00.504793",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "SNA",
+        "Period": "2015-2019",
+        "Has Data": "__NO__",
+        "Batch Number": 55,
+        "date:Date:start": "2015-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:59:00.515585",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "SNA",
+        "Period": "2010-2014",
+        "Has Data": "__NO__",
+        "Batch Number": 55,
+        "date:Date:start": "2010-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:59:00.526271",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "SNA",
+        "Period": "2005-2009",
+        "Has Data": "__NO__",
+        "Batch Number": 55,
+        "date:Date:start": "2005-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:59:00.537047",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "SNA",
+        "Period": "2000-2004",
+        "Has Data": "__NO__",
+        "Batch Number": 55,
+        "date:Date:start": "2000-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:59:00.547692",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "SNAL",
+        "Period": "2020-2024",
+        "Has Data": "__NO__",
+        "Batch Number": 55,
+        "date:Date:start": "2020-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:59:00.558349",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "SNAL",
+        "Period": "2015-2019",
+        "Has Data": "__NO__",
+        "Batch Number": 55,
+        "date:Date:start": "2015-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:59:00.568395",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "SNAL",
+        "Period": "2010-2014",
+        "Has Data": "__NO__",
+        "Batch Number": 55,
+        "date:Date:start": "2010-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:59:00.578780",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "SNAL",
+        "Period": "2005-2009",
+        "Has Data": "__NO__",
+        "Batch Number": 55,
+        "date:Date:start": "2005-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:59:00.589511",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "SNAL",
+        "Period": "2000-2004",
+        "Has Data": "__NO__",
+        "Batch Number": 55,
+        "date:Date:start": "2000-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:59:00.600283",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "SNAP",
+        "Period": "2020-2024",
+        "Has Data": "__NO__",
+        "Batch Number": 55,
+        "date:Date:start": "2020-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:59:00.611198",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "SNAP",
+        "Period": "2015-2019",
+        "Has Data": "__NO__",
+        "Batch Number": 55,
+        "date:Date:start": "2015-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:59:00.622006",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "SNAP",
+        "Period": "2010-2014",
+        "Has Data": "__NO__",
+        "Batch Number": 55,
+        "date:Date:start": "2010-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:59:00.632715",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "SNAP",
+        "Period": "2005-2009",
+        "Has Data": "__NO__",
+        "Batch Number": 55,
+        "date:Date:start": "2005-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:59:00.643508",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "SNAP",
+        "Period": "2000-2004",
+        "Has Data": "__NO__",
+        "Batch Number": 55,
+        "date:Date:start": "2000-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:59:00.654376",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "SNBR",
+        "Period": "2020-2024",
+        "Has Data": "__NO__",
+        "Batch Number": 55,
+        "date:Date:start": "2020-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:59:00.665189",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "SNBR",
+        "Period": "2015-2019",
+        "Has Data": "__NO__",
+        "Batch Number": 55,
+        "date:Date:start": "2015-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:59:00.675968",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "SNBR",
+        "Period": "2010-2014",
+        "Has Data": "__NO__",
+        "Batch Number": 55,
+        "date:Date:start": "2010-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:59:00.686793",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "SNBR",
+        "Period": "2005-2009",
+        "Has Data": "__NO__",
+        "Batch Number": 55,
+        "date:Date:start": "2005-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:59:00.697477",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "SNBR",
+        "Period": "2000-2004",
+        "Has Data": "__NO__",
+        "Batch Number": 55,
+        "date:Date:start": "2000-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:59:00.708261",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "SNCR",
+        "Period": "2020-2024",
+        "Has Data": "__NO__",
+        "Batch Number": 55,
+        "date:Date:start": "2020-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:59:00.719113",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "SNCR",
+        "Period": "2015-2019",
+        "Has Data": "__NO__",
+        "Batch Number": 55,
+        "date:Date:start": "2015-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:59:00.729873",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "SNCR",
+        "Period": "2010-2014",
+        "Has Data": "__NO__",
+        "Batch Number": 55,
+        "date:Date:start": "2010-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:59:00.740574",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "SNCR",
+        "Period": "2005-2009",
+        "Has Data": "__NO__",
+        "Batch Number": 55,
+        "date:Date:start": "2005-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:59:00.751313",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "SNCR",
+        "Period": "2000-2004",
+        "Has Data": "__NO__",
+        "Batch Number": 55,
+        "date:Date:start": "2000-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:59:00.762096",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "SNCY",
+        "Period": "2020-2024",
+        "Has Data": "__NO__",
+        "Batch Number": 55,
+        "date:Date:start": "2020-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:59:00.772838",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "SNCY",
+        "Period": "2015-2019",
+        "Has Data": "__NO__",
+        "Batch Number": 55,
+        "date:Date:start": "2015-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:59:00.783475",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "SNCY",
+        "Period": "2010-2014",
+        "Has Data": "__NO__",
+        "Batch Number": 55,
+        "date:Date:start": "2010-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:59:00.794140",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "SNCY",
+        "Period": "2005-2009",
+        "Has Data": "__NO__",
+        "Batch Number": 55,
+        "date:Date:start": "2005-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:59:00.804970",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "SNCY",
+        "Period": "2000-2004",
+        "Has Data": "__NO__",
+        "Batch Number": 55,
+        "date:Date:start": "2000-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:59:00.815651",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "SND",
+        "Period": "2020-2024",
+        "Has Data": "__NO__",
+        "Batch Number": 55,
+        "date:Date:start": "2020-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:59:00.826397",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "SND",
+        "Period": "2015-2019",
+        "Has Data": "__NO__",
+        "Batch Number": 55,
+        "date:Date:start": "2015-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:59:00.837083",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "SND",
+        "Period": "2010-2014",
+        "Has Data": "__NO__",
+        "Batch Number": 55,
+        "date:Date:start": "2010-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:59:00.847831",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "SND",
+        "Period": "2005-2009",
+        "Has Data": "__NO__",
+        "Batch Number": 55,
+        "date:Date:start": "2005-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:59:00.858589",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "SND",
+        "Period": "2000-2004",
+        "Has Data": "__NO__",
+        "Batch Number": 55,
+        "date:Date:start": "2000-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:59:00.869323",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "SNDA",
+        "Period": "2020-2024",
+        "Has Data": "__NO__",
+        "Batch Number": 55,
+        "date:Date:start": "2020-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:59:00.880128",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "SNDA",
+        "Period": "2015-2019",
+        "Has Data": "__NO__",
+        "Batch Number": 55,
+        "date:Date:start": "2015-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:59:00.890884",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "SNDA",
+        "Period": "2010-2014",
+        "Has Data": "__NO__",
+        "Batch Number": 55,
+        "date:Date:start": "2010-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:59:00.901623",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "SNDA",
+        "Period": "2005-2009",
+        "Has Data": "__NO__",
+        "Batch Number": 55,
+        "date:Date:start": "2005-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:59:00.912391",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "SNDA",
+        "Period": "2000-2004",
+        "Has Data": "__NO__",
+        "Batch Number": 55,
+        "date:Date:start": "2000-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:59:00.923212",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "SNDK",
+        "Period": "2020-2024",
+        "Has Data": "__NO__",
+        "Batch Number": 55,
+        "date:Date:start": "2020-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:59:00.933911",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "SNDK",
+        "Period": "2015-2019",
+        "Has Data": "__NO__",
+        "Batch Number": 55,
+        "date:Date:start": "2015-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:59:00.944746",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "SNDK",
+        "Period": "2010-2014",
+        "Has Data": "__NO__",
+        "Batch Number": 55,
+        "date:Date:start": "2010-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:59:00.955534",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "SNDK",
+        "Period": "2005-2009",
+        "Has Data": "__NO__",
+        "Batch Number": 55,
+        "date:Date:start": "2005-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:59:00.966330",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "SNDK",
+        "Period": "2000-2004",
+        "Has Data": "__NO__",
+        "Batch Number": 55,
+        "date:Date:start": "2000-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:59:00.977152",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "SNDL",
+        "Period": "2020-2024",
+        "Has Data": "__NO__",
+        "Batch Number": 55,
+        "date:Date:start": "2020-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:59:00.987918",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "SNDL",
+        "Period": "2015-2019",
+        "Has Data": "__NO__",
+        "Batch Number": 55,
+        "date:Date:start": "2015-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:59:00.998720",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "SNDL",
+        "Period": "2010-2014",
+        "Has Data": "__NO__",
+        "Batch Number": 55,
+        "date:Date:start": "2010-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:59:01.009551",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "SNDL",
+        "Period": "2005-2009",
+        "Has Data": "__NO__",
+        "Batch Number": 55,
+        "date:Date:start": "2005-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:59:01.020282",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "SNDL",
+        "Period": "2000-2004",
+        "Has Data": "__NO__",
+        "Batch Number": 55,
+        "date:Date:start": "2000-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:59:01.031056",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "SNDR",
+        "Period": "2020-2024",
+        "Has Data": "__NO__",
+        "Batch Number": 55,
+        "date:Date:start": "2020-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:59:01.041833",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "SNDR",
+        "Period": "2015-2019",
+        "Has Data": "__NO__",
+        "Batch Number": 55,
+        "date:Date:start": "2015-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:59:01.052685",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "SNDR",
+        "Period": "2010-2014",
+        "Has Data": "__NO__",
+        "Batch Number": 55,
+        "date:Date:start": "2010-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:59:01.063564",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "SNDR",
+        "Period": "2005-2009",
+        "Has Data": "__NO__",
+        "Batch Number": 55,
+        "date:Date:start": "2005-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:59:01.074349",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "SNDR",
+        "Period": "2000-2004",
+        "Has Data": "__NO__",
+        "Batch Number": 55,
+        "date:Date:start": "2000-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:59:01.085075",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "SNDX",
+        "Period": "2020-2024",
+        "Has Data": "__NO__",
+        "Batch Number": 55,
+        "date:Date:start": "2020-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:59:01.095875",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "SNDX",
+        "Period": "2015-2019",
+        "Has Data": "__NO__",
+        "Batch Number": 55,
+        "date:Date:start": "2015-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:59:01.106643",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "SNDX",
+        "Period": "2010-2014",
+        "Has Data": "__NO__",
+        "Batch Number": 55,
+        "date:Date:start": "2010-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:59:01.117455",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "SNDX",
+        "Period": "2005-2009",
+        "Has Data": "__NO__",
+        "Batch Number": 55,
+        "date:Date:start": "2005-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:59:01.128216",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "SNDX",
+        "Period": "2000-2004",
+        "Has Data": "__NO__",
+        "Batch Number": 55,
+        "date:Date:start": "2000-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:59:01.139037",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "SNES",
+        "Period": "2020-2024",
+        "Has Data": "__NO__",
+        "Batch Number": 55,
+        "date:Date:start": "2020-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:59:01.149798",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "SNES",
+        "Period": "2015-2019",
+        "Has Data": "__NO__",
+        "Batch Number": 55,
+        "date:Date:start": "2015-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:59:01.160592",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "SNES",
+        "Period": "2010-2014",
+        "Has Data": "__NO__",
+        "Batch Number": 55,
+        "date:Date:start": "2010-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:59:01.171393",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "SNES",
+        "Period": "2005-2009",
+        "Has Data": "__NO__",
+        "Batch Number": 55,
+        "date:Date:start": "2005-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:59:01.182150",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "SNES",
+        "Period": "2000-2004",
+        "Has Data": "__NO__",
+        "Batch Number": 55,
+        "date:Date:start": "2000-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:59:01.192912",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "SNEX",
+        "Period": "2020-2024",
+        "Has Data": "__NO__",
+        "Batch Number": 55,
+        "date:Date:start": "2020-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:59:01.203650",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "SNEX",
+        "Period": "2015-2019",
+        "Has Data": "__NO__",
+        "Batch Number": 55,
+        "date:Date:start": "2015-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:59:01.214534",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "SNEX",
+        "Period": "2010-2014",
+        "Has Data": "__NO__",
+        "Batch Number": 55,
+        "date:Date:start": "2010-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:59:01.225299",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "SNEX",
+        "Period": "2005-2009",
+        "Has Data": "__NO__",
+        "Batch Number": 55,
+        "date:Date:start": "2005-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:59:01.236188",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "SNEX",
+        "Period": "2000-2004",
+        "Has Data": "__NO__",
+        "Batch Number": 55,
+        "date:Date:start": "2000-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:59:01.246999",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "SNFCA",
+        "Period": "2020-2024",
+        "Has Data": "__NO__",
+        "Batch Number": 55,
+        "date:Date:start": "2020-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:59:01.257718",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "SNFCA",
+        "Period": "2015-2019",
+        "Has Data": "__NO__",
+        "Batch Number": 55,
+        "date:Date:start": "2015-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:59:01.268497",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "SNFCA",
+        "Period": "2010-2014",
+        "Has Data": "__NO__",
+        "Batch Number": 55,
+        "date:Date:start": "2010-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:59:01.279378",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "SNFCA",
+        "Period": "2005-2009",
+        "Has Data": "__NO__",
+        "Batch Number": 55,
+        "date:Date:start": "2005-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:59:01.290147",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "SNFCA",
+        "Period": "2000-2004",
+        "Has Data": "__NO__",
+        "Batch Number": 55,
+        "date:Date:start": "2000-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:59:01.300884",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "SNGX",
+        "Period": "2020-2024",
+        "Has Data": "__NO__",
+        "Batch Number": 55,
+        "date:Date:start": "2020-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:59:01.311678",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "SNGX",
+        "Period": "2015-2019",
+        "Has Data": "__NO__",
+        "Batch Number": 55,
+        "date:Date:start": "2015-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:59:01.322376",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "SNGX",
+        "Period": "2010-2014",
+        "Has Data": "__NO__",
+        "Batch Number": 55,
+        "date:Date:start": "2010-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:59:01.333167",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "SNGX",
+        "Period": "2005-2009",
+        "Has Data": "__NO__",
+        "Batch Number": 55,
+        "date:Date:start": "2005-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:59:01.344043",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "SNGX",
+        "Period": "2000-2004",
+        "Has Data": "__NO__",
+        "Batch Number": 55,
+        "date:Date:start": "2000-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:59:01.354691",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "SNN",
+        "Period": "2020-2024",
+        "Has Data": "__NO__",
+        "Batch Number": 55,
+        "date:Date:start": "2020-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:59:01.365478",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "SNN",
+        "Period": "2015-2019",
+        "Has Data": "__NO__",
+        "Batch Number": 55,
+        "date:Date:start": "2015-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:59:01.376244",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "SNN",
+        "Period": "2010-2014",
+        "Has Data": "__NO__",
+        "Batch Number": 55,
+        "date:Date:start": "2010-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:59:01.387058",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "SNN",
+        "Period": "2005-2009",
+        "Has Data": "__NO__",
+        "Batch Number": 55,
+        "date:Date:start": "2005-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:59:01.397736",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "SNN",
+        "Period": "2000-2004",
+        "Has Data": "__NO__",
+        "Batch Number": 55,
+        "date:Date:start": "2000-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:59:01.408585",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "SNOA",
+        "Period": "2020-2024",
+        "Has Data": "__NO__",
+        "Batch Number": 55,
+        "date:Date:start": "2020-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:59:01.419424",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "SNOA",
+        "Period": "2015-2019",
+        "Has Data": "__NO__",
+        "Batch Number": 55,
+        "date:Date:start": "2015-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:59:01.430251",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "SNOA",
+        "Period": "2010-2014",
+        "Has Data": "__NO__",
+        "Batch Number": 55,
+        "date:Date:start": "2010-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:59:01.441142",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "SNOA",
+        "Period": "2005-2009",
+        "Has Data": "__NO__",
+        "Batch Number": 55,
+        "date:Date:start": "2005-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:59:01.451928",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "SNOA",
+        "Period": "2000-2004",
+        "Has Data": "__NO__",
+        "Batch Number": 55,
+        "date:Date:start": "2000-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:59:01.462738",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "SNOW",
+        "Period": "2020-2024",
+        "Has Data": "__NO__",
+        "Batch Number": 55,
+        "date:Date:start": "2020-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:59:01.473568",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "SNOW",
+        "Period": "2015-2019",
+        "Has Data": "__NO__",
+        "Batch Number": 55,
+        "date:Date:start": "2015-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:59:01.483604",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "SNOW",
+        "Period": "2010-2014",
+        "Has Data": "__NO__",
+        "Batch Number": 55,
+        "date:Date:start": "2010-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:59:01.494109",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "SNOW",
+        "Period": "2005-2009",
+        "Has Data": "__NO__",
+        "Batch Number": 55,
+        "date:Date:start": "2005-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:59:01.504869",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "SNOW",
+        "Period": "2000-2004",
+        "Has Data": "__NO__",
+        "Batch Number": 55,
+        "date:Date:start": "2000-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:59:01.515629",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "SNPS",
+        "Period": "2020-2024",
+        "Has Data": "__NO__",
+        "Batch Number": 55,
+        "date:Date:start": "2020-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:59:01.526380",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "SNPS",
+        "Period": "2015-2019",
+        "Has Data": "__NO__",
+        "Batch Number": 55,
+        "date:Date:start": "2015-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:59:01.537205",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "SNPS",
+        "Period": "2010-2014",
+        "Has Data": "__NO__",
+        "Batch Number": 55,
+        "date:Date:start": "2010-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:59:01.547974",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "SNPS",
+        "Period": "2005-2009",
+        "Has Data": "__NO__",
+        "Batch Number": 55,
+        "date:Date:start": "2005-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:59:01.558706",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "SNPS",
+        "Period": "2000-2004",
+        "Has Data": "__NO__",
+        "Batch Number": 55,
+        "date:Date:start": "2000-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:59:01.569593",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "SNRE",
+        "Period": "2020-2024",
+        "Has Data": "__NO__",
+        "Batch Number": 55,
+        "date:Date:start": "2020-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:59:01.580324",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "SNRE",
+        "Period": "2015-2019",
+        "Has Data": "__NO__",
+        "Batch Number": 55,
+        "date:Date:start": "2015-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:59:01.591067",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "SNRE",
+        "Period": "2010-2014",
+        "Has Data": "__NO__",
+        "Batch Number": 55,
+        "date:Date:start": "2010-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:59:01.601857",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "SNRE",
+        "Period": "2005-2009",
+        "Has Data": "__NO__",
+        "Batch Number": 55,
+        "date:Date:start": "2005-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:59:01.612662",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "SNRE",
+        "Period": "2000-2004",
+        "Has Data": "__NO__",
+        "Batch Number": 55,
+        "date:Date:start": "2000-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:59:01.623489",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "SNSE",
+        "Period": "2020-2024",
+        "Has Data": "__NO__",
+        "Batch Number": 55,
+        "date:Date:start": "2020-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:59:01.634343",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "SNSE",
+        "Period": "2015-2019",
+        "Has Data": "__NO__",
+        "Batch Number": 55,
+        "date:Date:start": "2015-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:59:01.645066",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "SNSE",
+        "Period": "2010-2014",
+        "Has Data": "__NO__",
+        "Batch Number": 55,
+        "date:Date:start": "2010-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:59:01.655857",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "SNSE",
+        "Period": "2005-2009",
+        "Has Data": "__NO__",
+        "Batch Number": 55,
+        "date:Date:start": "2005-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:59:01.666682",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "SNSE",
+        "Period": "2000-2004",
+        "Has Data": "__NO__",
+        "Batch Number": 55,
+        "date:Date:start": "2000-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:59:01.677403",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "SNT",
+        "Period": "2020-2024",
+        "Has Data": "__NO__",
+        "Batch Number": 55,
+        "date:Date:start": "2020-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:59:01.688303",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "SNT",
+        "Period": "2015-2019",
+        "Has Data": "__NO__",
+        "Batch Number": 55,
+        "date:Date:start": "2015-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:59:01.699114",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "SNT",
+        "Period": "2010-2014",
+        "Has Data": "__NO__",
+        "Batch Number": 55,
+        "date:Date:start": "2010-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:59:01.710069",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "SNT",
+        "Period": "2005-2009",
+        "Has Data": "__NO__",
+        "Batch Number": 55,
+        "date:Date:start": "2005-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:59:01.720917",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "SNT",
+        "Period": "2000-2004",
+        "Has Data": "__NO__",
+        "Batch Number": 55,
+        "date:Date:start": "2000-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:59:01.731750",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "SNTG",
+        "Period": "2020-2024",
+        "Has Data": "__NO__",
+        "Batch Number": 55,
+        "date:Date:start": "2020-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:59:01.742635",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "SNTG",
+        "Period": "2015-2019",
+        "Has Data": "__NO__",
+        "Batch Number": 55,
+        "date:Date:start": "2015-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:59:01.753363",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "SNTG",
+        "Period": "2010-2014",
+        "Has Data": "__NO__",
+        "Batch Number": 55,
+        "date:Date:start": "2010-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:59:01.764100",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "SNTG",
+        "Period": "2005-2009",
+        "Has Data": "__NO__",
+        "Batch Number": 55,
+        "date:Date:start": "2005-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:59:01.774972",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "SNTG",
+        "Period": "2000-2004",
+        "Has Data": "__NO__",
+        "Batch Number": 55,
+        "date:Date:start": "2000-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:59:01.785697",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "SNTI",
+        "Period": "2020-2024",
+        "Has Data": "__NO__",
+        "Batch Number": 55,
+        "date:Date:start": "2020-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:59:01.796649",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "SNTI",
+        "Period": "2015-2019",
+        "Has Data": "__NO__",
+        "Batch Number": 55,
+        "date:Date:start": "2015-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:59:01.807299",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "SNTI",
+        "Period": "2010-2014",
+        "Has Data": "__NO__",
+        "Batch Number": 55,
+        "date:Date:start": "2010-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:59:01.818077",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "SNTI",
+        "Period": "2005-2009",
+        "Has Data": "__NO__",
+        "Batch Number": 55,
+        "date:Date:start": "2005-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:59:01.828858",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "SNTI",
+        "Period": "2000-2004",
+        "Has Data": "__NO__",
+        "Batch Number": 55,
+        "date:Date:start": "2000-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:59:01.839613",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "SNV",
+        "Period": "2020-2024",
+        "Has Data": "__NO__",
+        "Batch Number": 55,
+        "date:Date:start": "2020-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:59:01.850433",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "SNV",
+        "Period": "2015-2019",
+        "Has Data": "__NO__",
+        "Batch Number": 55,
+        "date:Date:start": "2015-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:59:01.861203",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "SNV",
+        "Period": "2010-2014",
+        "Has Data": "__NO__",
+        "Batch Number": 55,
+        "date:Date:start": "2010-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:59:01.871960",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "SNV",
+        "Period": "2005-2009",
+        "Has Data": "__NO__",
+        "Batch Number": 55,
+        "date:Date:start": "2005-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:59:01.882632",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "SNV",
+        "Period": "2000-2004",
+        "Has Data": "__NO__",
+        "Batch Number": 55,
+        "date:Date:start": "2000-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:59:01.893397",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "SNWV",
+        "Period": "2020-2024",
+        "Has Data": "__NO__",
+        "Batch Number": 55,
+        "date:Date:start": "2020-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:59:01.904227",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "SNWV",
+        "Period": "2015-2019",
+        "Has Data": "__NO__",
+        "Batch Number": 55,
+        "date:Date:start": "2015-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:59:01.914911",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "SNWV",
+        "Period": "2010-2014",
+        "Has Data": "__NO__",
+        "Batch Number": 55,
+        "date:Date:start": "2010-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:59:01.925612",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "SNWV",
+        "Period": "2005-2009",
+        "Has Data": "__NO__",
+        "Batch Number": 55,
+        "date:Date:start": "2005-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:59:01.936367",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "SNWV",
+        "Period": "2000-2004",
+        "Has Data": "__NO__",
+        "Batch Number": 55,
+        "date:Date:start": "2000-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:59:01.947098",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "SNX",
+        "Period": "2020-2024",
+        "Has Data": "__NO__",
+        "Batch Number": 55,
+        "date:Date:start": "2020-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:59:01.957828",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "SNX",
+        "Period": "2015-2019",
+        "Has Data": "__NO__",
+        "Batch Number": 55,
+        "date:Date:start": "2015-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:59:01.968542",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "SNX",
+        "Period": "2010-2014",
+        "Has Data": "__NO__",
+        "Batch Number": 55,
+        "date:Date:start": "2010-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:59:01.979331",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "SNX",
+        "Period": "2005-2009",
+        "Has Data": "__NO__",
+        "Batch Number": 55,
+        "date:Date:start": "2005-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:59:01.989990",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "SNX",
+        "Period": "2000-2004",
+        "Has Data": "__NO__",
+        "Batch Number": 55,
+        "date:Date:start": "2000-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T04:59:02.000774",
+        "date:Retrieved At:is_datetime": 1
+      }
+    }
+  ]
+}

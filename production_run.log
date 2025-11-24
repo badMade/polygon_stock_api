@@ -1,0 +1,561 @@
+2025-11-24 04:54:05,446 - ================================================================================
+2025-11-24 04:54:05,446 - 🚀 PRODUCTION STOCK DATA RETRIEVAL - 6,628 TICKERS
+2025-11-24 04:54:05,446 - ================================================================================
+2025-11-24 04:54:05,447 - 📊 Notion Database: https://www.notion.so/638a8018f09d4e159d6d84536f411441
+2025-11-24 04:54:05,447 - 🔗 Data Source ID: 7c5225aa-429b-4580-946e-ba5b1db2ca6d
+2025-11-24 04:54:05,447 - ================================================================================
+2025-11-24 04:54:05,685 - 📈 Loaded 6,626 tickers
+2025-11-24 04:54:05,685 - 📊 Configuration:
+2025-11-24 04:54:05,685 -   • Tickers: 6,626
+2025-11-24 04:54:05,685 -   • Batch size: 100
+2025-11-24 04:54:05,686 -   • Total batches: 67
+2025-11-24 04:54:05,686 -   • Time periods: 5 (5-year chunks)
+2025-11-24 04:54:05,686 -   • Est. records: 33,130
+2025-11-24 04:54:05,686 -   • Est. API calls: 33,130
+2025-11-24 04:54:05,686 -   • Est. runtime: 0:05:31.300000 (plus Notion upload)
+2025-11-24 04:54:05,686 - ================================================================================
+2025-11-24 04:54:05,686 - 📊 BATCH 1/67: Processing 100 tickers
+2025-11-24 04:54:06,761 -   ✓ Progress: 20/6626 (0.3%) - Current: AARD
+2025-11-24 04:54:07,836 -   ✓ Progress: 40/6626 (0.6%) - Current: ABPWW
+2025-11-24 04:54:08,911 -   ✓ Progress: 60/6626 (0.9%) - Current: ACGL
+2025-11-24 04:54:09,984 -   ✓ Progress: 80/6626 (1.2%) - Current: ACP
+2025-11-24 04:54:11,060 -   ✓ Progress: 100/6626 (1.5%) - Current: ADI
+2025-11-24 04:54:11,070 -   💾 Saved 500 records to /mnt/user-data/outputs/batch_0001_notion.json
+2025-11-24 04:54:11,070 - 📊 BATCH 2/67: Processing 100 tickers
+2025-11-24 04:54:12,146 -   ✓ Progress: 120/6626 (1.8%) - Current: ADVWW
+2025-11-24 04:54:13,222 -   ✓ Progress: 140/6626 (2.1%) - Current: AERT
+2025-11-24 04:54:14,298 -   ✓ Progress: 160/6626 (2.4%) - Current: AFRM
+2025-11-24 04:54:15,373 -   ✓ Progress: 180/6626 (2.7%) - Current: AGO
+2025-11-24 04:54:16,449 -   ✓ Progress: 200/6626 (3.0%) - Current: AIN
+2025-11-24 04:54:16,459 -   💾 Saved 500 records to /mnt/user-data/outputs/batch_0002_notion.json
+2025-11-24 04:54:16,459 - 📊 BATCH 3/67: Processing 100 tickers
+2025-11-24 04:54:17,536 -   ✓ Progress: 220/6626 (3.3%) - Current: AIZN
+2025-11-24 04:54:18,612 -   ✓ Progress: 240/6626 (3.6%) - Current: ALDFW
+2025-11-24 04:54:19,690 -   ✓ Progress: 260/6626 (3.9%) - Current: ALLR
+2025-11-24 04:54:20,763 -   ✓ Progress: 280/6626 (4.2%) - Current: ALVOW
+2025-11-24 04:54:21,838 -   ✓ Progress: 300/6626 (4.5%) - Current: AMG
+2025-11-24 04:54:21,849 -   💾 Saved 500 records to /mnt/user-data/outputs/batch_0003_notion.json
+2025-11-24 04:54:21,849 - 📊 BATCH 4/67: Processing 100 tickers
+2025-11-24 04:54:22,923 -   ✓ Progress: 320/6626 (4.8%) - Current: AMRX
+2025-11-24 04:54:23,997 -   ✓ Progress: 340/6626 (5.1%) - Current: ANET
+2025-11-24 04:54:25,071 -   ✓ Progress: 360/6626 (5.4%) - Current: ANTE
+2025-11-24 04:54:26,145 -   ✓ Progress: 380/6626 (5.7%) - Current: APG
+2025-11-24 04:54:27,217 -   ✓ Progress: 400/6626 (6.0%) - Current: APTV
+2025-11-24 04:54:27,226 -   💾 Saved 500 records to /mnt/user-data/outputs/batch_0004_notion.json
+2025-11-24 04:54:27,227 - 📊 BATCH 5/67: Processing 100 tickers
+2025-11-24 04:54:28,301 -   ✓ Progress: 420/6626 (6.3%) - Current: ARCO
+2025-11-24 04:54:29,374 -   ✓ Progress: 440/6626 (6.6%) - Current: ARL
+2025-11-24 04:54:30,449 -   ✓ Progress: 460/6626 (6.9%) - Current: ARW
+2025-11-24 04:54:31,523 -   ✓ Progress: 480/6626 (7.2%) - Current: ASML
+2025-11-24 04:54:32,596 -   ✓ Progress: 500/6626 (7.5%) - Current: ASTL
+2025-11-24 04:54:32,606 -   💾 Saved 500 records to /mnt/user-data/outputs/batch_0005_notion.json
+2025-11-24 04:54:32,606 - 📊 BATCH 6/67: Processing 100 tickers
+2025-11-24 04:54:33,683 -   ✓ Progress: 520/6626 (7.8%) - Current: ATHR
+2025-11-24 04:54:34,758 -   ✓ Progress: 540/6626 (8.1%) - Current: ATMVR
+2025-11-24 04:54:35,840 -   ✓ Progress: 560/6626 (8.5%) - Current: AUBN
+2025-11-24 04:54:36,916 -   ✓ Progress: 580/6626 (8.8%) - Current: AVBP
+2025-11-24 04:54:37,994 -   ✓ Progress: 600/6626 (9.1%) - Current: AWK
+2025-11-24 04:54:38,003 -   💾 Saved 500 records to /mnt/user-data/outputs/batch_0006_notion.json
+2025-11-24 04:54:38,003 - 📊 BATCH 7/67: Processing 100 tickers
+2025-11-24 04:54:39,082 -   ✓ Progress: 620/6626 (9.4%) - Current: AYRO
+2025-11-24 04:54:40,158 -   ✓ Progress: 640/6626 (9.7%) - Current: BAH
+2025-11-24 04:54:41,237 -   ✓ Progress: 660/6626 (10.0%) - Current: BAYA
+2025-11-24 04:54:42,314 -   ✓ Progress: 680/6626 (10.3%) - Current: BBWI
+2025-11-24 04:54:43,394 -   ✓ Progress: 700/6626 (10.6%) - Current: BCTX
+2025-11-24 04:54:43,402 -   💾 Saved 500 records to /mnt/user-data/outputs/batch_0007_notion.json
+2025-11-24 04:54:43,403 - 📊 BATCH 8/67: Processing 100 tickers
+2025-11-24 04:54:44,476 -   ✓ Progress: 720/6626 (10.9%) - Current: BEATW
+2025-11-24 04:54:45,553 -   ✓ Progress: 740/6626 (11.2%) - Current: BFIN
+2025-11-24 04:54:46,624 -   ✓ Progress: 760/6626 (11.5%) - Current: BGR
+2025-11-24 04:54:47,697 -   ✓ Progress: 780/6626 (11.8%) - Current: BHP
+2025-11-24 04:54:48,768 -   ✓ Progress: 800/6626 (12.1%) - Current: BIPJ
+2025-11-24 04:54:48,778 -   💾 Saved 500 records to /mnt/user-data/outputs/batch_0008_notion.json
+2025-11-24 04:54:48,778 - 📊 BATCH 9/67: Processing 100 tickers
+2025-11-24 04:54:49,852 -   ✓ Progress: 820/6626 (12.4%) - Current: BKR
+2025-11-24 04:54:50,925 -   ✓ Progress: 840/6626 (12.7%) - Current: BLIV
+2025-11-24 04:54:52,000 -   ✓ Progress: 860/6626 (13.0%) - Current: BMEZ
+2025-11-24 04:54:53,073 -   ✓ Progress: 880/6626 (13.3%) - Current: BNH
+2025-11-24 04:54:54,156 -   ✓ Progress: 900/6626 (13.6%) - Current: BON
+2025-11-24 04:54:54,165 -   💾 Saved 500 records to /mnt/user-data/outputs/batch_0009_notion.json
+2025-11-24 04:54:54,166 - 📊 BATCH 10/67: Processing 100 tickers
+2025-11-24 04:54:55,242 -   ✓ Progress: 920/6626 (13.9%) - Current: BRBR
+2025-11-24 04:54:56,319 -   ✓ Progress: 940/6626 (14.2%) - Current: BRR
+2025-11-24 04:54:57,397 -   ✓ Progress: 960/6626 (14.5%) - Current: BSLK
+2025-11-24 04:54:58,472 -   ✓ Progress: 980/6626 (14.8%) - Current: BTI
+2025-11-24 04:54:59,548 -   ✓ Progress: 1000/6626 (15.1%) - Current: BUSE
+2025-11-24 04:54:59,557 -   💾 Saved 500 records to /mnt/user-data/outputs/batch_0010_notion.json
+2025-11-24 04:54:59,558 - ------------------------------------------------------------
+2025-11-24 04:54:59,558 - 📊 CHECKPOINT - Batch 10/67
+2025-11-24 04:54:59,558 -   • Processed: 1,000/6,626 tickers
+2025-11-24 04:54:59,558 -   • Saved: 5,000 records
+2025-11-24 04:54:59,558 -   • Rate: 18.5 tickers/sec
+2025-11-24 04:54:59,559 -   • Elapsed: 0:00:54.110392
+2025-11-24 04:54:59,559 -   • ETA: 0:05:04.425065
+2025-11-24 04:54:59,559 - ------------------------------------------------------------
+2025-11-24 04:54:59,560 - 📊 BATCH 11/67: Processing 100 tickers
+2025-11-24 04:55:00,639 -   ✓ Progress: 1020/6626 (15.4%) - Current: BWXT
+2025-11-24 04:55:01,717 -   ✓ Progress: 1040/6626 (15.7%) - Current: BZH
+2025-11-24 04:55:02,795 -   ✓ Progress: 1060/6626 (16.0%) - Current: CALC
+2025-11-24 04:55:03,874 -   ✓ Progress: 1080/6626 (16.3%) - Current: CARR
+2025-11-24 04:55:04,949 -   ✓ Progress: 1100/6626 (16.6%) - Current: CBLL
+2025-11-24 04:55:04,958 -   💾 Saved 500 records to /mnt/user-data/outputs/batch_0011_notion.json
+2025-11-24 04:55:04,958 - 📊 BATCH 12/67: Processing 100 tickers
+2025-11-24 04:55:06,036 -   ✓ Progress: 1120/6626 (16.9%) - Current: CCEC
+2025-11-24 04:55:07,111 -   ✓ Progress: 1140/6626 (17.2%) - Current: CCM
+2025-11-24 04:55:08,190 -   ✓ Progress: 1160/6626 (17.5%) - Current: CDR
+2025-11-24 04:55:09,271 -   ✓ Progress: 1180/6626 (17.8%) - Current: CELZ
+2025-11-24 04:55:10,348 -   ✓ Progress: 1200/6626 (18.1%) - Current: CFFI
+2025-11-24 04:55:10,357 -   💾 Saved 500 records to /mnt/user-data/outputs/batch_0012_notion.json
+2025-11-24 04:55:10,358 - 📊 BATCH 13/67: Processing 100 tickers
+2025-11-24 04:55:11,430 -   ✓ Progress: 1220/6626 (18.4%) - Current: CGO
+2025-11-24 04:55:12,504 -   ✓ Progress: 1240/6626 (18.7%) - Current: CHKP
+2025-11-24 04:55:13,575 -   ✓ Progress: 1260/6626 (19.0%) - Current: CHTR
+2025-11-24 04:55:14,649 -   ✓ Progress: 1280/6626 (19.3%) - Current: CIMN
+2025-11-24 04:55:15,725 -   ✓ Progress: 1300/6626 (19.6%) - Current: CLBT
+2025-11-24 04:55:15,735 -   💾 Saved 500 records to /mnt/user-data/outputs/batch_0013_notion.json
+2025-11-24 04:55:15,736 - 📊 BATCH 14/67: Processing 100 tickers
+2025-11-24 04:55:16,809 -   ✓ Progress: 1320/6626 (19.9%) - Current: CLPS
+2025-11-24 04:55:17,885 -   ✓ Progress: 1340/6626 (20.2%) - Current: CMCM
+2025-11-24 04:55:18,962 -   ✓ Progress: 1360/6626 (20.5%) - Current: CMSC
+2025-11-24 04:55:20,039 -   ✓ Progress: 1380/6626 (20.8%) - Current: CNM
+2025-11-24 04:55:21,120 -   ✓ Progress: 1400/6626 (21.1%) - Current: COCHW
+2025-11-24 04:55:21,130 -   💾 Saved 500 records to /mnt/user-data/outputs/batch_0014_notion.json
+2025-11-24 04:55:21,130 - 📊 BATCH 15/67: Processing 100 tickers
+2025-11-24 04:55:22,207 -   ✓ Progress: 1420/6626 (21.4%) - Current: COLD
+2025-11-24 04:55:23,281 -   ✓ Progress: 1440/6626 (21.7%) - Current: COST
+2025-11-24 04:55:24,354 -   ✓ Progress: 1460/6626 (22.0%) - Current: CPS
+2025-11-24 04:55:25,429 -   ✓ Progress: 1480/6626 (22.3%) - Current: CRDO
+2025-11-24 04:55:26,504 -   ✓ Progress: 1500/6626 (22.6%) - Current: CRML
+2025-11-24 04:55:26,513 -   💾 Saved 500 records to /mnt/user-data/outputs/batch_0015_notion.json
+2025-11-24 04:55:26,514 - 📊 BATCH 16/67: Processing 100 tickers
+2025-11-24 04:55:27,589 -   ✓ Progress: 1520/6626 (22.9%) - Current: CSAI
+2025-11-24 04:55:28,665 -   ✓ Progress: 1540/6626 (23.2%) - Current: CTA
+2025-11-24 04:55:29,740 -   ✓ Progress: 1560/6626 (23.5%) - Current: CTRN
+2025-11-24 04:55:30,813 -   ✓ Progress: 1580/6626 (23.8%) - Current: CURR
+2025-11-24 04:55:31,888 -   ✓ Progress: 1600/6626 (24.1%) - Current: CVU
+2025-11-24 04:55:31,898 -   💾 Saved 500 records to /mnt/user-data/outputs/batch_0016_notion.json
+2025-11-24 04:55:31,898 - 📊 BATCH 17/67: Processing 100 tickers
+2025-11-24 04:55:32,972 -   ✓ Progress: 1620/6626 (24.4%) - Current: CXT
+2025-11-24 04:55:34,046 -   ✓ Progress: 1640/6626 (24.8%) - Current: DAAQU
+2025-11-24 04:55:35,123 -   ✓ Progress: 1660/6626 (25.1%) - Current: DAY
+2025-11-24 04:55:36,199 -   ✓ Progress: 1680/6626 (25.4%) - Current: DDI
+2025-11-24 04:55:37,275 -   ✓ Progress: 1700/6626 (25.7%) - Current: DFLIW
+2025-11-24 04:55:37,284 -   💾 Saved 500 records to /mnt/user-data/outputs/batch_0017_notion.json
+2025-11-24 04:55:37,285 - 📊 BATCH 18/67: Processing 100 tickers
+2025-11-24 04:55:38,359 -   ✓ Progress: 1720/6626 (26.0%) - Current: DHIL
+2025-11-24 04:55:39,433 -   ✓ Progress: 1740/6626 (26.3%) - Current: DLB
+2025-11-24 04:55:40,510 -   ✓ Progress: 1760/6626 (26.6%) - Current: DMYY
+2025-11-24 04:55:41,587 -   ✓ Progress: 1780/6626 (26.9%) - Current: DOV
+2025-11-24 04:55:42,662 -   ✓ Progress: 1800/6626 (27.2%) - Current: DRTSW
+2025-11-24 04:55:42,672 -   💾 Saved 500 records to /mnt/user-data/outputs/batch_0018_notion.json
+2025-11-24 04:55:42,673 - 📊 BATCH 19/67: Processing 100 tickers
+2025-11-24 04:55:43,750 -   ✓ Progress: 1820/6626 (27.5%) - Current: DTG
+2025-11-24 04:55:44,822 -   ✓ Progress: 1840/6626 (27.8%) - Current: DVS
+2025-11-24 04:55:45,896 -   ✓ Progress: 1860/6626 (28.1%) - Current: DYNXW
+2025-11-24 04:55:46,971 -   ✓ Progress: 1880/6626 (28.4%) - Current: ECCC
+2025-11-24 04:55:48,045 -   ✓ Progress: 1900/6626 (28.7%) - Current: EDF
+2025-11-24 04:55:48,055 -   💾 Saved 500 records to /mnt/user-data/outputs/batch_0019_notion.json
+2025-11-24 04:55:48,056 - 📊 BATCH 20/67: Processing 100 tickers
+2025-11-24 04:55:49,130 -   ✓ Progress: 1920/6626 (29.0%) - Current: EFT
+2025-11-24 04:55:50,203 -   ✓ Progress: 1940/6626 (29.3%) - Current: EICB
+2025-11-24 04:55:51,276 -   ✓ Progress: 1960/6626 (29.6%) - Current: ELPC
+2025-11-24 04:55:52,352 -   ✓ Progress: 1980/6626 (29.9%) - Current: EMF
+2025-11-24 04:55:53,426 -   ✓ Progress: 2000/6626 (30.2%) - Current: ENPH
+2025-11-24 04:55:53,435 -   💾 Saved 500 records to /mnt/user-data/outputs/batch_0020_notion.json
+2025-11-24 04:55:53,436 - ------------------------------------------------------------
+2025-11-24 04:55:53,436 - 📊 CHECKPOINT - Batch 20/67
+2025-11-24 04:55:53,436 -   • Processed: 2,000/6,626 tickers
+2025-11-24 04:55:53,436 -   • Saved: 10,000 records
+2025-11-24 04:55:53,436 -   • Rate: 18.5 tickers/sec
+2025-11-24 04:55:53,437 -   • Elapsed: 0:01:47.988424
+2025-11-24 04:55:53,437 -   • ETA: 0:04:09.777225
+2025-11-24 04:55:53,437 - ------------------------------------------------------------
+2025-11-24 04:55:53,438 - 📊 BATCH 21/67: Processing 100 tickers
+2025-11-24 04:55:54,512 -   ✓ Progress: 2020/6626 (30.5%) - Current: EOSE
+2025-11-24 04:55:55,585 -   ✓ Progress: 2040/6626 (30.8%) - Current: EQIX
+2025-11-24 04:55:56,659 -   ✓ Progress: 2060/6626 (31.1%) - Current: ESEA
+2025-11-24 04:55:57,734 -   ✓ Progress: 2080/6626 (31.4%) - Current: ETD
+2025-11-24 04:55:58,808 -   ✓ Progress: 2100/6626 (31.7%) - Current: EVCM
+2025-11-24 04:55:58,818 -   💾 Saved 500 records to /mnt/user-data/outputs/batch_0021_notion.json
+2025-11-24 04:55:58,818 - 📊 BATCH 22/67: Processing 100 tickers
+2025-11-24 04:55:59,893 -   ✓ Progress: 2120/6626 (32.0%) - Current: EVTL
+2025-11-24 04:56:00,974 -   ✓ Progress: 2140/6626 (32.3%) - Current: EXPE
+2025-11-24 04:56:02,050 -   ✓ Progress: 2160/6626 (32.6%) - Current: FAT
+2025-11-24 04:56:03,122 -   ✓ Progress: 2180/6626 (32.9%) - Current: FC
+2025-11-24 04:56:04,201 -   ✓ Progress: 2200/6626 (33.2%) - Current: FDSB
+2025-11-24 04:56:04,211 -   💾 Saved 500 records to /mnt/user-data/outputs/batch_0022_notion.json
+2025-11-24 04:56:04,211 - 📊 BATCH 23/67: Processing 100 tickers
+2025-11-24 04:56:05,290 -   ✓ Progress: 2220/6626 (33.5%) - Current: FFAI
+2025-11-24 04:56:06,365 -   ✓ Progress: 2240/6626 (33.8%) - Current: FGN
+2025-11-24 04:56:07,440 -   ✓ Progress: 2260/6626 (34.1%) - Current: FITBI
+2025-11-24 04:56:08,515 -   ✓ Progress: 2280/6626 (34.4%) - Current: FLO
+2025-11-24 04:56:09,590 -   ✓ Progress: 2300/6626 (34.7%) - Current: FMS
+2025-11-24 04:56:09,599 -   💾 Saved 500 records to /mnt/user-data/outputs/batch_0023_notion.json
+2025-11-24 04:56:09,599 - 📊 BATCH 24/67: Processing 100 tickers
+2025-11-24 04:56:10,674 -   ✓ Progress: 2320/6626 (35.0%) - Current: FORA
+2025-11-24 04:56:11,749 -   ✓ Progress: 2340/6626 (35.3%) - Current: FR
+2025-11-24 04:56:12,824 -   ✓ Progress: 2360/6626 (35.6%) - Current: FSCO
+2025-11-24 04:56:13,900 -   ✓ Progress: 2380/6626 (35.9%) - Current: FTDR
+2025-11-24 04:56:14,973 -   ✓ Progress: 2400/6626 (36.2%) - Current: FULT
+2025-11-24 04:56:14,982 -   💾 Saved 500 records to /mnt/user-data/outputs/batch_0024_notion.json
+2025-11-24 04:56:14,982 - 📊 BATCH 25/67: Processing 100 tickers
+2025-11-24 04:56:16,057 -   ✓ Progress: 2420/6626 (36.5%) - Current: GABC
+2025-11-24 04:56:17,129 -   ✓ Progress: 2440/6626 (36.8%) - Current: GBDC
+2025-11-24 04:56:18,204 -   ✓ Progress: 2460/6626 (37.1%) - Current: GDDY
+2025-11-24 04:56:19,279 -   ✓ Progress: 2480/6626 (37.4%) - Current: GEGGL
+2025-11-24 04:56:20,355 -   ✓ Progress: 2500/6626 (37.7%) - Current: GFI
+2025-11-24 04:56:20,365 -   💾 Saved 500 records to /mnt/user-data/outputs/batch_0025_notion.json
+2025-11-24 04:56:20,366 - 📊 BATCH 26/67: Processing 100 tickers
+2025-11-24 04:56:21,441 -   ✓ Progress: 2520/6626 (38.0%) - Current: GIB
+2025-11-24 04:56:22,521 -   ✓ Progress: 2540/6626 (38.3%) - Current: GJS
+2025-11-24 04:56:23,595 -   ✓ Progress: 2560/6626 (38.6%) - Current: GLPG
+2025-11-24 04:56:24,669 -   ✓ Progress: 2580/6626 (38.9%) - Current: GMS
+2025-11-24 04:56:25,743 -   ✓ Progress: 2600/6626 (39.2%) - Current: GOGO
+2025-11-24 04:56:25,752 -   💾 Saved 500 records to /mnt/user-data/outputs/batch_0026_notion.json
+2025-11-24 04:56:25,753 - 📊 BATCH 27/67: Processing 100 tickers
+2025-11-24 04:56:26,823 -   ✓ Progress: 2620/6626 (39.5%) - Current: GPJA
+2025-11-24 04:56:27,894 -   ✓ Progress: 2640/6626 (39.8%) - Current: GRF
+2025-11-24 04:56:28,966 -   ✓ Progress: 2660/6626 (40.1%) - Current: GSBC
+2025-11-24 04:56:30,038 -   ✓ Progress: 2680/6626 (40.4%) - Current: GTERR
+2025-11-24 04:56:31,112 -   ✓ Progress: 2700/6626 (40.7%) - Current: GWH
+2025-11-24 04:56:31,121 -   💾 Saved 500 records to /mnt/user-data/outputs/batch_0027_notion.json
+2025-11-24 04:56:31,122 - 📊 BATCH 28/67: Processing 100 tickers
+2025-11-24 04:56:32,197 -   ✓ Progress: 2720/6626 (41.1%) - Current: HBANL
+2025-11-24 04:56:33,272 -   ✓ Progress: 2740/6626 (41.4%) - Current: HCSG
+2025-11-24 04:56:34,347 -   ✓ Progress: 2760/6626 (41.7%) - Current: HG
+2025-11-24 04:56:35,419 -   ✓ Progress: 2780/6626 (42.0%) - Current: HIX
+2025-11-24 04:56:36,490 -   ✓ Progress: 2800/6626 (42.3%) - Current: HMR
+2025-11-24 04:56:36,500 -   💾 Saved 500 records to /mnt/user-data/outputs/batch_0028_notion.json
+2025-11-24 04:56:36,501 - 📊 BATCH 29/67: Processing 100 tickers
+2025-11-24 04:56:37,578 -   ✓ Progress: 2820/6626 (42.6%) - Current: HONDW
+2025-11-24 04:56:38,656 -   ✓ Progress: 2840/6626 (42.9%) - Current: HPP
+2025-11-24 04:56:39,730 -   ✓ Progress: 2860/6626 (43.2%) - Current: HSCS
+2025-11-24 04:56:40,805 -   ✓ Progress: 2880/6626 (43.5%) - Current: HTD
+2025-11-24 04:56:41,882 -   ✓ Progress: 2900/6626 (43.8%) - Current: HUDI
+2025-11-24 04:56:41,896 -   💾 Saved 500 records to /mnt/user-data/outputs/batch_0029_notion.json
+2025-11-24 04:56:41,896 - 📊 BATCH 30/67: Processing 100 tickers
+2025-11-24 04:56:42,972 -   ✓ Progress: 2920/6626 (44.1%) - Current: HWM
+2025-11-24 04:56:44,048 -   ✓ Progress: 2940/6626 (44.4%) - Current: IAS
+2025-11-24 04:56:45,122 -   ✓ Progress: 2960/6626 (44.7%) - Current: ICG
+2025-11-24 04:56:46,198 -   ✓ Progress: 2980/6626 (45.0%) - Current: IEP
+2025-11-24 04:56:47,274 -   ✓ Progress: 3000/6626 (45.3%) - Current: IHT
+2025-11-24 04:56:47,284 -   💾 Saved 500 records to /mnt/user-data/outputs/batch_0030_notion.json
+2025-11-24 04:56:47,284 - ------------------------------------------------------------
+2025-11-24 04:56:47,284 - 📊 CHECKPOINT - Batch 30/67
+2025-11-24 04:56:47,285 -   • Processed: 3,000/6,626 tickers
+2025-11-24 04:56:47,285 -   • Saved: 15,000 records
+2025-11-24 04:56:47,285 -   • Rate: 18.5 tickers/sec
+2025-11-24 04:56:47,285 -   • Elapsed: 0:02:41.837011
+2025-11-24 04:56:47,285 -   • ETA: 0:03:15.607001
+2025-11-24 04:56:47,285 - ------------------------------------------------------------
+2025-11-24 04:56:47,286 - 📊 BATCH 31/67: Processing 100 tickers
+2025-11-24 04:56:48,369 -   ✓ Progress: 3020/6626 (45.6%) - Current: IMDX
+2025-11-24 04:56:49,443 -   ✓ Progress: 3040/6626 (45.9%) - Current: INAC
+2025-11-24 04:56:50,520 -   ✓ Progress: 3060/6626 (46.2%) - Current: INGN
+2025-11-24 04:56:51,592 -   ✓ Progress: 3080/6626 (46.5%) - Current: INTC
+2025-11-24 04:56:52,667 -   ✓ Progress: 3100/6626 (46.8%) - Current: IOR
+2025-11-24 04:56:52,676 -   💾 Saved 500 records to /mnt/user-data/outputs/batch_0031_notion.json
+2025-11-24 04:56:52,677 - 📊 BATCH 32/67: Processing 100 tickers
+2025-11-24 04:56:53,753 -   ✓ Progress: 3120/6626 (47.1%) - Current: IPSC
+2025-11-24 04:56:54,828 -   ✓ Progress: 3140/6626 (47.4%) - Current: IROQ
+2025-11-24 04:56:55,905 -   ✓ Progress: 3160/6626 (47.7%) - Current: ITOS
+2025-11-24 04:56:56,980 -   ✓ Progress: 3180/6626 (48.0%) - Current: IZM
+2025-11-24 04:56:58,057 -   ✓ Progress: 3200/6626 (48.3%) - Current: JCAP
+2025-11-24 04:56:58,066 -   💾 Saved 500 records to /mnt/user-data/outputs/batch_0032_notion.json
+2025-11-24 04:56:58,067 - 📊 BATCH 33/67: Processing 100 tickers
+2025-11-24 04:56:59,147 -   ✓ Progress: 3220/6626 (48.6%) - Current: JHG
+2025-11-24 04:57:00,225 -   ✓ Progress: 3240/6626 (48.9%) - Current: JOUT
+2025-11-24 04:57:01,302 -   ✓ Progress: 3260/6626 (49.2%) - Current: JYNT
+2025-11-24 04:57:02,375 -   ✓ Progress: 3280/6626 (49.5%) - Current: KD
+2025-11-24 04:57:03,448 -   ✓ Progress: 3300/6626 (49.8%) - Current: KGS
+2025-11-24 04:57:03,457 -   💾 Saved 500 records to /mnt/user-data/outputs/batch_0033_notion.json
+2025-11-24 04:57:03,458 - 📊 BATCH 34/67: Processing 100 tickers
+2025-11-24 04:57:04,535 -   ✓ Progress: 3320/6626 (50.1%) - Current: KLTR
+2025-11-24 04:57:05,610 -   ✓ Progress: 3340/6626 (50.4%) - Current: KO
+2025-11-24 04:57:06,684 -   ✓ Progress: 3360/6626 (50.7%) - Current: KRNT
+2025-11-24 04:57:07,761 -   ✓ Progress: 3380/6626 (51.0%) - Current: KTTAW
+2025-11-24 04:57:08,837 -   ✓ Progress: 3400/6626 (51.3%) - Current: LAB
+2025-11-24 04:57:08,846 -   💾 Saved 500 records to /mnt/user-data/outputs/batch_0034_notion.json
+2025-11-24 04:57:08,847 - 📊 BATCH 35/67: Processing 100 tickers
+2025-11-24 04:57:09,924 -   ✓ Progress: 3420/6626 (51.6%) - Current: LAZR
+2025-11-24 04:57:10,996 -   ✓ Progress: 3440/6626 (51.9%) - Current: LCUT
+2025-11-24 04:57:12,070 -   ✓ Progress: 3460/6626 (52.2%) - Current: LEXX
+2025-11-24 04:57:13,143 -   ✓ Progress: 3480/6626 (52.5%) - Current: LGVN
+2025-11-24 04:57:14,220 -   ✓ Progress: 3500/6626 (52.8%) - Current: LINK
+2025-11-24 04:57:14,230 -   💾 Saved 500 records to /mnt/user-data/outputs/batch_0035_notion.json
+2025-11-24 04:57:14,230 - 📊 BATCH 36/67: Processing 100 tickers
+2025-11-24 04:57:15,304 -   ✓ Progress: 3520/6626 (53.1%) - Current: LMT
+2025-11-24 04:57:16,379 -   ✓ Progress: 3540/6626 (53.4%) - Current: LOGI
+2025-11-24 04:57:17,462 -   ✓ Progress: 3560/6626 (53.7%) - Current: LPRO
+2025-11-24 04:57:18,535 -   ✓ Progress: 3580/6626 (54.0%) - Current: LSTA
+2025-11-24 04:57:19,614 -   ✓ Progress: 3600/6626 (54.3%) - Current: LUXE
+2025-11-24 04:57:19,624 -   💾 Saved 500 records to /mnt/user-data/outputs/batch_0036_notion.json
+2025-11-24 04:57:19,624 - 📊 BATCH 37/67: Processing 100 tickers
+2025-11-24 04:57:20,699 -   ✓ Progress: 3620/6626 (54.6%) - Current: LYFT
+2025-11-24 04:57:21,774 -   ✓ Progress: 3640/6626 (54.9%) - Current: MAMA
+2025-11-24 04:57:22,851 -   ✓ Progress: 3660/6626 (55.2%) - Current: MAV
+2025-11-24 04:57:23,926 -   ✓ Progress: 3680/6626 (55.5%) - Current: MBNKO
+2025-11-24 04:57:25,000 -   ✓ Progress: 3700/6626 (55.8%) - Current: MCRI
+2025-11-24 04:57:25,010 -   💾 Saved 500 records to /mnt/user-data/outputs/batch_0037_notion.json
+2025-11-24 04:57:25,010 - 📊 BATCH 38/67: Processing 100 tickers
+2025-11-24 04:57:26,089 -   ✓ Progress: 3720/6626 (56.1%) - Current: MDV
+2025-11-24 04:57:27,167 -   ✓ Progress: 3740/6626 (56.4%) - Current: META
+2025-11-24 04:57:28,241 -   ✓ Progress: 3760/6626 (56.7%) - Current: MGIC
+2025-11-24 04:57:29,316 -   ✓ Progress: 3780/6626 (57.0%) - Current: MHD
+2025-11-24 04:57:30,392 -   ✓ Progress: 3800/6626 (57.3%) - Current: MIST
+2025-11-24 04:57:30,402 -   💾 Saved 500 records to /mnt/user-data/outputs/batch_0038_notion.json
+2025-11-24 04:57:30,402 - 📊 BATCH 39/67: Processing 100 tickers
+2025-11-24 04:57:31,475 -   ✓ Progress: 3820/6626 (57.7%) - Current: MLECW
+2025-11-24 04:57:32,550 -   ✓ Progress: 3840/6626 (58.0%) - Current: MMU
+2025-11-24 04:57:33,627 -   ✓ Progress: 3860/6626 (58.3%) - Current: MNYWW
+2025-11-24 04:57:34,702 -   ✓ Progress: 3880/6626 (58.6%) - Current: MP
+2025-11-24 04:57:35,775 -   ✓ Progress: 3900/6626 (58.9%) - Current: MREO
+2025-11-24 04:57:35,784 -   💾 Saved 500 records to /mnt/user-data/outputs/batch_0039_notion.json
+2025-11-24 04:57:35,785 - 📊 BATCH 40/67: Processing 100 tickers
+2025-11-24 04:57:36,859 -   ✓ Progress: 3920/6626 (59.2%) - Current: MSBI
+2025-11-24 04:57:37,934 -   ✓ Progress: 3940/6626 (59.5%) - Current: MSW
+2025-11-24 04:57:39,010 -   ✓ Progress: 3960/6626 (59.8%) - Current: MTRX
+2025-11-24 04:57:40,087 -   ✓ Progress: 3980/6626 (60.1%) - Current: MVIS
+2025-11-24 04:57:41,159 -   ✓ Progress: 4000/6626 (60.4%) - Current: MYND
+2025-11-24 04:57:41,168 -   💾 Saved 500 records to /mnt/user-data/outputs/batch_0040_notion.json
+2025-11-24 04:57:41,169 - ------------------------------------------------------------
+2025-11-24 04:57:41,169 - 📊 CHECKPOINT - Batch 40/67
+2025-11-24 04:57:41,169 -   • Processed: 4,000/6,626 tickers
+2025-11-24 04:57:41,169 -   • Saved: 20,000 records
+2025-11-24 04:57:41,169 -   • Rate: 18.5 tickers/sec
+2025-11-24 04:57:41,169 -   • Elapsed: 0:03:35.721359
+2025-11-24 04:57:41,170 -   • ETA: 0:02:21.621072
+2025-11-24 04:57:41,170 - ------------------------------------------------------------
+2025-11-24 04:57:41,171 - 📊 BATCH 41/67: Processing 100 tickers
+2025-11-24 04:57:42,245 -   ✓ Progress: 4020/6626 (60.7%) - Current: NAMM
+2025-11-24 04:57:43,321 -   ✓ Progress: 4040/6626 (61.0%) - Current: NBN
+2025-11-24 04:57:44,395 -   ✓ Progress: 4060/6626 (61.3%) - Current: NCT
+2025-11-24 04:57:45,470 -   ✓ Progress: 4080/6626 (61.6%) - Current: NEON
+2025-11-24 04:57:46,542 -   ✓ Progress: 4100/6626 (61.9%) - Current: NEXN
+2025-11-24 04:57:46,551 -   💾 Saved 500 records to /mnt/user-data/outputs/batch_0041_notion.json
+2025-11-24 04:57:46,551 - 📊 BATCH 42/67: Processing 100 tickers
+2025-11-24 04:57:47,629 -   ✓ Progress: 4120/6626 (62.2%) - Current: NHICW
+2025-11-24 04:57:48,700 -   ✓ Progress: 4140/6626 (62.5%) - Current: NIXX
+2025-11-24 04:57:49,775 -   ✓ Progress: 4160/6626 (62.8%) - Current: NMIH
+2025-11-24 04:57:50,849 -   ✓ Progress: 4180/6626 (63.1%) - Current: NNVC
+2025-11-24 04:57:51,923 -   ✓ Progress: 4200/6626 (63.4%) - Current: NPB
+2025-11-24 04:57:51,933 -   💾 Saved 500 records to /mnt/user-data/outputs/batch_0042_notion.json
+2025-11-24 04:57:51,934 - 📊 BATCH 43/67: Processing 100 tickers
+2025-11-24 04:57:53,008 -   ✓ Progress: 4220/6626 (63.7%) - Current: NRP
+2025-11-24 04:57:54,080 -   ✓ Progress: 4240/6626 (64.0%) - Current: NTES
+2025-11-24 04:57:55,155 -   ✓ Progress: 4260/6626 (64.3%) - Current: NUE
+2025-11-24 04:57:56,228 -   ✓ Progress: 4280/6626 (64.6%) - Current: NVMI
+2025-11-24 04:57:57,305 -   ✓ Progress: 4300/6626 (64.9%) - Current: NWN
+2025-11-24 04:57:57,315 -   💾 Saved 500 records to /mnt/user-data/outputs/batch_0043_notion.json
+2025-11-24 04:57:57,315 - 📊 BATCH 44/67: Processing 100 tickers
+2025-11-24 04:57:58,390 -   ✓ Progress: 4320/6626 (65.2%) - Current: NXPI
+2025-11-24 04:57:59,466 -   ✓ Progress: 4340/6626 (65.5%) - Current: NYXH
+2025-11-24 04:58:00,543 -   ✓ Progress: 4360/6626 (65.8%) - Current: OCC
+2025-11-24 04:58:01,619 -   ✓ Progress: 4380/6626 (66.1%) - Current: ODYS
+2025-11-24 04:58:02,694 -   ✓ Progress: 4400/6626 (66.4%) - Current: OKLO
+2025-11-24 04:58:02,703 -   💾 Saved 500 records to /mnt/user-data/outputs/batch_0044_notion.json
+2025-11-24 04:58:02,703 - 📊 BATCH 45/67: Processing 100 tickers
+2025-11-24 04:58:03,779 -   ✓ Progress: 4420/6626 (66.7%) - Current: OMF
+2025-11-24 04:58:04,854 -   ✓ Progress: 4440/6626 (67.0%) - Current: ONMDW
+2025-11-24 04:58:05,928 -   ✓ Progress: 4460/6626 (67.3%) - Current: OPRX
+2025-11-24 04:58:07,002 -   ✓ Progress: 4480/6626 (67.6%) - Current: ORLY
+2025-11-24 04:58:08,077 -   ✓ Progress: 4500/6626 (67.9%) - Current: OTLK
+2025-11-24 04:58:08,085 -   💾 Saved 500 records to /mnt/user-data/outputs/batch_0045_notion.json
+2025-11-24 04:58:08,086 - 📊 BATCH 46/67: Processing 100 tickers
+2025-11-24 04:58:09,161 -   ✓ Progress: 4520/6626 (68.2%) - Current: OXLCN
+2025-11-24 04:58:10,238 -   ✓ Progress: 4540/6626 (68.5%) - Current: PACHU
+2025-11-24 04:58:11,314 -   ✓ Progress: 4560/6626 (68.8%) - Current: PAVM
+2025-11-24 04:58:12,388 -   ✓ Progress: 4580/6626 (69.1%) - Current: PBR
+2025-11-24 04:58:13,462 -   ✓ Progress: 4600/6626 (69.4%) - Current: PCT
+2025-11-24 04:58:13,471 -   💾 Saved 500 records to /mnt/user-data/outputs/batch_0046_notion.json
+2025-11-24 04:58:13,471 - 📊 BATCH 47/67: Processing 100 tickers
+2025-11-24 04:58:14,547 -   ✓ Progress: 4620/6626 (69.7%) - Current: PDYN
+2025-11-24 04:58:15,622 -   ✓ Progress: 4640/6626 (70.0%) - Current: PESI
+2025-11-24 04:58:16,698 -   ✓ Progress: 4660/6626 (70.3%) - Current: PFXNZ
+2025-11-24 04:58:17,773 -   ✓ Progress: 4680/6626 (70.6%) - Current: PHIN
+2025-11-24 04:58:18,847 -   ✓ Progress: 4700/6626 (70.9%) - Current: PK
+2025-11-24 04:58:18,857 -   💾 Saved 500 records to /mnt/user-data/outputs/batch_0047_notion.json
+2025-11-24 04:58:18,858 - 📊 BATCH 48/67: Processing 100 tickers
+2025-11-24 04:58:19,933 -   ✓ Progress: 4720/6626 (71.2%) - Current: PLMR
+2025-11-24 04:58:21,013 -   ✓ Progress: 4740/6626 (71.5%) - Current: PML
+2025-11-24 04:58:22,091 -   ✓ Progress: 4760/6626 (71.8%) - Current: PNNT
+2025-11-24 04:58:23,167 -   ✓ Progress: 4780/6626 (72.1%) - Current: POWW
+2025-11-24 04:58:24,245 -   ✓ Progress: 4800/6626 (72.4%) - Current: PRENW
+2025-11-24 04:58:24,255 -   💾 Saved 500 records to /mnt/user-data/outputs/batch_0048_notion.json
+2025-11-24 04:58:24,256 - 📊 BATCH 49/67: Processing 100 tickers
+2025-11-24 04:58:25,334 -   ✓ Progress: 4820/6626 (72.7%) - Current: PROV
+2025-11-24 04:58:26,408 -   ✓ Progress: 4840/6626 (73.0%) - Current: PSF
+2025-11-24 04:58:27,491 -   ✓ Progress: 4860/6626 (73.3%) - Current: PTCT
+2025-11-24 04:58:28,563 -   ✓ Progress: 4880/6626 (73.6%) - Current: PVLA
+2025-11-24 04:58:29,638 -   ✓ Progress: 4900/6626 (74.0%) - Current: QDEL
+2025-11-24 04:58:29,648 -   💾 Saved 500 records to /mnt/user-data/outputs/batch_0049_notion.json
+2025-11-24 04:58:29,648 - 📊 BATCH 50/67: Processing 100 tickers
+2025-11-24 04:58:30,723 -   ✓ Progress: 4920/6626 (74.3%) - Current: QSEAU
+2025-11-24 04:58:31,796 -   ✓ Progress: 4940/6626 (74.6%) - Current: RAAQ
+2025-11-24 04:58:32,870 -   ✓ Progress: 4960/6626 (74.9%) - Current: RBA
+2025-11-24 04:58:33,947 -   ✓ Progress: 4980/6626 (75.2%) - Current: RCKY
+2025-11-24 04:58:35,021 -   ✓ Progress: 5000/6626 (75.5%) - Current: RDY
+2025-11-24 04:58:35,030 -   💾 Saved 500 records to /mnt/user-data/outputs/batch_0050_notion.json
+2025-11-24 04:58:35,031 - ------------------------------------------------------------
+2025-11-24 04:58:35,031 - 📊 CHECKPOINT - Batch 50/67
+2025-11-24 04:58:35,031 -   • Processed: 5,000/6,626 tickers
+2025-11-24 04:58:35,031 -   • Saved: 25,000 records
+2025-11-24 04:58:35,032 -   • Rate: 18.5 tickers/sec
+2025-11-24 04:58:35,032 -   • Elapsed: 0:04:29.583496
+2025-11-24 04:58:35,032 -   • ETA: 0:01:27.668553
+2025-11-24 04:58:35,032 - ------------------------------------------------------------
+2025-11-24 04:58:35,033 - 📊 BATCH 51/67: Processing 100 tickers
+2025-11-24 04:58:36,114 -   ✓ Progress: 5020/6626 (75.8%) - Current: RENB
+2025-11-24 04:58:37,188 -   ✓ Progress: 5040/6626 (76.1%) - Current: RFM
+2025-11-24 04:58:38,264 -   ✓ Progress: 5060/6626 (76.4%) - Current: RIG
+2025-11-24 04:58:39,340 -   ✓ Progress: 5080/6626 (76.7%) - Current: RKT
+2025-11-24 04:58:40,414 -   ✓ Progress: 5100/6626 (77.0%) - Current: RMM
+2025-11-24 04:58:40,423 -   💾 Saved 500 records to /mnt/user-data/outputs/batch_0051_notion.json
+2025-11-24 04:58:40,424 - 📊 BATCH 52/67: Processing 100 tickers
+2025-11-24 04:58:41,504 -   ✓ Progress: 5120/6626 (77.3%) - Current: ROAD
+2025-11-24 04:58:42,578 -   ✓ Progress: 5140/6626 (77.6%) - Current: RR
+2025-11-24 04:58:43,656 -   ✓ Progress: 5160/6626 (77.9%) - Current: RUBI
+2025-11-24 04:58:44,729 -   ✓ Progress: 5180/6626 (78.2%) - Current: RWAYZ
+2025-11-24 04:58:45,803 -   ✓ Progress: 5200/6626 (78.5%) - Current: RZLT
+2025-11-24 04:58:45,813 -   💾 Saved 500 records to /mnt/user-data/outputs/batch_0052_notion.json
+2025-11-24 04:58:45,814 - 📊 BATCH 53/67: Processing 100 tickers
+2025-11-24 04:58:46,890 -   ✓ Progress: 5220/6626 (78.8%) - Current: SAJ
+2025-11-24 04:58:47,970 -   ✓ Progress: 5240/6626 (79.1%) - Current: SBC
+2025-11-24 04:58:49,051 -   ✓ Progress: 5260/6626 (79.4%) - Current: SCAG
+2025-11-24 04:58:50,129 -   ✓ Progress: 5280/6626 (79.7%) - Current: SCOR
+2025-11-24 04:58:51,209 -   ✓ Progress: 5300/6626 (80.0%) - Current: SE
+2025-11-24 04:58:51,220 -   💾 Saved 500 records to /mnt/user-data/outputs/batch_0053_notion.json
+2025-11-24 04:58:51,220 - 📊 BATCH 54/67: Processing 100 tickers
+2025-11-24 04:58:52,303 -   ✓ Progress: 5320/6626 (80.3%) - Current: SEPN
+2025-11-24 04:58:53,382 -   ✓ Progress: 5340/6626 (80.6%) - Current: SGA
+2025-11-24 04:58:54,464 -   ✓ Progress: 5360/6626 (80.9%) - Current: SHEN
+2025-11-24 04:58:55,541 -   ✓ Progress: 5380/6626 (81.2%) - Current: SIEB
+2025-11-24 04:58:56,618 -   ✓ Progress: 5400/6626 (81.5%) - Current: SITE
+2025-11-24 04:58:56,627 -   💾 Saved 500 records to /mnt/user-data/outputs/batch_0054_notion.json
+2025-11-24 04:58:56,627 - 📊 BATCH 55/67: Processing 100 tickers
+2025-11-24 04:58:57,708 -   ✓ Progress: 5420/6626 (81.8%) - Current: SKYW
+2025-11-24 04:58:58,783 -   ✓ Progress: 5440/6626 (82.1%) - Current: SLNHP
+2025-11-24 04:58:59,858 -   ✓ Progress: 5460/6626 (82.4%) - Current: SMHI
+2025-11-24 04:59:00,933 -   ✓ Progress: 5480/6626 (82.7%) - Current: SNDA
+2025-11-24 04:59:02,011 -   ✓ Progress: 5500/6626 (83.0%) - Current: SNX
+2025-11-24 04:59:02,021 -   💾 Saved 500 records to /mnt/user-data/outputs/batch_0055_notion.json
+2025-11-24 04:59:02,022 - 📊 BATCH 56/67: Processing 100 tickers
+2025-11-24 04:59:03,100 -   ✓ Progress: 5520/6626 (83.3%) - Current: SOL
+2025-11-24 04:59:04,180 -   ✓ Progress: 5540/6626 (83.6%) - Current: SPB
+2025-11-24 04:59:05,255 -   ✓ Progress: 5560/6626 (83.9%) - Current: SPOK
+2025-11-24 04:59:12,111 - ================================================================================
+2025-11-24 04:59:12,112 - 🚀 PRODUCTION STOCK DATA RETRIEVAL - 6,628 TICKERS
+2025-11-24 04:59:12,112 - ================================================================================
+2025-11-24 04:59:12,112 - 📊 Notion Database: https://www.notion.so/638a8018f09d4e159d6d84536f411441
+2025-11-24 04:59:12,113 - 🔗 Data Source ID: 7c5225aa-429b-4580-946e-ba5b1db2ca6d
+2025-11-24 04:59:12,113 - ================================================================================
+2025-11-24 04:59:12,357 - 📈 Loaded 6,626 tickers
+2025-11-24 04:59:12,357 - 📊 Configuration:
+2025-11-24 04:59:12,357 -   • Tickers: 6,626
+2025-11-24 04:59:12,358 -   • Batch size: 100
+2025-11-24 04:59:12,358 -   • Total batches: 67
+2025-11-24 04:59:12,358 -   • Time periods: 5 (5-year chunks)
+2025-11-24 04:59:12,358 -   • Est. records: 33,130
+2025-11-24 04:59:12,358 -   • Est. API calls: 33,130
+2025-11-24 04:59:12,359 -   • Est. runtime: 0:05:31.300000 (plus Notion upload)
+2025-11-24 04:59:12,359 - ================================================================================
+2025-11-24 04:59:12,359 - 📊 BATCH 1/67: Processing 100 tickers
+2025-11-24 04:59:13,439 -   ✓ Progress: 20/6626 (0.3%) - Current: AARD
+2025-11-24 04:59:14,516 -   ✓ Progress: 40/6626 (0.6%) - Current: ABPWW
+2025-11-24 04:59:15,590 -   ✓ Progress: 60/6626 (0.9%) - Current: ACGL
+2025-11-24 04:59:16,667 -   ✓ Progress: 80/6626 (1.2%) - Current: ACP
+2025-11-24 04:59:27,908 - ================================================================================
+2025-11-24 04:59:27,909 - 🚀 PRODUCTION STOCK DATA RETRIEVAL - 6,628 TICKERS
+2025-11-24 04:59:27,909 - ================================================================================
+2025-11-24 04:59:27,909 - 📊 Notion Database: https://www.notion.so/638a8018f09d4e159d6d84536f411441
+2025-11-24 04:59:27,909 - 🔗 Data Source ID: 7c5225aa-429b-4580-946e-ba5b1db2ca6d
+2025-11-24 04:59:27,910 - ================================================================================
+2025-11-24 04:59:28,120 - 📈 Loaded 6,626 tickers
+2025-11-24 04:59:28,121 - 📊 Configuration:
+2025-11-24 04:59:28,121 -   • Tickers: 6,626
+2025-11-24 04:59:28,121 -   • Batch size: 100
+2025-11-24 04:59:28,121 -   • Total batches: 67
+2025-11-24 04:59:28,122 -   • Time periods: 5 (5-year chunks)
+2025-11-24 04:59:28,122 -   • Est. records: 33,130
+2025-11-24 04:59:28,122 -   • Est. API calls: 33,130
+2025-11-24 04:59:28,122 -   • Est. runtime: 0:05:31.300000 (plus Notion upload)
+2025-11-24 04:59:28,122 - ================================================================================
+2025-11-24 04:59:28,123 - 📊 BATCH 1/67: Processing 100 tickers
+2025-11-24 04:59:29,202 -   ✓ Progress: 20/6626 (0.3%) - Current: AARD
+2025-11-24 04:59:30,283 -   ✓ Progress: 40/6626 (0.6%) - Current: ABPWW
+2025-11-24 04:59:31,360 -   ✓ Progress: 60/6626 (0.9%) - Current: ACGL
+2025-11-24 04:59:32,435 -   ✓ Progress: 80/6626 (1.2%) - Current: ACP
+2025-11-24 04:59:33,511 -   ✓ Progress: 100/6626 (1.5%) - Current: ADI
+2025-11-24 04:59:33,519 -   💾 Saved 500 records to /mnt/user-data/outputs/batch_0001_notion.json
+2025-11-24 04:59:33,520 - 📊 BATCH 2/67: Processing 100 tickers
+2025-11-24 04:59:34,595 -   ✓ Progress: 120/6626 (1.8%) - Current: ADVWW
+2025-11-24 04:59:35,669 -   ✓ Progress: 140/6626 (2.1%) - Current: AERT
+2025-11-24 04:59:36,739 -   ✓ Progress: 160/6626 (2.4%) - Current: AFRM
+2025-11-24 04:59:37,814 -   ✓ Progress: 180/6626 (2.7%) - Current: AGO
+2025-11-24 04:59:38,887 -   ✓ Progress: 200/6626 (3.0%) - Current: AIN
+2025-11-24 04:59:38,897 -   💾 Saved 500 records to /mnt/user-data/outputs/batch_0002_notion.json
+2025-11-24 04:59:38,897 - 📊 BATCH 3/67: Processing 100 tickers
+2025-11-24 04:59:39,972 -   ✓ Progress: 220/6626 (3.3%) - Current: AIZN
+2025-11-24 04:59:41,044 -   ✓ Progress: 240/6626 (3.6%) - Current: ALDFW
+2025-11-24 04:59:42,118 -   ✓ Progress: 260/6626 (3.9%) - Current: ALLR
+2025-11-24 04:59:43,192 -   ✓ Progress: 280/6626 (4.2%) - Current: ALVOW
+2025-11-24 04:59:44,267 -   ✓ Progress: 300/6626 (4.5%) - Current: AMG
+2025-11-24 04:59:44,277 -   💾 Saved 500 records to /mnt/user-data/outputs/batch_0003_notion.json
+2025-11-24 04:59:44,277 - 📊 BATCH 4/67: Processing 100 tickers
+2025-11-24 04:59:45,353 -   ✓ Progress: 320/6626 (4.8%) - Current: AMRX
+2025-11-24 04:59:46,426 -   ✓ Progress: 340/6626 (5.1%) - Current: ANET
+2025-11-24 04:59:47,500 -   ✓ Progress: 360/6626 (5.4%) - Current: ANTE
+2025-11-24 05:01:52,771 - ================================================================================
+2025-11-24 05:01:52,772 - 🚀 PRODUCTION STOCK DATA RETRIEVAL - 6,628 TICKERS
+2025-11-24 05:01:52,772 - ================================================================================
+2025-11-24 05:01:52,772 - 📊 Notion Database: https://www.notion.so/638a8018f09d4e159d6d84536f411441
+2025-11-24 05:01:52,773 - 🔗 Data Source ID: 7c5225aa-429b-4580-946e-ba5b1db2ca6d
+2025-11-24 05:01:52,773 - ================================================================================
+2025-11-24 05:01:53,005 - 📈 Loaded 6,626 tickers
+2025-11-24 05:01:53,005 - 📊 Configuration:
+2025-11-24 05:01:53,005 -   • Tickers: 6,626
+2025-11-24 05:01:53,006 -   • Batch size: 100
+2025-11-24 05:01:53,006 -   • Total batches: 67
+2025-11-24 05:01:53,006 -   • Time periods: 5 (5-year chunks)
+2025-11-24 05:01:53,006 -   • Est. records: 33,130
+2025-11-24 05:01:53,006 -   • Est. API calls: 33,130
+2025-11-24 05:01:53,006 -   • Est. runtime: 0:05:31.300000 (plus Notion upload)
+2025-11-24 05:01:53,007 - ================================================================================
+2025-11-24 05:01:53,007 - 📊 BATCH 1/67: Processing 100 tickers
+2025-11-24 05:01:54,085 -   ✓ Progress: 20/6626 (0.3%) - Current: AARD
+2025-11-24 05:01:55,159 -   ✓ Progress: 40/6626 (0.6%) - Current: ABPWW
+2025-11-24 05:01:56,236 -   ✓ Progress: 60/6626 (0.9%) - Current: ACGL
+2025-11-24 05:01:57,310 -   ✓ Progress: 80/6626 (1.2%) - Current: ACP
+2025-11-24 05:01:58,387 -   ✓ Progress: 100/6626 (1.5%) - Current: ADI
+2025-11-24 05:01:58,397 -   💾 Saved 500 records to /mnt/user-data/outputs/batch_0001_notion.json
+2025-11-24 05:01:58,398 - 📊 BATCH 2/67: Processing 100 tickers
+2025-11-24 05:01:59,473 -   ✓ Progress: 120/6626 (1.8%) - Current: ADVWW
+2025-11-24 05:02:00,549 -   ✓ Progress: 140/6626 (2.1%) - Current: AERT
+2025-11-24 05:02:01,625 -   ✓ Progress: 160/6626 (2.4%) - Current: AFRM
+2025-11-24 05:02:02,702 -   ✓ Progress: 180/6626 (2.7%) - Current: AGO
+2025-11-24 05:02:03,777 -   ✓ Progress: 200/6626 (3.0%) - Current: AIN
+2025-11-24 05:02:03,787 -   💾 Saved 500 records to /mnt/user-data/outputs/batch_0002_notion.json
+2025-11-24 05:02:03,787 - 📊 BATCH 3/67: Processing 100 tickers
+2025-11-24 05:02:04,862 -   ✓ Progress: 220/6626 (3.3%) - Current: AIZN
+2025-11-24 05:02:05,935 -   ✓ Progress: 240/6626 (3.6%) - Current: ALDFW
+2025-11-24 05:02:07,009 -   ✓ Progress: 260/6626 (3.9%) - Current: ALLR
+2025-11-24 05:02:08,083 -   ✓ Progress: 280/6626 (4.2%) - Current: ALVOW
+2025-11-24 05:02:09,157 -   ✓ Progress: 300/6626 (4.5%) - Current: AMG
+2025-11-24 05:02:09,166 -   💾 Saved 500 records to /mnt/user-data/outputs/batch_0003_notion.json
+2025-11-24 05:02:09,167 - 📊 BATCH 4/67: Processing 100 tickers
+2025-11-24 05:02:10,242 -   ✓ Progress: 320/6626 (4.8%) - Current: AMRX
+2025-11-24 05:02:11,317 -   ✓ Progress: 340/6626 (5.1%) - Current: ANET
+2025-11-24 05:02:12,392 -   ✓ Progress: 360/6626 (5.4%) - Current: ANTE
+2025-11-24 05:02:13,468 -   ✓ Progress: 380/6626 (5.7%) - Current: APG
+2025-11-24 05:02:14,542 -   ✓ Progress: 400/6626 (6.0%) - Current: APTV
+2025-11-24 05:02:14,552 -   💾 Saved 500 records to /mnt/user-data/outputs/batch_0004_notion.json
+2025-11-24 05:02:14,552 - 📊 BATCH 5/67: Processing 100 tickers
+2025-11-24 05:02:15,629 -   ✓ Progress: 420/6626 (6.3%) - Current: ARCO
+2025-11-24 05:02:16,704 -   ✓ Progress: 440/6626 (6.6%) - Current: ARL
+2025-11-24 05:02:17,781 -   ✓ Progress: 460/6626 (6.9%) - Current: ARW
+2025-11-24 05:02:18,858 -   ✓ Progress: 480/6626 (7.2%) - Current: ASML
+2025-11-24 05:02:19,938 -   ✓ Progress: 500/6626 (7.5%) - Current: ASTL
+2025-11-24 05:02:19,948 -   💾 Saved 500 records to /mnt/user-data/outputs/batch_0005_notion.json
+2025-11-24 05:02:19,948 - 📊 BATCH 6/67: Processing 100 tickers
+2025-11-24 05:02:21,026 -   ✓ Progress: 520/6626 (7.8%) - Current: ATHR
+2025-11-24 05:02:22,109 -   ✓ Progress: 540/6626 (8.1%) - Current: ATMVR

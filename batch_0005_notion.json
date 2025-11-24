@@ -1,0 +1,6008 @@
+{
+  "data_source_id": "7c5225aa-429b-4580-946e-ba5b1db2ca6d",
+  "batch_number": 5,
+  "record_count": 500,
+  "timestamp": "2025-11-24T05:02:19.939338",
+  "pages": [
+    {
+      "properties": {
+        "Ticker": "APUS",
+        "Period": "2020-2024",
+        "Has Data": "__NO__",
+        "Batch Number": 5,
+        "date:Date:start": "2020-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T05:02:14.552626",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "APUS",
+        "Period": "2015-2019",
+        "Has Data": "__NO__",
+        "Batch Number": 5,
+        "date:Date:start": "2015-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T05:02:14.562781",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "APUS",
+        "Period": "2010-2014",
+        "Has Data": "__NO__",
+        "Batch Number": 5,
+        "date:Date:start": "2010-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T05:02:14.573431",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "APUS",
+        "Period": "2005-2009",
+        "Has Data": "__NO__",
+        "Batch Number": 5,
+        "date:Date:start": "2005-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T05:02:14.584156",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "APUS",
+        "Period": "2000-2004",
+        "Has Data": "__NO__",
+        "Batch Number": 5,
+        "date:Date:start": "2000-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T05:02:14.594883",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "APVO",
+        "Period": "2020-2024",
+        "Has Data": "__NO__",
+        "Batch Number": 5,
+        "date:Date:start": "2020-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T05:02:14.605820",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "APVO",
+        "Period": "2015-2019",
+        "Has Data": "__NO__",
+        "Batch Number": 5,
+        "date:Date:start": "2015-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T05:02:14.616526",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "APVO",
+        "Period": "2010-2014",
+        "Has Data": "__NO__",
+        "Batch Number": 5,
+        "date:Date:start": "2010-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T05:02:14.627211",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "APVO",
+        "Period": "2005-2009",
+        "Has Data": "__NO__",
+        "Batch Number": 5,
+        "date:Date:start": "2005-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T05:02:14.638038",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "APVO",
+        "Period": "2000-2004",
+        "Has Data": "__NO__",
+        "Batch Number": 5,
+        "date:Date:start": "2000-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T05:02:14.648746",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "APWC",
+        "Period": "2020-2024",
+        "Has Data": "__NO__",
+        "Batch Number": 5,
+        "date:Date:start": "2020-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T05:02:14.659521",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "APWC",
+        "Period": "2015-2019",
+        "Has Data": "__NO__",
+        "Batch Number": 5,
+        "date:Date:start": "2015-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T05:02:14.670247",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "APWC",
+        "Period": "2010-2014",
+        "Has Data": "__NO__",
+        "Batch Number": 5,
+        "date:Date:start": "2010-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T05:02:14.681038",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "APWC",
+        "Period": "2005-2009",
+        "Has Data": "__NO__",
+        "Batch Number": 5,
+        "date:Date:start": "2005-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T05:02:14.691727",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "APWC",
+        "Period": "2000-2004",
+        "Has Data": "__NO__",
+        "Batch Number": 5,
+        "date:Date:start": "2000-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T05:02:14.702504",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "APYX",
+        "Period": "2020-2024",
+        "Has Data": "__NO__",
+        "Batch Number": 5,
+        "date:Date:start": "2020-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T05:02:14.713250",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "APYX",
+        "Period": "2015-2019",
+        "Has Data": "__NO__",
+        "Batch Number": 5,
+        "date:Date:start": "2015-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T05:02:14.723938",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "APYX",
+        "Period": "2010-2014",
+        "Has Data": "__NO__",
+        "Batch Number": 5,
+        "date:Date:start": "2010-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T05:02:14.734782",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "APYX",
+        "Period": "2005-2009",
+        "Has Data": "__NO__",
+        "Batch Number": 5,
+        "date:Date:start": "2005-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T05:02:14.745682",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "APYX",
+        "Period": "2000-2004",
+        "Has Data": "__NO__",
+        "Batch Number": 5,
+        "date:Date:start": "2000-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T05:02:14.756500",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "AQB",
+        "Period": "2020-2024",
+        "Has Data": "__NO__",
+        "Batch Number": 5,
+        "date:Date:start": "2020-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T05:02:14.767222",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "AQB",
+        "Period": "2015-2019",
+        "Has Data": "__NO__",
+        "Batch Number": 5,
+        "date:Date:start": "2015-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T05:02:14.778019",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "AQB",
+        "Period": "2010-2014",
+        "Has Data": "__NO__",
+        "Batch Number": 5,
+        "date:Date:start": "2010-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T05:02:14.788708",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "AQB",
+        "Period": "2005-2009",
+        "Has Data": "__NO__",
+        "Batch Number": 5,
+        "date:Date:start": "2005-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T05:02:14.799539",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "AQB",
+        "Period": "2000-2004",
+        "Has Data": "__NO__",
+        "Batch Number": 5,
+        "date:Date:start": "2000-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T05:02:14.810221",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "AQMS",
+        "Period": "2020-2024",
+        "Has Data": "__NO__",
+        "Batch Number": 5,
+        "date:Date:start": "2020-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T05:02:14.821043",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "AQMS",
+        "Period": "2015-2019",
+        "Has Data": "__NO__",
+        "Batch Number": 5,
+        "date:Date:start": "2015-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T05:02:14.831816",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "AQMS",
+        "Period": "2010-2014",
+        "Has Data": "__NO__",
+        "Batch Number": 5,
+        "date:Date:start": "2010-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T05:02:14.842622",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "AQMS",
+        "Period": "2005-2009",
+        "Has Data": "__NO__",
+        "Batch Number": 5,
+        "date:Date:start": "2005-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T05:02:14.853289",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "AQMS",
+        "Period": "2000-2004",
+        "Has Data": "__NO__",
+        "Batch Number": 5,
+        "date:Date:start": "2000-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T05:02:14.864071",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "AQN",
+        "Period": "2020-2024",
+        "Has Data": "__NO__",
+        "Batch Number": 5,
+        "date:Date:start": "2020-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T05:02:14.874798",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "AQN",
+        "Period": "2015-2019",
+        "Has Data": "__NO__",
+        "Batch Number": 5,
+        "date:Date:start": "2015-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T05:02:14.885529",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "AQN",
+        "Period": "2010-2014",
+        "Has Data": "__NO__",
+        "Batch Number": 5,
+        "date:Date:start": "2010-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T05:02:14.896304",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "AQN",
+        "Period": "2005-2009",
+        "Has Data": "__NO__",
+        "Batch Number": 5,
+        "date:Date:start": "2005-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T05:02:14.907110",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "AQN",
+        "Period": "2000-2004",
+        "Has Data": "__NO__",
+        "Batch Number": 5,
+        "date:Date:start": "2000-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T05:02:14.917799",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "AQNB",
+        "Period": "2020-2024",
+        "Has Data": "__NO__",
+        "Batch Number": 5,
+        "date:Date:start": "2020-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T05:02:14.928574",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "AQNB",
+        "Period": "2015-2019",
+        "Has Data": "__NO__",
+        "Batch Number": 5,
+        "date:Date:start": "2015-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T05:02:14.939286",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "AQNB",
+        "Period": "2010-2014",
+        "Has Data": "__NO__",
+        "Batch Number": 5,
+        "date:Date:start": "2010-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T05:02:14.950060",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "AQNB",
+        "Period": "2005-2009",
+        "Has Data": "__NO__",
+        "Batch Number": 5,
+        "date:Date:start": "2005-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T05:02:14.960812",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "AQNB",
+        "Period": "2000-2004",
+        "Has Data": "__NO__",
+        "Batch Number": 5,
+        "date:Date:start": "2000-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T05:02:14.971616",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "AQST",
+        "Period": "2020-2024",
+        "Has Data": "__NO__",
+        "Batch Number": 5,
+        "date:Date:start": "2020-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T05:02:14.982360",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "AQST",
+        "Period": "2015-2019",
+        "Has Data": "__NO__",
+        "Batch Number": 5,
+        "date:Date:start": "2015-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T05:02:14.993139",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "AQST",
+        "Period": "2010-2014",
+        "Has Data": "__NO__",
+        "Batch Number": 5,
+        "date:Date:start": "2010-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T05:02:15.003909",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "AQST",
+        "Period": "2005-2009",
+        "Has Data": "__NO__",
+        "Batch Number": 5,
+        "date:Date:start": "2005-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T05:02:15.014617",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "AQST",
+        "Period": "2000-2004",
+        "Has Data": "__NO__",
+        "Batch Number": 5,
+        "date:Date:start": "2000-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T05:02:15.025382",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "AR",
+        "Period": "2020-2024",
+        "Has Data": "__NO__",
+        "Batch Number": 5,
+        "date:Date:start": "2020-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T05:02:15.036081",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "AR",
+        "Period": "2015-2019",
+        "Has Data": "__NO__",
+        "Batch Number": 5,
+        "date:Date:start": "2015-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T05:02:15.046721",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "AR",
+        "Period": "2010-2014",
+        "Has Data": "__NO__",
+        "Batch Number": 5,
+        "date:Date:start": "2010-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T05:02:15.057517",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "AR",
+        "Period": "2005-2009",
+        "Has Data": "__NO__",
+        "Batch Number": 5,
+        "date:Date:start": "2005-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T05:02:15.068344",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "AR",
+        "Period": "2000-2004",
+        "Has Data": "__NO__",
+        "Batch Number": 5,
+        "date:Date:start": "2000-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T05:02:15.079232",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "ARAI",
+        "Period": "2020-2024",
+        "Has Data": "__NO__",
+        "Batch Number": 5,
+        "date:Date:start": "2020-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T05:02:15.090048",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "ARAI",
+        "Period": "2015-2019",
+        "Has Data": "__NO__",
+        "Batch Number": 5,
+        "date:Date:start": "2015-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T05:02:15.100867",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "ARAI",
+        "Period": "2010-2014",
+        "Has Data": "__NO__",
+        "Batch Number": 5,
+        "date:Date:start": "2010-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T05:02:15.111740",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "ARAI",
+        "Period": "2005-2009",
+        "Has Data": "__NO__",
+        "Batch Number": 5,
+        "date:Date:start": "2005-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T05:02:15.122657",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "ARAI",
+        "Period": "2000-2004",
+        "Has Data": "__NO__",
+        "Batch Number": 5,
+        "date:Date:start": "2000-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T05:02:15.133484",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "ARAY",
+        "Period": "2020-2024",
+        "Has Data": "__NO__",
+        "Batch Number": 5,
+        "date:Date:start": "2020-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T05:02:15.144279",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "ARAY",
+        "Period": "2015-2019",
+        "Has Data": "__NO__",
+        "Batch Number": 5,
+        "date:Date:start": "2015-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T05:02:15.155075",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "ARAY",
+        "Period": "2010-2014",
+        "Has Data": "__NO__",
+        "Batch Number": 5,
+        "date:Date:start": "2010-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T05:02:15.165835",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "ARAY",
+        "Period": "2005-2009",
+        "Has Data": "__NO__",
+        "Batch Number": 5,
+        "date:Date:start": "2005-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T05:02:15.176679",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "ARAY",
+        "Period": "2000-2004",
+        "Has Data": "__NO__",
+        "Batch Number": 5,
+        "date:Date:start": "2000-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T05:02:15.187497",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "ARBB",
+        "Period": "2020-2024",
+        "Has Data": "__NO__",
+        "Batch Number": 5,
+        "date:Date:start": "2020-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T05:02:15.198312",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "ARBB",
+        "Period": "2015-2019",
+        "Has Data": "__NO__",
+        "Batch Number": 5,
+        "date:Date:start": "2015-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T05:02:15.209081",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "ARBB",
+        "Period": "2010-2014",
+        "Has Data": "__NO__",
+        "Batch Number": 5,
+        "date:Date:start": "2010-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T05:02:15.219914",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "ARBB",
+        "Period": "2005-2009",
+        "Has Data": "__NO__",
+        "Batch Number": 5,
+        "date:Date:start": "2005-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T05:02:15.230745",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "ARBB",
+        "Period": "2000-2004",
+        "Has Data": "__NO__",
+        "Batch Number": 5,
+        "date:Date:start": "2000-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T05:02:15.241403",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "ARBE",
+        "Period": "2020-2024",
+        "Has Data": "__NO__",
+        "Batch Number": 5,
+        "date:Date:start": "2020-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T05:02:15.252175",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "ARBE",
+        "Period": "2015-2019",
+        "Has Data": "__NO__",
+        "Batch Number": 5,
+        "date:Date:start": "2015-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T05:02:15.263016",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "ARBE",
+        "Period": "2010-2014",
+        "Has Data": "__NO__",
+        "Batch Number": 5,
+        "date:Date:start": "2010-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T05:02:15.273792",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "ARBE",
+        "Period": "2005-2009",
+        "Has Data": "__NO__",
+        "Batch Number": 5,
+        "date:Date:start": "2005-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T05:02:15.284449",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "ARBE",
+        "Period": "2000-2004",
+        "Has Data": "__NO__",
+        "Batch Number": 5,
+        "date:Date:start": "2000-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T05:02:15.295204",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "ARBEW",
+        "Period": "2020-2024",
+        "Has Data": "__NO__",
+        "Batch Number": 5,
+        "date:Date:start": "2020-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T05:02:15.306017",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "ARBEW",
+        "Period": "2015-2019",
+        "Has Data": "__NO__",
+        "Batch Number": 5,
+        "date:Date:start": "2015-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T05:02:15.316837",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "ARBEW",
+        "Period": "2010-2014",
+        "Has Data": "__NO__",
+        "Batch Number": 5,
+        "date:Date:start": "2010-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T05:02:15.327705",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "ARBEW",
+        "Period": "2005-2009",
+        "Has Data": "__NO__",
+        "Batch Number": 5,
+        "date:Date:start": "2005-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T05:02:15.338432",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "ARBEW",
+        "Period": "2000-2004",
+        "Has Data": "__NO__",
+        "Batch Number": 5,
+        "date:Date:start": "2000-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T05:02:15.349236",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "ARBK",
+        "Period": "2020-2024",
+        "Has Data": "__NO__",
+        "Batch Number": 5,
+        "date:Date:start": "2020-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T05:02:15.359991",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "ARBK",
+        "Period": "2015-2019",
+        "Has Data": "__NO__",
+        "Batch Number": 5,
+        "date:Date:start": "2015-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T05:02:15.370794",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "ARBK",
+        "Period": "2010-2014",
+        "Has Data": "__NO__",
+        "Batch Number": 5,
+        "date:Date:start": "2010-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T05:02:15.381564",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "ARBK",
+        "Period": "2005-2009",
+        "Has Data": "__NO__",
+        "Batch Number": 5,
+        "date:Date:start": "2005-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T05:02:15.392323",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "ARBK",
+        "Period": "2000-2004",
+        "Has Data": "__NO__",
+        "Batch Number": 5,
+        "date:Date:start": "2000-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T05:02:15.403205",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "ARBKL",
+        "Period": "2020-2024",
+        "Has Data": "__NO__",
+        "Batch Number": 5,
+        "date:Date:start": "2020-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T05:02:15.414054",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "ARBKL",
+        "Period": "2015-2019",
+        "Has Data": "__NO__",
+        "Batch Number": 5,
+        "date:Date:start": "2015-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T05:02:15.424871",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "ARBKL",
+        "Period": "2010-2014",
+        "Has Data": "__NO__",
+        "Batch Number": 5,
+        "date:Date:start": "2010-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T05:02:15.435611",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "ARBKL",
+        "Period": "2005-2009",
+        "Has Data": "__NO__",
+        "Batch Number": 5,
+        "date:Date:start": "2005-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T05:02:15.446404",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "ARBKL",
+        "Period": "2000-2004",
+        "Has Data": "__NO__",
+        "Batch Number": 5,
+        "date:Date:start": "2000-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T05:02:15.457193",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "ARCB",
+        "Period": "2020-2024",
+        "Has Data": "__NO__",
+        "Batch Number": 5,
+        "date:Date:start": "2020-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T05:02:15.468059",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "ARCB",
+        "Period": "2015-2019",
+        "Has Data": "__NO__",
+        "Batch Number": 5,
+        "date:Date:start": "2015-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T05:02:15.478770",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "ARCB",
+        "Period": "2010-2014",
+        "Has Data": "__NO__",
+        "Batch Number": 5,
+        "date:Date:start": "2010-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T05:02:15.489490",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "ARCB",
+        "Period": "2005-2009",
+        "Has Data": "__NO__",
+        "Batch Number": 5,
+        "date:Date:start": "2005-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T05:02:15.500248",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "ARCB",
+        "Period": "2000-2004",
+        "Has Data": "__NO__",
+        "Batch Number": 5,
+        "date:Date:start": "2000-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T05:02:15.511061",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "ARCC",
+        "Period": "2020-2024",
+        "Has Data": "__NO__",
+        "Batch Number": 5,
+        "date:Date:start": "2020-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T05:02:15.521829",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "ARCC",
+        "Period": "2015-2019",
+        "Has Data": "__NO__",
+        "Batch Number": 5,
+        "date:Date:start": "2015-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T05:02:15.532616",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "ARCC",
+        "Period": "2010-2014",
+        "Has Data": "__NO__",
+        "Batch Number": 5,
+        "date:Date:start": "2010-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T05:02:15.543397",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "ARCC",
+        "Period": "2005-2009",
+        "Has Data": "__NO__",
+        "Batch Number": 5,
+        "date:Date:start": "2005-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T05:02:15.554141",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "ARCC",
+        "Period": "2000-2004",
+        "Has Data": "__NO__",
+        "Batch Number": 5,
+        "date:Date:start": "2000-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T05:02:15.564956",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "ARCO",
+        "Period": "2020-2024",
+        "Has Data": "__NO__",
+        "Batch Number": 5,
+        "date:Date:start": "2020-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T05:02:15.575648",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "ARCO",
+        "Period": "2015-2019",
+        "Has Data": "__NO__",
+        "Batch Number": 5,
+        "date:Date:start": "2015-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T05:02:15.586466",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "ARCO",
+        "Period": "2010-2014",
+        "Has Data": "__NO__",
+        "Batch Number": 5,
+        "date:Date:start": "2010-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T05:02:15.597137",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "ARCO",
+        "Period": "2005-2009",
+        "Has Data": "__NO__",
+        "Batch Number": 5,
+        "date:Date:start": "2005-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T05:02:15.607962",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "ARCO",
+        "Period": "2000-2004",
+        "Has Data": "__NO__",
+        "Batch Number": 5,
+        "date:Date:start": "2000-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T05:02:15.618754",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "ARCT",
+        "Period": "2020-2024",
+        "Has Data": "__NO__",
+        "Batch Number": 5,
+        "date:Date:start": "2020-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T05:02:15.630141",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "ARCT",
+        "Period": "2015-2019",
+        "Has Data": "__NO__",
+        "Batch Number": 5,
+        "date:Date:start": "2015-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T05:02:15.640262",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "ARCT",
+        "Period": "2010-2014",
+        "Has Data": "__NO__",
+        "Batch Number": 5,
+        "date:Date:start": "2010-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T05:02:15.650986",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "ARCT",
+        "Period": "2005-2009",
+        "Has Data": "__NO__",
+        "Batch Number": 5,
+        "date:Date:start": "2005-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T05:02:15.661730",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "ARCT",
+        "Period": "2000-2004",
+        "Has Data": "__NO__",
+        "Batch Number": 5,
+        "date:Date:start": "2000-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T05:02:15.672542",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "ARDC",
+        "Period": "2020-2024",
+        "Has Data": "__NO__",
+        "Batch Number": 5,
+        "date:Date:start": "2020-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T05:02:15.683324",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "ARDC",
+        "Period": "2015-2019",
+        "Has Data": "__NO__",
+        "Batch Number": 5,
+        "date:Date:start": "2015-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T05:02:15.694163",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "ARDC",
+        "Period": "2010-2014",
+        "Has Data": "__NO__",
+        "Batch Number": 5,
+        "date:Date:start": "2010-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T05:02:15.705012",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "ARDC",
+        "Period": "2005-2009",
+        "Has Data": "__NO__",
+        "Batch Number": 5,
+        "date:Date:start": "2005-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T05:02:15.715846",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "ARDC",
+        "Period": "2000-2004",
+        "Has Data": "__NO__",
+        "Batch Number": 5,
+        "date:Date:start": "2000-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T05:02:15.726585",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "ARDT",
+        "Period": "2020-2024",
+        "Has Data": "__NO__",
+        "Batch Number": 5,
+        "date:Date:start": "2020-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T05:02:15.737380",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "ARDT",
+        "Period": "2015-2019",
+        "Has Data": "__NO__",
+        "Batch Number": 5,
+        "date:Date:start": "2015-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T05:02:15.748231",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "ARDT",
+        "Period": "2010-2014",
+        "Has Data": "__NO__",
+        "Batch Number": 5,
+        "date:Date:start": "2010-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T05:02:15.759079",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "ARDT",
+        "Period": "2005-2009",
+        "Has Data": "__NO__",
+        "Batch Number": 5,
+        "date:Date:start": "2005-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T05:02:15.769871",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "ARDT",
+        "Period": "2000-2004",
+        "Has Data": "__NO__",
+        "Batch Number": 5,
+        "date:Date:start": "2000-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T05:02:15.780642",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "ARDX",
+        "Period": "2020-2024",
+        "Has Data": "__NO__",
+        "Batch Number": 5,
+        "date:Date:start": "2020-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T05:02:15.791378",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "ARDX",
+        "Period": "2015-2019",
+        "Has Data": "__NO__",
+        "Batch Number": 5,
+        "date:Date:start": "2015-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T05:02:15.802172",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "ARDX",
+        "Period": "2010-2014",
+        "Has Data": "__NO__",
+        "Batch Number": 5,
+        "date:Date:start": "2010-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T05:02:15.812915",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "ARDX",
+        "Period": "2005-2009",
+        "Has Data": "__NO__",
+        "Batch Number": 5,
+        "date:Date:start": "2005-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T05:02:15.823785",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "ARDX",
+        "Period": "2000-2004",
+        "Has Data": "__NO__",
+        "Batch Number": 5,
+        "date:Date:start": "2000-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T05:02:15.834710",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "ARE",
+        "Period": "2020-2024",
+        "Has Data": "__NO__",
+        "Batch Number": 5,
+        "date:Date:start": "2020-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T05:02:15.845529",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "ARE",
+        "Period": "2015-2019",
+        "Has Data": "__NO__",
+        "Batch Number": 5,
+        "date:Date:start": "2015-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T05:02:15.856346",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "ARE",
+        "Period": "2010-2014",
+        "Has Data": "__NO__",
+        "Batch Number": 5,
+        "date:Date:start": "2010-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T05:02:15.867052",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "ARE",
+        "Period": "2005-2009",
+        "Has Data": "__NO__",
+        "Batch Number": 5,
+        "date:Date:start": "2005-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T05:02:15.877818",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "ARE",
+        "Period": "2000-2004",
+        "Has Data": "__NO__",
+        "Batch Number": 5,
+        "date:Date:start": "2000-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T05:02:15.888514",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "AREB",
+        "Period": "2020-2024",
+        "Has Data": "__NO__",
+        "Batch Number": 5,
+        "date:Date:start": "2020-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T05:02:15.899349",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "AREB",
+        "Period": "2015-2019",
+        "Has Data": "__NO__",
+        "Batch Number": 5,
+        "date:Date:start": "2015-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T05:02:15.910085",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "AREB",
+        "Period": "2010-2014",
+        "Has Data": "__NO__",
+        "Batch Number": 5,
+        "date:Date:start": "2010-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T05:02:15.920965",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "AREB",
+        "Period": "2005-2009",
+        "Has Data": "__NO__",
+        "Batch Number": 5,
+        "date:Date:start": "2005-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T05:02:15.931784",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "AREB",
+        "Period": "2000-2004",
+        "Has Data": "__NO__",
+        "Batch Number": 5,
+        "date:Date:start": "2000-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T05:02:15.942439",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "AREBW",
+        "Period": "2020-2024",
+        "Has Data": "__NO__",
+        "Batch Number": 5,
+        "date:Date:start": "2020-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T05:02:15.953281",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "AREBW",
+        "Period": "2015-2019",
+        "Has Data": "__NO__",
+        "Batch Number": 5,
+        "date:Date:start": "2015-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T05:02:15.964004",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "AREBW",
+        "Period": "2010-2014",
+        "Has Data": "__NO__",
+        "Batch Number": 5,
+        "date:Date:start": "2010-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T05:02:15.974721",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "AREBW",
+        "Period": "2005-2009",
+        "Has Data": "__NO__",
+        "Batch Number": 5,
+        "date:Date:start": "2005-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T05:02:15.985573",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "AREBW",
+        "Period": "2000-2004",
+        "Has Data": "__NO__",
+        "Batch Number": 5,
+        "date:Date:start": "2000-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T05:02:15.996303",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "AREC",
+        "Period": "2020-2024",
+        "Has Data": "__NO__",
+        "Batch Number": 5,
+        "date:Date:start": "2020-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T05:02:16.007105",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "AREC",
+        "Period": "2015-2019",
+        "Has Data": "__NO__",
+        "Batch Number": 5,
+        "date:Date:start": "2015-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T05:02:16.017923",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "AREC",
+        "Period": "2010-2014",
+        "Has Data": "__NO__",
+        "Batch Number": 5,
+        "date:Date:start": "2010-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T05:02:16.028761",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "AREC",
+        "Period": "2005-2009",
+        "Has Data": "__NO__",
+        "Batch Number": 5,
+        "date:Date:start": "2005-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T05:02:16.039543",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "AREC",
+        "Period": "2000-2004",
+        "Has Data": "__NO__",
+        "Batch Number": 5,
+        "date:Date:start": "2000-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T05:02:16.050347",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "AREN",
+        "Period": "2020-2024",
+        "Has Data": "__NO__",
+        "Batch Number": 5,
+        "date:Date:start": "2020-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T05:02:16.061084",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "AREN",
+        "Period": "2015-2019",
+        "Has Data": "__NO__",
+        "Batch Number": 5,
+        "date:Date:start": "2015-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T05:02:16.071934",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "AREN",
+        "Period": "2010-2014",
+        "Has Data": "__NO__",
+        "Batch Number": 5,
+        "date:Date:start": "2010-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T05:02:16.082709",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "AREN",
+        "Period": "2005-2009",
+        "Has Data": "__NO__",
+        "Batch Number": 5,
+        "date:Date:start": "2005-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T05:02:16.093557",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "AREN",
+        "Period": "2000-2004",
+        "Has Data": "__NO__",
+        "Batch Number": 5,
+        "date:Date:start": "2000-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T05:02:16.103610",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "ARES",
+        "Period": "2020-2024",
+        "Has Data": "__NO__",
+        "Batch Number": 5,
+        "date:Date:start": "2020-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T05:02:16.114012",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "ARES",
+        "Period": "2015-2019",
+        "Has Data": "__NO__",
+        "Batch Number": 5,
+        "date:Date:start": "2015-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T05:02:16.124787",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "ARES",
+        "Period": "2010-2014",
+        "Has Data": "__NO__",
+        "Batch Number": 5,
+        "date:Date:start": "2010-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T05:02:16.135593",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "ARES",
+        "Period": "2005-2009",
+        "Has Data": "__NO__",
+        "Batch Number": 5,
+        "date:Date:start": "2005-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T05:02:16.146405",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "ARES",
+        "Period": "2000-2004",
+        "Has Data": "__NO__",
+        "Batch Number": 5,
+        "date:Date:start": "2000-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T05:02:16.157200",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "ARGD",
+        "Period": "2020-2024",
+        "Has Data": "__NO__",
+        "Batch Number": 5,
+        "date:Date:start": "2020-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T05:02:16.167983",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "ARGD",
+        "Period": "2015-2019",
+        "Has Data": "__NO__",
+        "Batch Number": 5,
+        "date:Date:start": "2015-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T05:02:16.178835",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "ARGD",
+        "Period": "2010-2014",
+        "Has Data": "__NO__",
+        "Batch Number": 5,
+        "date:Date:start": "2010-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T05:02:16.189598",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "ARGD",
+        "Period": "2005-2009",
+        "Has Data": "__NO__",
+        "Batch Number": 5,
+        "date:Date:start": "2005-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T05:02:16.200400",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "ARGD",
+        "Period": "2000-2004",
+        "Has Data": "__NO__",
+        "Batch Number": 5,
+        "date:Date:start": "2000-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T05:02:16.211270",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "ARGO",
+        "Period": "2020-2024",
+        "Has Data": "__NO__",
+        "Batch Number": 5,
+        "date:Date:start": "2020-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T05:02:16.221989",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "ARGO",
+        "Period": "2015-2019",
+        "Has Data": "__NO__",
+        "Batch Number": 5,
+        "date:Date:start": "2015-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T05:02:16.232784",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "ARGO",
+        "Period": "2010-2014",
+        "Has Data": "__NO__",
+        "Batch Number": 5,
+        "date:Date:start": "2010-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T05:02:16.243615",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "ARGO",
+        "Period": "2005-2009",
+        "Has Data": "__NO__",
+        "Batch Number": 5,
+        "date:Date:start": "2005-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T05:02:16.254302",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "ARGO",
+        "Period": "2000-2004",
+        "Has Data": "__NO__",
+        "Batch Number": 5,
+        "date:Date:start": "2000-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T05:02:16.265065",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "ARGX",
+        "Period": "2020-2024",
+        "Has Data": "__NO__",
+        "Batch Number": 5,
+        "date:Date:start": "2020-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T05:02:16.275800",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "ARGX",
+        "Period": "2015-2019",
+        "Has Data": "__NO__",
+        "Batch Number": 5,
+        "date:Date:start": "2015-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T05:02:16.286543",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "ARGX",
+        "Period": "2010-2014",
+        "Has Data": "__NO__",
+        "Batch Number": 5,
+        "date:Date:start": "2010-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T05:02:16.297414",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "ARGX",
+        "Period": "2005-2009",
+        "Has Data": "__NO__",
+        "Batch Number": 5,
+        "date:Date:start": "2005-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T05:02:16.308161",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "ARGX",
+        "Period": "2000-2004",
+        "Has Data": "__NO__",
+        "Batch Number": 5,
+        "date:Date:start": "2000-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T05:02:16.318954",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "ARHS",
+        "Period": "2020-2024",
+        "Has Data": "__NO__",
+        "Batch Number": 5,
+        "date:Date:start": "2020-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T05:02:16.329643",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "ARHS",
+        "Period": "2015-2019",
+        "Has Data": "__NO__",
+        "Batch Number": 5,
+        "date:Date:start": "2015-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T05:02:16.340342",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "ARHS",
+        "Period": "2010-2014",
+        "Has Data": "__NO__",
+        "Batch Number": 5,
+        "date:Date:start": "2010-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T05:02:16.351109",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "ARHS",
+        "Period": "2005-2009",
+        "Has Data": "__NO__",
+        "Batch Number": 5,
+        "date:Date:start": "2005-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T05:02:16.361898",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "ARHS",
+        "Period": "2000-2004",
+        "Has Data": "__NO__",
+        "Batch Number": 5,
+        "date:Date:start": "2000-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T05:02:16.372573",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "ARI",
+        "Period": "2020-2024",
+        "Has Data": "__NO__",
+        "Batch Number": 5,
+        "date:Date:start": "2020-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T05:02:16.383276",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "ARI",
+        "Period": "2015-2019",
+        "Has Data": "__NO__",
+        "Batch Number": 5,
+        "date:Date:start": "2015-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T05:02:16.394047",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "ARI",
+        "Period": "2010-2014",
+        "Has Data": "__NO__",
+        "Batch Number": 5,
+        "date:Date:start": "2010-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T05:02:16.404707",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "ARI",
+        "Period": "2005-2009",
+        "Has Data": "__NO__",
+        "Batch Number": 5,
+        "date:Date:start": "2005-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T05:02:16.415405",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "ARI",
+        "Period": "2000-2004",
+        "Has Data": "__NO__",
+        "Batch Number": 5,
+        "date:Date:start": "2000-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T05:02:16.426165",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "ARIS",
+        "Period": "2020-2024",
+        "Has Data": "__NO__",
+        "Batch Number": 5,
+        "date:Date:start": "2020-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T05:02:16.436962",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "ARIS",
+        "Period": "2015-2019",
+        "Has Data": "__NO__",
+        "Batch Number": 5,
+        "date:Date:start": "2015-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T05:02:16.447647",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "ARIS",
+        "Period": "2010-2014",
+        "Has Data": "__NO__",
+        "Batch Number": 5,
+        "date:Date:start": "2010-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T05:02:16.458355",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "ARIS",
+        "Period": "2005-2009",
+        "Has Data": "__NO__",
+        "Batch Number": 5,
+        "date:Date:start": "2005-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T05:02:16.469075",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "ARIS",
+        "Period": "2000-2004",
+        "Has Data": "__NO__",
+        "Batch Number": 5,
+        "date:Date:start": "2000-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T05:02:16.479806",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "ARKO",
+        "Period": "2020-2024",
+        "Has Data": "__NO__",
+        "Batch Number": 5,
+        "date:Date:start": "2020-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T05:02:16.490600",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "ARKO",
+        "Period": "2015-2019",
+        "Has Data": "__NO__",
+        "Batch Number": 5,
+        "date:Date:start": "2015-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T05:02:16.501330",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "ARKO",
+        "Period": "2010-2014",
+        "Has Data": "__NO__",
+        "Batch Number": 5,
+        "date:Date:start": "2010-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T05:02:16.511365",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "ARKO",
+        "Period": "2005-2009",
+        "Has Data": "__NO__",
+        "Batch Number": 5,
+        "date:Date:start": "2005-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T05:02:16.521788",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "ARKO",
+        "Period": "2000-2004",
+        "Has Data": "__NO__",
+        "Batch Number": 5,
+        "date:Date:start": "2000-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T05:02:16.532585",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "ARKOW",
+        "Period": "2020-2024",
+        "Has Data": "__NO__",
+        "Batch Number": 5,
+        "date:Date:start": "2020-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T05:02:16.543285",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "ARKOW",
+        "Period": "2015-2019",
+        "Has Data": "__NO__",
+        "Batch Number": 5,
+        "date:Date:start": "2015-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T05:02:16.554081",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "ARKOW",
+        "Period": "2010-2014",
+        "Has Data": "__NO__",
+        "Batch Number": 5,
+        "date:Date:start": "2010-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T05:02:16.564814",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "ARKOW",
+        "Period": "2005-2009",
+        "Has Data": "__NO__",
+        "Batch Number": 5,
+        "date:Date:start": "2005-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T05:02:16.575516",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "ARKOW",
+        "Period": "2000-2004",
+        "Has Data": "__NO__",
+        "Batch Number": 5,
+        "date:Date:start": "2000-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T05:02:16.586299",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "ARKR",
+        "Period": "2020-2024",
+        "Has Data": "__NO__",
+        "Batch Number": 5,
+        "date:Date:start": "2020-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T05:02:16.597092",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "ARKR",
+        "Period": "2015-2019",
+        "Has Data": "__NO__",
+        "Batch Number": 5,
+        "date:Date:start": "2015-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T05:02:16.607917",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "ARKR",
+        "Period": "2010-2014",
+        "Has Data": "__NO__",
+        "Batch Number": 5,
+        "date:Date:start": "2010-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T05:02:16.618767",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "ARKR",
+        "Period": "2005-2009",
+        "Has Data": "__NO__",
+        "Batch Number": 5,
+        "date:Date:start": "2005-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T05:02:16.629456",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "ARKR",
+        "Period": "2000-2004",
+        "Has Data": "__NO__",
+        "Batch Number": 5,
+        "date:Date:start": "2000-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T05:02:16.640269",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "ARL",
+        "Period": "2020-2024",
+        "Has Data": "__NO__",
+        "Batch Number": 5,
+        "date:Date:start": "2020-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T05:02:16.650986",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "ARL",
+        "Period": "2015-2019",
+        "Has Data": "__NO__",
+        "Batch Number": 5,
+        "date:Date:start": "2015-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T05:02:16.661724",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "ARL",
+        "Period": "2010-2014",
+        "Has Data": "__NO__",
+        "Batch Number": 5,
+        "date:Date:start": "2010-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T05:02:16.672355",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "ARL",
+        "Period": "2005-2009",
+        "Has Data": "__NO__",
+        "Batch Number": 5,
+        "date:Date:start": "2005-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T05:02:16.683075",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "ARL",
+        "Period": "2000-2004",
+        "Has Data": "__NO__",
+        "Batch Number": 5,
+        "date:Date:start": "2000-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T05:02:16.693822",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "ARLO",
+        "Period": "2020-2024",
+        "Has Data": "__NO__",
+        "Batch Number": 5,
+        "date:Date:start": "2020-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T05:02:16.705050",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "ARLO",
+        "Period": "2015-2019",
+        "Has Data": "__NO__",
+        "Batch Number": 5,
+        "date:Date:start": "2015-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T05:02:16.715362",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "ARLO",
+        "Period": "2010-2014",
+        "Has Data": "__NO__",
+        "Batch Number": 5,
+        "date:Date:start": "2010-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T05:02:16.726086",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "ARLO",
+        "Period": "2005-2009",
+        "Has Data": "__NO__",
+        "Batch Number": 5,
+        "date:Date:start": "2005-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T05:02:16.736912",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "ARLO",
+        "Period": "2000-2004",
+        "Has Data": "__NO__",
+        "Batch Number": 5,
+        "date:Date:start": "2000-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T05:02:16.747703",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "ARLP",
+        "Period": "2020-2024",
+        "Has Data": "__NO__",
+        "Batch Number": 5,
+        "date:Date:start": "2020-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T05:02:16.758383",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "ARLP",
+        "Period": "2015-2019",
+        "Has Data": "__NO__",
+        "Batch Number": 5,
+        "date:Date:start": "2015-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T05:02:16.769103",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "ARLP",
+        "Period": "2010-2014",
+        "Has Data": "__NO__",
+        "Batch Number": 5,
+        "date:Date:start": "2010-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T05:02:16.779877",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "ARLP",
+        "Period": "2005-2009",
+        "Has Data": "__NO__",
+        "Batch Number": 5,
+        "date:Date:start": "2005-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T05:02:16.790681",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "ARLP",
+        "Period": "2000-2004",
+        "Has Data": "__NO__",
+        "Batch Number": 5,
+        "date:Date:start": "2000-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T05:02:16.801436",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "ARM",
+        "Period": "2020-2024",
+        "Has Data": "__NO__",
+        "Batch Number": 5,
+        "date:Date:start": "2020-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T05:02:16.812250",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "ARM",
+        "Period": "2015-2019",
+        "Has Data": "__NO__",
+        "Batch Number": 5,
+        "date:Date:start": "2015-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T05:02:16.823051",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "ARM",
+        "Period": "2010-2014",
+        "Has Data": "__NO__",
+        "Batch Number": 5,
+        "date:Date:start": "2010-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T05:02:16.833925",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "ARM",
+        "Period": "2005-2009",
+        "Has Data": "__NO__",
+        "Batch Number": 5,
+        "date:Date:start": "2005-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T05:02:16.844691",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "ARM",
+        "Period": "2000-2004",
+        "Has Data": "__NO__",
+        "Batch Number": 5,
+        "date:Date:start": "2000-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T05:02:16.855485",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "ARMK",
+        "Period": "2020-2024",
+        "Has Data": "__NO__",
+        "Batch Number": 5,
+        "date:Date:start": "2020-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T05:02:16.866217",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "ARMK",
+        "Period": "2015-2019",
+        "Has Data": "__NO__",
+        "Batch Number": 5,
+        "date:Date:start": "2015-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T05:02:16.876965",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "ARMK",
+        "Period": "2010-2014",
+        "Has Data": "__NO__",
+        "Batch Number": 5,
+        "date:Date:start": "2010-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T05:02:16.887756",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "ARMK",
+        "Period": "2005-2009",
+        "Has Data": "__NO__",
+        "Batch Number": 5,
+        "date:Date:start": "2005-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T05:02:16.898468",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "ARMK",
+        "Period": "2000-2004",
+        "Has Data": "__NO__",
+        "Batch Number": 5,
+        "date:Date:start": "2000-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T05:02:16.909140",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "ARMN",
+        "Period": "2020-2024",
+        "Has Data": "__NO__",
+        "Batch Number": 5,
+        "date:Date:start": "2020-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T05:02:16.919938",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "ARMN",
+        "Period": "2015-2019",
+        "Has Data": "__NO__",
+        "Batch Number": 5,
+        "date:Date:start": "2015-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T05:02:16.930713",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "ARMN",
+        "Period": "2010-2014",
+        "Has Data": "__NO__",
+        "Batch Number": 5,
+        "date:Date:start": "2010-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T05:02:16.941584",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "ARMN",
+        "Period": "2005-2009",
+        "Has Data": "__NO__",
+        "Batch Number": 5,
+        "date:Date:start": "2005-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T05:02:16.952383",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "ARMN",
+        "Period": "2000-2004",
+        "Has Data": "__NO__",
+        "Batch Number": 5,
+        "date:Date:start": "2000-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T05:02:16.963157",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "ARMP",
+        "Period": "2020-2024",
+        "Has Data": "__NO__",
+        "Batch Number": 5,
+        "date:Date:start": "2020-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T05:02:16.973856",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "ARMP",
+        "Period": "2015-2019",
+        "Has Data": "__NO__",
+        "Batch Number": 5,
+        "date:Date:start": "2015-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T05:02:16.984691",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "ARMP",
+        "Period": "2010-2014",
+        "Has Data": "__NO__",
+        "Batch Number": 5,
+        "date:Date:start": "2010-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T05:02:16.995427",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "ARMP",
+        "Period": "2005-2009",
+        "Has Data": "__NO__",
+        "Batch Number": 5,
+        "date:Date:start": "2005-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T05:02:17.006149",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "ARMP",
+        "Period": "2000-2004",
+        "Has Data": "__NO__",
+        "Batch Number": 5,
+        "date:Date:start": "2000-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T05:02:17.016892",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "AROC",
+        "Period": "2020-2024",
+        "Has Data": "__NO__",
+        "Batch Number": 5,
+        "date:Date:start": "2020-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T05:02:17.027712",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "AROC",
+        "Period": "2015-2019",
+        "Has Data": "__NO__",
+        "Batch Number": 5,
+        "date:Date:start": "2015-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T05:02:17.038475",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "AROC",
+        "Period": "2010-2014",
+        "Has Data": "__NO__",
+        "Batch Number": 5,
+        "date:Date:start": "2010-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T05:02:17.049253",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "AROC",
+        "Period": "2005-2009",
+        "Has Data": "__NO__",
+        "Batch Number": 5,
+        "date:Date:start": "2005-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T05:02:17.060004",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "AROC",
+        "Period": "2000-2004",
+        "Has Data": "__NO__",
+        "Batch Number": 5,
+        "date:Date:start": "2000-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T05:02:17.070740",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "AROW",
+        "Period": "2020-2024",
+        "Has Data": "__NO__",
+        "Batch Number": 5,
+        "date:Date:start": "2020-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T05:02:17.081492",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "AROW",
+        "Period": "2015-2019",
+        "Has Data": "__NO__",
+        "Batch Number": 5,
+        "date:Date:start": "2015-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T05:02:17.092205",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "AROW",
+        "Period": "2010-2014",
+        "Has Data": "__NO__",
+        "Batch Number": 5,
+        "date:Date:start": "2010-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T05:02:17.102944",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "AROW",
+        "Period": "2005-2009",
+        "Has Data": "__NO__",
+        "Batch Number": 5,
+        "date:Date:start": "2005-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T05:02:17.113719",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "AROW",
+        "Period": "2000-2004",
+        "Has Data": "__NO__",
+        "Batch Number": 5,
+        "date:Date:start": "2000-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T05:02:17.124550",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "ARQ",
+        "Period": "2020-2024",
+        "Has Data": "__NO__",
+        "Batch Number": 5,
+        "date:Date:start": "2020-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T05:02:17.135386",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "ARQ",
+        "Period": "2015-2019",
+        "Has Data": "__NO__",
+        "Batch Number": 5,
+        "date:Date:start": "2015-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T05:02:17.146072",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "ARQ",
+        "Period": "2010-2014",
+        "Has Data": "__NO__",
+        "Batch Number": 5,
+        "date:Date:start": "2010-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T05:02:17.156838",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "ARQ",
+        "Period": "2005-2009",
+        "Has Data": "__NO__",
+        "Batch Number": 5,
+        "date:Date:start": "2005-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T05:02:17.167637",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "ARQ",
+        "Period": "2000-2004",
+        "Has Data": "__NO__",
+        "Batch Number": 5,
+        "date:Date:start": "2000-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T05:02:17.178417",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "ARQQ",
+        "Period": "2020-2024",
+        "Has Data": "__NO__",
+        "Batch Number": 5,
+        "date:Date:start": "2020-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T05:02:17.189147",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "ARQQ",
+        "Period": "2015-2019",
+        "Has Data": "__NO__",
+        "Batch Number": 5,
+        "date:Date:start": "2015-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T05:02:17.199983",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "ARQQ",
+        "Period": "2010-2014",
+        "Has Data": "__NO__",
+        "Batch Number": 5,
+        "date:Date:start": "2010-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T05:02:17.210684",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "ARQQ",
+        "Period": "2005-2009",
+        "Has Data": "__NO__",
+        "Batch Number": 5,
+        "date:Date:start": "2005-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T05:02:17.221468",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "ARQQ",
+        "Period": "2000-2004",
+        "Has Data": "__NO__",
+        "Batch Number": 5,
+        "date:Date:start": "2000-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T05:02:17.232248",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "ARQQW",
+        "Period": "2020-2024",
+        "Has Data": "__NO__",
+        "Batch Number": 5,
+        "date:Date:start": "2020-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T05:02:17.243079",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "ARQQW",
+        "Period": "2015-2019",
+        "Has Data": "__NO__",
+        "Batch Number": 5,
+        "date:Date:start": "2015-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T05:02:17.253810",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "ARQQW",
+        "Period": "2010-2014",
+        "Has Data": "__NO__",
+        "Batch Number": 5,
+        "date:Date:start": "2010-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T05:02:17.264635",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "ARQQW",
+        "Period": "2005-2009",
+        "Has Data": "__NO__",
+        "Batch Number": 5,
+        "date:Date:start": "2005-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T05:02:17.275285",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "ARQQW",
+        "Period": "2000-2004",
+        "Has Data": "__NO__",
+        "Batch Number": 5,
+        "date:Date:start": "2000-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T05:02:17.285974",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "ARQT",
+        "Period": "2020-2024",
+        "Has Data": "__NO__",
+        "Batch Number": 5,
+        "date:Date:start": "2020-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T05:02:17.296729",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "ARQT",
+        "Period": "2015-2019",
+        "Has Data": "__NO__",
+        "Batch Number": 5,
+        "date:Date:start": "2015-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T05:02:17.307641",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "ARQT",
+        "Period": "2010-2014",
+        "Has Data": "__NO__",
+        "Batch Number": 5,
+        "date:Date:start": "2010-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T05:02:17.318443",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "ARQT",
+        "Period": "2005-2009",
+        "Has Data": "__NO__",
+        "Batch Number": 5,
+        "date:Date:start": "2005-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T05:02:17.329299",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "ARQT",
+        "Period": "2000-2004",
+        "Has Data": "__NO__",
+        "Batch Number": 5,
+        "date:Date:start": "2000-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T05:02:17.340068",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "ARR",
+        "Period": "2020-2024",
+        "Has Data": "__NO__",
+        "Batch Number": 5,
+        "date:Date:start": "2020-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T05:02:17.351019",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "ARR",
+        "Period": "2015-2019",
+        "Has Data": "__NO__",
+        "Batch Number": 5,
+        "date:Date:start": "2015-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T05:02:17.361825",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "ARR",
+        "Period": "2010-2014",
+        "Has Data": "__NO__",
+        "Batch Number": 5,
+        "date:Date:start": "2010-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T05:02:17.372625",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "ARR",
+        "Period": "2005-2009",
+        "Has Data": "__NO__",
+        "Batch Number": 5,
+        "date:Date:start": "2005-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T05:02:17.383432",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "ARR",
+        "Period": "2000-2004",
+        "Has Data": "__NO__",
+        "Batch Number": 5,
+        "date:Date:start": "2000-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T05:02:17.394147",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "ARRY",
+        "Period": "2020-2024",
+        "Has Data": "__NO__",
+        "Batch Number": 5,
+        "date:Date:start": "2020-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T05:02:17.404928",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "ARRY",
+        "Period": "2015-2019",
+        "Has Data": "__NO__",
+        "Batch Number": 5,
+        "date:Date:start": "2015-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T05:02:17.415689",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "ARRY",
+        "Period": "2010-2014",
+        "Has Data": "__NO__",
+        "Batch Number": 5,
+        "date:Date:start": "2010-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T05:02:17.426446",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "ARRY",
+        "Period": "2005-2009",
+        "Has Data": "__NO__",
+        "Batch Number": 5,
+        "date:Date:start": "2005-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T05:02:17.437246",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "ARRY",
+        "Period": "2000-2004",
+        "Has Data": "__NO__",
+        "Batch Number": 5,
+        "date:Date:start": "2000-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T05:02:17.448040",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "ARTL",
+        "Period": "2020-2024",
+        "Has Data": "__NO__",
+        "Batch Number": 5,
+        "date:Date:start": "2020-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T05:02:17.458688",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "ARTL",
+        "Period": "2015-2019",
+        "Has Data": "__NO__",
+        "Batch Number": 5,
+        "date:Date:start": "2015-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T05:02:17.469359",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "ARTL",
+        "Period": "2010-2014",
+        "Has Data": "__NO__",
+        "Batch Number": 5,
+        "date:Date:start": "2010-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T05:02:17.480068",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "ARTL",
+        "Period": "2005-2009",
+        "Has Data": "__NO__",
+        "Batch Number": 5,
+        "date:Date:start": "2005-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T05:02:17.490822",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "ARTL",
+        "Period": "2000-2004",
+        "Has Data": "__NO__",
+        "Batch Number": 5,
+        "date:Date:start": "2000-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T05:02:17.501518",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "ARTNA",
+        "Period": "2020-2024",
+        "Has Data": "__NO__",
+        "Batch Number": 5,
+        "date:Date:start": "2020-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T05:02:17.512238",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "ARTNA",
+        "Period": "2015-2019",
+        "Has Data": "__NO__",
+        "Batch Number": 5,
+        "date:Date:start": "2015-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T05:02:17.523014",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "ARTNA",
+        "Period": "2010-2014",
+        "Has Data": "__NO__",
+        "Batch Number": 5,
+        "date:Date:start": "2010-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T05:02:17.533762",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "ARTNA",
+        "Period": "2005-2009",
+        "Has Data": "__NO__",
+        "Batch Number": 5,
+        "date:Date:start": "2005-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T05:02:17.544603",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "ARTNA",
+        "Period": "2000-2004",
+        "Has Data": "__NO__",
+        "Batch Number": 5,
+        "date:Date:start": "2000-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T05:02:17.555279",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "ARTV",
+        "Period": "2020-2024",
+        "Has Data": "__NO__",
+        "Batch Number": 5,
+        "date:Date:start": "2020-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T05:02:17.566071",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "ARTV",
+        "Period": "2015-2019",
+        "Has Data": "__NO__",
+        "Batch Number": 5,
+        "date:Date:start": "2015-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T05:02:17.576830",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "ARTV",
+        "Period": "2010-2014",
+        "Has Data": "__NO__",
+        "Batch Number": 5,
+        "date:Date:start": "2010-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T05:02:17.587613",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "ARTV",
+        "Period": "2005-2009",
+        "Has Data": "__NO__",
+        "Batch Number": 5,
+        "date:Date:start": "2005-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T05:02:17.598360",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "ARTV",
+        "Period": "2000-2004",
+        "Has Data": "__NO__",
+        "Batch Number": 5,
+        "date:Date:start": "2000-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T05:02:17.609097",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "ARTW",
+        "Period": "2020-2024",
+        "Has Data": "__NO__",
+        "Batch Number": 5,
+        "date:Date:start": "2020-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T05:02:17.619864",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "ARTW",
+        "Period": "2015-2019",
+        "Has Data": "__NO__",
+        "Batch Number": 5,
+        "date:Date:start": "2015-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T05:02:17.630668",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "ARTW",
+        "Period": "2010-2014",
+        "Has Data": "__NO__",
+        "Batch Number": 5,
+        "date:Date:start": "2010-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T05:02:17.641358",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "ARTW",
+        "Period": "2005-2009",
+        "Has Data": "__NO__",
+        "Batch Number": 5,
+        "date:Date:start": "2005-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T05:02:17.652081",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "ARTW",
+        "Period": "2000-2004",
+        "Has Data": "__NO__",
+        "Batch Number": 5,
+        "date:Date:start": "2000-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T05:02:17.662842",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "ARVN",
+        "Period": "2020-2024",
+        "Has Data": "__NO__",
+        "Batch Number": 5,
+        "date:Date:start": "2020-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T05:02:17.673572",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "ARVN",
+        "Period": "2015-2019",
+        "Has Data": "__NO__",
+        "Batch Number": 5,
+        "date:Date:start": "2015-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T05:02:17.684282",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "ARVN",
+        "Period": "2010-2014",
+        "Has Data": "__NO__",
+        "Batch Number": 5,
+        "date:Date:start": "2010-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T05:02:17.695080",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "ARVN",
+        "Period": "2005-2009",
+        "Has Data": "__NO__",
+        "Batch Number": 5,
+        "date:Date:start": "2005-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T05:02:17.705869",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "ARVN",
+        "Period": "2000-2004",
+        "Has Data": "__NO__",
+        "Batch Number": 5,
+        "date:Date:start": "2000-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T05:02:17.716626",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "ARW",
+        "Period": "2020-2024",
+        "Has Data": "__NO__",
+        "Batch Number": 5,
+        "date:Date:start": "2020-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T05:02:17.727379",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "ARW",
+        "Period": "2015-2019",
+        "Has Data": "__NO__",
+        "Batch Number": 5,
+        "date:Date:start": "2015-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T05:02:17.738098",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "ARW",
+        "Period": "2010-2014",
+        "Has Data": "__NO__",
+        "Batch Number": 5,
+        "date:Date:start": "2010-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T05:02:17.748843",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "ARW",
+        "Period": "2005-2009",
+        "Has Data": "__NO__",
+        "Batch Number": 5,
+        "date:Date:start": "2005-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T05:02:17.759617",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "ARW",
+        "Period": "2000-2004",
+        "Has Data": "__NO__",
+        "Batch Number": 5,
+        "date:Date:start": "2000-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T05:02:17.770387",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "ARWR",
+        "Period": "2020-2024",
+        "Has Data": "__NO__",
+        "Batch Number": 5,
+        "date:Date:start": "2020-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T05:02:17.781666",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "ARWR",
+        "Period": "2015-2019",
+        "Has Data": "__NO__",
+        "Batch Number": 5,
+        "date:Date:start": "2015-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T05:02:17.791898",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "ARWR",
+        "Period": "2010-2014",
+        "Has Data": "__NO__",
+        "Batch Number": 5,
+        "date:Date:start": "2010-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T05:02:17.802704",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "ARWR",
+        "Period": "2005-2009",
+        "Has Data": "__NO__",
+        "Batch Number": 5,
+        "date:Date:start": "2005-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T05:02:17.813461",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "ARWR",
+        "Period": "2000-2004",
+        "Has Data": "__NO__",
+        "Batch Number": 5,
+        "date:Date:start": "2000-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T05:02:17.824244",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "ARX",
+        "Period": "2020-2024",
+        "Has Data": "__NO__",
+        "Batch Number": 5,
+        "date:Date:start": "2020-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T05:02:17.835052",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "ARX",
+        "Period": "2015-2019",
+        "Has Data": "__NO__",
+        "Batch Number": 5,
+        "date:Date:start": "2015-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T05:02:17.845844",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "ARX",
+        "Period": "2010-2014",
+        "Has Data": "__NO__",
+        "Batch Number": 5,
+        "date:Date:start": "2010-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T05:02:17.856641",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "ARX",
+        "Period": "2005-2009",
+        "Has Data": "__NO__",
+        "Batch Number": 5,
+        "date:Date:start": "2005-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T05:02:17.867439",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "ARX",
+        "Period": "2000-2004",
+        "Has Data": "__NO__",
+        "Batch Number": 5,
+        "date:Date:start": "2000-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T05:02:17.878143",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "AS",
+        "Period": "2020-2024",
+        "Has Data": "__NO__",
+        "Batch Number": 5,
+        "date:Date:start": "2020-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T05:02:17.888879",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "AS",
+        "Period": "2015-2019",
+        "Has Data": "__NO__",
+        "Batch Number": 5,
+        "date:Date:start": "2015-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T05:02:17.899548",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "AS",
+        "Period": "2010-2014",
+        "Has Data": "__NO__",
+        "Batch Number": 5,
+        "date:Date:start": "2010-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T05:02:17.910231",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "AS",
+        "Period": "2005-2009",
+        "Has Data": "__NO__",
+        "Batch Number": 5,
+        "date:Date:start": "2005-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T05:02:17.920980",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "AS",
+        "Period": "2000-2004",
+        "Has Data": "__NO__",
+        "Batch Number": 5,
+        "date:Date:start": "2000-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T05:02:17.931643",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "ASA",
+        "Period": "2020-2024",
+        "Has Data": "__NO__",
+        "Batch Number": 5,
+        "date:Date:start": "2020-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T05:02:17.942390",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "ASA",
+        "Period": "2015-2019",
+        "Has Data": "__NO__",
+        "Batch Number": 5,
+        "date:Date:start": "2015-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T05:02:17.953077",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "ASA",
+        "Period": "2010-2014",
+        "Has Data": "__NO__",
+        "Batch Number": 5,
+        "date:Date:start": "2010-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T05:02:17.963849",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "ASA",
+        "Period": "2005-2009",
+        "Has Data": "__NO__",
+        "Batch Number": 5,
+        "date:Date:start": "2005-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T05:02:17.974577",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "ASA",
+        "Period": "2000-2004",
+        "Has Data": "__NO__",
+        "Batch Number": 5,
+        "date:Date:start": "2000-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T05:02:17.985369",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "ASAN",
+        "Period": "2020-2024",
+        "Has Data": "__NO__",
+        "Batch Number": 5,
+        "date:Date:start": "2020-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T05:02:17.996155",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "ASAN",
+        "Period": "2015-2019",
+        "Has Data": "__NO__",
+        "Batch Number": 5,
+        "date:Date:start": "2015-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T05:02:18.006935",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "ASAN",
+        "Period": "2010-2014",
+        "Has Data": "__NO__",
+        "Batch Number": 5,
+        "date:Date:start": "2010-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T05:02:18.017711",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "ASAN",
+        "Period": "2005-2009",
+        "Has Data": "__NO__",
+        "Batch Number": 5,
+        "date:Date:start": "2005-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T05:02:18.028510",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "ASAN",
+        "Period": "2000-2004",
+        "Has Data": "__NO__",
+        "Batch Number": 5,
+        "date:Date:start": "2000-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T05:02:18.039297",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "ASB",
+        "Period": "2020-2024",
+        "Has Data": "__NO__",
+        "Batch Number": 5,
+        "date:Date:start": "2020-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T05:02:18.050067",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "ASB",
+        "Period": "2015-2019",
+        "Has Data": "__NO__",
+        "Batch Number": 5,
+        "date:Date:start": "2015-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T05:02:18.060832",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "ASB",
+        "Period": "2010-2014",
+        "Has Data": "__NO__",
+        "Batch Number": 5,
+        "date:Date:start": "2010-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T05:02:18.071572",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "ASB",
+        "Period": "2005-2009",
+        "Has Data": "__NO__",
+        "Batch Number": 5,
+        "date:Date:start": "2005-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T05:02:18.082307",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "ASB",
+        "Period": "2000-2004",
+        "Has Data": "__NO__",
+        "Batch Number": 5,
+        "date:Date:start": "2000-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T05:02:18.093093",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "ASBA",
+        "Period": "2020-2024",
+        "Has Data": "__NO__",
+        "Batch Number": 5,
+        "date:Date:start": "2020-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T05:02:18.103914",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "ASBA",
+        "Period": "2015-2019",
+        "Has Data": "__NO__",
+        "Batch Number": 5,
+        "date:Date:start": "2015-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T05:02:18.114673",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "ASBA",
+        "Period": "2010-2014",
+        "Has Data": "__NO__",
+        "Batch Number": 5,
+        "date:Date:start": "2010-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T05:02:18.125456",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "ASBA",
+        "Period": "2005-2009",
+        "Has Data": "__NO__",
+        "Batch Number": 5,
+        "date:Date:start": "2005-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T05:02:18.136277",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "ASBA",
+        "Period": "2000-2004",
+        "Has Data": "__NO__",
+        "Batch Number": 5,
+        "date:Date:start": "2000-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T05:02:18.147053",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "ASBP",
+        "Period": "2020-2024",
+        "Has Data": "__NO__",
+        "Batch Number": 5,
+        "date:Date:start": "2020-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T05:02:18.157797",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "ASBP",
+        "Period": "2015-2019",
+        "Has Data": "__NO__",
+        "Batch Number": 5,
+        "date:Date:start": "2015-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T05:02:18.168596",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "ASBP",
+        "Period": "2010-2014",
+        "Has Data": "__NO__",
+        "Batch Number": 5,
+        "date:Date:start": "2010-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T05:02:18.179373",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "ASBP",
+        "Period": "2005-2009",
+        "Has Data": "__NO__",
+        "Batch Number": 5,
+        "date:Date:start": "2005-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T05:02:18.190080",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "ASBP",
+        "Period": "2000-2004",
+        "Has Data": "__NO__",
+        "Batch Number": 5,
+        "date:Date:start": "2000-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T05:02:18.200804",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "ASBPW",
+        "Period": "2020-2024",
+        "Has Data": "__NO__",
+        "Batch Number": 5,
+        "date:Date:start": "2020-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T05:02:18.211547",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "ASBPW",
+        "Period": "2015-2019",
+        "Has Data": "__NO__",
+        "Batch Number": 5,
+        "date:Date:start": "2015-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T05:02:18.222209",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "ASBPW",
+        "Period": "2010-2014",
+        "Has Data": "__NO__",
+        "Batch Number": 5,
+        "date:Date:start": "2010-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T05:02:18.232973",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "ASBPW",
+        "Period": "2005-2009",
+        "Has Data": "__NO__",
+        "Batch Number": 5,
+        "date:Date:start": "2005-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T05:02:18.243660",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "ASBPW",
+        "Period": "2000-2004",
+        "Has Data": "__NO__",
+        "Batch Number": 5,
+        "date:Date:start": "2000-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T05:02:18.254451",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "ASC",
+        "Period": "2020-2024",
+        "Has Data": "__NO__",
+        "Batch Number": 5,
+        "date:Date:start": "2020-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T05:02:18.265227",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "ASC",
+        "Period": "2015-2019",
+        "Has Data": "__NO__",
+        "Batch Number": 5,
+        "date:Date:start": "2015-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T05:02:18.275992",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "ASC",
+        "Period": "2010-2014",
+        "Has Data": "__NO__",
+        "Batch Number": 5,
+        "date:Date:start": "2010-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T05:02:18.286781",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "ASC",
+        "Period": "2005-2009",
+        "Has Data": "__NO__",
+        "Batch Number": 5,
+        "date:Date:start": "2005-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T05:02:18.297677",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "ASC",
+        "Period": "2000-2004",
+        "Has Data": "__NO__",
+        "Batch Number": 5,
+        "date:Date:start": "2000-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T05:02:18.308543",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "ASG",
+        "Period": "2020-2024",
+        "Has Data": "__NO__",
+        "Batch Number": 5,
+        "date:Date:start": "2020-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T05:02:18.319250",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "ASG",
+        "Period": "2015-2019",
+        "Has Data": "__NO__",
+        "Batch Number": 5,
+        "date:Date:start": "2015-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T05:02:18.330235",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "ASG",
+        "Period": "2010-2014",
+        "Has Data": "__NO__",
+        "Batch Number": 5,
+        "date:Date:start": "2010-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T05:02:18.341020",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "ASG",
+        "Period": "2005-2009",
+        "Has Data": "__NO__",
+        "Batch Number": 5,
+        "date:Date:start": "2005-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T05:02:18.351699",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "ASG",
+        "Period": "2000-2004",
+        "Has Data": "__NO__",
+        "Batch Number": 5,
+        "date:Date:start": "2000-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T05:02:18.362599",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "ASGI",
+        "Period": "2020-2024",
+        "Has Data": "__NO__",
+        "Batch Number": 5,
+        "date:Date:start": "2020-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T05:02:18.373327",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "ASGI",
+        "Period": "2015-2019",
+        "Has Data": "__NO__",
+        "Batch Number": 5,
+        "date:Date:start": "2015-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T05:02:18.384097",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "ASGI",
+        "Period": "2010-2014",
+        "Has Data": "__NO__",
+        "Batch Number": 5,
+        "date:Date:start": "2010-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T05:02:18.394869",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "ASGI",
+        "Period": "2005-2009",
+        "Has Data": "__NO__",
+        "Batch Number": 5,
+        "date:Date:start": "2005-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T05:02:18.405647",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "ASGI",
+        "Period": "2000-2004",
+        "Has Data": "__NO__",
+        "Batch Number": 5,
+        "date:Date:start": "2000-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T05:02:18.416458",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "ASGN",
+        "Period": "2020-2024",
+        "Has Data": "__NO__",
+        "Batch Number": 5,
+        "date:Date:start": "2020-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T05:02:18.427190",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "ASGN",
+        "Period": "2015-2019",
+        "Has Data": "__NO__",
+        "Batch Number": 5,
+        "date:Date:start": "2015-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T05:02:18.438047",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "ASGN",
+        "Period": "2010-2014",
+        "Has Data": "__NO__",
+        "Batch Number": 5,
+        "date:Date:start": "2010-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T05:02:18.448940",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "ASGN",
+        "Period": "2005-2009",
+        "Has Data": "__NO__",
+        "Batch Number": 5,
+        "date:Date:start": "2005-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T05:02:18.459741",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "ASGN",
+        "Period": "2000-2004",
+        "Has Data": "__NO__",
+        "Batch Number": 5,
+        "date:Date:start": "2000-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T05:02:18.470523",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "ASH",
+        "Period": "2020-2024",
+        "Has Data": "__NO__",
+        "Batch Number": 5,
+        "date:Date:start": "2020-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T05:02:18.481332",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "ASH",
+        "Period": "2015-2019",
+        "Has Data": "__NO__",
+        "Batch Number": 5,
+        "date:Date:start": "2015-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T05:02:18.492072",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "ASH",
+        "Period": "2010-2014",
+        "Has Data": "__NO__",
+        "Batch Number": 5,
+        "date:Date:start": "2010-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T05:02:18.502896",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "ASH",
+        "Period": "2005-2009",
+        "Has Data": "__NO__",
+        "Batch Number": 5,
+        "date:Date:start": "2005-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T05:02:18.513626",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "ASH",
+        "Period": "2000-2004",
+        "Has Data": "__NO__",
+        "Batch Number": 5,
+        "date:Date:start": "2000-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T05:02:18.524533",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "ASIC",
+        "Period": "2020-2024",
+        "Has Data": "__NO__",
+        "Batch Number": 5,
+        "date:Date:start": "2020-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T05:02:18.535215",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "ASIC",
+        "Period": "2015-2019",
+        "Has Data": "__NO__",
+        "Batch Number": 5,
+        "date:Date:start": "2015-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T05:02:18.546078",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "ASIC",
+        "Period": "2010-2014",
+        "Has Data": "__NO__",
+        "Batch Number": 5,
+        "date:Date:start": "2010-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T05:02:18.556797",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "ASIC",
+        "Period": "2005-2009",
+        "Has Data": "__NO__",
+        "Batch Number": 5,
+        "date:Date:start": "2005-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T05:02:18.567452",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "ASIC",
+        "Period": "2000-2004",
+        "Has Data": "__NO__",
+        "Batch Number": 5,
+        "date:Date:start": "2000-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T05:02:18.578148",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "ASIX",
+        "Period": "2020-2024",
+        "Has Data": "__NO__",
+        "Batch Number": 5,
+        "date:Date:start": "2020-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T05:02:18.589074",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "ASIX",
+        "Period": "2015-2019",
+        "Has Data": "__NO__",
+        "Batch Number": 5,
+        "date:Date:start": "2015-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T05:02:18.599776",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "ASIX",
+        "Period": "2010-2014",
+        "Has Data": "__NO__",
+        "Batch Number": 5,
+        "date:Date:start": "2010-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T05:02:18.610565",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "ASIX",
+        "Period": "2005-2009",
+        "Has Data": "__NO__",
+        "Batch Number": 5,
+        "date:Date:start": "2005-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T05:02:18.621304",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "ASIX",
+        "Period": "2000-2004",
+        "Has Data": "__NO__",
+        "Batch Number": 5,
+        "date:Date:start": "2000-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T05:02:18.632079",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "ASLE",
+        "Period": "2020-2024",
+        "Has Data": "__NO__",
+        "Batch Number": 5,
+        "date:Date:start": "2020-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T05:02:18.642955",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "ASLE",
+        "Period": "2015-2019",
+        "Has Data": "__NO__",
+        "Batch Number": 5,
+        "date:Date:start": "2015-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T05:02:18.653718",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "ASLE",
+        "Period": "2010-2014",
+        "Has Data": "__NO__",
+        "Batch Number": 5,
+        "date:Date:start": "2010-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T05:02:18.664596",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "ASLE",
+        "Period": "2005-2009",
+        "Has Data": "__NO__",
+        "Batch Number": 5,
+        "date:Date:start": "2005-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T05:02:18.675373",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "ASLE",
+        "Period": "2000-2004",
+        "Has Data": "__NO__",
+        "Batch Number": 5,
+        "date:Date:start": "2000-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T05:02:18.686187",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "ASM",
+        "Period": "2020-2024",
+        "Has Data": "__NO__",
+        "Batch Number": 5,
+        "date:Date:start": "2020-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T05:02:18.697109",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "ASM",
+        "Period": "2015-2019",
+        "Has Data": "__NO__",
+        "Batch Number": 5,
+        "date:Date:start": "2015-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T05:02:18.707886",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "ASM",
+        "Period": "2010-2014",
+        "Has Data": "__NO__",
+        "Batch Number": 5,
+        "date:Date:start": "2010-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T05:02:18.718654",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "ASM",
+        "Period": "2005-2009",
+        "Has Data": "__NO__",
+        "Batch Number": 5,
+        "date:Date:start": "2005-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T05:02:18.729412",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "ASM",
+        "Period": "2000-2004",
+        "Has Data": "__NO__",
+        "Batch Number": 5,
+        "date:Date:start": "2000-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T05:02:18.740171",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "ASMB",
+        "Period": "2020-2024",
+        "Has Data": "__NO__",
+        "Batch Number": 5,
+        "date:Date:start": "2020-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T05:02:18.751052",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "ASMB",
+        "Period": "2015-2019",
+        "Has Data": "__NO__",
+        "Batch Number": 5,
+        "date:Date:start": "2015-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T05:02:18.761830",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "ASMB",
+        "Period": "2010-2014",
+        "Has Data": "__NO__",
+        "Batch Number": 5,
+        "date:Date:start": "2010-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T05:02:18.772590",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "ASMB",
+        "Period": "2005-2009",
+        "Has Data": "__NO__",
+        "Batch Number": 5,
+        "date:Date:start": "2005-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T05:02:18.783347",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "ASMB",
+        "Period": "2000-2004",
+        "Has Data": "__NO__",
+        "Batch Number": 5,
+        "date:Date:start": "2000-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T05:02:18.794151",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "ASML",
+        "Period": "2020-2024",
+        "Has Data": "__NO__",
+        "Batch Number": 5,
+        "date:Date:start": "2020-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T05:02:18.804924",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "ASML",
+        "Period": "2015-2019",
+        "Has Data": "__NO__",
+        "Batch Number": 5,
+        "date:Date:start": "2015-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T05:02:18.815659",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "ASML",
+        "Period": "2010-2014",
+        "Has Data": "__NO__",
+        "Batch Number": 5,
+        "date:Date:start": "2010-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T05:02:18.826526",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "ASML",
+        "Period": "2005-2009",
+        "Has Data": "__NO__",
+        "Batch Number": 5,
+        "date:Date:start": "2005-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T05:02:18.837328",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "ASML",
+        "Period": "2000-2004",
+        "Has Data": "__NO__",
+        "Batch Number": 5,
+        "date:Date:start": "2000-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T05:02:18.848078",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "ASND",
+        "Period": "2020-2024",
+        "Has Data": "__NO__",
+        "Batch Number": 5,
+        "date:Date:start": "2020-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T05:02:18.859483",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "ASND",
+        "Period": "2015-2019",
+        "Has Data": "__NO__",
+        "Batch Number": 5,
+        "date:Date:start": "2015-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T05:02:18.869717",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "ASND",
+        "Period": "2010-2014",
+        "Has Data": "__NO__",
+        "Batch Number": 5,
+        "date:Date:start": "2010-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T05:02:18.880576",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "ASND",
+        "Period": "2005-2009",
+        "Has Data": "__NO__",
+        "Batch Number": 5,
+        "date:Date:start": "2005-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T05:02:18.891445",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "ASND",
+        "Period": "2000-2004",
+        "Has Data": "__NO__",
+        "Batch Number": 5,
+        "date:Date:start": "2000-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T05:02:18.902238",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "ASNS",
+        "Period": "2020-2024",
+        "Has Data": "__NO__",
+        "Batch Number": 5,
+        "date:Date:start": "2020-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T05:02:18.913096",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "ASNS",
+        "Period": "2015-2019",
+        "Has Data": "__NO__",
+        "Batch Number": 5,
+        "date:Date:start": "2015-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T05:02:18.923905",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "ASNS",
+        "Period": "2010-2014",
+        "Has Data": "__NO__",
+        "Batch Number": 5,
+        "date:Date:start": "2010-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T05:02:18.934697",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "ASNS",
+        "Period": "2005-2009",
+        "Has Data": "__NO__",
+        "Batch Number": 5,
+        "date:Date:start": "2005-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T05:02:18.945375",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "ASNS",
+        "Period": "2000-2004",
+        "Has Data": "__NO__",
+        "Batch Number": 5,
+        "date:Date:start": "2000-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T05:02:18.956256",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "ASO",
+        "Period": "2020-2024",
+        "Has Data": "__NO__",
+        "Batch Number": 5,
+        "date:Date:start": "2020-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T05:02:18.967051",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "ASO",
+        "Period": "2015-2019",
+        "Has Data": "__NO__",
+        "Batch Number": 5,
+        "date:Date:start": "2015-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T05:02:18.977807",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "ASO",
+        "Period": "2010-2014",
+        "Has Data": "__NO__",
+        "Batch Number": 5,
+        "date:Date:start": "2010-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T05:02:18.988572",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "ASO",
+        "Period": "2005-2009",
+        "Has Data": "__NO__",
+        "Batch Number": 5,
+        "date:Date:start": "2005-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T05:02:18.999391",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "ASO",
+        "Period": "2000-2004",
+        "Has Data": "__NO__",
+        "Batch Number": 5,
+        "date:Date:start": "2000-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T05:02:19.010160",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "ASPC",
+        "Period": "2020-2024",
+        "Has Data": "__NO__",
+        "Batch Number": 5,
+        "date:Date:start": "2020-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T05:02:19.020945",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "ASPC",
+        "Period": "2015-2019",
+        "Has Data": "__NO__",
+        "Batch Number": 5,
+        "date:Date:start": "2015-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T05:02:19.031711",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "ASPC",
+        "Period": "2010-2014",
+        "Has Data": "__NO__",
+        "Batch Number": 5,
+        "date:Date:start": "2010-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T05:02:19.042539",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "ASPC",
+        "Period": "2005-2009",
+        "Has Data": "__NO__",
+        "Batch Number": 5,
+        "date:Date:start": "2005-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T05:02:19.053395",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "ASPC",
+        "Period": "2000-2004",
+        "Has Data": "__NO__",
+        "Batch Number": 5,
+        "date:Date:start": "2000-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T05:02:19.064208",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "ASPCR",
+        "Period": "2020-2024",
+        "Has Data": "__NO__",
+        "Batch Number": 5,
+        "date:Date:start": "2020-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T05:02:19.074985",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "ASPCR",
+        "Period": "2015-2019",
+        "Has Data": "__NO__",
+        "Batch Number": 5,
+        "date:Date:start": "2015-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T05:02:19.085752",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "ASPCR",
+        "Period": "2010-2014",
+        "Has Data": "__NO__",
+        "Batch Number": 5,
+        "date:Date:start": "2010-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T05:02:19.096581",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "ASPCR",
+        "Period": "2005-2009",
+        "Has Data": "__NO__",
+        "Batch Number": 5,
+        "date:Date:start": "2005-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T05:02:19.107372",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "ASPCR",
+        "Period": "2000-2004",
+        "Has Data": "__NO__",
+        "Batch Number": 5,
+        "date:Date:start": "2000-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T05:02:19.118155",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "ASPCU",
+        "Period": "2020-2024",
+        "Has Data": "__NO__",
+        "Batch Number": 5,
+        "date:Date:start": "2020-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T05:02:19.128955",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "ASPCU",
+        "Period": "2015-2019",
+        "Has Data": "__NO__",
+        "Batch Number": 5,
+        "date:Date:start": "2015-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T05:02:19.139750",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "ASPCU",
+        "Period": "2010-2014",
+        "Has Data": "__NO__",
+        "Batch Number": 5,
+        "date:Date:start": "2010-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T05:02:19.150515",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "ASPCU",
+        "Period": "2005-2009",
+        "Has Data": "__NO__",
+        "Batch Number": 5,
+        "date:Date:start": "2005-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T05:02:19.161308",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "ASPCU",
+        "Period": "2000-2004",
+        "Has Data": "__NO__",
+        "Batch Number": 5,
+        "date:Date:start": "2000-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T05:02:19.171990",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "ASPI",
+        "Period": "2020-2024",
+        "Has Data": "__NO__",
+        "Batch Number": 5,
+        "date:Date:start": "2020-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T05:02:19.182805",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "ASPI",
+        "Period": "2015-2019",
+        "Has Data": "__NO__",
+        "Batch Number": 5,
+        "date:Date:start": "2015-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T05:02:19.193596",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "ASPI",
+        "Period": "2010-2014",
+        "Has Data": "__NO__",
+        "Batch Number": 5,
+        "date:Date:start": "2010-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T05:02:19.204362",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "ASPI",
+        "Period": "2005-2009",
+        "Has Data": "__NO__",
+        "Batch Number": 5,
+        "date:Date:start": "2005-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T05:02:19.215089",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "ASPI",
+        "Period": "2000-2004",
+        "Has Data": "__NO__",
+        "Batch Number": 5,
+        "date:Date:start": "2000-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T05:02:19.225897",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "ASPN",
+        "Period": "2020-2024",
+        "Has Data": "__NO__",
+        "Batch Number": 5,
+        "date:Date:start": "2020-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T05:02:19.236688",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "ASPN",
+        "Period": "2015-2019",
+        "Has Data": "__NO__",
+        "Batch Number": 5,
+        "date:Date:start": "2015-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T05:02:19.247438",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "ASPN",
+        "Period": "2010-2014",
+        "Has Data": "__NO__",
+        "Batch Number": 5,
+        "date:Date:start": "2010-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T05:02:19.258264",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "ASPN",
+        "Period": "2005-2009",
+        "Has Data": "__NO__",
+        "Batch Number": 5,
+        "date:Date:start": "2005-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T05:02:19.269090",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "ASPN",
+        "Period": "2000-2004",
+        "Has Data": "__NO__",
+        "Batch Number": 5,
+        "date:Date:start": "2000-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T05:02:19.279972",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "ASPS",
+        "Period": "2020-2024",
+        "Has Data": "__NO__",
+        "Batch Number": 5,
+        "date:Date:start": "2020-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T05:02:19.290876",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "ASPS",
+        "Period": "2015-2019",
+        "Has Data": "__NO__",
+        "Batch Number": 5,
+        "date:Date:start": "2015-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T05:02:19.301692",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "ASPS",
+        "Period": "2010-2014",
+        "Has Data": "__NO__",
+        "Batch Number": 5,
+        "date:Date:start": "2010-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T05:02:19.312541",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "ASPS",
+        "Period": "2005-2009",
+        "Has Data": "__NO__",
+        "Batch Number": 5,
+        "date:Date:start": "2005-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T05:02:19.323369",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "ASPS",
+        "Period": "2000-2004",
+        "Has Data": "__NO__",
+        "Batch Number": 5,
+        "date:Date:start": "2000-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T05:02:19.334192",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "ASPSW",
+        "Period": "2020-2024",
+        "Has Data": "__NO__",
+        "Batch Number": 5,
+        "date:Date:start": "2020-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T05:02:19.345092",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "ASPSW",
+        "Period": "2015-2019",
+        "Has Data": "__NO__",
+        "Batch Number": 5,
+        "date:Date:start": "2015-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T05:02:19.355908",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "ASPSW",
+        "Period": "2010-2014",
+        "Has Data": "__NO__",
+        "Batch Number": 5,
+        "date:Date:start": "2010-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T05:02:19.366752",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "ASPSW",
+        "Period": "2005-2009",
+        "Has Data": "__NO__",
+        "Batch Number": 5,
+        "date:Date:start": "2005-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T05:02:19.377484",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "ASPSW",
+        "Period": "2000-2004",
+        "Has Data": "__NO__",
+        "Batch Number": 5,
+        "date:Date:start": "2000-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T05:02:19.388256",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "ASPSZ",
+        "Period": "2020-2024",
+        "Has Data": "__NO__",
+        "Batch Number": 5,
+        "date:Date:start": "2020-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T05:02:19.399006",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "ASPSZ",
+        "Period": "2015-2019",
+        "Has Data": "__NO__",
+        "Batch Number": 5,
+        "date:Date:start": "2015-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T05:02:19.409717",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "ASPSZ",
+        "Period": "2010-2014",
+        "Has Data": "__NO__",
+        "Batch Number": 5,
+        "date:Date:start": "2010-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T05:02:19.420490",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "ASPSZ",
+        "Period": "2005-2009",
+        "Has Data": "__NO__",
+        "Batch Number": 5,
+        "date:Date:start": "2005-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T05:02:19.431267",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "ASPSZ",
+        "Period": "2000-2004",
+        "Has Data": "__NO__",
+        "Batch Number": 5,
+        "date:Date:start": "2000-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T05:02:19.442089",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "ASR",
+        "Period": "2020-2024",
+        "Has Data": "__NO__",
+        "Batch Number": 5,
+        "date:Date:start": "2020-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T05:02:19.452840",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "ASR",
+        "Period": "2015-2019",
+        "Has Data": "__NO__",
+        "Batch Number": 5,
+        "date:Date:start": "2015-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T05:02:19.463682",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "ASR",
+        "Period": "2010-2014",
+        "Has Data": "__NO__",
+        "Batch Number": 5,
+        "date:Date:start": "2010-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T05:02:19.474501",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "ASR",
+        "Period": "2005-2009",
+        "Has Data": "__NO__",
+        "Batch Number": 5,
+        "date:Date:start": "2005-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T05:02:19.485347",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "ASR",
+        "Period": "2000-2004",
+        "Has Data": "__NO__",
+        "Batch Number": 5,
+        "date:Date:start": "2000-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T05:02:19.496074",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "ASRT",
+        "Period": "2020-2024",
+        "Has Data": "__NO__",
+        "Batch Number": 5,
+        "date:Date:start": "2020-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T05:02:19.506886",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "ASRT",
+        "Period": "2015-2019",
+        "Has Data": "__NO__",
+        "Batch Number": 5,
+        "date:Date:start": "2015-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T05:02:19.517696",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "ASRT",
+        "Period": "2010-2014",
+        "Has Data": "__NO__",
+        "Batch Number": 5,
+        "date:Date:start": "2010-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T05:02:19.528476",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "ASRT",
+        "Period": "2005-2009",
+        "Has Data": "__NO__",
+        "Batch Number": 5,
+        "date:Date:start": "2005-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T05:02:19.539224",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "ASRT",
+        "Period": "2000-2004",
+        "Has Data": "__NO__",
+        "Batch Number": 5,
+        "date:Date:start": "2000-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T05:02:19.550001",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "ASRV",
+        "Period": "2020-2024",
+        "Has Data": "__NO__",
+        "Batch Number": 5,
+        "date:Date:start": "2020-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T05:02:19.560858",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "ASRV",
+        "Period": "2015-2019",
+        "Has Data": "__NO__",
+        "Batch Number": 5,
+        "date:Date:start": "2015-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T05:02:19.571610",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "ASRV",
+        "Period": "2010-2014",
+        "Has Data": "__NO__",
+        "Batch Number": 5,
+        "date:Date:start": "2010-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T05:02:19.582390",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "ASRV",
+        "Period": "2005-2009",
+        "Has Data": "__NO__",
+        "Batch Number": 5,
+        "date:Date:start": "2005-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T05:02:19.593286",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "ASRV",
+        "Period": "2000-2004",
+        "Has Data": "__NO__",
+        "Batch Number": 5,
+        "date:Date:start": "2000-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T05:02:19.604033",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "ASST",
+        "Period": "2020-2024",
+        "Has Data": "__NO__",
+        "Batch Number": 5,
+        "date:Date:start": "2020-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T05:02:19.614893",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "ASST",
+        "Period": "2015-2019",
+        "Has Data": "__NO__",
+        "Batch Number": 5,
+        "date:Date:start": "2015-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T05:02:19.625647",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "ASST",
+        "Period": "2010-2014",
+        "Has Data": "__NO__",
+        "Batch Number": 5,
+        "date:Date:start": "2010-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T05:02:19.636408",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "ASST",
+        "Period": "2005-2009",
+        "Has Data": "__NO__",
+        "Batch Number": 5,
+        "date:Date:start": "2005-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T05:02:19.647234",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "ASST",
+        "Period": "2000-2004",
+        "Has Data": "__NO__",
+        "Batch Number": 5,
+        "date:Date:start": "2000-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T05:02:19.658082",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "ASTC",
+        "Period": "2020-2024",
+        "Has Data": "__NO__",
+        "Batch Number": 5,
+        "date:Date:start": "2020-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T05:02:19.668825",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "ASTC",
+        "Period": "2015-2019",
+        "Has Data": "__NO__",
+        "Batch Number": 5,
+        "date:Date:start": "2015-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T05:02:19.679713",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "ASTC",
+        "Period": "2010-2014",
+        "Has Data": "__NO__",
+        "Batch Number": 5,
+        "date:Date:start": "2010-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T05:02:19.690496",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "ASTC",
+        "Period": "2005-2009",
+        "Has Data": "__NO__",
+        "Batch Number": 5,
+        "date:Date:start": "2005-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T05:02:19.701264",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "ASTC",
+        "Period": "2000-2004",
+        "Has Data": "__NO__",
+        "Batch Number": 5,
+        "date:Date:start": "2000-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T05:02:19.712038",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "ASTE",
+        "Period": "2020-2024",
+        "Has Data": "__NO__",
+        "Batch Number": 5,
+        "date:Date:start": "2020-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T05:02:19.722893",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "ASTE",
+        "Period": "2015-2019",
+        "Has Data": "__NO__",
+        "Batch Number": 5,
+        "date:Date:start": "2015-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T05:02:19.733705",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "ASTE",
+        "Period": "2010-2014",
+        "Has Data": "__NO__",
+        "Batch Number": 5,
+        "date:Date:start": "2010-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T05:02:19.744529",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "ASTE",
+        "Period": "2005-2009",
+        "Has Data": "__NO__",
+        "Batch Number": 5,
+        "date:Date:start": "2005-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T05:02:19.755308",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "ASTE",
+        "Period": "2000-2004",
+        "Has Data": "__NO__",
+        "Batch Number": 5,
+        "date:Date:start": "2000-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T05:02:19.766093",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "ASTH",
+        "Period": "2020-2024",
+        "Has Data": "__NO__",
+        "Batch Number": 5,
+        "date:Date:start": "2020-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T05:02:19.776943",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "ASTH",
+        "Period": "2015-2019",
+        "Has Data": "__NO__",
+        "Batch Number": 5,
+        "date:Date:start": "2015-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T05:02:19.787737",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "ASTH",
+        "Period": "2010-2014",
+        "Has Data": "__NO__",
+        "Batch Number": 5,
+        "date:Date:start": "2010-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T05:02:19.798434",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "ASTH",
+        "Period": "2005-2009",
+        "Has Data": "__NO__",
+        "Batch Number": 5,
+        "date:Date:start": "2005-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T05:02:19.809159",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "ASTH",
+        "Period": "2000-2004",
+        "Has Data": "__NO__",
+        "Batch Number": 5,
+        "date:Date:start": "2000-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T05:02:19.819949",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "ASTI",
+        "Period": "2020-2024",
+        "Has Data": "__NO__",
+        "Batch Number": 5,
+        "date:Date:start": "2020-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T05:02:19.830656",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "ASTI",
+        "Period": "2015-2019",
+        "Has Data": "__NO__",
+        "Batch Number": 5,
+        "date:Date:start": "2015-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T05:02:19.841382",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "ASTI",
+        "Period": "2010-2014",
+        "Has Data": "__NO__",
+        "Batch Number": 5,
+        "date:Date:start": "2010-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T05:02:19.852101",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "ASTI",
+        "Period": "2005-2009",
+        "Has Data": "__NO__",
+        "Batch Number": 5,
+        "date:Date:start": "2005-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T05:02:19.863164",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "ASTI",
+        "Period": "2000-2004",
+        "Has Data": "__NO__",
+        "Batch Number": 5,
+        "date:Date:start": "2000-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T05:02:19.874040",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "ASTL",
+        "Period": "2020-2024",
+        "Has Data": "__NO__",
+        "Batch Number": 5,
+        "date:Date:start": "2020-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T05:02:19.884781",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "ASTL",
+        "Period": "2015-2019",
+        "Has Data": "__NO__",
+        "Batch Number": 5,
+        "date:Date:start": "2015-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T05:02:19.895540",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "ASTL",
+        "Period": "2010-2014",
+        "Has Data": "__NO__",
+        "Batch Number": 5,
+        "date:Date:start": "2010-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T05:02:19.906395",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "ASTL",
+        "Period": "2005-2009",
+        "Has Data": "__NO__",
+        "Batch Number": 5,
+        "date:Date:start": "2005-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T05:02:19.917173",
+        "date:Retrieved At:is_datetime": 1
+      }
+    },
+    {
+      "properties": {
+        "Ticker": "ASTL",
+        "Period": "2000-2004",
+        "Has Data": "__NO__",
+        "Batch Number": 5,
+        "date:Date:start": "2000-01-01",
+        "date:Date:is_datetime": 0,
+        "date:Retrieved At:start": "2025-11-24T05:02:19.928023",
+        "date:Retrieved At:is_datetime": 1
+      }
+    }
+  ]
+}
