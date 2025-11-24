@@ -27,21 +27,30 @@ start_time = datetime.now()
 # Run the production script
 try:
     result = subprocess.run(
-        ["python", "/mnt/user-data/outputs/production_stock_retrieval.py"],
+        ["python",
+         "/mnt/user-data/outputs/production_stock_retrieval.py"],
         capture_output=False,
-        text=True
+        text=True,
+        check=True
     )
-    
+
     if result.returncode == 0:
         print("\n✅ Data retrieval completed successfully!")
     else:
-        print(f"\n⚠️ Data retrieval completed with return code: {result.returncode}")
-        
+        print(
+            "\n⚠️ Data retrieval completed with return code: "
+            f"{result.returncode}"
+        )
+
 except KeyboardInterrupt:
     print("\n⚠️ Process interrupted by user")
-    
-except Exception as e:
-    print(f"\n❌ Error during retrieval: {e}")
+
+except subprocess.CalledProcessError as e:
+    print(f"\n❌ Data retrieval failed with return code: {e.returncode}")
+    print(f"   Command: {' '.join(e.cmd)}")
+
+except OSError as e:
+    print(f"\n❌ OS error during retrieval: {e}")
 
 # Step 2: Count the batch files created
 batch_files = [f for f in os.listdir('/mnt/user-data/outputs') 
@@ -62,12 +71,15 @@ for i, batch_file in enumerate(sorted(batch_files), 1):
     filepath = f'/mnt/user-data/outputs/{batch_file}'
     
     try:
-        with open(filepath, 'r') as f:
+        with open(filepath, 'r', encoding='utf-8') as f:
             data = json.load(f)
             record_count = data.get('record_count', 0)
             total_records += record_count
             
-        print(f"  Batch {i}/{batch_count}: {batch_file} - {record_count} records")
+        print(
+            f"  Batch {i}/{batch_count}: {batch_file} - "
+            f"{record_count} records"
+        )
         
         # Here you would make actual Notion API calls
         # notion.create_pages(parent=..., pages=data['pages'])
@@ -103,9 +115,9 @@ else:
 print("\n" + "=" * 80)
 print("📁 OUTPUT FILES:")
 print("-" * 80)
-print(f"  • Batch files: /mnt/user-data/outputs/batch_*.json")
-print(f"  • Summary: /mnt/user-data/outputs/production_summary.json")
-print(f"  • Log: /mnt/user-data/outputs/production_run.log")
+print("  • Batch files: /mnt/user-data/outputs/batch_*.json")
+print("  • Summary: /mnt/user-data/outputs/production_summary.json")
+print("  • Log: /mnt/user-data/outputs/production_run.log")
 
 print("\n" + "=" * 80)
 print("🎯 NOTION DATABASE:")
