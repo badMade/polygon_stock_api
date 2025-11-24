@@ -1,15 +1,20 @@
 # Stock Data Retrieval System - Production Guide
 
 ## 🎯 System Overview
+
 This system retrieves historical stock data for 6,628 tickers and stores it in a Notion database.
 
 ### ✅ What's Been Set Up:
-1. **Notion Database Created**: https://www.notion.so/638a8018f09d4e159d6d84536f411441
-2. **Data Source ID**: `collection://7c5225aa-429b-4580-946e-ba5b1db2ca6d`
-3. **Scripts Created**:
+
+1. **Notion Database Created**:
+
+[Notion database](https://www.notion.so/638a8018f09d4e159d6d84536f411441)
+
+1. **Data Source ID**: `collection://7c5225aa-429b-4580-946e-ba5b1db2ca6d`
+1. **Scripts Created**:
    - `production_stock_retrieval.py` - Main execution script
    - `notion_bulk_upload.py` - Upload data to Notion
-4. **Test Run Completed**: Successfully processed 100 test tickers
+1. **Test Run Completed**: Successfully processed 100 test tickers
 
 ## 📊 Database Structure
 
@@ -58,13 +63,16 @@ def get_polygon_data(self, ticker, period):
 ```
 
 ### Step 3: Run the Production Script
+
 ```bash
 cd /mnt/user-data/outputs
 python production_stock_retrieval.py
 ```
 
 ### Step 4: Monitor Progress
+
 The script will:
+
 - Process 6,628 tickers in 67 batches (100 tickers each)
 - Retrieve data for 5 time periods per ticker
 - Total: ~33,140 API calls
@@ -72,7 +80,9 @@ The script will:
 - Save checkpoint every 10 batches
 
 ### Step 5: Upload to Notion
+
 After completion, run:
+
 ```bash
 python notion_bulk_upload.py
 ```
@@ -80,6 +90,7 @@ python notion_bulk_upload.py
 ## 📈 Processing Details
 
 ### Batch Processing
+
 - **Batch Size**: 100 tickers
 - **Total Batches**: 67 (for 6,628 tickers)
 - **Time Periods**: 5 chunks (2000-2024 in 5-year intervals)
@@ -87,6 +98,7 @@ python notion_bulk_upload.py
 - **Total Records**: ~33,140 (if all have data)
 
 ### Time Periods (Processed Backwards)
+
 1. 2020-2024 (current)
 2. 2015-2019
 3. 2010-2014
@@ -94,19 +106,23 @@ python notion_bulk_upload.py
 5. 2000-2004
 
 ### Data Resolution Priority
+
 For each ticker and time period, the system tries:
+
 1. **Minute data** (last 30 days only)
 2. **Hour data** (last 6 months)
 3. **Day data** (full historical)
 
 ## 📁 Output Files
 
-### During Processing
+### During Processinc
+
 - `/mnt/user-data/outputs/batch_NNNN_notion.json` - Batch data files
 - `/mnt/user-data/outputs/checkpoint.json` - Progress checkpoint
 - `/mnt/user-data/outputs/production_run.log` - Execution log
 
 ### After Completion
+
 - `/mnt/user-data/outputs/production_summary.json` - Final summary
 - `/mnt/user-data/outputs/notion_bulk_upload.py` - Upload script
 
@@ -123,11 +139,13 @@ For each ticker and time period, the system tries:
 ## 🔧 Troubleshooting
 
 ### If Script Fails
+
 1. Check `/mnt/user-data/outputs/production_run.log` for errors
 2. Review `/mnt/user-data/outputs/checkpoint.json` for last successful batch
 3. Modify script to resume from last checkpoint
 
 ### If Notion Upload Fails
+
 1. Batch files are preserved in `/mnt/user-data/outputs/`
 2. Can upload individual batches manually
 3. Each batch file is self-contained with all necessary data
@@ -135,11 +153,13 @@ For each ticker and time period, the system tries:
 ## 📊 Current Status
 
 ✅ **Test Run Complete**:
+
 - Processed: 100 test tickers
 - Created: 35 test records in Notion
 - Database: https://www.notion.so/638a8018f09d4e159d6d84536f411441
 
 🎯 **Ready for Production**:
+
 - Scripts configured for 6,628 tickers
 - Database structure created
 - Batch processing implemented
