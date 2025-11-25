@@ -2,7 +2,7 @@
 import json
 import os
 from datetime import datetime
-from typing import Any, List
+from typing import Any, Callable, List
 from unittest.mock import mock_open, patch
 
 import pytest
@@ -12,6 +12,28 @@ from production_stock_retrieval import ProductionStockRetriever
 
 class TestProductionStockRetriever:
     """Test suite for ProductionStockRetriever class"""
+
+    def _create_page_capture_helper(
+        self
+    ) -> tuple[List[dict[str, Any]], Callable[[List[dict[str, Any]], int], None]]:
+        """Create a helper to capture pages saved during process_batch.
+
+        Returns:
+            A tuple containing:
+                - saved_pages: A list that will be populated with captured pages
+                - capture_pages: A function to use as side_effect for save_batch mock.
+                  Note: The list is cleared on each call to capture only the
+                  most recent batch, matching original test behavior.
+        """
+        saved_pages: List[dict[str, Any]] = []
+
+        def capture_pages(pages: List[dict[str, Any]], batch_num: int) -> None:
+            # Clear to capture only the most recent batch of pages
+            saved_pages.clear()
+            if pages:
+                saved_pages.extend(pages)
+
+        return saved_pages, capture_pages
 
     def test_init(self):
         """Test initialization of ProductionStockRetriever"""
@@ -204,12 +226,7 @@ class TestProductionStockRetriever:
 
         batch = ["AAPL"]
 
-        saved_pages: List[dict[str, Any]] = []
-
-        def capture_pages(pages, batch_num):
-            saved_pages.clear()
-            if pages:
-                saved_pages.extend(pages)
+        saved_pages, capture_pages = self._create_page_capture_helper()
 
         with patch.object(retriever, 'save_batch', side_effect=capture_pages):
             with patch('time.sleep'):
@@ -306,12 +323,7 @@ class TestProductionStockRetriever:
 
         batch = ["AAPL"]
 
-        saved_pages: List[dict[str, Any]] = []
-
-        def capture_pages(pages, batch_num):
-            saved_pages.clear()
-            if pages:
-                saved_pages.extend(pages)
+        saved_pages, capture_pages = self._create_page_capture_helper()
 
         with patch.object(retriever, 'save_batch', side_effect=capture_pages):
             with patch('time.sleep'):
