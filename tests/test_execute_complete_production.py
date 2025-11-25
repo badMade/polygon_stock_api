@@ -53,6 +53,7 @@ def test_main_runs_retrieval_and_processes_batches(
     captured = capsys.readouterr().out
     assert "Batch 1/2: batch_0001_notion.json" in captured
     assert "Batch 2/2: batch_0002_notion.json" in captured
+    assert "Total records: 500" in captured
 
 
 @patch("execute_complete_production.time.sleep")
