@@ -13,15 +13,15 @@ from typing import List, Dict, Optional
 import logging
 import os
 
-# Ensure output directory exists before configuring file logging
-os.makedirs('/mnt/user-data/outputs', exist_ok=True)
+OUTPUT_DIR = "/mnt/user-data/outputs"
+os.makedirs(OUTPUT_DIR, exist_ok=True)
 
 # Configure logging
 logging.basicConfig(
     level=logging.INFO,
     format='%(asctime)s - [%(levelname)s] %(message)s',
     handlers=[
-        logging.FileHandler('/mnt/user-data/outputs/execution.log'),
+        logging.FileHandler(os.path.join(OUTPUT_DIR, 'execution.log')),
         logging.StreamHandler()
     ]
 )
