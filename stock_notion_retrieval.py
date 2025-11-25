@@ -51,7 +51,7 @@ class StockDataNotionRetriever:
     def load_tickers(self) -> List[str]:
         """Load tickers from JSON file"""
         try:
-            with open(self.ticker_file, 'r') as f:
+            with open(self.ticker_file, 'r', encoding='utf-8') as f:
                 self.tickers = json.load(f)
             logger.info(f"✅ Loaded {len(self.tickers)} tickers")
             return self.tickers
@@ -102,7 +102,7 @@ class StockDataNotionRetriever:
         
         # Save database structure for reference
         structure_file = '/mnt/user-data/outputs/notion_database_structure.json'
-        with open(structure_file, 'w') as f:
+        with open(structure_file, 'w', encoding='utf-8') as f:
             json.dump({
                 "title": "Stock Historical Data (6,628 Tickers)",
                 "properties": database_properties,
@@ -214,7 +214,7 @@ class StockDataNotionRetriever:
                 
         # Save batch data to file (would be Notion API call in production)
         output_file = f'/mnt/user-data/outputs/batch_{batch_num:03d}_notion_data.json'
-        with open(output_file, 'w') as f:
+        with open(output_file, 'w', encoding='utf-8') as f:
             json.dump(notion_pages, f, indent=2)
             
         self.successful_saves += len(notion_pages)
@@ -265,7 +265,7 @@ class StockDataNotionRetriever:
             "timestamp": datetime.now().isoformat()
         }
         
-        with open(checkpoint_file, 'w') as f:
+        with open(checkpoint_file, 'w', encoding='utf-8') as f:
             json.dump(checkpoint_data, f, indent=2)
             
         logger.info(f"💾 Checkpoint saved at batch {batch_num}")
@@ -343,7 +343,7 @@ class StockDataNotionRetriever:
             }
             
             report_file = '/mnt/user-data/outputs/final_retrieval_report.json'
-            with open(report_file, 'w') as f:
+            with open(report_file, 'w', encoding='utf-8') as f:
                 json.dump(final_report, f, indent=2)
                 
             # Print summary

@@ -47,7 +47,7 @@ class ProductionStockRetriever:
         
     def load_tickers(self):
         """Load all 6,628 tickers"""
-        with open(self.ticker_file, 'r') as f:
+        with open(self.ticker_file, 'r', encoding='utf-8') as f:
             self.tickers = json.load(f)
         return len(self.tickers)
         
@@ -156,7 +156,7 @@ class ProductionStockRetriever:
             "pages": pages
         }
         
-        with open(output_file, 'w') as f:
+        with open(output_file, 'w', encoding='utf-8') as f:
             json.dump(batch_data, f, indent=2)
             
         logger.info(f"  💾 Saved {len(pages)} records to {output_file}")
@@ -180,7 +180,7 @@ def upload_batch(batch_num):
     """Upload a single batch to Notion"""
     filename = f'/mnt/user-data/outputs/batch_{{batch_num:04d}}_notion.json'
     
-    with open(filename, 'r') as f:
+    with open(filename, 'r', encoding='utf-8') as f:
         batch_data = json.load(f)
     
     print(f"Uploading batch {{batch_num}}: {{batch_data['record_count']}} pages")
@@ -211,7 +211,7 @@ print(f"\\n✅ Upload complete: {{total_uploaded}} records uploaded to Notion")
 '''
         
         script_file = '/mnt/user-data/outputs/notion_bulk_upload.py'
-        with open(script_file, 'w') as f:
+        with open(script_file, 'w', encoding='utf-8') as f:
             f.write(script)
         
         os.chmod(script_file, 0o755)
@@ -285,7 +285,7 @@ print(f"\\n✅ Upload complete: {{total_uploaded}} records uploaded to Notion")
                         "saved": self.saved,
                         "timestamp": datetime.now().isoformat()
                     }
-                    with open('/mnt/user-data/outputs/checkpoint.json', 'w') as f:
+                    with open('/mnt/user-data/outputs/checkpoint.json', 'w', encoding='utf-8') as f:
                         json.dump(checkpoint, f)
             
             # Generate upload script
@@ -319,7 +319,7 @@ print(f"\\n✅ Upload complete: {{total_uploaded}} records uploaded to Notion")
             }
             
             summary_file = '/mnt/user-data/outputs/production_summary.json'
-            with open(summary_file, 'w') as f:
+            with open(summary_file, 'w', encoding='utf-8') as f:
                 json.dump(summary, f, indent=2)
             
             # Print results
