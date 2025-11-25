@@ -10,8 +10,8 @@ from datetime import datetime, timedelta
 import logging
 import os
 
-OUTPUT_DIR = "/mnt/user-data/outputs"
-os.makedirs(OUTPUT_DIR, exist_ok=True)
+# Ensure logging output directory exists
+os.makedirs('/mnt/user-data/outputs', exist_ok=True)
 
 # Configure logging
 logging.basicConfig(
