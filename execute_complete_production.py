@@ -71,7 +71,7 @@ for i, batch_file in enumerate(sorted(batch_files), 1):
     filepath = f'/mnt/user-data/outputs/{batch_file}'
 
     try:
-        with open(filepath, 'r') as f:
+        with open(filepath, 'r', encoding='utf-8') as f:
             data = json.load(f)
             record_count = data.get('record_count', 0)
             total_records += record_count
