@@ -13,12 +13,16 @@ from typing import List, Dict, Optional
 import logging
 import os
 
+# Ensure log directory exists before configuring logging
+log_dir = '/mnt/user-data/outputs'
+os.makedirs(log_dir, exist_ok=True)
+
 # Configure logging
 logging.basicConfig(
     level=logging.INFO,
     format='%(asctime)s - [%(levelname)s] %(message)s',
     handlers=[
-        logging.FileHandler('/mnt/user-data/outputs/execution.log'),
+        logging.FileHandler(f'{log_dir}/execution.log'),
         logging.StreamHandler()
     ]
 )
