@@ -154,15 +154,13 @@ def main() -> None:
     start_time = datetime.now()
     _print_start_banner(start_time)
 
-    if not os.path.exists(OUTPUT_DIRECTORY):
-        try:
-            os.makedirs(OUTPUT_DIRECTORY, exist_ok=True)
-            print(f"📁 Created output directory at {OUTPUT_DIRECTORY}")
-        except OSError as exc:
-            print(
-                f"❌ Unable to create output directory at {OUTPUT_DIRECTORY}: {exc}"
-            )
-            return
+    try:
+        os.makedirs(OUTPUT_DIRECTORY, exist_ok=True)
+    except OSError as exc:
+        print(
+            f"❌ Unable to create output directory at {OUTPUT_DIRECTORY}: {exc}"
+        )
+        return
 
     _run_production_retrieval()
     batch_files = _get_batch_files()
