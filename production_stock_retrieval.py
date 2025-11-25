@@ -10,14 +10,22 @@ from datetime import datetime, timedelta
 import logging
 import os
 
+# Ensure output directory exists before configuring logging
+try:
+    os.makedirs('/mnt/user-data/outputs', exist_ok=True)
+    _log_handlers = [
+        logging.FileHandler('/mnt/user-data/outputs/production_run.log'),
+        logging.StreamHandler()
+    ]
+except (OSError, PermissionError):
+    # Fall back to console-only logging if directory cannot be created
+    _log_handlers = [logging.StreamHandler()]
+
 # Configure logging
 logging.basicConfig(
     level=logging.INFO,
     format='%(asctime)s - %(message)s',
-    handlers=[
-        logging.FileHandler('/mnt/user-data/outputs/production_run.log'),
-        logging.StreamHandler()
-    ]
+    handlers=_log_handlers
 )
 logger = logging.getLogger(__name__)
 
