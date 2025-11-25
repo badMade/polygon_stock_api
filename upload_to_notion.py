@@ -8,7 +8,7 @@ import json
 for batch_num in range(1, 2):
     filename = f'/mnt/user-data/outputs/notion_batch_{batch_num:04d}.json'
     
-    with open(filename, 'r') as f:
+    with open(filename, 'r', encoding='utf-8') as f:
         batch_data = json.load(f)
         
     print(f"Uploading batch {batch_num}: {len(batch_data['pages'])} pages")
