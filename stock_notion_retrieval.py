@@ -390,6 +390,11 @@ class StockDataNotionRetriever:
             self.save_checkpoint(self.processed_count // self.batch_size)
             raise
 
+        except Exception as exc:  # Catch-all for unexpected errors
+            logger.error("❌ Unexpected error: %s", exc)
+            self.save_checkpoint(self.processed_count // self.batch_size)
+            raise
+
 if __name__ == "__main__":
     # Create output directory if it doesn't exist
     os.makedirs('/mnt/user-data/outputs', exist_ok=True)
