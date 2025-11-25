@@ -10,7 +10,7 @@ import os
 import time
 from datetime import datetime, timedelta
 
-OUTPUT_DIR = "/mnt/user-data/outputs"
+OUTPUT_DIR = '/mnt/user-data/outputs'
 
 # Ensure logging output directory exists
 os.makedirs(OUTPUT_DIR, exist_ok=True)
@@ -162,8 +162,8 @@ class ProductionStockRetriever:
 
     def save_batch(self, pages, batch_num):
         """Save batch data for Notion upload"""
-        output_file = f'/mnt/user-data/outputs/batch_{batch_num:04d}_notion.json'
-
+        output_file = os.path.join(OUTPUT_DIR, f'batch_{batch_num:04d}_notion.json')
+        
         batch_data = {
             "data_source_id": self.data_source_id,
             "batch_number": batch_num,
@@ -225,8 +225,8 @@ for batch_num in range(1, TOTAL_BATCHES + 1):
 
 print(f"\\n✅ Upload complete: {{total_uploaded}} records uploaded to Notion")
 '''
-
-        script_file = '/mnt/user-data/outputs/notion_bulk_upload.py'
+        
+        script_file = os.path.join(OUTPUT_DIR, 'notion_bulk_upload.py')
         with open(script_file, 'w', encoding='utf-8') as f:
             f.write(script)
 
@@ -301,7 +301,7 @@ print(f"\\n✅ Upload complete: {{total_uploaded}} records uploaded to Notion")
                         "saved": self.saved,
                         "timestamp": datetime.now().isoformat()
                     }
-                    with open('/mnt/user-data/outputs/checkpoint.json', 'w', encoding='utf-8') as f:
+                    with open(os.path.join(OUTPUT_DIR, 'checkpoint.json'), 'w', encoding='utf-8') as f:
                         json.dump(checkpoint, f)
 
             # Generate upload script
@@ -333,8 +333,8 @@ print(f"\\n✅ Upload complete: {{total_uploaded}} records uploaded to Notion")
                     "data_source_id": self.data_source_id
                 }
             }
-
-            summary_file = '/mnt/user-data/outputs/production_summary.json'
+            
+            summary_file = os.path.join(OUTPUT_DIR, 'production_summary.json')
             with open(summary_file, 'w', encoding='utf-8') as f:
                 json.dump(summary, f, indent=2)
 
@@ -349,7 +349,7 @@ print(f"\\n✅ Upload complete: {{total_uploaded}} records uploaded to Notion")
             logger.info("  • Files: %d batch files created", total_batches)
             logger.info("=" * 80)
             logger.info("📋 Next Steps:")
-            logger.info("  1. Review batch files in /mnt/user-data/outputs/")
+            logger.info(f"  1. Review batch files in {OUTPUT_DIR}/")
             logger.info("  2. Run notion_bulk_upload.py to upload to Notion")
             logger.info("  3. Monitor at: https://www.notion.so/638a8018f09d4e159d6d84536f411441")
             logger.info("=" * 80)

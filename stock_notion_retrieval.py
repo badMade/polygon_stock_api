@@ -14,6 +14,8 @@ from typing import Dict, List
 
 import requests
 
+OUTPUT_DIR = '/mnt/user-data/outputs'
+
 # Configure logging
 logging.basicConfig(
     level=logging.INFO,
@@ -56,7 +58,7 @@ class StockDataNotionRetriever:
                 self.tickers = json.load(f)
             logger.info("✅ Loaded %d tickers", len(self.tickers))
             return self.tickers
-        except (OSError, json.JSONDecodeError) as err:
+        except (FileNotFoundError, json.JSONDecodeError) as err:
             logger.error("❌ Error loading tickers: %s", err)
             raise
 
@@ -102,7 +104,7 @@ class StockDataNotionRetriever:
         }
 
         # Save database structure for reference
-        structure_file = '/mnt/user-data/outputs/notion_database_structure.json'
+        structure_file = os.path.join(OUTPUT_DIR, 'notion_database_structure.json')
         with open(structure_file, 'w', encoding='utf-8') as f:
             json.dump({
                 "title": "Stock Historical Data (6,628 Tickers)",
@@ -175,11 +177,7 @@ class StockDataNotionRetriever:
 
     def save_batch_to_notion(self, batch_data: List[Dict], batch_num: int):
         """Save a batch of data to Notion database"""
-        logger.info(
-            "💾 Saving batch %d to Notion (%d records)",
-            batch_num,
-            len(batch_data),
-        )
+        logger.info("💾 Saving batch %s to Notion (%s records)", batch_num, len(batch_data))
 
         # Create Notion pages for each data point
         notion_pages = []
@@ -218,21 +216,16 @@ class StockDataNotionRetriever:
                 notion_pages.append(page_data)
 
         # Save batch data to file (would be Notion API call in production)
-        output_file = f'/mnt/user-data/outputs/batch_{batch_num:03d}_notion_data.json'
+        output_file = os.path.join(OUTPUT_DIR, f'batch_{batch_num:03d}_notion_data.json')
         with open(output_file, 'w', encoding='utf-8') as f:
             json.dump(notion_pages, f, indent=2)
 
         self.successful_saves += len(notion_pages)
-        logger.info("✅ Saved %d records to %s", len(notion_pages), output_file)
+        logger.info("✅ Saved %s records to %s", len(notion_pages), output_file)
 
     def process_batch(self, batch: List[str], batch_num: int, total_batches: int):
         """Process a batch of tickers through all time chunks"""
-        logger.info(
-            "🔄 Processing batch %d/%d (%d tickers)",
-            batch_num,
-            total_batches,
-            len(batch),
-        )
+        logger.info("🔄 Processing batch %s/%s (%s tickers)", batch_num, total_batches, len(batch))
 
         batch_data = []
 
@@ -254,7 +247,7 @@ class StockDataNotionRetriever:
             if ticker_idx % 10 == 0:
                 progress_pct = (self.processed_count / len(self.tickers)) * 100
                 logger.info(
-                    "  📈 Progress: %d/%d (%.1f%%) - Current: %s",
+                    "  📈 Progress: %s/%s (%.1f%%) - Current: %s",
                     self.processed_count,
                     len(self.tickers),
                     progress_pct,
@@ -270,7 +263,7 @@ class StockDataNotionRetriever:
 
     def save_checkpoint(self, batch_num: int):
         """Save progress checkpoint"""
-        checkpoint_file = '/mnt/user-data/outputs/retrieval_checkpoint.json'
+        checkpoint_file = os.path.join(OUTPUT_DIR, 'retrieval_checkpoint.json')
         checkpoint_data = {
             "last_batch": batch_num,
             "processed_count": self.processed_count,
@@ -283,7 +276,7 @@ class StockDataNotionRetriever:
         with open(checkpoint_file, 'w', encoding='utf-8') as f:
             json.dump(checkpoint_data, f, indent=2)
 
-        logger.info("💾 Checkpoint saved at batch %d", batch_num)
+        logger.info("💾 Checkpoint saved at batch %s", batch_num)
 
     def run(self):
         """Main execution method"""
@@ -296,22 +289,19 @@ class StockDataNotionRetriever:
         try:
             # Step 1: Load tickers
             self.load_tickers()
-            logger.info("📊 Processing %d tickers", len(self.tickers))
-            logger.info(
-                "📅 Time periods: %s",
-                [c.label for c in self.time_chunks],
-            )
-            logger.info("📦 Batch size: %d tickers", self.batch_size)
+            logger.info("📊 Processing %s tickers", len(self.tickers))
+            logger.info("📅 Time periods: %s", [c.label for c in self.time_chunks])
+            logger.info("📦 Batch size: %s tickers", self.batch_size)
 
             # Step 2: Create Notion database structure
             self.create_notion_database()
 
             # Step 3: Calculate batches
             total_batches = (len(self.tickers) + self.batch_size - 1) // self.batch_size
-            logger.info("📋 Total batches to process: %d", total_batches)
+            logger.info("📋 Total batches to process: %s", total_batches)
 
             estimated_records = len(self.tickers) * len(self.time_chunks)
-            logger.info("📈 Estimated total records: %d", estimated_records)
+            logger.info("📈 Estimated total records: %s", f"{estimated_records:,}")
 
             # Step 4: Process each batch
             logger.info("-" * 60)
@@ -333,7 +323,7 @@ class StockDataNotionRetriever:
                     logger.info("-" * 40)
                     logger.info("⏱️  Elapsed: %s", elapsed)
                     logger.info("⏳ Est. remaining: %s", remaining)
-                    logger.info("📊 Records saved: %d", self.successful_saves)
+                    logger.info("📊 Records saved: %s", f"{self.successful_saves:,}")
                     logger.info("-" * 40)
 
             # Final summary
@@ -360,7 +350,7 @@ class StockDataNotionRetriever:
                 "failed_tickers": self.failed_tickers[:100]  # First 100 failures
             }
 
-            report_file = '/mnt/user-data/outputs/final_retrieval_report.json'
+            report_file = os.path.join(OUTPUT_DIR, 'final_retrieval_report.json')
             with open(report_file, 'w', encoding='utf-8') as f:
                 json.dump(final_report, f, indent=2)
 
@@ -369,12 +359,12 @@ class StockDataNotionRetriever:
             logger.info("✅ STOCK DATA RETRIEVAL COMPLETE")
             logger.info("=" * 60)
             logger.info(
-                "📊 Processed: %d/%d tickers",
-                self.processed_count,
-                len(self.tickers),
+                "📊 Processed: %s/%s tickers",
+                f"{self.processed_count:,}",
+                f"{len(self.tickers):,}",
             )
-            logger.info("💾 Records saved: %d", self.successful_saves)
-            logger.info("❌ Failed: %d", len(self.failed_tickers))
+            logger.info("💾 Records saved: %s", f"{self.successful_saves:,}")
+            logger.info("❌ Failed: %s", len(self.failed_tickers))
             logger.info("⏱️  Duration: %s", duration)
             logger.info("📁 Report: %s", report_file)
             logger.info("=" * 60)
@@ -384,20 +374,14 @@ class StockDataNotionRetriever:
             self.save_checkpoint(self.processed_count // self.batch_size)
             logger.info("💾 Progress saved. You can resume from checkpoint.")
 
-        except (OSError, json.JSONDecodeError, requests.RequestException,
-                ValueError, TypeError) as exc:
-            logger.error("❌ Fatal error: %s", exc)
-            self.save_checkpoint(self.processed_count // self.batch_size)
-            raise
-
-        except Exception as exc:  # Catch-all for unexpected errors
-            logger.error("❌ Unexpected error: %s", exc)
+        except Exception as err:  # pylint: disable=broad-except
+            logger.exception("❌ Fatal error: %s", err)
             self.save_checkpoint(self.processed_count // self.batch_size)
             raise
 
 if __name__ == "__main__":
     # Create output directory if it doesn't exist
-    os.makedirs('/mnt/user-data/outputs', exist_ok=True)
+    os.makedirs(OUTPUT_DIR, exist_ok=True)
 
     # Run the retrieval system
     retriever = StockDataNotionRetriever()

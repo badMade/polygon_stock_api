@@ -1,13 +1,10 @@
 """Tests for execute_stock_retrieval.py"""
 import json
 import os
-import sys
 from datetime import datetime
 from unittest.mock import mock_open, patch
 
 import pytest
-
-sys.path.insert(0, os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 
 from execute_stock_retrieval import StockDataExecutor
 
@@ -22,10 +19,10 @@ class TestStockDataExecutor:
         assert executor.ticker_file == "/mnt/user-data/outputs/all_tickers.json"
         assert executor.data_source_id == "7c5225aa-429b-4580-946e-ba5b1db2ca6d"
         assert executor.batch_size == 100
-        assert executor.tickers == []
+        assert not executor.tickers
         assert executor.processed == 0
         assert executor.saved == 0
-        assert executor.failed == []
+        assert not executor.failed
         assert len(executor.periods) == 5
 
     def test_periods_configuration(self):
@@ -62,7 +59,7 @@ class TestStockDataExecutor:
         count = executor.load_tickers()
 
         assert count == 0
-        assert executor.tickers == []
+        assert not executor.tickers
 
     def test_load_tickers_file_not_found(self):
         """Test loading tickers when file doesn't exist"""
