@@ -312,9 +312,6 @@ for batch_num in range(1, {total_batches + 1}):
             raise
 
 if __name__ == "__main__":
-    # Ensure output directory exists
-    os.makedirs('/mnt/user-data/outputs', exist_ok=True)
-    
     # Execute the retrieval
     executor = StockDataExecutor()
     executor.run()
