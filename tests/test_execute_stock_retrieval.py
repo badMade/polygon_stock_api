@@ -452,8 +452,8 @@ class TestStockDataExecutorEdgeCases:
                 results2 = data
 
         with patch('builtins.open', mock_open()):
-                with patch('json.dump', side_effect=capture_first):
-                    executor.execute_batch(batch, 1, 1)
+            with patch('json.dump', side_effect=capture_first):
+                executor.execute_batch(batch, 1, 1)
 
         executor.processed = 0  # Reset
         executor.saved = 0
