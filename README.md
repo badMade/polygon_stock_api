@@ -20,9 +20,15 @@ The tools are pure-Python and require no additional services.
 
 `execute_stock_retrieval.py` simulates pulling historical aggregates for thousands of tickers and writes Notion-ready batch files to `/mnt/user-data/outputs/`.
 
+**Before running**, copy the ticker list to the expected location:
+
 ```bash
+mkdir -p /mnt/user-data/outputs
+cp all_tickers.json /mnt/user-data/outputs/all_tickers.json
 python execute_stock_retrieval.py
 ```
+
+Alternatively, edit `ticker_file` in `execute_stock_retrieval.py` to point to a different path.
 
 Key outputs include `notion_batch_*.json` batch files and an execution summary stored alongside the generated upload helper script.
 
