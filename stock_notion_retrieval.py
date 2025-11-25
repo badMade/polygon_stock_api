@@ -175,47 +175,50 @@ class StockDataNotionRetriever:
 
         return result
 
-    def save_batch_to_notion(self, batch_data: List[Dict], batch_num: int):
-        """Save a batch of data to Notion database"""
-        logger.info("💾 Saving batch %s to Notion (%s records)", batch_num, len(batch_data))
+    def save_batch_to_notion(self, batch_data: List[Dict], batch_num: int, include_empty: bool = False):
+        """Save a batch of data to Notion database.
 
-        # Create Notion pages for each data point
+        Args:
+            batch_data: Collected stock data records for the batch.
+            batch_num: Current batch number used for tracking.
+            include_empty: Persist records even when ``has_data`` is False.
+        """
+        logger.info("💾 Saving batch %s to Notion (received %s records)", batch_num, len(batch_data))
+
         notion_pages = []
 
         for data in batch_data:
-            # Only save if there's actual data or we want to track null entries
-            if data["has_data"] or True:  # Always save to track what we checked
-                page_data = {
-                    "properties": {
-                        "Ticker": data["ticker"],
-                        "Period": data["period"],
-                        "Has Data": data["has_data"],
-                        "Batch": batch_num,
-                        "Retrieved": datetime.now().isoformat()
-                    }
+            if not data.get("has_data") and not include_empty:
+                continue
+
+            page_data = {
+                "properties": {
+                    "Ticker": data["ticker"],
+                    "Period": data["period"],
+                    "Has Data": data["has_data"],
+                    "Batch": batch_num,
+                    "Retrieved": datetime.now().isoformat()
+                }
+            }
+
+            if data.get("from"):
+                page_data["properties"]["Date"] = {
+                    "start": data["from"],
+                    "end": data.get("to")
                 }
 
-                # Add date if we have a specific date
-                if data.get("from"):
-                    page_data["properties"]["Date"] = {
-                        "start": data["from"],
-                        "end": data.get("to")
-                    }
+            if data.get("has_data"):
+                numeric_fields = ["open", "high", "low", "close", "volume",
+                                "vwap", "transactions", "data_points"]
+                for field in numeric_fields:
+                    if data.get(field) is not None:
+                        page_data["properties"][field.capitalize()] = data[field]
 
-                # Add numeric data if available
-                if data["has_data"]:
-                    numeric_fields = ["open", "high", "low", "close", "volume",
-                                    "vwap", "transactions", "data_points"]
-                    for field in numeric_fields:
-                        if data.get(field) is not None:
-                            page_data["properties"][field.capitalize()] = data[field]
+                if data.get("timespan"):
+                    page_data["properties"]["Timespan"] = data["timespan"]
 
-                    if data.get("timespan"):
-                        page_data["properties"]["Timespan"] = data["timespan"]
+            notion_pages.append(page_data)
 
-                notion_pages.append(page_data)
-
-        # Save batch data to file (would be Notion API call in production)
         output_file = os.path.join(OUTPUT_DIR, f'batch_{batch_num:03d}_notion_data.json')
         with open(output_file, 'w', encoding='utf-8') as f:
             json.dump(notion_pages, f, indent=2)
