@@ -50,6 +50,8 @@ python production_stock_retrieval.py
 python upload_to_notion.py
 ```
 
+The repository includes `notion_batch_0001.json` as a sample upload payload written by the retrieval scripts. It is not required for running the utilities, but it can be used to inspect the expected page structure or to validate that your environment can read batch files from `/mnt/user-data/outputs/`. You can regenerate or replace it by rerunning `execute_stock_retrieval.py` or `production_stock_retrieval.py`.
+
 ### Notion-focused retrieval
 
 `stock_notion_retrieval.py` provides helpers for creating the Notion database schema and formatting Polygon responses into page payloads. Its `StockDataNotionRetriever` class demonstrates loading tickers, chunking time ranges, and composing page properties.
