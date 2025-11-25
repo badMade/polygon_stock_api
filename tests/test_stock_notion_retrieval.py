@@ -524,7 +524,7 @@ class TestStockDataNotionRetrieverEdgeCases:
             {
                 "ticker": "TEST",
                 "period": "2020-2024",
-                "has_data": False
+                "has_data": True
                 # Missing: open, high, low, close, volume, vwap, transactions, data_points
             }
         ]
@@ -533,6 +533,35 @@ class TestStockDataNotionRetrieverEdgeCases:
             with patch('json.dump'):
                 # Should handle gracefully even with missing optional fields
                 retriever.save_batch_to_notion(minimal_data, 1)
+
+    def test_save_batch_to_notion_skips_empty_records_by_default(self):
+        """Ensure records without data are not saved unless explicitly included"""
+        retriever = StockDataNotionRetriever()
+
+        empty_record = [{"ticker": "EMPTY", "period": "2020-2024", "has_data": False}]
+
+        with patch('builtins.open', mock_open()):
+            with patch('json.dump') as mock_dump:
+                retriever.save_batch_to_notion(empty_record, 1)
+
+                saved_data = mock_dump.call_args[0][0]
+                assert saved_data == []
+                assert retriever.successful_saves == 0
+
+    def test_save_batch_to_notion_can_include_empty_records(self):
+        """Verify optional flag persists records without data when requested"""
+        retriever = StockDataNotionRetriever()
+
+        empty_record = [{"ticker": "EMPTY", "period": "2020-2024", "has_data": False}]
+
+        with patch('builtins.open', mock_open()):
+            with patch('json.dump') as mock_dump:
+                retriever.save_batch_to_notion(empty_record, 1, include_empty=True)
+
+                saved_data = mock_dump.call_args[0][0]
+                assert len(saved_data) == 1
+                assert saved_data[0]["properties"]["Has Data"] is False
+                assert retriever.successful_saves == 1
 
     def test_very_old_date_range(self):
         """Test handling very old date ranges"""
