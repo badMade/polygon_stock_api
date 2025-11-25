@@ -5,13 +5,15 @@ Integrates with Polygon API and Notion database
 """
 
 import json
-import time
-from datetime import datetime, timedelta
 import logging
 import os
+import time
+from datetime import datetime, timedelta
+
+OUTPUT_DIR = '/mnt/user-data/outputs'
 
 # Ensure logging output directory exists
-os.makedirs('/mnt/user-data/outputs', exist_ok=True)
+os.makedirs(OUTPUT_DIR, exist_ok=True)
 
 # Configure logging
 logging.basicConfig(

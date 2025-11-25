@@ -1,13 +1,10 @@
 """Tests for production_stock_retrieval.py"""
 import json
 import os
-import pytest
-from unittest.mock import Mock, patch, mock_open
-from datetime import datetime, timedelta
-import sys
+from datetime import datetime
+from unittest.mock import mock_open, patch
 
-# Add parent directory to path to import the module
-sys.path.insert(0, os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
+import pytest
 
 from production_stock_retrieval import ProductionStockRetriever
 
@@ -24,7 +21,7 @@ class TestProductionStockRetriever:
         assert retriever.batch_size == 100
         assert retriever.processed == 0
         assert retriever.saved == 0
-        assert retriever.failed == []
+        assert not retriever.failed
         assert len(retriever.periods) == 5
 
     def test_init_periods_structure(self):
@@ -59,7 +56,7 @@ class TestProductionStockRetriever:
         count = retriever.load_tickers()
 
         assert count == 0
-        assert retriever.tickers == []
+        assert not retriever.tickers
 
     def test_load_tickers_file_not_found(self):
         """Test loading tickers with missing file"""

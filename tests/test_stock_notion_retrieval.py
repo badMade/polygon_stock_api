@@ -1,13 +1,11 @@
 """Tests for stock_notion_retrieval.py"""
 import json
 import os
-import pytest
-from unittest.mock import Mock, patch, mock_open
-from datetime import datetime, timedelta
-import sys
 from dataclasses import asdict
+from datetime import datetime, timedelta
+from unittest.mock import mock_open, patch
 
-sys.path.insert(0, os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
+import pytest
 
 from stock_notion_retrieval import StockDataNotionRetriever, TimeChunk
 
@@ -51,11 +49,11 @@ class TestStockDataNotionRetriever:
         retriever = StockDataNotionRetriever()
 
         assert retriever.ticker_file == "/mnt/user-data/uploads/all_tickers.json"
-        assert retriever.tickers == []
+        assert not retriever.tickers
         assert retriever.batch_size == 100
         assert retriever.notion_database_url is None
         assert retriever.processed_count == 0
-        assert retriever.failed_tickers == []
+        assert not retriever.failed_tickers
         assert retriever.successful_saves == 0
         assert len(retriever.time_chunks) == 5
 
@@ -100,8 +98,8 @@ class TestStockDataNotionRetriever:
 
         tickers = retriever.load_tickers()
 
-        assert tickers == []
-        assert retriever.tickers == []
+        assert not tickers
+        assert not retriever.tickers
 
     def test_load_tickers_file_not_found(self):
         """Test loading tickers with missing file"""
@@ -331,10 +329,10 @@ class TestStockDataNotionRetriever:
 
         file_opened = None
 
-        def capture_open(path, mode='r'):
+        def capture_open(path, mode='r', **kwargs):
             nonlocal file_opened
             file_opened = path
-            return mock_open()(path, mode)
+            return mock_open()(path, mode, **kwargs)
 
         with patch('builtins.open', side_effect=capture_open):
             with patch('json.dump'):
@@ -588,10 +586,10 @@ class TestStockDataNotionRetrieverEdgeCases:
 
         file_opened = None
 
-        def capture_open(path, mode='r'):
+        def capture_open(path, mode='r', **kwargs):
             nonlocal file_opened
             file_opened = path
-            return mock_open()(path, mode)
+            return mock_open()(path, mode, **kwargs)
 
         with patch('builtins.open', side_effect=capture_open):
             with patch('json.dump'):

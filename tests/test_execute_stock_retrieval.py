@@ -1,12 +1,10 @@
 """Tests for execute_stock_retrieval.py"""
 import json
 import os
-import pytest
-from unittest.mock import Mock, patch, mock_open, MagicMock
-from datetime import datetime, timedelta
-import sys
+from datetime import datetime
+from unittest.mock import mock_open, patch
 
-sys.path.insert(0, os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
+import pytest
 
 from execute_stock_retrieval import StockDataExecutor
 
@@ -21,10 +19,10 @@ class TestStockDataExecutor:
         assert executor.ticker_file == "/mnt/user-data/outputs/all_tickers.json"
         assert executor.data_source_id == "7c5225aa-429b-4580-946e-ba5b1db2ca6d"
         assert executor.batch_size == 100
-        assert executor.tickers == []
+        assert not executor.tickers
         assert executor.processed == 0
         assert executor.saved == 0
-        assert executor.failed == []
+        assert not executor.failed
         assert len(executor.periods) == 5
 
     def test_periods_configuration(self):
@@ -61,7 +59,7 @@ class TestStockDataExecutor:
         count = executor.load_tickers()
 
         assert count == 0
-        assert executor.tickers == []
+        assert not executor.tickers
 
     def test_load_tickers_file_not_found(self):
         """Test loading tickers when file doesn't exist"""
@@ -517,10 +515,10 @@ class TestStockDataExecutorEdgeCases:
 
         file_path_used = None
 
-        def capture_path(path, mode='r'):
+        def capture_path(path, mode='r', **kwargs):
             nonlocal file_path_used
             file_path_used = path
-            return mock_open()(path, mode)
+            return mock_open()(path, mode, **kwargs)
 
         with patch('builtins.open', side_effect=capture_path):
             with patch('json.dump'):
