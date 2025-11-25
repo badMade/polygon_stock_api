@@ -21,11 +21,12 @@ def test_import_has_no_side_effects(monkeypatch):
 
 
 @patch("execute_complete_production.time.sleep")
+@patch("execute_complete_production.os.makedirs")
 @patch("execute_complete_production.os.path.exists", return_value=False)
 @patch("execute_complete_production.os.listdir")
 @patch("execute_complete_production.subprocess.run")
 def test_main_runs_retrieval_and_processes_batches(
-    mock_run, mock_listdir, mock_exists, mock_sleep, capsys
+    mock_run, mock_listdir, mock_exists, mock_makedirs, mock_sleep, capsys
 ):
     """Verify main executes retrieval and processes batches in order."""
 
@@ -47,6 +48,9 @@ def test_main_runs_retrieval_and_processes_batches(
         capture_output=False,
         text=True,
         check=True,
+    )
+    mock_makedirs.assert_called_once_with(
+        execute_complete_production.OUTPUT_DIRECTORY, exist_ok=True
     )
     assert mock_sleep.call_count == 2
 
@@ -70,7 +74,9 @@ def test_main_uses_summary_file(mock_listdir, mock_sleep, capsys):
         "execution": {"duration": "0:05:30"},
     }
 
-    with patch("execute_complete_production.os.path.exists", return_value=True):
+    with patch(
+        "execute_complete_production.os.path.exists", side_effect=[True, True]
+    ):
         with patch(
             "execute_complete_production.open",
             mock_open(read_data=json.dumps(summary_data)),
@@ -85,13 +91,17 @@ def test_main_uses_summary_file(mock_listdir, mock_sleep, capsys):
 
 
 @patch("execute_complete_production.os.listdir", side_effect=FileNotFoundError())
+@patch("execute_complete_production.os.path.exists", return_value=True)
 @patch("execute_complete_production.subprocess.run")
-def test_main_handles_missing_output_directory(mock_run, mock_listdir, capsys):
-    """Gracefully handle missing output directory without raising."""
+def test_main_handles_missing_directory_during_listing(
+    mock_run, mock_exists, mock_listdir, capsys
+):
+    """Handle missing output directory during batch listing without raising."""
 
     mock_run.return_value.returncode = 0
 
     execute_complete_production.main()
 
     captured = capsys.readouterr().out
+    assert "Output directory missing" in captured
     assert "Found 0 batch files to upload" in captured

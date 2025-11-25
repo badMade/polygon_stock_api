@@ -1,4 +1,5 @@
 """Shared test fixtures and utilities"""
+# pylint: disable=redefined-outer-name
 import json
 import os
 import tempfile
