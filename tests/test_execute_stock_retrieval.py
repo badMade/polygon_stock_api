@@ -3,6 +3,7 @@ import json
 import os
 from datetime import datetime
 from unittest.mock import mock_open, patch
+from hashlib import sha256
 
 import pytest
 
@@ -170,6 +171,28 @@ class TestStockDataExecutor:
         assert "date:Retrieved At:start" in props
         assert "date:Retrieved At:is_datetime" in props
         assert props["date:Retrieved At:is_datetime"] == 1
+
+    def test_simulate_stock_data_is_deterministic(self):
+        """Ensure simulated data is stable across interpreter runs."""
+        executor = StockDataExecutor()
+        period = executor.periods[0]
+        data_entry = executor._create_data_entry("AAPL", period)
+
+        executor._simulate_stock_data("AAPL", period, data_entry)
+
+        seed = int.from_bytes(sha256("AAPL".encode("utf-8")).digest()[:8], "big")
+        offset_100 = seed % 100
+
+        assert data_entry["has_data"] is True
+        assert data_entry["open"] == 150.25 + offset_100
+        assert data_entry["high"] == 155.50 + offset_100
+        assert data_entry["low"] == 149.00 + offset_100
+        assert data_entry["close"] == 154.30 + offset_100
+        assert data_entry["volume"] == 50000000 + (seed % 10000000)
+        assert data_entry["vwap"] == 152.45 + offset_100
+        assert data_entry["transactions"] == 450000 + (seed % 100000)
+        assert data_entry["data_points"] == 1000
+        assert data_entry["timespan"] == "hour"
 
     def test_create_notion_pages_empty_batch(self):
         """Test creating pages with empty batch"""

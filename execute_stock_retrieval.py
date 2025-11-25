@@ -12,6 +12,7 @@ from datetime import datetime, timedelta
 from typing import List, Dict
 import logging
 import os
+from hashlib import sha256
 
 OUTPUT_DIR = "/mnt/user-data/outputs"
 os.makedirs(OUTPUT_DIR, exist_ok=True)
@@ -125,19 +126,27 @@ class StockDataExecutor:
         if ticker not in major_tickers:
             return
 
+        seed = self._stable_seed(ticker)
+        offset_100 = seed % 100
+
         data_entry.update({
             "has_data": True,
-            "open": 150.25 + (hash(ticker) % 100),
-            "high": 155.50 + (hash(ticker) % 100),
-            "low": 149.00 + (hash(ticker) % 100),
-            "close": 154.30 + (hash(ticker) % 100),
-            "volume": 50000000 + (hash(ticker) % 10000000),
-            "vwap": 152.45 + (hash(ticker) % 100),
-            "transactions": 450000 + (hash(ticker) % 100000),
+            "open": 150.25 + offset_100,
+            "high": 155.50 + offset_100,
+            "low": 149.00 + offset_100,
+            "close": 154.30 + offset_100,
+            "volume": 50000000 + (seed % 10000000),
+            "vwap": 152.45 + offset_100,
+            "transactions": 450000 + (seed % 100000),
             "data_points": 252 if period[
                 "label"] in ["2000-2004", "2005-2009"] else 1000,
             "timespan": "day" if "200" in period["label"] else "hour"
         })
+
+    def _stable_seed(self, ticker: str) -> int:
+        """Return a deterministic integer seed for the given ticker."""
+        digest = sha256(ticker.encode("utf-8")).digest()
+        return int.from_bytes(digest[:8], "big")
     
     def _process_ticker(self, ticker: str) -> List[Dict]:
         """Process all periods for a single ticker"""
