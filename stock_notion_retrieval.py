@@ -14,6 +14,8 @@ from typing import Dict, List
 
 import requests
 
+OUTPUT_DIR = '/mnt/user-data/outputs'
+
 # Configure logging
 logging.basicConfig(
     level=logging.INFO,
@@ -102,7 +104,7 @@ class StockDataNotionRetriever:
         }
 
         # Save database structure for reference
-        structure_file = '/mnt/user-data/outputs/notion_database_structure.json'
+        structure_file = os.path.join(OUTPUT_DIR, 'notion_database_structure.json')
         with open(structure_file, 'w', encoding='utf-8') as f:
             json.dump({
                 "title": "Stock Historical Data (6,628 Tickers)",
@@ -214,7 +216,7 @@ class StockDataNotionRetriever:
                 notion_pages.append(page_data)
 
         # Save batch data to file (would be Notion API call in production)
-        output_file = f'/mnt/user-data/outputs/batch_{batch_num:03d}_notion_data.json'
+        output_file = os.path.join(OUTPUT_DIR, f'batch_{batch_num:03d}_notion_data.json')
         with open(output_file, 'w', encoding='utf-8') as f:
             json.dump(notion_pages, f, indent=2)
 
@@ -261,7 +263,7 @@ class StockDataNotionRetriever:
 
     def save_checkpoint(self, batch_num: int):
         """Save progress checkpoint"""
-        checkpoint_file = '/mnt/user-data/outputs/retrieval_checkpoint.json'
+        checkpoint_file = os.path.join(OUTPUT_DIR, 'retrieval_checkpoint.json')
         checkpoint_data = {
             "last_batch": batch_num,
             "processed_count": self.processed_count,
@@ -348,7 +350,7 @@ class StockDataNotionRetriever:
                 "failed_tickers": self.failed_tickers[:100]  # First 100 failures
             }
 
-            report_file = '/mnt/user-data/outputs/final_retrieval_report.json'
+            report_file = os.path.join(OUTPUT_DIR, 'final_retrieval_report.json')
             with open(report_file, 'w', encoding='utf-8') as f:
                 json.dump(final_report, f, indent=2)
 
@@ -379,7 +381,7 @@ class StockDataNotionRetriever:
 
 if __name__ == "__main__":
     # Create output directory if it doesn't exist
-    os.makedirs('/mnt/user-data/outputs', exist_ok=True)
+    os.makedirs(OUTPUT_DIR, exist_ok=True)
 
     # Run the retrieval system
     retriever = StockDataNotionRetriever()
