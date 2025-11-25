@@ -95,7 +95,7 @@ def _process_batches(batch_files: list[str]) -> int:
 
             time.sleep(0.1)  # Rate limiting simulation
 
-        except Exception as exc:  # noqa: BLE001 - broad to match original behavior
+        except (json.JSONDecodeError, OSError) as exc:
             print(f"  ⚠️ Error processing {batch_file}: {exc}")
 
     return total_records
@@ -110,13 +110,19 @@ def _print_final_report(start_time: datetime, batch_count: int, total_records: i
     print("=" * 80)
 
     if os.path.exists(SUMMARY_FILE):
-        with open(SUMMARY_FILE, "r", encoding="utf-8") as file:
-            summary = json.load(file)
+        try:
+            with open(SUMMARY_FILE, "r", encoding="utf-8") as file:
+                summary = json.load(file)
 
-        print(f"✅ Tickers processed: {summary['results']['tickers_processed']:,}")
-        print(f"✅ Records created: {summary['results']['records_saved']:,}")
-        print(f"✅ Batch files: {summary['results']['batches_created']}")
-        print(f"⏱️  Total duration: {summary['execution']['duration']}")
+            print(f"✅ Tickers processed: {summary['results']['tickers_processed']:,}")
+            print(f"✅ Records created: {summary['results']['records_saved']:,}")
+            print(f"✅ Batch files: {summary['results']['batches_created']}")
+            print(f"⏱️  Total duration: {summary['execution']['duration']}")
+        except (json.JSONDecodeError, OSError, KeyError) as exc:
+            print(f"  ⚠️ Error reading summary file: {exc}")
+            print(f"✅ Batch files created: {batch_count}")
+            print(f"✅ Total records: {total_records:,}")
+            print(f"⏱️  Duration: {duration}")
     else:
         print(f"✅ Batch files created: {batch_count}")
         print(f"✅ Total records: {total_records:,}")
