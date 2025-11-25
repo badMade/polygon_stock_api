@@ -384,7 +384,8 @@ class StockDataNotionRetriever:
             self.save_checkpoint(self.processed_count // self.batch_size)
             logger.info("💾 Progress saved. You can resume from checkpoint.")
 
-        except (OSError, json.JSONDecodeError, requests.RequestException) as exc:
+        except (OSError, json.JSONDecodeError, requests.RequestException,
+                ValueError, TypeError) as exc:
             logger.error("❌ Fatal error: %s", exc)
             self.save_checkpoint(self.processed_count // self.batch_size)
             raise
