@@ -1,10 +1,11 @@
 """Tests for production_stock_retrieval.py"""
 import json
 import os
-import pytest
-from unittest.mock import Mock, patch, mock_open
-from datetime import datetime, timedelta
 import sys
+from datetime import datetime
+from unittest.mock import mock_open, patch
+
+import pytest
 
 # Add parent directory to path to import the module
 sys.path.insert(0, os.path.dirname(os.path.dirname(os.path.abspath(__file__))))

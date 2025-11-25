@@ -1,10 +1,11 @@
 """Tests for execute_stock_retrieval.py"""
 import json
 import os
-import pytest
-from unittest.mock import Mock, patch, mock_open, MagicMock
-from datetime import datetime, timedelta
 import sys
+from datetime import datetime
+from unittest.mock import mock_open, patch
+
+import pytest
 
 sys.path.insert(0, os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 
@@ -517,10 +518,10 @@ class TestStockDataExecutorEdgeCases:
 
         file_path_used = None
 
-        def capture_path(path, mode='r'):
+        def capture_path(path, mode='r', **kwargs):
             nonlocal file_path_used
             file_path_used = path
-            return mock_open()(path, mode)
+            return mock_open()(path, mode, **kwargs)
 
         with patch('builtins.open', side_effect=capture_path):
             with patch('json.dump'):

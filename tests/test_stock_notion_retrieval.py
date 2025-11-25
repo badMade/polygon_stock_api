@@ -1,11 +1,12 @@
 """Tests for stock_notion_retrieval.py"""
 import json
 import os
-import pytest
-from unittest.mock import Mock, patch, mock_open
-from datetime import datetime, timedelta
 import sys
 from dataclasses import asdict
+from datetime import datetime, timedelta
+from unittest.mock import mock_open, patch
+
+import pytest
 
 sys.path.insert(0, os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 
@@ -331,10 +332,10 @@ class TestStockDataNotionRetriever:
 
         file_opened = None
 
-        def capture_open(path, mode='r'):
+        def capture_open(path, mode='r', **kwargs):
             nonlocal file_opened
             file_opened = path
-            return mock_open()(path, mode)
+            return mock_open()(path, mode, **kwargs)
 
         with patch('builtins.open', side_effect=capture_open):
             with patch('json.dump'):
@@ -588,10 +589,10 @@ class TestStockDataNotionRetrieverEdgeCases:
 
         file_opened = None
 
-        def capture_open(path, mode='r'):
+        def capture_open(path, mode='r', **kwargs):
             nonlocal file_opened
             file_opened = path
-            return mock_open()(path, mode)
+            return mock_open()(path, mode, **kwargs)
 
         with patch('builtins.open', side_effect=capture_open):
             with patch('json.dump'):
