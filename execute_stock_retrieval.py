@@ -13,6 +13,9 @@ from typing import List, Dict, Optional
 import logging
 import os
 
+# Ensure output directory exists before configuring file logging
+os.makedirs('/mnt/user-data/outputs', exist_ok=True)
+
 # Configure logging
 logging.basicConfig(
     level=logging.INFO,
