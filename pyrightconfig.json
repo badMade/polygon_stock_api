@@ -1,0 +1,12 @@
+{
+  "reportAttributeAccessIssue": "none",
+  "reportOptionalMemberAccess": "none",
+  "reportRedeclaration": "none",
+  "reportOptionalCall": "none",
+  "reportArgumentType": "none",
+  "reportOptionalOperand": "none",
+  "exclude": [
+    "**/site-packages",
+    "**/Library/Frameworks/Python.framework/**"
+  ]
+}
