@@ -28,9 +28,11 @@ Key outputs include `notion_batch_*.json` batch files and an execution summary s
 
 ### Production-style retrieval
 
-`production_stock_retrieval.py` mirrors the same flow with logging and checkpoint support for longer runs:
+`production_stock_retrieval.py` mirrors the same flow with logging and checkpoint support for longer runs. Before running, ensure the ticker list file exists at `/mnt/user-data/uploads/all_tickers.json`. You can copy the provided `all_tickers.json` from the repository:
 
 ```bash
+mkdir -p /mnt/user-data/uploads
+cp all_tickers.json /mnt/user-data/uploads/all_tickers.json
 python production_stock_retrieval.py
 ```
 
