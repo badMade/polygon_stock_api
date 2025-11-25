@@ -10,6 +10,9 @@ from datetime import datetime, timedelta
 import logging
 import os
 
+# Ensure logging output directory exists
+os.makedirs('/mnt/user-data/outputs', exist_ok=True)
+
 # Configure logging
 logging.basicConfig(
     level=logging.INFO,
