@@ -58,7 +58,7 @@ class StockDataExecutor:
         """Load ticker symbols from file"""
         with open(self.ticker_file, 'r', encoding='utf-8') as f:
             self.tickers = json.load(f)
-        logger.info(f"✅ Loaded {len(self.tickers)} tickers")
+        logger.info("✅ Loaded %s tickers", len(self.tickers))
         return len(self.tickers)
         
     def create_notion_pages(self, batch_data: List[Dict], batch_num: int):
@@ -153,7 +153,8 @@ class StockDataExecutor:
         """Save batch data to file and return notion pages"""
         notion_pages = self.create_notion_pages(batch_results, batch_num)
 
-        output_file = f'/mnt/user-data/outputs/notion_batch_{batch_num:04d}.json'
+        filename = f'notion_batch_{batch_num:04d}.json'
+        output_file = f'/mnt/user-data/outputs/{filename}'
         with open(output_file, 'w', encoding='utf-8') as f:
             json.dump({
                 "data_source_id": self.data_source_id,
@@ -170,14 +171,17 @@ class StockDataExecutor:
         return notion_pages
         
     def execute_batch(
-        self, batch: List[str], batch_num: int, total_batches: int):
+            self, batch: List[str], batch_num: int, total_batches: int):
         """
         Execute data retrieval for a batch of tickers
         """
-        logger.info(f"📊 Batch {batch_num}/{total_batches}: Processing {len(batch)} tickers")
-        
+        logger.info(
+            "📊 Batch %s/%s: Processing %s tickers",
+            batch_num, total_batches, len(batch)
+        )
+
         batch_results = []
-        
+
         for i, ticker in enumerate(batch, 1):
             ticker_results = self._process_ticker(ticker)
             batch_results.extend(ticker_results)
@@ -186,7 +190,10 @@ class StockDataExecutor:
             # Progress update
             if i % 10 == 0:
                 pct = (self.processed / len(self.tickers)) * 100
-                logger.info(f"  → Progress: {self.processed}/{len(self.tickers)} ({pct:.1f}%)")
+                logger.info(
+                    "  → Progress: %s/%s (%.1f%%)",
+                    self.processed, len(self.tickers), pct
+                )
         
         # Save batch data
         notion_pages = self._save_batch_file(batch_results, batch_num, len(batch))
