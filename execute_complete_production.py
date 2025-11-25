@@ -65,6 +65,10 @@ def _get_batch_files() -> list[str]:
             if filename.startswith("batch_") and filename.endswith("_notion.json")
         ]
     except FileNotFoundError:
+        print(
+            f"⚠️  Output directory missing at {OUTPUT_DIRECTORY}. "
+            "No batch files to upload."
+        )
         return []
 
 
@@ -149,6 +153,15 @@ def _print_final_report(start_time: datetime, batch_count: int, total_records: i
 def main() -> None:
     start_time = datetime.now()
     _print_start_banner(start_time)
+
+    try:
+        os.makedirs(OUTPUT_DIRECTORY, exist_ok=True)
+    except OSError as exc:
+        print(
+            f"❌ Unable to create output directory at {OUTPUT_DIRECTORY}: {exc}"
+        )
+        return
+
     _run_production_retrieval()
     batch_files = _get_batch_files()
     total_records = _process_batches(batch_files)
