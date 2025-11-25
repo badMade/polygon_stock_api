@@ -52,7 +52,7 @@ class StockDataExecutor:
         
     def load_tickers(self):
         """Load ticker symbols from file"""
-        with open(self.ticker_file, 'r') as f:
+        with open(self.ticker_file, 'r', encoding='utf-8') as f:
             self.tickers = json.load(f)
         logger.info(f"✅ Loaded {len(self.tickers)} tickers")
         return len(self.tickers)
@@ -151,7 +151,7 @@ class StockDataExecutor:
         
         # Save batch data for Notion upload
         output_file = f'/mnt/user-data/outputs/notion_batch_{batch_num:04d}.json'
-        with open(output_file, 'w') as f:
+        with open(output_file, 'w', encoding='utf-8') as f:
             json.dump({
                 "data_source_id": self.data_source_id,
                 "batch_number": batch_num,
@@ -177,7 +177,7 @@ import json
 for batch_num in range(1, {total_batches + 1}):
     filename = f'/mnt/user-data/outputs/notion_batch_{{batch_num:04d}}.json'
     
-    with open(filename, 'r') as f:
+    with open(filename, 'r', encoding='utf-8') as f:
         batch_data = json.load(f)
         
     print(f"Uploading batch {{batch_num}}: {{len(batch_data['pages'])}} pages")
@@ -190,7 +190,7 @@ for batch_num in range(1, {total_batches + 1}):
 '''
         
         script_file = '/mnt/user-data/outputs/upload_to_notion.py'
-        with open(script_file, 'w') as f:
+        with open(script_file, 'w', encoding='utf-8') as f:
             f.write(script_content)
             
         logger.info(f"📝 Upload script generated: {script_file}")
@@ -279,7 +279,7 @@ for batch_num in range(1, {total_batches + 1}):
             
             # Save summary
             summary_file = '/mnt/user-data/outputs/execution_summary.json'
-            with open(summary_file, 'w') as f:
+            with open(summary_file, 'w', encoding='utf-8') as f:
                 json.dump(summary, f, indent=2)
                 
             # Print final results
