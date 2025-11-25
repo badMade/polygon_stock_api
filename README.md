@@ -67,7 +67,7 @@ The tests cover ticker loading, batch processing, Notion payload generation, and
 ## Troubleshooting
 
 - Ensure dependencies are installed if you see `ModuleNotFoundError` errors (e.g., `requests`).
-- Verify the `/mnt/user-data/outputs/` directory exists or adjust paths if running in a different environment.
+- Ensure the parent directory for `/mnt/user-data/outputs/` exists and is writable, or adjust paths in the scripts if running in a different environment.
 - Re-run `pytest` after making changes to confirm all behaviors remain deterministic.
 
 ## Contributing
