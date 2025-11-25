@@ -396,6 +396,7 @@ class TestStockDataExecutor:
                             with patch('time.sleep'):
                                 summary = executor.run()
 
+                                assert summary_data is not None
                                 assert summary_data["execution"]["status"] == "SUCCESS"
                                 assert "start_time" in summary_data["execution"]
                                 assert "end_time" in summary_data["execution"]
@@ -451,8 +452,8 @@ class TestStockDataExecutorEdgeCases:
                 results2 = data
 
         with patch('builtins.open', mock_open()):
-            with patch('json.dump', side_effect=capture_first):
-                executor.execute_batch(batch, 1, 1)
+                with patch('json.dump', side_effect=capture_first):
+                    executor.execute_batch(batch, 1, 1)
 
         executor.processed = 0  # Reset
         executor.saved = 0
@@ -462,6 +463,8 @@ class TestStockDataExecutorEdgeCases:
                 executor.execute_batch(batch, 1, 1)
 
         # The data should be identical (hash is deterministic)
+        assert results1 is not None
+        assert results2 is not None
         assert results1["ticker_count"] == results2["ticker_count"]
         assert results1["record_count"] == results2["record_count"]
 

@@ -2,6 +2,7 @@
 import json
 import os
 from datetime import datetime
+from typing import Any, List
 from unittest.mock import mock_open, patch
 
 import pytest
@@ -203,11 +204,12 @@ class TestProductionStockRetriever:
 
         batch = ["AAPL"]
 
-        saved_pages = None
+        saved_pages: List[dict[str, Any]] = []
 
         def capture_pages(pages, batch_num):
-            nonlocal saved_pages
-            saved_pages = pages
+            saved_pages.clear()
+            if pages:
+                saved_pages.extend(pages)
 
         with patch.object(retriever, 'save_batch', side_effect=capture_pages):
             with patch('time.sleep'):
@@ -304,11 +306,12 @@ class TestProductionStockRetriever:
 
         batch = ["AAPL"]
 
-        saved_pages = None
+        saved_pages: List[dict[str, Any]] = []
 
         def capture_pages(pages, batch_num):
-            nonlocal saved_pages
-            saved_pages = pages
+            saved_pages.clear()
+            if pages:
+                saved_pages.extend(pages)
 
         with patch.object(retriever, 'save_batch', side_effect=capture_pages):
             with patch('time.sleep'):
