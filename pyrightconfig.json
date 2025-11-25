@@ -1,6 +1,7 @@
 {
   "exclude": [
     "**/site-packages",
-    "**/Library/Frameworks/Python.framework/**"
+    "**/Library/Frameworks/Python.framework/**",
+    "**/lib/python3.13/**"
   ]
 }
