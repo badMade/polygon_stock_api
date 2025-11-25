@@ -180,7 +180,7 @@ class TestStockDataExecutor:
 
         executor._simulate_stock_data("AAPL", period, data_entry)
 
-        seed = int.from_bytes(sha256("AAPL".encode("utf-8")).digest()[:8], "big")
+        seed = executor._stable_seed("AAPL")
         offset_100 = seed % 100
 
         assert data_entry["has_data"] is True
