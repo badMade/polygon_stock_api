@@ -9,7 +9,7 @@ Data Source: collection://7c5225aa-429b-4580-946e-ba5b1db2ca6d
 import json
 import time
 from datetime import datetime, timedelta
-from typing import List, Dict, Optional
+from typing import List, Dict
 import logging
 import os
 
@@ -26,6 +26,7 @@ logging.basicConfig(
     ]
 )
 logger = logging.getLogger(__name__)
+
 
 class StockDataExecutor:
     """
@@ -73,7 +74,8 @@ class StockDataExecutor:
                 properties = {
                     "Ticker": item["ticker"],
                     "Period": item["period"],
-                    "Has Data": "__YES__" if item.get("has_data") else "__NO__",
+                    "Has Data": "__YES__" if item.get(
+                        "has_data") else "__NO__",
                     "Batch Number": batch_num
                 }
                 
