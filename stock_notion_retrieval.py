@@ -23,6 +23,7 @@ logging.basicConfig(
 )
 logger = logging.getLogger(__name__)
 
+
 @dataclass
 class TimeChunk:
     """Represents a 5-year time period for data retrieval.
@@ -35,6 +36,7 @@ class TimeChunk:
     start_date: str
     end_date: str
     label: str
+
 
 class StockDataNotionRetriever:
     """Production system for retrieving stock data and saving to Notion.
@@ -142,7 +144,10 @@ class StockDataNotionRetriever:
         }
 
         # Save database structure for reference
-        structure_file = os.path.join(OUTPUT_DIR, 'notion_database_structure.json')
+        structure_file = os.path.join(
+            OUTPUT_DIR,
+            'notion_database_structure.json'
+        )
         with open(structure_file, 'w', encoding='utf-8') as f:
             json.dump({
                 "title": "Stock Historical Data (6,628 Tickers)",
@@ -190,7 +195,7 @@ class StockDataNotionRetriever:
 
         # Determine appropriate timespan based on date range
         days_diff = (datetime.strptime(chunk.end_date, "%Y-%m-%d") -
-                    datetime.strptime(chunk.start_date, "%Y-%m-%d")).days
+                     datetime.strptime(chunk.start_date, "%Y-%m-%d")).days
 
         # Try to get data at the most granular level available
         if days_diff <= 30:
@@ -204,7 +209,8 @@ class StockDataNotionRetriever:
         # In production, this would be: response = mcp_polygon.get_aggs(...)
         try:
             # Mock successful data retrieval
-            if ticker in ["AAPL", "MSFT", "GOOGL", "NVDA"]:  # Sample tickers with data
+            if ticker in ["AAPL", "MSFT", "GOOGL", "NVDA"]:
+                # Sample tickers with data
                 result.update({
                     "timespan": timespan,
                     "has_data": True,
@@ -219,11 +225,49 @@ class StockDataNotionRetriever:
                 })
 
         except requests.RequestException as err:
-            logger.warning("⚠️ No data for %s in %s: %s", ticker, chunk.label, err)
+            logger.warning(
+                "⚠️ No data for %s in %s: %s", ticker, chunk.label, err)
 
         return result
 
-    def save_batch_to_notion(self, batch_data: List[Dict], batch_num: int, include_empty: bool = False):
+    def _should_include_record(self, data: Dict, include_empty: bool) -> bool:
+        """Determine if a record should be included in the Notion batch."""
+        return bool(data.get("has_data")) or include_empty
+
+    def _build_notion_page(self, data: Dict, batch_num: int) -> Dict:
+        """Build a single Notion page payload from a data record."""
+        properties = {
+            "Ticker": data["ticker"],
+            "Period": data["period"],
+            "Has Data": data.get("has_data", False),
+            "Batch": batch_num,
+            "Retrieved": datetime.now().isoformat()
+        }
+
+        if data.get("from"):
+            properties["Date"] = {
+                "start": data["from"],
+                "end": data.get("to")
+            }
+
+        if data.get("has_data"):
+            numeric_fields = ["open", "high", "low", "close", "volume",
+                              "vwap", "transactions", "data_points"]
+            for field in numeric_fields:
+                if data.get(field) is not None:
+                    properties[field.capitalize()] = data[field]
+
+            if data.get("timespan"):
+                properties["Timespan"] = data["timespan"]
+
+        return {"properties": properties}
+
+    def save_batch_to_notion(
+        self,
+        batch_data: List[Dict],
+        batch_num: int,
+        include_empty: bool = False
+    ):
         """Save a batch of data to Notion database.
 
         Args:
@@ -231,50 +275,31 @@ class StockDataNotionRetriever:
             batch_num: Current batch number used for tracking.
             include_empty: Persist records even when ``has_data`` is False.
         """
-        logger.info("💾 Saving batch %s to Notion (received %s records)", batch_num, len(batch_data))
+        logger.info(
+            "💾 Saving batch %s to Notion (received %s records)",
+            batch_num,
+            len(batch_data)
+        )
 
-        notion_pages = []
+        # Build Notion pages with minimal branching to reduce complexity
+        notion_pages = [
+            self._build_notion_page(data, batch_num)
+            for data in batch_data
+            if self._should_include_record(data, include_empty)
+        ]
 
-        for data in batch_data:
-            if not data.get("has_data") and not include_empty:
-                continue
-
-            page_data = {
-                "properties": {
-                    "Ticker": data["ticker"],
-                    "Period": data["period"],
-                    "Has Data": data["has_data"],
-                    "Batch": batch_num,
-                    "Retrieved": datetime.now().isoformat()
-                }
-            }
-
-            if data.get("from"):
-                page_data["properties"]["Date"] = {
-                    "start": data["from"],
-                    "end": data.get("to")
-                }
-
-            if data.get("has_data"):
-                numeric_fields = ["open", "high", "low", "close", "volume",
-                                "vwap", "transactions", "data_points"]
-                for field in numeric_fields:
-                    if data.get(field) is not None:
-                        page_data["properties"][field.capitalize()] = data[field]
-
-                if data.get("timespan"):
-                    page_data["properties"]["Timespan"] = data["timespan"]
-
-            notion_pages.append(page_data)
-
-        output_file = os.path.join(OUTPUT_DIR, f'batch_{batch_num:03d}_notion_data.json')
+        output_file = os.path.join(
+            OUTPUT_DIR, f'batch_{batch_num:03d}_notion_data.json'
+        )
         with open(output_file, 'w', encoding='utf-8') as f:
             json.dump(notion_pages, f, indent=2)
 
         self.successful_saves += len(notion_pages)
         logger.info("✅ Saved %s records to %s", len(notion_pages), output_file)
 
-    def process_batch(self, batch: List[str], batch_num: int, total_batches: int):
+    def process_batch(
+        self, batch: List[str], batch_num: int, total_batches: int
+    ):
         """Process a batch of tickers through all time chunks.
 
         Iterates through each ticker, fetches data for all time chunks,
@@ -285,7 +310,12 @@ class StockDataNotionRetriever:
             batch_num: Current batch number (1-indexed).
             total_batches: Total number of batches to process.
         """
-        logger.info("🔄 Processing batch %s/%s (%s tickers)", batch_num, total_batches, len(batch))
+        logger.info(
+            "🔄 Processing batch %s/%s (%s tickers)",
+            batch_num,
+            total_batches,
+            len(batch)
+        )
 
         batch_data = []
 
@@ -366,18 +396,25 @@ class StockDataNotionRetriever:
             # Step 1: Load tickers
             self.load_tickers()
             logger.info("📊 Processing %s tickers", len(self.tickers))
-            logger.info("📅 Time periods: %s", [c.label for c in self.time_chunks])
+            logger.info(
+                "📅 Time periods: %s", [c.label for c in self.time_chunks])
             logger.info("📦 Batch size: %s tickers", self.batch_size)
 
             # Step 2: Create Notion database structure
             self.create_notion_database()
 
             # Step 3: Calculate batches
-            total_batches = (len(self.tickers) + self.batch_size - 1) // self.batch_size
+            total_batches = (
+                (len(self.tickers) + self.batch_size - 1)
+                // self.batch_size
+            )
             logger.info("📋 Total batches to process: %s", total_batches)
 
             estimated_records = len(self.tickers) * len(self.time_chunks)
-            logger.info("📈 Estimated total records: %s", f"{estimated_records:,}")
+            logger.info(
+                "📈 Estimated total records: %s",
+                f"{estimated_records:,}"
+            )
 
             # Step 4: Process each batch
             logger.info("-" * 60)
@@ -399,7 +436,9 @@ class StockDataNotionRetriever:
                     logger.info("-" * 40)
                     logger.info("⏱️  Elapsed: %s", elapsed)
                     logger.info("⏳ Est. remaining: %s", remaining)
-                    logger.info("📊 Records saved: %s", f"{self.successful_saves:,}")
+                    logger.info(
+                        "📊 Records saved: %s", f"{self.successful_saves:,}"
+                    )
                     logger.info("-" * 40)
 
             # Final summary
@@ -413,7 +452,9 @@ class StockDataNotionRetriever:
                     "processed_tickers": self.processed_count,
                     "total_batches": total_batches,
                     "time_chunks": len(self.time_chunks),
-                    "total_api_calls": self.processed_count * len(self.time_chunks),
+                    "total_api_calls": (
+                        self.processed_count * len(self.time_chunks)
+                    ),
                     "successful_saves": self.successful_saves,
                     "failed_count": len(self.failed_tickers)
                 },
@@ -421,12 +462,16 @@ class StockDataNotionRetriever:
                     "start_time": start_time.isoformat(),
                     "end_time": end_time.isoformat(),
                     "duration": str(duration),
-                    "avg_per_ticker": str(duration / max(self.processed_count, 1))
+                    "avg_per_ticker": str(
+                        duration / max(self.processed_count, 1)
+                    )
                 },
-                "failed_tickers": self.failed_tickers[:100]  # First 100 failures
+                "failed_tickers": self.failed_tickers[:100]
+                # First 100 failures
             }
 
-            report_file = os.path.join(OUTPUT_DIR, 'final_retrieval_report.json')
+            report_file = os.path.join(
+                OUTPUT_DIR, 'final_retrieval_report.json')
             with open(report_file, 'w', encoding='utf-8') as f:
                 json.dump(final_report, f, indent=2)
 
@@ -454,6 +499,7 @@ class StockDataNotionRetriever:
             logger.exception("❌ Fatal error: %s", err)
             self.save_checkpoint(self.processed_count // self.batch_size)
             raise
+
 
 if __name__ == "__main__":
     # Create output directory if it doesn't exist
