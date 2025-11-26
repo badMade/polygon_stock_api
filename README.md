@@ -1,26 +1,64 @@
 # Polygon Stock API Utilities
 
-## Overview
+## Project Overview
 
-This repository contains lightweight utilities for simulating large-scale stock data retrieval and exporting the results to Notion. The scripts focus on predictable, testable behavior using stubbed Polygon responses so you can validate workflows without external APIs.
+This repository provides utilities for simulating large-scale historical stock data retrieval from the Polygon API and exporting results to a Notion database. The scripts use stubbed Polygon responses for predictable, testable behavior without requiring external API credentials.
 
-## Installation
+Key capabilities:
+- Batch processing of 6,600+ ticker symbols across 5-year time periods
+- Notion-ready JSON output with full database schema support
+- Checkpointing and recovery for long-running processes
+- Comprehensive test coverage for all components
 
-Install dependencies into your environment:
+## Tech Stack
+
+- **Language**: Python 3.10+
+- **Testing**: pytest
+- **Linting**: flake8
+- **Dependencies**: requests (for API simulation structure)
+
+## Getting Started
+
+### Prerequisites
+
+- Python 3.10 or later
+- pip package manager
+- Write access to `/mnt/user-data/outputs/` (or modify paths in scripts)
+
+### Installation
+
+1. Clone the repository:
+
+```bash
+git clone <repository-url>
+cd polygon_stock_api
+```
+
+2. Install dependencies:
 
 ```bash
 pip install -r requirements.txt
 ```
 
-The tools are pure-Python and require no additional services.
+### Configuration
+
+The scripts use hardcoded paths by default. Modify these constants as needed:
+
+| Script | Variable | Default Path |
+|--------|----------|--------------|
+| `execute_stock_retrieval.py` | `ticker_file` | `/mnt/user-data/outputs/all_tickers.json` |
+| `production_stock_retrieval.py` | `ticker_file` | `/mnt/user-data/uploads/all_tickers.json` |
+| `stock_notion_retrieval.py` | `ticker_file` | `/mnt/user-data/uploads/all_tickers.json` |
+
+**Notion Configuration** (for production use):
+- `data_source_id`: `7c5225aa-429b-4580-946e-ba5b1db2ca6d`
+- Database URL: `https://www.notion.so/638a8018f09d4e159d6d84536f411441`
 
 ## Usage
 
-### Retrieve stock data
+### Quick Start
 
-`execute_stock_retrieval.py` simulates pulling historical aggregates for thousands of tickers and writes Notion-ready batch files to `/mnt/user-data/outputs/`.
-
-**Before running**, copy the ticker list to the expected location:
+Copy the ticker list and run the basic retrieval:
 
 ```bash
 mkdir -p /mnt/user-data/outputs
@@ -28,13 +66,9 @@ cp all_tickers.json /mnt/user-data/outputs/all_tickers.json
 python execute_stock_retrieval.py
 ```
 
-Alternatively, edit `ticker_file` in `execute_stock_retrieval.py` to point to a different path.
+### Production Retrieval
 
-Key outputs include `notion_batch_*.json` batch files and an execution summary stored alongside the generated upload helper script.
-
-### Production-style retrieval
-
-`production_stock_retrieval.py` mirrors the same flow with logging and checkpoint support for longer runs. Before running, ensure the ticker list file exists at `/mnt/user-data/uploads/all_tickers.json`. You can copy the provided `all_tickers.json` from the repository:
+For longer runs with logging and checkpoint support:
 
 ```bash
 mkdir -p /mnt/user-data/uploads
@@ -42,44 +76,80 @@ cp all_tickers.json /mnt/user-data/uploads/all_tickers.json
 python production_stock_retrieval.py
 ```
 
-### Notion upload simulation
+### Complete Pipeline
 
-`upload_to_notion.py` reads saved batch payloads and emulates page creation logic for downstream processing:
+Run the full retrieval and upload simulation:
+
+```bash
+python execute_complete_production.py
+```
+
+### Notion Upload
+
+Process saved batch files for Notion upload:
 
 ```bash
 python upload_to_notion.py
 ```
 
-The repository includes `notion_batch_0001.json` as a sample upload payload written by the retrieval scripts. It is not required for running the utilities, but it can be used to inspect the expected page structure or to validate that your environment can read batch files from `/mnt/user-data/outputs/`. You can regenerate or replace it by rerunning `execute_stock_retrieval.py` or `production_stock_retrieval.py`.
+## Run/Build/Test Commands
 
-### Notion-focused retrieval
+| Command | Description |
+|---------|-------------|
+| `pytest` | Run full test suite |
+| `pytest -v` | Run tests with verbose output |
+| `pytest tests/test_production_stock_retrieval.py` | Run specific test file |
+| `flake8 .` | Run linter |
+| `python -m py_compile *.py` | Verify syntax |
 
-`stock_notion_retrieval.py` provides helpers for creating the Notion database schema and formatting Polygon responses into page payloads. Its `StockDataNotionRetriever` class demonstrates loading tickers, chunking time ranges, and composing page properties.
+## Folder Structure
 
-## Testing
-
-Run the full automated suite to validate behavior:
-
-```bash
-pytest
+```
+polygon_stock_api/
+├── execute_stock_retrieval.py      # Main batch executor
+├── execute_complete_production.py  # Full pipeline runner
+├── production_stock_retrieval.py   # Production retriever with logging
+├── stock_notion_retrieval.py       # Notion-focused retrieval
+├── upload_to_notion.py             # Notion upload simulator
+├── all_tickers.json                # Source ticker list (6,600+ symbols)
+├── tests/
+│   ├── conftest.py                 # Shared test fixtures
+│   ├── test_execute_stock_retrieval.py
+│   ├── test_production_stock_retrieval.py
+│   ├── test_stock_notion_retrieval.py
+│   ├── test_execute_complete_production.py
+│   └── test_upload_to_notion.py
+├── batches/                        # Generated batch output files
+├── CLAUDE.md                       # AI assistant guide
+├── PRODUCTION_GUIDE.md             # Production deployment docs
+├── STATUS_REPORT.md                # System status and progress
+└── requirements.txt                # Python dependencies
 ```
 
-The tests cover ticker loading, batch processing, Notion payload generation, and the simulated Polygon aggregation logic.
+## Output Files
 
-## Project structure
+After running retrieval scripts, you'll find:
 
-- `execute_stock_retrieval.py` – batch-oriented executor that simulates Polygon data pulls and prepares Notion upload bundles.
-- `production_stock_retrieval.py` – production-style variant with richer logging and checkpointing hooks.
-- `stock_notion_retrieval.py` – helpers for Notion schema generation and formatting retrieved data.
-- `upload_to_notion.py` – emulates uploading prepared batches to Notion.
-- `tests/` – Pytest suite validating executors, Notion formatting, and simulated API flows.
-
-## Troubleshooting
-
-- Ensure dependencies are installed if you see `ModuleNotFoundError` errors (e.g., `requests`).
-- Ensure the parent directory for `/mnt/user-data/outputs/` exists and is writable, or adjust paths in the scripts if running in a different environment.
-- Re-run `pytest` after making changes to confirm all behaviors remain deterministic.
+- `batch_NNNN_notion.json`: Notion-ready page data per batch
+- `checkpoint.json`: Recovery checkpoint for interrupted runs
+- `execution_summary.json`: Statistics and timing information
+- `production_run.log`: Detailed execution logs
 
 ## Contributing
 
-Keep changes focused and well-tested. New functions and public classes should include clear docstrings, and any external interactions should be simulated or mocked to remain environment-agnostic.
+1. Write tests for new functionality
+2. Ensure all tests pass: `pytest`
+3. Run linter: `flake8 .`
+4. Add docstrings to all public functions and classes
+5. Keep external interactions simulated/mocked
+
+## Troubleshooting
+
+- **ModuleNotFoundError**: Run `pip install -r requirements.txt`
+- **FileNotFoundError for ticker file**: Copy `all_tickers.json` to expected path
+- **Permission denied on output**: Ensure write access to output directories
+- **Tests failing**: Run `pytest -v` for detailed failure information
+
+## License
+
+See LICENSE file for details.

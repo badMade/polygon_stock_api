@@ -30,8 +30,21 @@ logger = logging.getLogger(__name__)
 
 
 class StockDataExecutor:
-    """
-    Main executor for retrieving stock data and saving to Notion
+    """Executor for retrieving stock data and preparing Notion uploads.
+
+    Coordinates loading tickers, retrieving data across multiple time
+    periods, generating Notion page structures, and saving results to
+    batch files for subsequent upload.
+
+    Attributes:
+        ticker_file: Path to the JSON file containing ticker symbols.
+        data_source_id: Notion database data source identifier.
+        batch_size: Number of tickers to process per batch.
+        tickers: List of ticker symbols loaded from file.
+        processed: Count of tickers processed so far.
+        saved: Count of Notion page records saved.
+        failed: List of ticker symbols that failed processing.
+        periods: List of 5-year time period dictionaries.
     """
 
     def __init__(self):
@@ -56,16 +69,34 @@ class StockDataExecutor:
         ]
 
     def load_tickers(self):
-        """Load ticker symbols from file"""
+        """Load ticker symbols from the configured JSON file.
+
+        Reads the ticker file and populates the internal tickers list.
+
+        Returns:
+            int: Number of tickers loaded.
+
+        Raises:
+            FileNotFoundError: If the ticker file does not exist.
+            json.JSONDecodeError: If the ticker file contains invalid JSON.
+        """
         with open(self.ticker_file, 'r', encoding='utf-8') as f:
             self.tickers = json.load(f)
         logger.info("✅ Loaded %s tickers", len(self.tickers))
         return len(self.tickers)
 
     def create_notion_pages(self, batch_data: List[Dict], batch_num: int):
-        """
-        Create Notion pages for batch data
-        This will be called by the actual Notion API integration
+        """Transform batch data into Notion page structures.
+
+        Filters and formats stock data records into the property schema
+        expected by the Notion API.
+
+        Args:
+            batch_data: List of stock data dictionaries.
+            batch_num: Batch number for tracking purposes.
+
+        Returns:
+            list[dict]: List of Notion page dictionaries with properties.
         """
         pages_to_create = []
 
@@ -82,11 +113,26 @@ class StockDataExecutor:
         return pages_to_create
 
     def _should_create_page(self, item: Dict) -> bool:
-        """Determine if the current item should become a Notion page"""
+        """Determine if the current item should become a Notion page.
+
+        Args:
+            item: Stock data dictionary.
+
+        Returns:
+            bool: True if the item has data or a close price.
+        """
         return bool(item.get("has_data") or item.get("close") is not None)
 
     def _build_base_properties(self, item: Dict, batch_num: int) -> Dict:
-        """Build properties common to all pages"""
+        """Build properties common to all Notion pages.
+
+        Args:
+            item: Stock data dictionary with ticker and period.
+            batch_num: Current batch number.
+
+        Returns:
+            dict: Base property dictionary for a Notion page.
+        """
         return {
             "Ticker": item["ticker"],
             "Period": item["period"],
@@ -97,7 +143,12 @@ class StockDataExecutor:
         }
 
     def _add_date_properties(self, properties: Dict, item: Dict) -> None:
-        """Add date-specific fields when available"""
+        """Add date-specific fields when available.
+
+        Args:
+            properties: Property dictionary to modify in place.
+            item: Stock data dictionary containing optional date field.
+        """
         date_value = item.get("date")
         if not date_value:
             return
@@ -105,7 +156,12 @@ class StockDataExecutor:
         properties["date:Date:is_datetime"] = 0
 
     def _add_price_properties(self, properties: Dict, item: Dict) -> None:
-        """Attach price-related fields for items with data"""
+        """Attach price-related fields for items with data.
+
+        Args:
+            properties: Property dictionary to modify in place.
+            item: Stock data dictionary with optional price fields.
+        """
         if not item.get("has_data"):
             return
 
@@ -123,7 +179,15 @@ class StockDataExecutor:
             properties["Timespan"] = timespan
 
     def _create_data_entry(self, ticker: str, period: Dict) -> Dict:
-        """Create a data entry structure for a ticker and period"""
+        """Create a baseline data entry structure for a ticker and period.
+
+        Args:
+            ticker: Stock ticker symbol.
+            period: Time period dictionary with from/to dates and label.
+
+        Returns:
+            dict: Initial data entry with has_data set to False.
+        """
         return {
             "ticker": ticker,
             "period": period["label"],
@@ -134,7 +198,16 @@ class StockDataExecutor:
 
     def _simulate_stock_data(
             self, ticker: str, period: Dict, data_entry: Dict):
-        """Simulate stock data retrieval for major tickers"""
+        """Simulate stock data retrieval for major tickers.
+
+        Populates data_entry in place with deterministic sample values
+        for a predefined list of major tickers.
+
+        Args:
+            ticker: Stock ticker symbol.
+            period: Time period dictionary with label.
+            data_entry: Data entry dictionary to update in place.
+        """
         major_tickers = [
             "AAPL", "MSFT", "GOOGL", "AMZN", "NVDA", "META", "TSLA"]
         if ticker not in major_tickers:
@@ -158,12 +231,28 @@ class StockDataExecutor:
         })
 
     def _stable_seed(self, ticker: str) -> int:
-        """Return a deterministic integer seed for the given ticker."""
+        """Return a deterministic integer seed for the given ticker.
+
+        Uses SHA-256 hashing to ensure consistent results across runs.
+
+        Args:
+            ticker: Stock ticker symbol.
+
+        Returns:
+            int: Deterministic seed value derived from the ticker.
+        """
         digest = sha256(ticker.encode("utf-8")).digest()
         return int.from_bytes(digest[:8], "big")
 
     def _process_ticker(self, ticker: str) -> List[Dict]:
-        """Process all periods for a single ticker"""
+        """Process all time periods for a single ticker.
+
+        Args:
+            ticker: Stock ticker symbol.
+
+        Returns:
+            list[dict]: Data entries for each configured time period.
+        """
         results = []
         for period in self.periods:
             data_entry = self._create_data_entry(ticker, period)
@@ -173,7 +262,16 @@ class StockDataExecutor:
 
     def _save_batch_file(
             self, batch_results: List[Dict], batch_num: int, batch_size: int):
-        """Save batch data to file and return notion pages"""
+        """Save batch data to a JSON file and return Notion pages.
+
+        Args:
+            batch_results: List of stock data dictionaries for the batch.
+            batch_num: Current batch number.
+            batch_size: Number of tickers in this batch.
+
+        Returns:
+            list[dict]: Notion page structures created from batch data.
+        """
         notion_pages = self.create_notion_pages(batch_results, batch_num)
 
         filename = f'notion_batch_{batch_num:04d}.json'
@@ -195,8 +293,18 @@ class StockDataExecutor:
 
     def execute_batch(
             self, batch: List[str], batch_num: int, total_batches: int):
-        """
-        Execute data retrieval for a batch of tickers
+        """Execute data retrieval for a batch of tickers.
+
+        Processes each ticker through all time periods, saves results
+        to a batch file, and updates progress counters.
+
+        Args:
+            batch: List of ticker symbols to process.
+            batch_num: Current batch number (1-indexed).
+            total_batches: Total number of batches to process.
+
+        Returns:
+            int: Number of Notion page records created for this batch.
         """
         logger.info(
             "📊 Batch %s/%s: Processing %s tickers",
@@ -225,7 +333,14 @@ class StockDataExecutor:
         return len(notion_pages)
 
     def generate_upload_script(self, total_batches: int):
-        """Generate a script to upload all batches to Notion"""
+        """Generate a Python script for uploading all batch files to Notion.
+
+        Creates a helper script that iterates through all batch files
+        and uploads them to the configured Notion database.
+
+        Args:
+            total_batches: Total number of batch files to include.
+        """
         script_content = f'''# Notion Upload Script
 # Database: https://www.notion.so/638a8018f09d4e159d6d84536f411441
 # Data Source: collection://{self.data_source_id}
@@ -255,8 +370,18 @@ for batch_num in range(1, {total_batches + 1}):
         logger.info("📝 Upload script generated: %s", script_file)
 
     def run(self):
-        """
-        Main execution method
+        """Execute the full stock data retrieval workflow.
+
+        Orchestrates loading tickers, processing them in batches,
+        saving results to files, and generating a summary report.
+        Handles KeyboardInterrupt gracefully.
+
+        Returns:
+            dict: Execution summary including statistics and database info,
+                or None if interrupted.
+
+        Raises:
+            Exception: Re-raises unexpected errors after logging.
         """
         logger.info("=" * 70)
         logger.info("🚀 STOCK DATA RETRIEVAL EXECUTOR - PRODUCTION RUN")

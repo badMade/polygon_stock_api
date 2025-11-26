@@ -1,4 +1,8 @@
-"""Shared test fixtures and utilities"""
+"""Shared test fixtures and utilities.
+
+Provides pytest fixtures and helper functions for testing the stock
+retrieval and Notion integration components.
+"""
 # pylint: disable=redefined-outer-name
 import json
 import os
@@ -204,7 +208,18 @@ def mock_logger(monkeypatch):
 
 
 def assert_valid_json_file(filepath):
-    """Helper to assert a file contains valid JSON"""
+    """Assert a file exists and contains valid JSON.
+
+    Args:
+        filepath: Path to the JSON file to validate.
+
+    Returns:
+        dict: Parsed JSON data from the file.
+
+    Raises:
+        AssertionError: If the file does not exist.
+        json.JSONDecodeError: If the file contains invalid JSON.
+    """
     assert os.path.exists(filepath), f"File {filepath} does not exist"
     with open(filepath, 'r') as f:
         data = json.load(f)
@@ -212,7 +227,20 @@ def assert_valid_json_file(filepath):
 
 
 def assert_batch_file_structure(filepath):
-    """Validate batch file has correct structure"""
+    """Validate batch file has the correct structure.
+
+    Verifies that the file contains valid JSON with all required
+    batch metadata fields.
+
+    Args:
+        filepath: Path to the batch JSON file to validate.
+
+    Returns:
+        dict: Parsed batch data from the file.
+
+    Raises:
+        AssertionError: If required fields are missing or malformed.
+    """
     data = assert_valid_json_file(filepath)
     assert "data_source_id" in data
     assert "batch_number" in data

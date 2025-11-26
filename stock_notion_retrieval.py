@@ -25,13 +25,34 @@ logger = logging.getLogger(__name__)
 
 @dataclass
 class TimeChunk:
-    """Represents a 5-year time period"""
+    """Represents a 5-year time period for data retrieval.
+
+    Attributes:
+        start_date: Period start date in YYYY-MM-DD format.
+        end_date: Period end date in YYYY-MM-DD format.
+        label: Human-readable label (e.g., "2020-2024").
+    """
     start_date: str
     end_date: str
     label: str
 
 class StockDataNotionRetriever:
-    """Production system for retrieving stock data and saving to Notion"""
+    """Production system for retrieving stock data and saving to Notion.
+
+    Coordinates bulk retrieval of historical stock data across multiple
+    time periods, formats results for Notion database ingestion, and
+    manages checkpointing for recovery.
+
+    Attributes:
+        ticker_file: Path to JSON file containing ticker symbols.
+        tickers: List of loaded ticker symbols.
+        batch_size: Number of tickers to process per batch.
+        notion_database_url: URL of the target Notion database.
+        processed_count: Count of tickers processed so far.
+        failed_tickers: List of ticker symbols that failed processing.
+        successful_saves: Count of records successfully saved.
+        time_chunks: List of TimeChunk objects defining retrieval periods.
+    """
 
     def __init__(self):
         self.ticker_file = "/mnt/user-data/uploads/all_tickers.json"
@@ -52,7 +73,17 @@ class StockDataNotionRetriever:
         ]
 
     def load_tickers(self) -> List[str]:
-        """Load tickers from JSON file"""
+        """Load ticker symbols from the configured JSON file.
+
+        Reads the ticker file and populates the internal tickers list.
+
+        Returns:
+            list[str]: List of ticker symbols loaded from file.
+
+        Raises:
+            FileNotFoundError: If the ticker file does not exist.
+            json.JSONDecodeError: If the ticker file contains invalid JSON.
+        """
         try:
             with open(self.ticker_file, 'r', encoding='utf-8') as f:
                 self.tickers = json.load(f)
@@ -63,7 +94,14 @@ class StockDataNotionRetriever:
             raise
 
     def create_notion_database(self):
-        """Create the Notion database structure for stock data"""
+        """Create and save the Notion database property schema.
+
+        Defines the complete property structure for the stock data
+        database and writes it to a reference JSON file.
+
+        Returns:
+            dict: Database properties definition dictionary.
+        """
         logger.info("📊 Creating Notion database for stock data...")
 
         # Database properties definition
@@ -116,9 +154,19 @@ class StockDataNotionRetriever:
         return database_properties
 
     def fetch_polygon_data(self, ticker: str, chunk: TimeChunk) -> Dict:
-        """
-        Fetch actual data from Polygon API
-        Attempts minute → hour → day resolution
+        """Fetch stock aggregate data from the Polygon API.
+
+        Retrieves OHLCV data for a ticker within the specified time chunk.
+        Selects timespan resolution based on date range (minute/hour/day).
+        Currently returns simulated data; replace with actual API calls.
+
+        Args:
+            ticker: Stock ticker symbol (e.g., "AAPL").
+            chunk: TimeChunk defining the retrieval period.
+
+        Returns:
+            dict: Stock data containing ticker, period, prices, volume,
+                and metadata. Returns has_data=False if no data available.
         """
         # This simulates the Polygon API call structure
         # In production, this would use the actual mcp_polygon:get_aggs tool
@@ -227,7 +275,16 @@ class StockDataNotionRetriever:
         logger.info("✅ Saved %s records to %s", len(notion_pages), output_file)
 
     def process_batch(self, batch: List[str], batch_num: int, total_batches: int):
-        """Process a batch of tickers through all time chunks"""
+        """Process a batch of tickers through all time chunks.
+
+        Iterates through each ticker, fetches data for all time chunks,
+        saves results to Notion, and triggers checkpoint saves periodically.
+
+        Args:
+            batch: List of ticker symbols to process.
+            batch_num: Current batch number (1-indexed).
+            total_batches: Total number of batches to process.
+        """
         logger.info("🔄 Processing batch %s/%s (%s tickers)", batch_num, total_batches, len(batch))
 
         batch_data = []
@@ -265,7 +322,14 @@ class StockDataNotionRetriever:
             self.save_checkpoint(batch_num)
 
     def save_checkpoint(self, batch_num: int):
-        """Save progress checkpoint"""
+        """Save progress checkpoint to enable resumption after interruption.
+
+        Writes current processing state to a JSON file including batch
+        number, counts, and failed tickers.
+
+        Args:
+            batch_num: Last successfully completed batch number.
+        """
         checkpoint_file = os.path.join(OUTPUT_DIR, 'retrieval_checkpoint.json')
         checkpoint_data = {
             "last_batch": batch_num,
@@ -282,7 +346,16 @@ class StockDataNotionRetriever:
         logger.info("💾 Checkpoint saved at batch %s", batch_num)
 
     def run(self):
-        """Main execution method"""
+        """Execute the full stock data retrieval and Notion export workflow.
+
+        Orchestrates loading tickers, creating the database schema,
+        processing batches, and generating a final report. Handles
+        interruptions by saving checkpoints before exiting.
+
+        Raises:
+            Exception: Re-raises unexpected errors after logging and
+                saving checkpoint.
+        """
         logger.info("=" * 60)
         logger.info("🚀 STOCK DATA RETRIEVAL SYSTEM - PRODUCTION RUN")
         logger.info("=" * 60)
