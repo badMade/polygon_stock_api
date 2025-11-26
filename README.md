@@ -5,6 +5,7 @@
 This repository provides utilities for simulating large-scale historical stock data retrieval from the Polygon API and exporting results to a Notion database. The scripts use stubbed Polygon responses for predictable, testable behavior without requiring external API credentials.
 
 Key capabilities:
+
 - Batch processing of 6,600+ ticker symbols across 5-year time periods
 - Notion-ready JSON output with full database schema support
 - Checkpointing and recovery for long-running processes
@@ -27,14 +28,14 @@ Key capabilities:
 
 ### Installation
 
-1. Clone the repository:
+- Clone the repository:
 
 ```bash
 git clone <repository-url>
 cd polygon_stock_api
 ```
 
-2. Install dependencies:
+- Install dependencies:
 
 ```bash
 pip install -r requirements.txt
@@ -51,6 +52,7 @@ The scripts use hardcoded paths by default. Modify these constants as needed:
 | `stock_notion_retrieval.py` | `ticker_file` | `/mnt/user-data/uploads/all_tickers.json` |
 
 **Notion Configuration** (for production use):
+
 - `data_source_id`: `7c5225aa-429b-4580-946e-ba5b1db2ca6d`
 - Database URL: `https://www.notion.so/638a8018f09d4e159d6d84536f411441`
 
@@ -104,7 +106,7 @@ python upload_to_notion.py
 
 ## Folder Structure
 
-```
+```TEXT
 polygon_stock_api/
 ├── execute_stock_retrieval.py      # Main batch executor
 ├── execute_complete_production.py  # Full pipeline runner
@@ -137,11 +139,11 @@ After running retrieval scripts, you'll find:
 
 ## Contributing
 
-1. Write tests for new functionality
-2. Ensure all tests pass: `pytest`
-3. Run linter: `flake8 .`
-4. Add docstrings to all public functions and classes
-5. Keep external interactions simulated/mocked
+- Write tests for new functionality
+- Ensure all tests pass: `pytest`
+- Run linter: `flake8 .`
+- Add docstrings to all public functions and classes
+- Keep external interactions simulated/mocked
 
 ## Troubleshooting
 
