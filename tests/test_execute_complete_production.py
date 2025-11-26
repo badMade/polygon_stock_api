@@ -11,12 +11,14 @@ import execute_complete_production
 def test_import_has_no_side_effects(monkeypatch):
     """Ensure importing the module does not execute the workflow."""
 
-    monkeypatch.delitem(sys.modules, "execute_complete_production", raising=False)
+    monkeypatch.delitem(
+        sys.modules, "execute_complete_production", raising=False
+        )
 
     with patch("subprocess.run") as mock_run:
         imported = importlib.import_module("execute_complete_production")
 
-    assert imported is not None
+    assert hasattr(imported, "main")
     mock_run.assert_not_called()
 
 
@@ -26,7 +28,7 @@ def test_import_has_no_side_effects(monkeypatch):
 @patch("execute_complete_production.os.listdir")
 @patch("execute_complete_production.subprocess.run")
 def test_main_runs_retrieval_and_processes_batches(
-    mock_run, mock_listdir, mock_exists, mock_makedirs, mock_sleep, capsys
+    mock_run, mock_listdir, mock_makedirs, mock_sleep, capsys
 ):
     """Verify main executes retrieval and processes batches in order."""
 
@@ -62,7 +64,7 @@ def test_main_runs_retrieval_and_processes_batches(
 
 @patch("execute_complete_production.time.sleep")
 @patch("execute_complete_production.os.listdir", return_value=[])
-def test_main_uses_summary_file(mock_listdir, mock_sleep, capsys):
+def test_main_uses_summary_file(capsys):
     """Ensure summary data is printed when available."""
 
     summary_data = {
@@ -90,11 +92,13 @@ def test_main_uses_summary_file(mock_listdir, mock_sleep, capsys):
     assert "Total duration: 0:05:30" in captured
 
 
-@patch("execute_complete_production.os.listdir", side_effect=FileNotFoundError())
+@patch(
+    "execute_complete_production.os.listdir", side_effect=FileNotFoundError()
+    )
 @patch("execute_complete_production.os.path.exists", return_value=True)
 @patch("execute_complete_production.subprocess.run")
 def test_main_handles_missing_directory_during_listing(
-    mock_run, mock_exists, mock_listdir, capsys
+    mock_run, capsys
 ):
     """Handle missing output directory during batch listing without raising."""
 
