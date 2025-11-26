@@ -55,6 +55,7 @@ class ProductionStockRetriever:
         self.processed = 0
         self.saved = 0
         self.failed = []
+        self.tickers = []
 
         # 5-year chunks backwards from current
         self.periods = [
@@ -134,6 +135,57 @@ class ProductionStockRetriever:
             "timespan": "day"
         }
 
+    def _create_base_properties(self, ticker, period, data, batch_num):
+        """Create base Notion page properties for a ticker/period."""
+        return {
+            "Ticker": ticker,
+            "Period": period["label"],
+            "Has Data": "__YES__" if data["has_data"] else "__NO__",
+            "Batch Number": batch_num,
+            "date:Date:start": period["from"],
+            "date:Date:is_datetime": 0,
+            "date:Retrieved At:start": datetime.now().isoformat(),
+            "date:Retrieved At:is_datetime": 1
+        }
+
+    def _add_numeric_properties(self, properties, data):
+        """Add numeric data fields to properties if available."""
+        for field in ["Open", "High", "Low", "Close", "Volume",
+                      "VWAP", "Transactions", "Data Points"]:
+            value = data.get(field.lower().replace(" ", "_"))
+            if value is not None:
+                properties[field] = value
+
+        if data.get("timespan"):
+            properties["Timespan"] = data["timespan"]
+
+    def _process_ticker_period(self, ticker, period, batch_num):
+        """Process a single ticker for one time period."""
+        data = self.get_polygon_data(ticker, period)
+
+        properties = self._create_base_properties(
+            ticker, period, data, batch_num
+        )
+
+        if data["has_data"]:
+            self._add_numeric_properties(properties, data)
+
+        time.sleep(0.01)  # Rate limiting
+
+        return {"properties": properties}
+
+    def _log_progress(self, current_index, ticker):
+        """Log progress update every 20 tickers."""
+        if current_index % 20 == 0:
+            pct = (self.processed / len(self.tickers)) * 100
+            logger.info(
+                "  ✓ Progress: %d/%d (%.1f%%) - Current: %s",
+                self.processed,
+                len(self.tickers),
+                pct,
+                ticker,
+            )
+
     def process_batch(self, batch, batch_num, total_batches):
         """Process a batch of tickers through all time periods.
 
@@ -159,56 +211,13 @@ class ProductionStockRetriever:
         notion_pages = []
 
         for i, ticker in enumerate(batch, 1):
-            ticker_records = []
-
-            # Process each 5-year period
             for period in self.periods:
-                # Get data from Polygon
-                data = self.get_polygon_data(ticker, period)
-
-                # Only save if data exists or we're tracking nulls
-                if data["has_data"] or True:  # Always save to track what we checked
-                    properties = {
-                        "Ticker": ticker,
-                        "Period": period["label"],
-                        "Has Data": "__YES__" if data["has_data"] else "__NO__",
-                        "Batch Number": batch_num,
-                        "date:Date:start": period["from"],
-                        "date:Date:is_datetime": 0,
-                        "date:Retrieved At:start": datetime.now().isoformat(),
-                        "date:Retrieved At:is_datetime": 1
-                    }
-
-                    # Add numeric data if available
-                    if data["has_data"]:
-                        for field in ["Open", "High", "Low", "Close", "Volume",
-                                    "VWAP", "Transactions", "Data Points"]:
-                            value = data.get(field.lower().replace(" ", "_"))
-                            if value is not None:
-                                properties[field] = value
-
-                        if data.get("timespan"):
-                            properties["Timespan"] = data["timespan"]
-
-                    notion_pages.append({"properties": properties})
-
-                # Rate limiting (adjust based on your Polygon plan)
-                time.sleep(0.01)  # 10ms between calls
+                page = self._process_ticker_period(ticker, period, batch_num)
+                notion_pages.append(page)
 
             self.processed += 1
+            self._log_progress(i, ticker)
 
-            # Progress updates
-            if i % 20 == 0:
-                pct = (self.processed / len(self.tickers)) * 100
-                logger.info(
-                    "  ✓ Progress: %d/%d (%.1f%%) - Current: %s",
-                    self.processed,
-                    len(self.tickers),
-                    pct,
-                    ticker,
-                )
-
-        # Save batch for Notion upload
         self.save_batch(notion_pages, batch_num)
         self.saved += len(notion_pages)
 
@@ -224,8 +233,9 @@ class ProductionStockRetriever:
             pages: List of Notion page dictionaries to save.
             batch_num: Batch number used for file naming.
         """
-        output_file = os.path.join(OUTPUT_DIR, f'batch_{batch_num:04d}_notion.json')
-        
+        output_file = os.path.join(
+            OUTPUT_DIR, f'batch_{batch_num:04d}_notion.json')
+
         batch_data = {
             "data_source_id": self.data_source_id,
             "batch_number": batch_num,
@@ -246,7 +256,8 @@ class ProductionStockRetriever:
         files and uploads them to the Notion database using the Notion API.
 
         Args:
-            total_batches: Total number of batch files to include in the script.
+            total_batches:
+            Total number of batch files to include in the script.
         """
         script = f'''#!/usr/bin/env python3
 """
@@ -268,7 +279,8 @@ def upload_batch(batch_num):
     with open(filename, 'r', encoding='utf-8') as f:
         batch_data = json.load(f)
 
-    print(f"Uploading batch {{batch_num}}: {{batch_data['record_count']}} pages")
+    print(f"Uploading batch {{batch_num}}:
+    {{batch_data['record_count']}} pages")
 
     # Split into chunks of 100 pages (Notion API limit)
     pages = batch_data['pages']
@@ -277,7 +289,8 @@ def upload_batch(batch_num):
 
         # Use Notion API to create pages
         # notion.create_pages(
-        #     parent={{"data_source_id": DATA_SOURCE_ID, "type": "data_source_id"}},
+        #     parent={{"data_source_id": DATA_SOURCE_ID,
+        # "type": "data_source_id"}},
         #     pages=chunk
         # )
 
@@ -290,11 +303,12 @@ total_uploaded = 0
 for batch_num in range(1, TOTAL_BATCHES + 1):
     records = upload_batch(batch_num)
     total_uploaded += records
-    print(f"Progress: {{batch_num}}/{{TOTAL_BATCHES}} batches, {{total_uploaded}} total records")
+    print(f"Progress: {{batch_num}}/{{TOTAL_BATCHES}} batches,
+    {{total_uploaded}} total records")
 
 print(f"\\n✅ Upload complete: {{total_uploaded}} records uploaded to Notion")
 '''
-        
+
         script_file = os.path.join(OUTPUT_DIR, 'notion_bulk_upload.py')
         with open(script_file, 'w', encoding='utf-8') as f:
             f.write(script)
@@ -318,7 +332,10 @@ print(f"\\n✅ Upload complete: {{total_uploaded}} records uploaded to Notion")
         logger.info("=" * 80)
         logger.info("🚀 PRODUCTION STOCK DATA RETRIEVAL - 6,628 TICKERS")
         logger.info("=" * 80)
-        logger.info("📊 Notion Database: https://www.notion.so/638a8018f09d4e159d6d84536f411441")
+        logger.info(
+            "📊 Notion Database: https://www.notion.so/"
+            "638a8018f09d4e159d6d84536f411441"
+        )
         logger.info("🔗 Data Source ID: %s", self.data_source_id)
         logger.info("=" * 80)
 
@@ -330,16 +347,19 @@ print(f"\\n✅ Upload complete: {{total_uploaded}} records uploaded to Notion")
             logger.info("📈 Loaded %d tickers", ticker_count)
 
             # Calculate batches
-            total_batches = (ticker_count + self.batch_size - 1) // self.batch_size
+            total_batches = (
+                ticker_count + self.batch_size - 1) // self.batch_size
             total_est_records = ticker_count * len(self.periods)
 
             logger.info("📊 Configuration:")
             logger.info("  • Tickers: %d", ticker_count)
             logger.info("  • Batch size: %d", self.batch_size)
             logger.info("  • Total batches: %d", total_batches)
-            logger.info("  • Time periods: %d (5-year chunks)", len(self.periods))
+            logger.info(
+                "  • Time periods: %d (5-year chunks)", len(self.periods))
             logger.info("  • Est. records: %d", total_est_records)
-            logger.info("  • Est. API calls: %d", ticker_count * len(self.periods))
+            logger.info(
+                "  • Est. API calls: %d", ticker_count * len(self.periods))
 
             # Estimate time
             api_calls = ticker_count * len(self.periods)
@@ -354,20 +374,28 @@ print(f"\\n✅ Upload complete: {{total_uploaded}} records uploaded to Notion")
                 end_idx = min(start_idx + self.batch_size, ticker_count)
                 batch = self.tickers[start_idx:end_idx]
 
-                batch_start = datetime.now()
-                records = self.process_batch(batch, batch_num, total_batches)
-                batch_time = datetime.now() - batch_start
+                self.process_batch(batch, batch_num, total_batches)
 
                 # Detailed progress every 10 batches
                 if batch_num % 10 == 0 or batch_num == total_batches:
                     elapsed = datetime.now() - start_time
-                    rate = self.processed / elapsed.total_seconds() if elapsed.total_seconds() > 0 else 0
+                    rate = (
+                        self.processed / elapsed.total_seconds()
+                        if elapsed.total_seconds() > 0 else 0
+                    )
                     remaining_tickers = ticker_count - self.processed
-                    eta = timedelta(seconds=remaining_tickers/rate) if rate > 0 else timedelta(0)
+                    eta = (
+                        timedelta(seconds=remaining_tickers/rate)
+                        if rate > 0 else timedelta(0)
+                    )
 
                     logger.info("-" * 60)
-                    logger.info("📊 CHECKPOINT - Batch %d/%d", batch_num, total_batches)
-                    logger.info("  • Processed: %d/%d tickers", self.processed, ticker_count)
+                    logger.info(
+                        "📊 CHECKPOINT - Batch %d/%d", batch_num, total_batches)
+                    logger.info(
+                        "  • Processed: %d/%d tickers", self.processed,
+                        ticker_count
+                        )
                     logger.info("  • Saved: %d records", self.saved)
                     logger.info("  • Rate: %.1f tickers/sec", rate)
                     logger.info("  • Elapsed: %s", elapsed)
@@ -381,7 +409,9 @@ print(f"\\n✅ Upload complete: {{total_uploaded}} records uploaded to Notion")
                         "saved": self.saved,
                         "timestamp": datetime.now().isoformat()
                     }
-                    with open(os.path.join(OUTPUT_DIR, 'checkpoint.json'), 'w', encoding='utf-8') as f:
+                    with open(
+                        os.path.join(OUTPUT_DIR, 'checkpoint.json'),
+                            'w', encoding='utf-8') as f:
                         json.dump(checkpoint, f)
 
             # Generate upload script
@@ -405,15 +435,26 @@ print(f"\\n✅ Upload complete: {{total_uploaded}} records uploaded to Notion")
                     "failed": len(self.failed)
                 },
                 "performance": {
-                    "avg_ticker_time": duration.total_seconds() / self.processed if self.processed > 0 else 0,
-                    "tickers_per_second": self.processed / duration.total_seconds() if duration.total_seconds() > 0 else 0
+                    "avg_ticker_time": (
+                        duration.total_seconds() / self.processed
+                        if self.processed > 0
+                        else 0
+                    ),
+                    "tickers_per_second": (
+                        self.processed / duration.total_seconds()
+                        if duration.total_seconds() > 0
+                        else 0
+                    )
                 },
                 "notion": {
-                    "database_url": "https://www.notion.so/638a8018f09d4e159d6d84536f411441",
+                    "database_url": (
+                        "https://www.notion.so/"
+                        "638a8018f09d4e159d6d84536f411441"
+                    ),
                     "data_source_id": self.data_source_id
                 }
             }
-            
+
             summary_file = os.path.join(OUTPUT_DIR, 'production_summary.json')
             with open(summary_file, 'w', encoding='utf-8') as f:
                 json.dump(summary, f, indent=2)
@@ -429,18 +470,26 @@ print(f"\\n✅ Upload complete: {{total_uploaded}} records uploaded to Notion")
             logger.info("  • Files: %d batch files created", total_batches)
             logger.info("=" * 80)
             logger.info("📋 Next Steps:")
-            logger.info(f"  1. Review batch files in {OUTPUT_DIR}/")
+            logger.info(
+                "  1. Review batch files in %s/", OUTPUT_DIR
+                )
             logger.info("  2. Run notion_bulk_upload.py to upload to Notion")
-            logger.info("  3. Monitor at: https://www.notion.so/638a8018f09d4e159d6d84536f411441")
+            logger.info(
+                "  3. Monitor at: https://www.notion.so/"
+                "638a8018f09d4e159d6d84536f411441"
+                )
             logger.info("=" * 80)
 
         except KeyboardInterrupt:
             logger.warning("\n⚠️ Run interrupted - progress saved")
-            logger.info("Processed %d tickers before interruption", self.processed)
+            logger.info(
+                "Processed %d tickers before interruption", self.processed
+                )
 
         except Exception as e:  # pylint: disable=broad-except
             logger.error("❌ Error: %s", e)
             raise
+
 
 if __name__ == "__main__":
     retriever = ProductionStockRetriever()
