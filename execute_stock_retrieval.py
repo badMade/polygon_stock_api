@@ -157,7 +157,7 @@ class StockDataExecutor:
             "timespan": "day" if "200" in period["label"] else "hour"
         })
 
-    def _stable_seed(ticker: str) -> int:
+    def _stable_seed(self, ticker: str) -> int:
         """Return a deterministic integer seed for the given ticker."""
         digest = sha256(ticker.encode("utf-8")).digest()
         return int.from_bytes(digest[:8], "big")
