@@ -41,6 +41,12 @@ cd polygon_stock_api
 pip install -r requirements.txt
 ```
 
+- For development (includes testing and linting tools):
+
+```bash
+pip install -r requirements-dev.txt
+```
+
 ### Configuration
 
 The scripts use hardcoded paths by default. Modify these constants as needed:
@@ -125,7 +131,8 @@ polygon_stock_api/
 ├── CLAUDE.md                       # AI assistant guide
 ├── PRODUCTION_GUIDE.md             # Production deployment docs
 ├── STATUS_REPORT.md                # System status and progress
-└── requirements.txt                # Python dependencies
+└── requirements.txt                # Runtime dependencies
+└── requirements-dev.txt            # Development/test dependencies
 ```
 
 ## Output Files
@@ -147,7 +154,7 @@ After running retrieval scripts, you'll find:
 
 ## Troubleshooting
 
-- **ModuleNotFoundError**: Run `pip install -r requirements.txt`
+- **ModuleNotFoundError**: Run `pip install -r requirements.txt` (or `pip install -r requirements-dev.txt` for development)
 - **FileNotFoundError for ticker file**: Copy `all_tickers.json` to expected path
 - **Permission denied on output**: Ensure write access to output directories
 - **Tests failing**: Run `pytest -v` for detailed failure information
