@@ -17,6 +17,11 @@ SUMMARY_FILE = os.path.join(OUTPUT_DIRECTORY, "production_summary.json")
 
 
 def _print_start_banner(start_time: datetime) -> None:
+    """Print the startup banner with run metadata.
+
+    Args:
+        start_time: Timestamp when the run began.
+    """
     print("=" * 80)
     print("🚀 STARTING COMPLETE PRODUCTION RUN - 6,626 TICKERS")
     print("=" * 80)
@@ -25,6 +30,12 @@ def _print_start_banner(start_time: datetime) -> None:
 
 
 def _run_production_retrieval() -> None:
+    """Execute the production stock retrieval script via subprocess.
+
+    Runs production_stock_retrieval.py as a subprocess and handles
+    common error conditions including keyboard interrupts and process
+    failures.
+    """
     print("\n📊 PHASE 1: Data Retrieval")
     print("-" * 80)
     print("Processing 6,626 tickers in 67 batches...")
@@ -58,6 +69,12 @@ def _run_production_retrieval() -> None:
 
 
 def _get_batch_files() -> list[str]:
+    """Retrieve list of batch JSON files from the output directory.
+
+    Returns:
+        list[str]: Filenames matching the batch_*_notion.json pattern,
+            or an empty list if the directory is missing.
+    """
     try:
         return [
             filename
@@ -73,6 +90,18 @@ def _get_batch_files() -> list[str]:
 
 
 def _process_batches(batch_files: list[str]) -> int:
+    """Process and simulate uploading batch files to Notion.
+
+    Iterates through batch files, reads their record counts, and logs
+    progress. Currently simulates the upload; replace with actual Notion
+    API calls in production.
+
+    Args:
+        batch_files: List of batch filenames to process.
+
+    Returns:
+        int: Total number of records processed across all batches.
+    """
     print("\n" + "=" * 80)
     print("📊 PHASE 2: Upload to Notion")
     print("-" * 80)
@@ -106,6 +135,16 @@ def _process_batches(batch_files: list[str]) -> int:
 
 
 def _print_final_report(start_time: datetime, batch_count: int, total_records: int) -> None:
+    """Print a summary report after processing completes.
+
+    Reads the production summary file if available, otherwise uses the
+    provided batch and record counts to display final statistics.
+
+    Args:
+        start_time: Timestamp when the run began.
+        batch_count: Number of batch files processed.
+        total_records: Total records processed across batches.
+    """
     end_time = datetime.now()
     duration = end_time - start_time
 
@@ -151,6 +190,12 @@ def _print_final_report(start_time: datetime, batch_count: int, total_records: i
 
 
 def main() -> None:
+    """Run the complete production pipeline.
+
+    Orchestrates data retrieval, batch processing, and final reporting.
+    Creates the output directory if needed and handles directory creation
+    errors gracefully.
+    """
     start_time = datetime.now()
     _print_start_banner(start_time)
 

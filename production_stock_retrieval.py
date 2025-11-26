@@ -28,7 +28,22 @@ logger = logging.getLogger(__name__)
 
 
 class ProductionStockRetriever:
-    """Production system for 6,628 tickers"""
+    """Production system for bulk historical stock data retrieval.
+
+    Retrieves stock data from the Polygon API for thousands of tickers across
+    multiple 5-year time periods, batching requests to manage rate limits and
+    saving results to JSON files for subsequent Notion database upload.
+
+    Attributes:
+        ticker_file: Path to JSON file containing ticker symbols.
+        data_source_id: Notion database data source identifier.
+        batch_size: Number of tickers to process per batch.
+        processed: Count of tickers processed so far.
+        saved: Count of records saved to batch files.
+        failed: List of ticker symbols that failed processing.
+        periods: List of 5-year time period dictionaries with from/to dates.
+        tickers: List of ticker symbols loaded from ticker_file.
+    """
 
     def __init__(self):
         # Using the actual 6,628 ticker file
@@ -51,30 +66,56 @@ class ProductionStockRetriever:
         ]
 
     def load_tickers(self):
-        """Load all 6,628 tickers"""
+        """Load ticker symbols from the configured JSON file.
+
+        Reads the ticker file and populates the internal tickers list.
+
+        Returns:
+            int: Number of tickers loaded.
+
+        Raises:
+            FileNotFoundError: If the ticker file does not exist.
+            json.JSONDecodeError: If the ticker file contains invalid JSON.
+        """
         with open(self.ticker_file, 'r', encoding='utf-8') as f:
             self.tickers = json.load(f)
         return len(self.tickers)
 
     def get_polygon_data(self, ticker, period):
-        """
-        Call Polygon API for actual data
-        Replace this with actual mcp_polygon:get_aggs calls
+        """Retrieve stock aggregate data from the Polygon API.
+
+        Fetches OHLCV (Open, High, Low, Close, Volume) data for a ticker
+        within the specified time period. Currently returns placeholder data;
+        replace with actual mcp_polygon.get_aggs calls in production.
+
+        Args:
+            ticker: Stock ticker symbol (e.g., "AAPL").
+            period: Dictionary with "from", "to" date strings and "label".
+
+        Returns:
+            dict: Stock data containing:
+                - ticker: The ticker symbol.
+                - period: The period label.
+                - has_data: Whether valid data was retrieved.
+                - open, high, low, close: Price values or None.
+                - volume: Trading volume or None.
+                - vwap: Volume-weighted average price or None.
+                - transactions: Transaction count or None.
+                - data_points: Number of data points retrieved.
+                - timespan: Data resolution ("minute", "hour", or "day").
         """
         # This is where you'd make the actual Polygon API call
         # Example structure:
-        """
-        response = mcp_polygon.get_aggs(
-            ticker=ticker,
-            multiplier=1,
-            timespan="day",  # Try minute → hour → day
-            from_=period["from"],
-            to=period["to"],
-            adjusted=True,
-            sort="asc",
-            limit=50000
-        )
-        """
+        # response = mcp_polygon.get_aggs(
+        #     ticker=ticker,
+        #     multiplier=1,
+        #     timespan="day",  # Try minute → hour → day
+        #     from_=period["from"],
+        #     to=period["to"],
+        #     adjusted=True,
+        #     sort="asc",
+        #     limit=50000
+        # )
 
         # For now, return a structured response
         # In production, parse the actual API response
@@ -94,7 +135,20 @@ class ProductionStockRetriever:
         }
 
     def process_batch(self, batch, batch_num, total_batches):
-        """Process a batch of 100 tickers"""
+        """Process a batch of tickers through all time periods.
+
+        Iterates through each ticker in the batch, fetches data for all
+        configured time periods, formats the results as Notion pages,
+        and saves them to a batch file.
+
+        Args:
+            batch: List of ticker symbols to process.
+            batch_num: Current batch number (1-indexed).
+            total_batches: Total number of batches to process.
+
+        Returns:
+            int: Number of Notion page records created for this batch.
+        """
         logger.info(
             "📊 BATCH %d/%d: Processing %d tickers",
             batch_num,
@@ -161,7 +215,15 @@ class ProductionStockRetriever:
         return len(notion_pages)
 
     def save_batch(self, pages, batch_num):
-        """Save batch data for Notion upload"""
+        """Save batch data to a JSON file for later Notion upload.
+
+        Writes the collected Notion page data along with metadata to a
+        JSON file in the output directory.
+
+        Args:
+            pages: List of Notion page dictionaries to save.
+            batch_num: Batch number used for file naming.
+        """
         output_file = os.path.join(OUTPUT_DIR, f'batch_{batch_num:04d}_notion.json')
         
         batch_data = {
@@ -178,7 +240,14 @@ class ProductionStockRetriever:
         logger.info("  💾 Saved %d records to %s", len(pages), output_file)
 
     def create_notion_upload_script(self, total_batches):
-        """Generate script to upload all batches to Notion"""
+        """Generate a Python script for uploading all batch files to Notion.
+
+        Creates an executable Python script that iterates through all batch
+        files and uploads them to the Notion database using the Notion API.
+
+        Args:
+            total_batches: Total number of batch files to include in the script.
+        """
         script = f'''#!/usr/bin/env python3
 """
 Upload all batch files to Notion database
@@ -234,7 +303,18 @@ print(f"\\n✅ Upload complete: {{total_uploaded}} records uploaded to Notion")
         logger.info("📝 Upload script created: %s", script_file)
 
     def run(self):
-        """Execute the full production run"""
+        """Execute the full production data retrieval workflow.
+
+        Orchestrates the complete retrieval process: loads tickers, divides
+        them into batches, processes each batch through all time periods,
+        saves checkpoints periodically, and generates a summary and upload
+        script upon completion.
+
+        Handles KeyboardInterrupt gracefully by saving progress before exit.
+
+        Raises:
+            Exception: Re-raises any unexpected errors after logging.
+        """
         logger.info("=" * 80)
         logger.info("🚀 PRODUCTION STOCK DATA RETRIEVAL - 6,628 TICKERS")
         logger.info("=" * 80)
