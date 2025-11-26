@@ -79,7 +79,8 @@ def _get_batch_files() -> list[str]:
         return [
             filename
             for filename in os.listdir(OUTPUT_DIRECTORY)
-            if filename.startswith("batch_") and filename.endswith("_notion.json")
+            if filename.startswith(
+                "batch_") and filename.endswith("_notion.json")
         ]
     except FileNotFoundError:
         print(
@@ -134,7 +135,11 @@ def _process_batches(batch_files: list[str]) -> int:
     return total_records
 
 
-def _print_final_report(start_time: datetime, batch_count: int, total_records: int) -> None:
+def _print_final_report(
+    start_time: datetime,
+    batch_count: int,
+    total_records: int,
+) -> None:
     """Print a summary report after processing completes.
 
     Reads the production summary file if available, otherwise uses the
@@ -157,8 +162,10 @@ def _print_final_report(start_time: datetime, batch_count: int, total_records: i
             with open(SUMMARY_FILE, "r", encoding="utf-8") as file:
                 summary = json.load(file)
 
-            print(f"✅ Tickers processed: {summary['results']['tickers_processed']:,}")
-            print(f"✅ Records created: {summary['results']['records_saved']:,}")
+            tickers = summary['results']['tickers_processed']
+            print(f"✅ Tickers processed: {tickers:,}")
+            records = summary['results']['records_saved']
+            print(f"✅ Records created: {records:,}")
             print(f"✅ Batch files: {summary['results']['batches_created']}")
             print(f"⏱️  Total duration: {summary['execution']['duration']}")
         except (json.JSONDecodeError, OSError, KeyError) as exc:
