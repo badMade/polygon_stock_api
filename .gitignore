@@ -69,3 +69,6 @@ venv.bak/
 # OS
 .DS_Store
 Thumbs.db
+
+# User data directory (generated at runtime)
+user-data/
