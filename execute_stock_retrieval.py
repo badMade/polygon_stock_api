@@ -358,7 +358,7 @@ import json
 
 # Process each batch file
 for batch_num in range(1, {total_batches + 1}):
-    filename = f'{OUTPUT_DIR}/notion_batch_{{batch_num:04d}}.json'
+    filename = f'{str(OUTPUT_DIR)}/notion_batch_{{batch_num:04d}}.json'
 
     with open(filename, 'r', encoding='utf-8') as f:
         batch_data = json.load(f)
