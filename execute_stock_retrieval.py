@@ -12,17 +12,19 @@ from datetime import datetime, timedelta
 from typing import List, Dict
 import logging
 import os
+from pathlib import Path
 from hashlib import sha256
 
-OUTPUT_DIR = "/mnt/user-data/outputs"
-os.makedirs(OUTPUT_DIR, exist_ok=True)
+BASE_DATA_DIR = Path(os.getenv("STOCK_APP_DATA_DIR", Path(__file__).resolve().parent / "user-data"))
+OUTPUT_DIR = BASE_DATA_DIR / "outputs"
+OUTPUT_DIR.mkdir(parents=True, exist_ok=True)
 
 # Configure logging
 logging.basicConfig(
     level=logging.INFO,
     format='%(asctime)s - [%(levelname)s] %(message)s',
     handlers=[
-        logging.FileHandler(os.path.join(OUTPUT_DIR, 'execution.log')),
+        logging.FileHandler(OUTPUT_DIR / 'execution.log'),
         logging.StreamHandler()
     ]
 )
@@ -49,7 +51,7 @@ class StockDataExecutor:
 
     def __init__(self):
         # Configuration
-        self.ticker_file = "/mnt/user-data/outputs/all_tickers.json"
+        self.ticker_file = str(OUTPUT_DIR / "all_tickers.json")
         self.data_source_id = "7c5225aa-429b-4580-946e-ba5b1db2ca6d"
         self.batch_size = 100
 
@@ -275,7 +277,7 @@ class StockDataExecutor:
         notion_pages = self.create_notion_pages(batch_results, batch_num)
 
         filename = f'notion_batch_{batch_num:04d}.json'
-        output_file = f'/mnt/user-data/outputs/{filename}'
+        output_file = OUTPUT_DIR / filename
         with open(output_file, 'w', encoding='utf-8') as f:
             json.dump({
                 "data_source_id": self.data_source_id,
@@ -349,7 +351,7 @@ import json
 
 # Process each batch file
 for batch_num in range(1, {total_batches + 1}):
-    filename = f'/mnt/user-data/outputs/notion_batch_{{batch_num:04d}}.json'
+    filename = f'{OUTPUT_DIR}/notion_batch_{{batch_num:04d}}.json'
 
     with open(filename, 'r', encoding='utf-8') as f:
         batch_data = json.load(f)
@@ -363,7 +365,7 @@ for batch_num in range(1, {total_batches + 1}):
     # )
 '''
 
-        script_file = '/mnt/user-data/outputs/upload_to_notion.py'
+        script_file = OUTPUT_DIR / 'upload_to_notion.py'
         with open(script_file, 'w', encoding='utf-8') as f:
             f.write(script_content)
 
@@ -474,7 +476,7 @@ for batch_num in range(1, {total_batches + 1}):
             }
 
             # Save summary
-            summary_file = '/mnt/user-data/outputs/execution_summary.json'
+            summary_file = OUTPUT_DIR / 'execution_summary.json'
             with open(summary_file, 'w', encoding='utf-8') as f:
                 json.dump(summary, f, indent=2)
 
@@ -489,7 +491,7 @@ for batch_num in range(1, {total_batches + 1}):
             logger.info("📄 Summary: %s", summary_file)
             logger.info("=" * 70)
             logger.info("🎯 Next steps:")
-            logger.info("  1. Review batch files in /mnt/user-data/outputs/")
+            logger.info("  1. Review batch files in %s/", OUTPUT_DIR)
             logger.info("  2. Run upload_to_notion.py to populate database")
             logger.info(
                 "  3. View data at: "

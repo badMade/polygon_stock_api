@@ -12,10 +12,16 @@ Note:
 """
 
 import json
+import os
+from pathlib import Path
+
+BASE_DATA_DIR = Path(os.getenv("STOCK_APP_DATA_DIR", Path(__file__).resolve().parent / "user-data"))
+OUTPUT_DIR = BASE_DATA_DIR / "outputs"
+OUTPUT_DIR.mkdir(parents=True, exist_ok=True)
 
 # Process each batch file
 for batch_num in range(1, 2):
-    filename = f'/mnt/user-data/outputs/notion_batch_{batch_num:04d}.json'
+    filename = OUTPUT_DIR / f'notion_batch_{batch_num:04d}.json'
 
     with open(filename, 'r', encoding='utf-8') as f:
         batch_data = json.load(f)

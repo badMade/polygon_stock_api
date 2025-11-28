@@ -11,10 +11,15 @@ import time
 from dataclasses import dataclass
 from datetime import datetime
 from typing import Dict, List
+from pathlib import Path
 
 import requests
 
-OUTPUT_DIR = '/mnt/user-data/outputs'
+BASE_DATA_DIR = Path(os.getenv("STOCK_APP_DATA_DIR", Path(__file__).resolve().parent / "user-data"))
+OUTPUT_DIR = BASE_DATA_DIR / "outputs"
+UPLOADS_DIR = BASE_DATA_DIR / "uploads"
+OUTPUT_DIR.mkdir(parents=True, exist_ok=True)
+UPLOADS_DIR.mkdir(parents=True, exist_ok=True)
 
 # Configure logging
 logging.basicConfig(
@@ -57,7 +62,7 @@ class StockDataNotionRetriever:
     """
 
     def __init__(self):
-        self.ticker_file = "/mnt/user-data/uploads/all_tickers.json"
+        self.ticker_file = str(UPLOADS_DIR / "all_tickers.json")
         self.tickers = []
         self.batch_size = 100
         self.notion_database_url = None

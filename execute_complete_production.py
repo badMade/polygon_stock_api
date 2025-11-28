@@ -9,11 +9,13 @@ import os
 import subprocess
 import time
 from datetime import datetime
+from pathlib import Path
 
-
-PRODUCTION_SCRIPT_PATH = "/mnt/user-data/outputs/production_stock_retrieval.py"
-OUTPUT_DIRECTORY = "/mnt/user-data/outputs"
-SUMMARY_FILE = os.path.join(OUTPUT_DIRECTORY, "production_summary.json")
+BASE_DATA_DIR = Path(os.getenv("STOCK_APP_DATA_DIR", Path(__file__).resolve().parent / "user-data"))
+OUTPUT_DIRECTORY = BASE_DATA_DIR / "outputs"
+OUTPUT_DIRECTORY.mkdir(parents=True, exist_ok=True)
+PRODUCTION_SCRIPT_PATH = OUTPUT_DIRECTORY / "production_stock_retrieval.py"
+SUMMARY_FILE = OUTPUT_DIRECTORY / "production_summary.json"
 
 
 def _print_start_banner(start_time: datetime) -> None:
@@ -43,7 +45,7 @@ def _run_production_retrieval() -> None:
 
     try:
         result = subprocess.run(
-            ["python", PRODUCTION_SCRIPT_PATH],
+            ["python", str(PRODUCTION_SCRIPT_PATH)],
             capture_output=False,
             text=True,
             check=True,
@@ -62,7 +64,8 @@ def _run_production_retrieval() -> None:
 
     except subprocess.CalledProcessError as exc:
         print(f"\n❌ Data retrieval failed with return code: {exc.returncode}")
-        print(f"   Command: {' '.join(exc.cmd)}")
+        command = " ".join(str(part) for part in exc.cmd)
+        print(f"   Command: {command}")
 
     except OSError as exc:
         print(f"\n❌ OS error during retrieval: {exc}")
@@ -113,8 +116,10 @@ def _process_batches(batch_files: list[str]) -> int:
 
     total_records = 0
 
+    output_dir = Path(OUTPUT_DIRECTORY)
+
     for index, batch_file in enumerate(sorted(batch_files), 1):
-        filepath = os.path.join(OUTPUT_DIRECTORY, batch_file)
+        filepath = output_dir / batch_file
 
         try:
             with open(filepath, "r", encoding="utf-8") as file:
@@ -181,9 +186,9 @@ def _print_final_report(
     print("\n" + "=" * 80)
     print("📁 OUTPUT FILES:")
     print("-" * 80)
-    print("  • Batch files: /mnt/user-data/outputs/batch_*.json")
-    print("  • Summary: /mnt/user-data/outputs/production_summary.json")
-    print("  • Log: /mnt/user-data/outputs/production_run.log")
+    print(f"  • Batch files: {OUTPUT_DIRECTORY}/batch_*.json")
+    print(f"  • Summary: {SUMMARY_FILE}")
+    print(f"  • Log: {OUTPUT_DIRECTORY}/production_run.log")
 
     print("\n" + "=" * 80)
     print("🎯 NOTION DATABASE:")
