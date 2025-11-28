@@ -119,14 +119,14 @@ def test_main_handles_missing_directory_during_listing(
 def test_process_batches_sums_records_and_sorts_files(mock_sleep, tmp_path):
     """_process_batches returns the total record count in sorted order."""
 
-    batch_files = ["batch_0002_notion.json", "batch_0001_notion.json"]
-    records = [
-        {"record_count": 300},
-        {"record_count": 200},
-    ]
+    batch_data = {
+        "batch_0002_notion.json": {"record_count": 300},
+        "batch_0001_notion.json": {"record_count": 200},
+    }
+    batch_files = list(batch_data.keys())
 
     output_dir = tmp_path
-    for filename, payload in zip(batch_files, records):
+    for filename, payload in batch_data.items():
         (output_dir / filename).write_text(json.dumps(payload), encoding="utf-8")
 
     with patch("execute_complete_production.OUTPUT_DIRECTORY", str(output_dir)):
