@@ -14,7 +14,7 @@ from pathlib import Path
 BASE_DATA_DIR = Path(os.getenv("STOCK_APP_DATA_DIR", Path(__file__).resolve().parent / "user-data"))
 OUTPUT_DIRECTORY = BASE_DATA_DIR / "outputs"
 OUTPUT_DIRECTORY.mkdir(parents=True, exist_ok=True)
-PRODUCTION_SCRIPT_PATH = OUTPUT_DIRECTORY / "production_stock_retrieval.py"
+PRODUCTION_SCRIPT_PATH = BASE_DATA_DIR.parent / "production_stock_retrieval.py"
 SUMMARY_FILE = OUTPUT_DIRECTORY / "production_summary.json"
 
 
