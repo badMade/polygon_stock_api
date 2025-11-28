@@ -18,8 +18,6 @@ import requests
 BASE_DATA_DIR = Path(os.getenv("STOCK_APP_DATA_DIR", Path(__file__).resolve().parent / "user-data"))
 OUTPUT_DIR = BASE_DATA_DIR / "outputs"
 UPLOADS_DIR = BASE_DATA_DIR / "uploads"
-OUTPUT_DIR.mkdir(parents=True, exist_ok=True)
-UPLOADS_DIR.mkdir(parents=True, exist_ok=True)
 
 # Configure logging
 logging.basicConfig(
@@ -507,8 +505,9 @@ class StockDataNotionRetriever:
 
 
 if __name__ == "__main__":
-    # Create output directory if it doesn't exist
+    # Create output directories if they don't exist
     os.makedirs(OUTPUT_DIR, exist_ok=True)
+    os.makedirs(UPLOADS_DIR, exist_ok=True)
 
     # Run the retrieval system
     retriever = StockDataNotionRetriever()
