@@ -17,18 +17,25 @@ from hashlib import sha256
 
 BASE_DATA_DIR = Path(os.getenv("STOCK_APP_DATA_DIR", Path(__file__).resolve().parent / "user-data"))
 OUTPUT_DIR = BASE_DATA_DIR / "outputs"
-OUTPUT_DIR.mkdir(parents=True, exist_ok=True)
 
-# Configure logging
-logging.basicConfig(
-    level=logging.INFO,
-    format='%(asctime)s - [%(levelname)s] %(message)s',
-    handlers=[
-        logging.FileHandler(OUTPUT_DIR / 'execution.log'),
-        logging.StreamHandler()
-    ]
-)
 logger = logging.getLogger(__name__)
+
+
+def _configure_logging() -> None:
+    """Configure logging with file and stream handlers.
+
+    Creates the output directory if necessary and sets up logging to both
+    a file and the console.
+    """
+    OUTPUT_DIR.mkdir(parents=True, exist_ok=True)
+    logging.basicConfig(
+        level=logging.INFO,
+        format='%(asctime)s - [%(levelname)s] %(message)s',
+        handlers=[
+            logging.FileHandler(OUTPUT_DIR / 'execution.log'),
+            logging.StreamHandler()
+        ]
+    )
 
 
 class StockDataExecutor:
@@ -512,6 +519,7 @@ for batch_num in range(1, {total_batches + 1}):
 
 
 if __name__ == "__main__":
+    _configure_logging()
     # Execute the retrieval
     executor = StockDataExecutor()
     executor.run()

@@ -15,20 +15,25 @@ BASE_DATA_DIR = Path(os.getenv("STOCK_APP_DATA_DIR", Path(__file__).resolve().pa
 OUTPUT_DIR = BASE_DATA_DIR / "outputs"
 UPLOADS_DIR = BASE_DATA_DIR / "uploads"
 
-# Ensure logging output directory exists
-OUTPUT_DIR.mkdir(parents=True, exist_ok=True)
-UPLOADS_DIR.mkdir(parents=True, exist_ok=True)
-
-# Configure logging
-logging.basicConfig(
-    level=logging.INFO,
-    format='%(asctime)s - %(message)s',
-    handlers=[
-        logging.FileHandler(OUTPUT_DIR / 'production_run.log'),
-        logging.StreamHandler()
-    ]
-)
 logger = logging.getLogger(__name__)
+
+
+def _configure_logging() -> None:
+    """Configure logging with file and stream handlers.
+
+    Creates the output and uploads directories if necessary and sets up
+    logging to both a file and the console.
+    """
+    OUTPUT_DIR.mkdir(parents=True, exist_ok=True)
+    UPLOADS_DIR.mkdir(parents=True, exist_ok=True)
+    logging.basicConfig(
+        level=logging.INFO,
+        format='%(asctime)s - %(message)s',
+        handlers=[
+            logging.FileHandler(OUTPUT_DIR / 'production_run.log'),
+            logging.StreamHandler()
+        ]
+    )
 
 
 class ProductionStockRetriever:
@@ -495,5 +500,6 @@ print(f"\\n✅ Upload complete: {{total_uploaded}} records uploaded to Notion")
 
 
 if __name__ == "__main__":
+    _configure_logging()
     retriever = ProductionStockRetriever()
     retriever.run()
