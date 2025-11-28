@@ -172,6 +172,7 @@ def test_process_batches_skips_invalid_json_and_continues(
     captured = capsys.readouterr().out
     assert "Error processing" in captured
     assert "Batch 2/2" in captured
+    mock_sleep.assert_called_once()
 
 
 @patch("execute_complete_production.time.sleep")
