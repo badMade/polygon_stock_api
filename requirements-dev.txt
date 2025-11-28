@@ -5,7 +5,8 @@
 pytest==9.0.1          # Test runner; previously >=7.0, latest 9.0.1 as of 2025-11
 
 # Development / linting dependencies
-pylint==4.0.3          # Static analysis; previously >=2.15, latest 4.0.3 (supports Python 3.10+)
+# Note: pylint is not pinned here to support multiple Python versions (3.8+).
+# The CI workflow installs a compatible pylint version separately.
 flake8==7.3.0          # Linter mentioned in README; latest 7.3.0 as of 2025-06
 
 # Optional integrations (install if you want real external APIs)
