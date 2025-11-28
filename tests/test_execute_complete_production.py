@@ -133,7 +133,7 @@ def test_process_batches_sums_records_and_sorts_files(mock_sleep, tmp_path):
         total_records = execute_complete_production._process_batches(batch_files)
 
     assert total_records == 500
-    mock_sleep.assert_called()
+    assert mock_sleep.call_count == 2
 
 
 @patch("execute_complete_production.time.sleep")
