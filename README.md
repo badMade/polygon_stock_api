@@ -24,7 +24,8 @@ Key capabilities:
 
 - Python 3.10 or later
 - pip package manager
-- Write access to `/mnt/user-data/outputs/` (or modify paths in scripts)
+- Write access to the repository-local `user-data/outputs/` directory (or set
+  the `STOCK_APP_DATA_DIR` environment variable to override the base path).
 
 ### Installation
 
@@ -49,13 +50,16 @@ pip install -r requirements-dev.txt
 
 ### Configuration
 
-The scripts use hardcoded paths by default. Modify these constants as needed:
+The scripts default to storing inputs and outputs under `user-data/` in the
+repository directory. Override the base path by setting `STOCK_APP_DATA_DIR`.
+
+Key file locations:
 
 | Script | Variable | Default Path |
 |--------|----------|--------------|
-| `execute_stock_retrieval.py` | `ticker_file` | `/mnt/user-data/outputs/all_tickers.json` |
-| `production_stock_retrieval.py` | `ticker_file` | `/mnt/user-data/uploads/all_tickers.json` |
-| `stock_notion_retrieval.py` | `ticker_file` | `/mnt/user-data/uploads/all_tickers.json` |
+| `execute_stock_retrieval.py` | `ticker_file` | `./user-data/outputs/all_tickers.json` |
+| `production_stock_retrieval.py` | `ticker_file` | `./user-data/uploads/all_tickers.json` |
+| `stock_notion_retrieval.py` | `ticker_file` | `./user-data/uploads/all_tickers.json` |
 
 **Notion Configuration** (for production use):
 
@@ -66,11 +70,12 @@ The scripts use hardcoded paths by default. Modify these constants as needed:
 
 ### Quick Start
 
-Copy the ticker list and run the basic retrieval:
+Copy the ticker list and run the basic retrieval (adjust `STOCK_APP_DATA_DIR`
+if you need a different base path):
 
 ```bash
-mkdir -p /mnt/user-data/outputs
-cp all_tickers.json /mnt/user-data/outputs/all_tickers.json
+mkdir -p user-data/outputs
+cp all_tickers.json user-data/outputs/all_tickers.json
 python execute_stock_retrieval.py
 ```
 
@@ -79,8 +84,8 @@ python execute_stock_retrieval.py
 For longer runs with logging and checkpoint support:
 
 ```bash
-mkdir -p /mnt/user-data/uploads
-cp all_tickers.json /mnt/user-data/uploads/all_tickers.json
+mkdir -p user-data/uploads
+cp all_tickers.json user-data/uploads/all_tickers.json
 python production_stock_retrieval.py
 ```
 

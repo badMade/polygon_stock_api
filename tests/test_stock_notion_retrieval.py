@@ -1,13 +1,16 @@
 """Tests for stock_notion_retrieval.py"""
 import json
-import os
 from dataclasses import asdict
 from datetime import datetime, timedelta
 from unittest.mock import mock_open, patch
 
 import pytest
 
-from stock_notion_retrieval import StockDataNotionRetriever, TimeChunk
+from stock_notion_retrieval import (
+    UPLOADS_DIR,
+    StockDataNotionRetriever,
+    TimeChunk,
+)
 
 
 class TestTimeChunk:
@@ -48,7 +51,7 @@ class TestStockDataNotionRetriever:
         """Test initialization"""
         retriever = StockDataNotionRetriever()
 
-        assert retriever.ticker_file == "/mnt/user-data/uploads/all_tickers.json"
+        assert retriever.ticker_file == str(UPLOADS_DIR / "all_tickers.json")
         assert not retriever.tickers
         assert retriever.batch_size == 100
         assert retriever.notion_database_url is None

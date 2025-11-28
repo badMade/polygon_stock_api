@@ -48,7 +48,7 @@ def test_main_runs_retrieval_and_processes_batches(
         execute_complete_production.main()
 
     mock_run.assert_called_once_with(
-        ["python", execute_complete_production.PRODUCTION_SCRIPT_PATH],
+        ["python", str(execute_complete_production.PRODUCTION_SCRIPT_PATH)],
         capture_output=False,
         text=True,
         check=True,

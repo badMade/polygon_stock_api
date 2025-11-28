@@ -1,11 +1,15 @@
 """Tests for upload_to_notion.py"""
 import json
-import os
-import pytest
-from unittest.mock import Mock, patch, mock_open
 import sys
+from pathlib import Path
+from unittest.mock import patch, mock_open
 
-sys.path.insert(0, os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
+import pytest
+
+BASE_DIR = Path(__file__).resolve().parent.parent
+OUTPUT_DIR = BASE_DIR / "user-data" / "outputs"
+
+sys.path.insert(0, str(BASE_DIR))
 
 
 class TestUploadToNotion:
@@ -64,7 +68,7 @@ class TestUploadToNotion:
         batch_data = {'pages': []}
         mock_file.return_value.read.return_value = json.dumps(batch_data)
 
-        # The script should use /mnt/user-data/outputs/notion_batch_0001.json
+        # The script should use the repository-local user-data directory
         # for batch_num = 1
 
     @patch('builtins.open', new_callable=mock_open)
@@ -105,10 +109,10 @@ class TestUploadToNotionBatchProcessing:
     def test_batch_number_formatting(self):
         """Test batch number formatting with zero padding"""
         for batch_num in range(1, 10):
-            filename = f'/mnt/user-data/outputs/notion_batch_{batch_num:04d}.json'
+            filename = OUTPUT_DIR / f'notion_batch_{batch_num:04d}.json'
 
             # Should have 4-digit zero-padded batch numbers
-            assert f'{batch_num:04d}' in filename
+            assert f'{batch_num:04d}' in str(filename)
 
         # Test specific examples
         assert f'{1:04d}' == '0001'
@@ -255,11 +259,11 @@ class TestUploadToNotionEdgeCases:
     def test_file_path_construction(self):
         """Test correct file path construction"""
         for batch_num in [1, 10, 100]:
-            filepath = f'/mnt/user-data/outputs/notion_batch_{batch_num:04d}.json'
+            filepath = OUTPUT_DIR / f'notion_batch_{batch_num:04d}.json'
 
-            assert filepath.startswith('/mnt/user-data/outputs/')
-            assert filepath.endswith('.json')
-            assert 'notion_batch_' in filepath
+            assert str(filepath).startswith(str(OUTPUT_DIR))
+            assert filepath.suffix == '.json'
+            assert 'notion_batch_' in filepath.name
 
     @patch('builtins.open', side_effect=PermissionError)
     def test_handles_permission_error(self, mock_file):
