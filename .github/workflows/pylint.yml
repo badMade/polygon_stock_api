@@ -27,7 +27,13 @@ jobs:
         run: |
           python -m pip install --upgrade pip
           if [ -f requirements.txt ]; then pip install -r requirements.txt; fi
-          if [ -f requirements-dev.txt ]; then pip install -r requirements-dev.txt; fi
+          # Exclude pylint from requirements-dev to keep a compatible version on Python 3.8/3.9
+          if [ -f requirements-dev.txt ]; then
+            tmp_req="$(mktemp -p "$(pwd)" requirements-dev-nopylint-XXXX.txt)"
+            grep -v '^pylint' requirements-dev.txt > "$tmp_req"
+            pip install -r "$tmp_req"
+            rm "$tmp_req"
+          fi
           pip install pylint
 
       - name: Analysing the code with pylint
