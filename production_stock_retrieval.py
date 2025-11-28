@@ -277,7 +277,7 @@ TOTAL_BATCHES = {total_batches}
 
 def upload_batch(batch_num):
     """Upload a single batch to Notion"""
-    filename = f'{OUTPUT_DIR}/batch_{{batch_num:04d}}_notion.json'
+    filename = f'{str(OUTPUT_DIR)}/batch_{{batch_num:04d}}_notion.json'
 
     with open(filename, 'r', encoding='utf-8') as f:
         batch_data = json.load(f)
