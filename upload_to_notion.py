@@ -17,19 +17,22 @@ from pathlib import Path
 
 BASE_DATA_DIR = Path(os.getenv("STOCK_APP_DATA_DIR", Path(__file__).resolve().parent / "user-data"))
 OUTPUT_DIR = BASE_DATA_DIR / "outputs"
-OUTPUT_DIR.mkdir(parents=True, exist_ok=True)
 
-# Process each batch file
-for batch_num in range(1, 2):
-    filename = OUTPUT_DIR / f'notion_batch_{batch_num:04d}.json'
 
-    with open(filename, 'r', encoding='utf-8') as f:
-        batch_data = json.load(f)
+if __name__ == "__main__":
+    OUTPUT_DIR.mkdir(parents=True, exist_ok=True)
 
-    print(f"Uploading batch {batch_num}: {len(batch_data['pages'])} pages")
+    # Process each batch file
+    for batch_num in range(1, 2):
+        filename = OUTPUT_DIR / f'notion_batch_{batch_num:04d}.json'
 
-    # Use Notion API to create pages
-    # notion.create_pages(
-    #     parent={"data_source_id": "7c5225aa-429b-4580-946e-ba5b1db2ca6d"},
-    #     pages=batch_data['pages']
-    # )
+        with open(filename, 'r', encoding='utf-8') as f:
+            batch_data = json.load(f)
+
+        print(f"Uploading batch {batch_num}: {len(batch_data['pages'])} pages")
+
+        # Use Notion API to create pages
+        # notion.create_pages(
+        #     parent={"data_source_id": "7c5225aa-429b-4580-946e-ba5b1db2ca6d"},
+        #     pages=batch_data['pages']
+        # )
