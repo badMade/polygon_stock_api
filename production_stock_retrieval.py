@@ -9,22 +9,31 @@ import logging
 import os
 import time
 from datetime import datetime, timedelta
+from pathlib import Path
 
-OUTPUT_DIR = '/mnt/user-data/outputs'
+BASE_DATA_DIR = Path(os.getenv("STOCK_APP_DATA_DIR", Path(__file__).resolve().parent / "user-data"))
+OUTPUT_DIR = BASE_DATA_DIR / "outputs"
+UPLOADS_DIR = BASE_DATA_DIR / "uploads"
 
-# Ensure logging output directory exists
-os.makedirs(OUTPUT_DIR, exist_ok=True)
-
-# Configure logging
-logging.basicConfig(
-    level=logging.INFO,
-    format='%(asctime)s - %(message)s',
-    handlers=[
-        logging.FileHandler(os.path.join(OUTPUT_DIR, 'production_run.log')),
-        logging.StreamHandler()
-    ]
-)
 logger = logging.getLogger(__name__)
+
+
+def _configure_logging() -> None:
+    """Configure logging with file and stream handlers.
+
+    Creates the output and uploads directories if necessary and sets up
+    logging to both a file and the console.
+    """
+    OUTPUT_DIR.mkdir(parents=True, exist_ok=True)
+    UPLOADS_DIR.mkdir(parents=True, exist_ok=True)
+    logging.basicConfig(
+        level=logging.INFO,
+        format='%(asctime)s - %(message)s',
+        handlers=[
+            logging.FileHandler(OUTPUT_DIR / 'production_run.log'),
+            logging.StreamHandler()
+        ]
+    )
 
 
 class ProductionStockRetriever:
@@ -47,7 +56,7 @@ class ProductionStockRetriever:
 
     def __init__(self):
         # Using the actual 6,628 ticker file
-        self.ticker_file = "/mnt/user-data/uploads/all_tickers.json"
+        self.ticker_file = str(UPLOADS_DIR / "all_tickers.json")
         self.data_source_id = "7c5225aa-429b-4580-946e-ba5b1db2ca6d"
         self.batch_size = 100
 
@@ -233,8 +242,7 @@ class ProductionStockRetriever:
             pages: List of Notion page dictionaries to save.
             batch_num: Batch number used for file naming.
         """
-        output_file = os.path.join(
-            OUTPUT_DIR, f'batch_{batch_num:04d}_notion.json')
+        output_file = OUTPUT_DIR / f'batch_{batch_num:04d}_notion.json'
 
         batch_data = {
             "data_source_id": self.data_source_id,
@@ -274,7 +282,7 @@ TOTAL_BATCHES = {total_batches}
 
 def upload_batch(batch_num):
     """Upload a single batch to Notion"""
-    filename = f'/mnt/user-data/outputs/batch_{{batch_num:04d}}_notion.json'
+    filename = f'{str(OUTPUT_DIR)}/batch_{{batch_num:04d}}_notion.json'
 
     with open(filename, 'r', encoding='utf-8') as f:
         batch_data = json.load(f)
@@ -309,7 +317,7 @@ for batch_num in range(1, TOTAL_BATCHES + 1):
 print(f"\\n✅ Upload complete: {{total_uploaded}} records uploaded to Notion")
 '''
 
-        script_file = os.path.join(OUTPUT_DIR, 'notion_bulk_upload.py')
+        script_file = OUTPUT_DIR / 'notion_bulk_upload.py'
         with open(script_file, 'w', encoding='utf-8') as f:
             f.write(script)
 
@@ -410,7 +418,7 @@ print(f"\\n✅ Upload complete: {{total_uploaded}} records uploaded to Notion")
                         "timestamp": datetime.now().isoformat()
                     }
                     with open(
-                        os.path.join(OUTPUT_DIR, 'checkpoint.json'),
+                        OUTPUT_DIR / 'checkpoint.json',
                             'w', encoding='utf-8') as f:
                         json.dump(checkpoint, f)
 
@@ -455,7 +463,7 @@ print(f"\\n✅ Upload complete: {{total_uploaded}} records uploaded to Notion")
                 }
             }
 
-            summary_file = os.path.join(OUTPUT_DIR, 'production_summary.json')
+            summary_file = OUTPUT_DIR / 'production_summary.json'
             with open(summary_file, 'w', encoding='utf-8') as f:
                 json.dump(summary, f, indent=2)
 
@@ -492,5 +500,6 @@ print(f"\\n✅ Upload complete: {{total_uploaded}} records uploaded to Notion")
 
 
 if __name__ == "__main__":
+    _configure_logging()
     retriever = ProductionStockRetriever()
     retriever.run()

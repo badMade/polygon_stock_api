@@ -10,6 +10,8 @@ from unittest.mock import mock_open, patch, MagicMock
 
 import pytest
 
+import pytest
+
 import execute_complete_production
 
 
@@ -33,7 +35,7 @@ def test_import_has_no_side_effects(monkeypatch):
 @patch("execute_complete_production.os.listdir")
 @patch("execute_complete_production.subprocess.run")
 def test_main_runs_retrieval_and_processes_batches(
-    mock_run, mock_listdir, mock_makedirs, mock_sleep, capsys
+    mock_run, mock_listdir, mock_exists, mock_makedirs, mock_sleep, capsys
 ):
     """Verify main executes retrieval and processes batches in order."""
 
@@ -51,7 +53,7 @@ def test_main_runs_retrieval_and_processes_batches(
         execute_complete_production.main()
 
     mock_run.assert_called_once_with(
-        ["python", execute_complete_production.PRODUCTION_SCRIPT_PATH],
+        ["python", str(execute_complete_production.PRODUCTION_SCRIPT_PATH)],
         capture_output=False,
         text=True,
         check=True,
@@ -68,8 +70,9 @@ def test_main_runs_retrieval_and_processes_batches(
 
 
 @patch("execute_complete_production.time.sleep")
+@patch("execute_complete_production.os.makedirs")
 @patch("execute_complete_production.os.listdir", return_value=[])
-def test_main_uses_summary_file(capsys):
+def test_main_uses_summary_file(mock_listdir, mock_makedirs, mock_sleep, capsys):
     """Ensure summary data is printed when available."""
 
     summary_data = {
@@ -100,10 +103,11 @@ def test_main_uses_summary_file(capsys):
 @patch(
     "execute_complete_production.os.listdir", side_effect=FileNotFoundError()
     )
+@patch("execute_complete_production.os.makedirs")
 @patch("execute_complete_production.os.path.exists", return_value=True)
 @patch("execute_complete_production.subprocess.run")
 def test_main_handles_missing_directory_during_listing(
-    mock_run, capsys
+    mock_run, mock_exists, mock_makedirs, mock_listdir, capsys
 ):
     """Handle missing output directory during batch listing without raising."""
 

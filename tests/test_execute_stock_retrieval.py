@@ -2,12 +2,12 @@
 import json
 import os
 from datetime import datetime
-from unittest.mock import mock_open, patch
 from hashlib import sha256
+from unittest.mock import mock_open, patch
 
 import pytest
 
-from execute_stock_retrieval import StockDataExecutor
+from execute_stock_retrieval import OUTPUT_DIR, StockDataExecutor
 
 
 class TestStockDataExecutor:
@@ -17,7 +17,8 @@ class TestStockDataExecutor:
         """Test initialization"""
         executor = StockDataExecutor()
 
-        assert executor.ticker_file == "/mnt/user-data/outputs/all_tickers.json"
+        expected_ticker_file = OUTPUT_DIR / "all_tickers.json"
+        assert executor.ticker_file == str(expected_ticker_file)
         assert executor.data_source_id == "7c5225aa-429b-4580-946e-ba5b1db2ca6d"
         assert executor.batch_size == 100
         assert not executor.tickers
@@ -552,7 +553,7 @@ class TestStockDataExecutorEdgeCases:
 
                 # File should be notion_batch_0099.json (4 digits)
                 assert file_path_used is not None
-                assert "0099" in file_path_used
+                assert "0099" in str(file_path_used)
 
     def test_concurrent_batch_isolation(self):
         """Test that multiple executor instances don't interfere"""

@@ -7,7 +7,7 @@ from unittest.mock import mock_open, patch, MagicMock
 
 import pytest
 
-from production_stock_retrieval import ProductionStockRetriever
+from production_stock_retrieval import UPLOADS_DIR, ProductionStockRetriever
 
 
 class TestParametrizedPeriods:
@@ -183,7 +183,7 @@ class TestProductionStockRetriever:
         """Test initialization of ProductionStockRetriever"""
         retriever = ProductionStockRetriever()
 
-        assert retriever.ticker_file == "/mnt/user-data/uploads/all_tickers.json"
+        assert retriever.ticker_file == str(UPLOADS_DIR / "all_tickers.json")
         assert retriever.data_source_id == "7c5225aa-429b-4580-946e-ba5b1db2ca6d"
         assert retriever.batch_size == 100
         assert retriever.processed == 0
