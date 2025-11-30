@@ -3,6 +3,7 @@
 
 # Test dependencies
 pytest==9.0.1          # Test runner; previously >=7.0, latest 9.0.1 as of 2025-11
+pytest-cov==6.0.0      # Coverage reporting for pytest
 
 # Development / linting dependencies
 # Note: pylint is not pinned here to support multiple Python versions (3.8+).

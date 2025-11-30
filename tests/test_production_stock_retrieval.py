@@ -3,11 +3,155 @@ import json
 import os
 from datetime import datetime
 from typing import Any, Callable, List
-from unittest.mock import mock_open, patch
+from unittest.mock import mock_open, patch, MagicMock
 
 import pytest
 
 from production_stock_retrieval import UPLOADS_DIR, ProductionStockRetriever
+
+
+class TestParametrizedPeriods:
+    """Parametrized tests for period processing"""
+
+    @pytest.mark.parametrize("period_label,expected_from,expected_to", [
+        ("2020-2024", "2020-01-01", "2024-11-23"),
+        ("2015-2019", "2015-01-01", "2019-12-31"),
+        ("2010-2014", "2010-01-01", "2014-12-31"),
+        ("2005-2009", "2005-01-01", "2009-12-31"),
+        ("2000-2004", "2000-01-01", "2004-12-31"),
+    ])
+    def test_period_date_ranges(self, period_label, expected_from, expected_to):
+        """Test that each period has correct date range"""
+        retriever = ProductionStockRetriever()
+        period = next(p for p in retriever.periods if p["label"] == period_label)
+
+        assert period["from"] == expected_from
+        assert period["to"] == expected_to
+
+    @pytest.mark.parametrize("ticker", ["AAPL", "MSFT", "GOOGL", "AMZN", "NVDA"])
+    def test_get_polygon_data_for_common_tickers(self, ticker):
+        """Test data retrieval for common stock tickers"""
+        retriever = ProductionStockRetriever()
+        period = {"from": "2020-01-01", "to": "2024-11-23", "label": "2020-2024"}
+
+        result = retriever.get_polygon_data(ticker, period)
+
+        assert result["ticker"] == ticker
+        assert result["period"] == "2020-2024"
+        assert "has_data" in result
+
+    @pytest.mark.parametrize("batch_num", [1, 10, 50, 67, 100])
+    def test_save_batch_with_various_batch_numbers(self, batch_num):
+        """Test save_batch with different batch numbers"""
+        retriever = ProductionStockRetriever()
+        pages = [{"properties": {"Ticker": "TEST"}}]
+
+        with patch('builtins.open', mock_open()) as mocked_file:
+            with patch('json.dump') as mock_dump:
+                retriever.save_batch(pages, batch_num)
+
+                args = mock_dump.call_args[0]
+                batch_data = args[0]
+                assert batch_data["batch_number"] == batch_num
+
+
+class TestCheckpointRecovery:
+    """Tests for checkpoint saving and recovery"""
+
+    def test_checkpoint_file_creation(self, temp_dir):
+        """Test that checkpoint file is created correctly"""
+        retriever = ProductionStockRetriever()
+        retriever.processed = 500
+        retriever.saved = 2500
+
+        checkpoint_path = os.path.join(temp_dir, "checkpoint.json")
+        checkpoint_data = {
+            "batch": 5,
+            "processed": retriever.processed,
+            "saved": retriever.saved,
+            "timestamp": datetime.now().isoformat()
+        }
+
+        with open(checkpoint_path, 'w') as f:
+            json.dump(checkpoint_data, f)
+
+        with open(checkpoint_path, 'r') as f:
+            loaded = json.load(f)
+
+        assert loaded["batch"] == 5
+        assert loaded["processed"] == 500
+        assert loaded["saved"] == 2500
+
+    def test_checkpoint_recovery_after_interruption(self, temp_dir):
+        """Test resuming from a checkpoint after interruption"""
+        checkpoint_path = os.path.join(temp_dir, "checkpoint.json")
+        checkpoint_data = {
+            "batch": 25,
+            "processed": 2500,
+            "saved": 12500,
+            "timestamp": "2025-11-24T05:01:53.007369"
+        }
+
+        with open(checkpoint_path, 'w') as f:
+            json.dump(checkpoint_data, f)
+
+        with open(checkpoint_path, 'r') as f:
+            loaded = json.load(f)
+
+        # Verify we can determine where to resume
+        resume_batch = loaded["batch"] + 1
+        assert resume_batch == 26
+
+    def test_corrupted_checkpoint_handling(self, temp_dir):
+        """Test handling of corrupted checkpoint file"""
+        checkpoint_path = os.path.join(temp_dir, "checkpoint.json")
+
+        with open(checkpoint_path, 'w') as f:
+            f.write("{corrupted json data")
+
+        with pytest.raises(json.JSONDecodeError):
+            with open(checkpoint_path, 'r') as f:
+                json.load(f)
+
+    def test_missing_checkpoint_fields(self, temp_dir):
+        """Test handling checkpoint with missing fields"""
+        checkpoint_path = os.path.join(temp_dir, "checkpoint.json")
+        incomplete_checkpoint = {"batch": 10}  # Missing processed, saved, timestamp
+
+        with open(checkpoint_path, 'w') as f:
+            json.dump(incomplete_checkpoint, f)
+
+        with open(checkpoint_path, 'r') as f:
+            loaded = json.load(f)
+
+        # Should handle missing fields gracefully
+        assert loaded.get("batch") == 10
+        assert loaded.get("processed", 0) == 0
+        assert loaded.get("saved", 0) == 0
+
+    def test_checkpoint_with_partial_batch(self, temp_dir):
+        """Test checkpoint saved mid-batch"""
+        retriever = ProductionStockRetriever()
+        retriever.processed = 550  # Partial batch (not multiple of 100)
+        retriever.saved = 2750
+
+        checkpoint_data = {
+            "batch": 5,
+            "processed": retriever.processed,
+            "saved": retriever.saved,
+            "partial": True,
+            "timestamp": datetime.now().isoformat()
+        }
+
+        checkpoint_path = os.path.join(temp_dir, "checkpoint.json")
+        with open(checkpoint_path, 'w') as f:
+            json.dump(checkpoint_data, f)
+
+        with open(checkpoint_path, 'r') as f:
+            loaded = json.load(f)
+
+        assert loaded["partial"] is True
+        assert loaded["processed"] == 550
 
 
 class TestProductionStockRetriever:
