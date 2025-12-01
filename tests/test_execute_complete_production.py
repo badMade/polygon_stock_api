@@ -14,11 +14,11 @@ except ImportError:  # noqa: F401
     # Fallback stub so environments without pytest do not raise import errors.
     def _identity_decorator(func):
         return func
- 
+
     class _DummyMark:
         def __getattr__(self, name):
             return _identity_decorator
- 
+
     class _DummyPytest:
         mark = _DummyMark()
     pytest = _DummyPytest()

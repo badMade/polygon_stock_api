@@ -25,7 +25,10 @@ fail_under = 70
 show_missing = true
 
 [tool.pylint.main]
-max-line-length = 127
+max-line-length = 172 # Match Black
+
+[tool.pylint.format]
+max-line-length = 128
 
 [tool.pylint."messages control"]
 # Disable warnings that are commonly triggered in test code:
