@@ -10,8 +10,6 @@ from unittest.mock import mock_open, patch, MagicMock
 
 import pytest
 
-import pytest
-
 import execute_complete_production
 
 
