@@ -38,7 +38,3 @@ disable = [
     "W0613",
     "W1514",
 ]
-
-[tool.flake8]
-max-line-length = 127
-exclude = [".git", "__pycache__", ".venv", "venv", "build", "dist"]
