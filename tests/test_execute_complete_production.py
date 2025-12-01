@@ -9,7 +9,20 @@ from datetime import datetime
 from unittest.mock import mock_open, patch, MagicMock  # noqa: F401
 # MagicMock is used in some tests
 
-import pytest  # noqa: F401 # pytest is used for marking tests
+try:
+    import pytest  # type: ignore  # noqa: F401  # pytest is used for marking tests
+except ImportError:  # noqa: F401
+    # Fallback stub so environments without pytest do not raise import errors.
+    def _identity_decorator(func):
+        return func
+    
+    class _DummyMark:
+        def __getattr__(self, name):
+            return _identity_decorator
+        
+    class _DummyPytest:
+        mark = _DummyMark()
+    pytest = _DummyPytest()
 
 import execute_complete_production
 
