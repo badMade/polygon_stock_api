@@ -9,3 +9,10 @@ pytest-cov==6.0.0      # Coverage reporting for pytest
 # Note: pylint is not pinned here to support multiple Python versions (3.8+).
 # The CI workflow installs a compatible pylint version separately.
 flake8==7.3.0          # Linter mentioned in README; latest 7.3.0 as of 2025-06
+
+# Optional integrations (install if you want real external APIs)
+# Install with: pip install -r requirements-optional.txt
+# Or use: ./install_dependencies.sh --all
+
+notion-client==2.7.0   # Official Notion API client; latest 2.7.0 as of 2025-10
+polygon-api-client==1.16.3  # Official Polygon.io client; latest 1.16.3 as of 2025-10
