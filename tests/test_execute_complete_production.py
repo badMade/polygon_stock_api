@@ -6,9 +6,10 @@ import os
 import subprocess
 import sys
 from datetime import datetime
-from unittest.mock import mock_open, patch, MagicMock
+from unittest.mock import mock_open, patch, MagicMock # noqa: F401
+# MagicMock is used in some tests
 
-import pytest
+import pytest # noqa: F401 # pytest is used for marking tests
 
 import execute_complete_production
 
