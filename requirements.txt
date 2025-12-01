@@ -1,2 +1,2 @@
 # Runtime dependencies
-requests==2.32.5       # Runtime HTTP client; previously >=2.28, latest 2.32.5 as of 2025-08-18
+requests>=2.28,<3.0    # Runtime HTTP client; flexible version for Python 3.8+ compatibility
