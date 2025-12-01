@@ -195,13 +195,18 @@ def mock_logger(monkeypatch):
     log_messages = []
 
     class MockLogger:
+        """Mock logger class for capturing log messages during tests."""
+
         def info(self, msg):
+            """Log an info-level message."""
             log_messages.append(('INFO', msg))
 
         def warning(self, msg):
+            """Log a warning-level message."""
             log_messages.append(('WARNING', msg))
 
         def error(self, msg):
+            """Log an error-level message."""
             log_messages.append(('ERROR', msg))
 
     return MockLogger(), log_messages
