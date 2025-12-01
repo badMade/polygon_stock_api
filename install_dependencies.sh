@@ -68,7 +68,7 @@ fi
 
 if [ "$INSTALL_ALL" = true ]; then
     echo "📥 Installing optional integration packages..."
-    pip install notion-client polygon-api-client
+    pip install -r requirements-optional.txt
 fi
 
 echo ""
