@@ -26,7 +26,6 @@ show_missing = true
 
 [tool.pylint.main]
 max-line-length = 172 # Match Black
-extension-pkg-allow-list = ["pytest"]
 
 [tool.pylint.format]
 max-line-length = 128
