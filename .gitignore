@@ -61,7 +61,7 @@ venv.bak/
 
 # IDE
 .idea/
-.vscode/
+# .vscode/ - Tracked for shared project settings (linting, testing config)
 *.swp
 *.swo
 *~
