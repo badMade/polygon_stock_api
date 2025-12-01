@@ -2,7 +2,7 @@
 -r requirements.txt
 
 # Test dependencies
-pytest==9.0.1          # Test runner; previously >=7.0, latest 9.0.1 as of 2025-11
+pytest==8.3.5          # Test runner; >=8.3.5 supports Python 3.8+ (9.x requires 3.10+)
 pytest-cov==6.0.0      # Coverage reporting for pytest
 
 # Development / linting dependencies
