@@ -195,7 +195,14 @@ def mock_logger(monkeypatch):
     log_messages = []
 
     class MockLogger:
-        """Mock logger class for capturing log messages during tests."""
+        """A mock logger for capturing log messages during tests.
+
+        This class is used by the `mock_logger` fixture to intercept log
+        messages. It provides `info`, `warning`, and `error` methods that
+        append messages to an internal list instead of logging them to
+        the console or a file. This allows tests to assert that specific
+        log messages were generated.
+        """
 
         def info(self, msg):
             """Log an info-level message.
