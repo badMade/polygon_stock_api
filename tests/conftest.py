@@ -198,15 +198,27 @@ def mock_logger(monkeypatch):
         """Mock logger class for capturing log messages during tests."""
 
         def info(self, msg):
-            """Log an info-level message."""
+            """Log an info-level message.
+
+            Args:
+                msg (str): The message to log.
+            """
             log_messages.append(('INFO', msg))
 
         def warning(self, msg):
-            """Log a warning-level message."""
+            """Log a warning-level message.
+
+            Args:
+                msg (str): The message to log.
+            """
             log_messages.append(('WARNING', msg))
 
         def error(self, msg):
-            """Log an error-level message."""
+            """Log an error-level message.
+
+            Args:
+                msg (str): The message to log.
+            """
             log_messages.append(('ERROR', msg))
 
     return MockLogger(), log_messages
