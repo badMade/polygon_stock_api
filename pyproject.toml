@@ -26,18 +26,6 @@ show_missing = true
 
 [tool.pylint.main]
 max-line-length = 127
-ignore-patterns = ["test_.*\\.py"]
-
-[tool.pylint."messages control"]
-# Disable warnings that are expected in test code:
-# W0212: protected-access - Tests intentionally access _private methods
-# W0613: unused-argument - Mock decorators inject arguments for patching
-# W1514: unspecified-encoding - Not critical for test files
-disable = [
-    "W0212",
-    "W0613",
-    "W1514",
-]
 
 [tool.flake8]
 max-line-length = 127
