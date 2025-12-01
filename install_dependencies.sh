@@ -1,10 +1,9 @@
 #!/bin/bash
 # install_dependencies.sh - Install all project dependencies
-# Usage: ./install_dependencies.sh [--dev] [--all]
+# Usage: ./install_dependencies.sh [--dev]
 #
 # Options:
-#   --dev   Install development dependencies (pytest, flake8, etc.)
-#   --all   Install all optional dependencies (Notion, Polygon clients)
+#   --dev   Install development dependencies (pytest, flake8, Notion/Polygon clients)
 #   (no args) Install only runtime dependencies
 
 set -e
@@ -22,22 +21,17 @@ fi
 
 # Parse arguments
 INSTALL_DEV=false
-INSTALL_ALL=false
 
 for arg in "$@"; do
     case $arg in
         --dev)
             INSTALL_DEV=true
             ;;
-        --all)
-            INSTALL_ALL=true
-            ;;
         --help|-h)
-            echo "Usage: ./install_dependencies.sh [--dev] [--all]"
+            echo "Usage: ./install_dependencies.sh [--dev]"
             echo ""
             echo "Options:"
-            echo "  --dev   Install development dependencies (pytest, flake8, etc.)"
-            echo "  --all   Install all dependencies including optional integrations"
+            echo "  --dev   Install development dependencies (pytest, flake8, Notion/Polygon clients)"
             echo "  (no args) Install only runtime dependencies"
             exit 0
             ;;
@@ -64,11 +58,6 @@ if [ "$INSTALL_DEV" = true ]; then
     # Install pylint separately for cross-version compatibility
     echo "📥 Installing pylint..."
     pip install pylint
-fi
-
-if [ "$INSTALL_ALL" = true ]; then
-    echo "📥 Installing optional integration packages..."
-    pip install -r requirements-optional.txt
 fi
 
 echo ""
