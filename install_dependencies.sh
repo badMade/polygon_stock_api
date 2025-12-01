@@ -30,7 +30,6 @@ for arg in "$@"; do
             INSTALL_DEV=true
             ;;
         --all)
-            INSTALL_DEV=true
             INSTALL_ALL=true
             ;;
         --help|-h)
