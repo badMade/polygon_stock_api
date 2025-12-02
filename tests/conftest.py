@@ -273,3 +273,116 @@ def assert_batch_file_structure(filepath):
     assert "pages" in data
     assert isinstance(data["pages"], list)
     return data
+
+
+# Additional fixtures for enhanced test coverage
+
+
+@pytest.fixture
+def realistic_polygon_response():
+    """Realistic Polygon API response with multiple results."""
+    return {
+        "ticker": "AAPL",
+        "queryCount": 252,
+        "resultsCount": 252,
+        "adjusted": True,
+        "results": [
+            {
+                "v": 82572323,
+                "vw": 149.8291,
+                "o": 149.31,
+                "c": 150.44,
+                "h": 150.77,
+                "l": 148.5501,
+                "t": 1641186000000,
+                "n": 695724
+            },
+            {
+                "v": 74286654,
+                "vw": 148.7199,
+                "o": 148.36,
+                "c": 149.28,
+                "h": 149.37,
+                "l": 147.685,
+                "t": 1641272400000,
+                "n": 620814
+            }
+        ],
+        "status": "OK",
+        "request_id": "abc123",
+        "count": 252
+    }
+
+
+@pytest.fixture
+def polygon_error_response():
+    """Polygon API error response."""
+    return {
+        "status": "ERROR",
+        "request_id": "err456",
+        "error": "Ticker not found"
+    }
+
+
+@pytest.fixture
+def polygon_rate_limit_response():
+    """Polygon API rate limit response."""
+    return {
+        "status": "ERROR",
+        "request_id": "rate789",
+        "error": "Rate limit exceeded"
+    }
+
+
+@pytest.fixture
+def checkpoint_file(temp_dir, mock_checkpoint_data):
+    """Create a checkpoint file."""
+    filepath = os.path.join(temp_dir, "checkpoint.json")
+    with open(filepath, 'w') as f:
+        json.dump(mock_checkpoint_data, f)
+    return filepath
+
+
+@pytest.fixture
+def corrupted_checkpoint_file(temp_dir):
+    """Create a corrupted checkpoint file."""
+    filepath = os.path.join(temp_dir, "checkpoint.json")
+    with open(filepath, 'w') as f:
+        f.write("{corrupted: json data]}")
+    return filepath
+
+
+@pytest.fixture
+def very_large_ticker_list():
+    """Very large ticker list for stress testing."""
+    return [f"TICK{i:05d}" for i in range(10000)]
+
+
+def assert_page_has_required_properties(page):
+    """Assert a Notion page has all required properties.
+
+    Args:
+        page: Notion page dictionary to validate.
+
+    Raises:
+        AssertionError: If required properties are missing.
+    """
+    required = ["Ticker", "Period", "Has Data", "Batch Number"]
+    props = page.get("properties", {})
+    for field in required:
+        assert field in props, f"Missing required property: {field}"
+
+
+def assert_valid_date_format(date_str):
+    """Assert a string is in valid ISO date format.
+
+    Args:
+        date_str: Date string to validate (YYYY-MM-DD).
+
+    Raises:
+        AssertionError: If date format is invalid.
+    """
+    try:
+        datetime.strptime(date_str, "%Y-%m-%d")
+    except ValueError:
+        raise AssertionError(f"Invalid date format: {date_str}")

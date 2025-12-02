@@ -107,13 +107,47 @@ python upload_to_notion.py
 
 ## Run/Build/Test Commands
 
+### Running Tests
+
+The project includes a comprehensive test suite with 339+ tests covering integration, error recovery, API response handling, data validation, and performance.
+
 | Command | Description |
 |---------|-------------|
-| `pytest` | Run full test suite |
+| `pytest` | Run full test suite (all tests) |
 | `pytest -v` | Run tests with verbose output |
+| `pytest -m "not slow"` | Run only fast tests (skip performance tests) |
+| `pytest -m "integration"` | Run only integration tests |
+| `pytest -m "slow"` | Run only performance/slow tests |
 | `pytest tests/test_production_stock_retrieval.py` | Run specific test file |
+| `pytest tests/test_integration.py::TestEndToEndWorkflow` | Run specific test class |
+| `pytest tests/test_performance.py -v` | Run performance tests with verbose output |
+
+### Running Tests with Coverage
+
+| Command | Description |
+|---------|-------------|
+| `pytest --cov=. --cov-report=term` | Run tests with coverage report |
+| `pytest --cov=. --cov-report=html` | Generate HTML coverage report |
+| `pytest --cov=. --cov-report=xml --cov-fail-under=85` | Enforce 85% coverage threshold |
+
+### Linting
+
+| Command | Description |
+|---------|-------------|
 | `flake8 .` | Run linter |
+| `pylint *.py` | Run pylint on main scripts |
 | `python -m py_compile *.py` | Verify syntax |
+
+### Test Organization
+
+- **Integration tests**: End-to-end workflow testing (`test_integration.py`)
+- **Error recovery tests**: Checkpoint recovery, retry logic (`test_error_recovery.py`)
+- **API response tests**: Polygon API response handling (`test_api_response_handling.py`)
+- **Data validation tests**: Price ranges, dates, duplicates (`test_data_validation.py`)
+- **Filesystem tests**: File I/O edge cases (`test_filesystem_edge_cases.py`)
+- **Logging tests**: Log output verification (`test_logging_verification.py`)
+- **Performance tests**: Speed and scalability baselines (`test_performance.py`)
+- **Configuration tests**: Environment variables, settings (`test_configuration.py`)
 
 ## Folder Structure
 
