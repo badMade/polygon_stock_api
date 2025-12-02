@@ -1,5 +1,8 @@
 # Polygon Stock API Utilities
 
+[![Tests](https://github.com/badMade/polygon_stock_api/actions/workflows/python-app.yml/badge.svg)](https://github.com/badMade/polygon_stock_api/actions/workflows/python-app.yml)
+[![Coverage](https://img.shields.io/badge/coverage-85%25-brightgreen)](https://github.com/badMade/polygon_stock_api)
+
 ## Project Overview
 
 This repository provides utilities for simulating large-scale historical stock data retrieval from the Polygon API and exporting results to a Notion database. The scripts use stubbed Polygon responses for predictable, testable behavior without requiring external API credentials.
@@ -197,6 +200,27 @@ After running retrieval scripts, you'll find:
 - **FileNotFoundError for ticker file**: Copy `all_tickers.json` to expected path
 - **Permission denied on output**: Ensure write access to output directories
 - **Tests failing**: Run `pytest -v` for detailed failure information
+
+For more detailed troubleshooting, see [docs/TROUBLESHOOTING.md](docs/TROUBLESHOOTING.md).
+
+## Documentation
+
+| Document | Description |
+|----------|-------------|
+| [API Setup Guide](docs/API_SETUP.md) | Polygon & Notion API credentials and configuration |
+| [Testing Guide](docs/TESTING.md) | Test strategy, markers, and running tests |
+| [Troubleshooting](docs/TROUBLESHOOTING.md) | Common issues and solutions |
+| [Production Guide](PRODUCTION_GUIDE.md) | Full production deployment instructions |
+| [Claude Guide](CLAUDE.md) | AI assistant integration guide |
+
+### Configuration
+
+Copy `.env.example` to `.env` and configure your settings:
+
+```bash
+cp .env.example .env
+# Edit .env with your API keys and paths
+```
 
 ## License
 

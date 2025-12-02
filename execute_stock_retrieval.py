@@ -57,10 +57,22 @@ class StockDataExecutor:
     """
 
     def __init__(self):
+        """Initialize the StockDataExecutor with default configuration.
+
+        Sets up file paths, processing parameters, and time period definitions.
+        All configuration values can be modified after instantiation if needed.
+
+        Configuration Defaults:
+            - ticker_file: OUTPUT_DIR/all_tickers.json
+            - batch_size: 100 (optimal for API rate limits and memory)
+            - periods: 5-year chunks from 2000-2024
+
+        State is initialized to zero/empty and populated during execution.
+        """
         # Configuration
         self.ticker_file = str(OUTPUT_DIR / "all_tickers.json")
-        self.data_source_id = "7c5225aa-429b-4580-946e-ba5b1db2ca6d"
-        self.batch_size = 100
+        self.data_source_id = "7c5225aa-429b-4580-946e-ba5b1db2ca6d"  # Notion database identifier
+        self.batch_size = 100  # Optimal balance between speed and memory usage
 
         # State tracking
         self.tickers = []
@@ -68,7 +80,8 @@ class StockDataExecutor:
         self.saved = 0
         self.failed = []
 
-        # Time periods (backwards from current)
+        # Time periods: 5-year chunks for manageable API responses
+        # Ordered newest to oldest for prioritizing recent data
         self.periods = [
             {"from": "2020-01-01", "to": "2024-11-23", "label": "2020-2024"},
             {"from": "2015-01-01", "to": "2019-12-31", "label": "2015-2019"},

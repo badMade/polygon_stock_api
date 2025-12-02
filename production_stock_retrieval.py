@@ -55,18 +55,36 @@ class ProductionStockRetriever:
     """
 
     def __init__(self):
-        # Using the actual 6,628 ticker file
+        """Initialize the ProductionStockRetriever with default configuration.
+
+        Sets up file paths, API parameters, and time period definitions for
+        bulk stock data retrieval. Configuration values can be modified after
+        instantiation to customize behavior.
+
+        Configuration Defaults:
+            - ticker_file: UPLOADS_DIR/all_tickers.json (6,628 tickers)
+            - batch_size: 100 (balances API rate limits with throughput)
+            - periods: 5 time chunks covering 2000-2024
+
+        Rate Limiting:
+            API calls include 10ms delays (100 requests/second max) to avoid
+            hitting Polygon API rate limits. Adjust via time.sleep() calls.
+
+        State is initialized to zero/empty and tracked during processing.
+        """
+        # File path for the full 6,628 ticker list
         self.ticker_file = str(UPLOADS_DIR / "all_tickers.json")
-        self.data_source_id = "7c5225aa-429b-4580-946e-ba5b1db2ca6d"
-        self.batch_size = 100
+        self.data_source_id = "7c5225aa-429b-4580-946e-ba5b1db2ca6d"  # Notion database identifier
+        self.batch_size = 100  # Processes 100 tickers per batch file (500 records with 5 periods)
 
-        # Tracking
-        self.processed = 0
-        self.saved = 0
-        self.failed = []
-        self.tickers = []
+        # Processing state tracking
+        self.processed = 0  # Total tickers processed across all batches
+        self.saved = 0  # Total records saved to batch files
+        self.failed = []  # Ticker symbols that encountered errors
+        self.tickers = []  # Populated by load_tickers()
 
-        # 5-year chunks backwards from current
+        # 5-year time chunks for historical data retrieval
+        # Ordered newest to oldest; each produces manageable API response sizes
         self.periods = [
             {"from": "2020-01-01", "to": "2024-11-23", "label": "2020-2024"},
             {"from": "2015-01-01", "to": "2019-12-31", "label": "2015-2019"},
