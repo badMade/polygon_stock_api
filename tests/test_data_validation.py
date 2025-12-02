@@ -163,10 +163,12 @@ class TestDateValidation:
 
     def test_future_date_detection(self):
         """Test detection of future dates."""
-        future_date = "2030-01-01"
-        parsed = datetime.strptime(future_date, "%Y-%m-%d")
+        future_date_str = "2030-01-01"
+        current_date_str = "2025-01-01"
+        parsed_future = datetime.strptime(future_date_str, "%Y-%m-%d")
+        parsed_current = datetime.strptime(current_date_str, "%Y-%m-%d")
 
-        is_future = parsed > datetime.now()
+        is_future = parsed_future > parsed_current
         assert is_future is True
 
     def test_period_labels_match_dates(self):

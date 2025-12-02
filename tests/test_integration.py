@@ -82,7 +82,7 @@ class TestEndToEndWorkflow:
 
     @pytest.mark.integration
     def test_workflow_with_checkpoint_creation(self, temp_dir):
-        """Test that checkpoints are created during batch processing."""
+        """Test that checkpoints are created during the main run workflow."""
         tickers = [f"TICK{i:03d}" for i in range(100)]
         ticker_file = os.path.join(temp_dir, "tickers.json")
         with open(ticker_file, 'w') as f:
@@ -92,26 +92,21 @@ class TestEndToEndWorkflow:
         retriever.ticker_file = ticker_file
         retriever.batch_size = 10
 
-        checkpoint_created = False
-        original_open = open
-
-        def mock_open_checkpoint(*args, **kwargs):
-            nonlocal checkpoint_created
-            if 'checkpoint.json' in str(args[0]) and 'w' in str(args[1:]):
-                checkpoint_created = True
-            return original_open(*args, **kwargs)
-
         with patch('production_stock_retrieval.OUTPUT_DIR', Path(temp_dir)):
-            with patch('time.sleep'):
-                with patch('builtins.open', side_effect=mock_open_checkpoint):
-                    retriever.load_tickers()
+            with patch('production_stock_retrieval.UPLOADS_DIR', Path(temp_dir)):
+                with patch('time.sleep'):
+                    retriever.run()
 
-                    # Process 10 batches to trigger checkpoint (every 10 batches)
-                    for batch_num in range(1, 11):
-                        start_idx = (batch_num - 1) * retriever.batch_size
-                        end_idx = start_idx + retriever.batch_size
-                        batch = retriever.tickers[start_idx:end_idx]
-                        retriever.process_batch(batch, batch_num, 10)
+        # Verify checkpoint file was created
+        checkpoint_file = os.path.join(temp_dir, "checkpoint.json")
+        assert os.path.exists(checkpoint_file), "Checkpoint file was not created during the run."
+
+        # Verify checkpoint contents
+        with open(checkpoint_file, 'r') as f:
+            checkpoint = json.load(f)
+
+        assert checkpoint["batch"] == 10, "Checkpoint should record final batch number"
+        assert checkpoint["processed"] == 100, "Checkpoint should record all processed tickers"
 
     @pytest.mark.integration
     def test_batch_file_structure_integrity(self, temp_dir):

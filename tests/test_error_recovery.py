@@ -339,7 +339,10 @@ class TestErrorMessageClarity:
         with pytest.raises(FileNotFoundError) as exc_info:
             retriever.load_tickers()
 
-        assert "tickers.json" in str(exc_info.value) or "No such file" in str(exc_info.value)
+        # Error message should contain the filename
+        error_message = str(exc_info.value)
+        assert "tickers.json" in error_message or "/nonexistent/path" in error_message, \
+            f"Error message should reference the missing file: {error_message}"
 
     def test_json_decode_error_message(self, temp_dir):
         """Test clear error message for invalid JSON."""
