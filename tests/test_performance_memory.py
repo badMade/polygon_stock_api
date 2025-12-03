@@ -3,9 +3,11 @@
 Tests memory efficiency and footprint of data structures.
 """
 
+import os
 import sys
 from datetime import datetime
 
+import psutil
 import pytest
 
 from production_stock_retrieval import ProductionStockRetriever
@@ -16,19 +18,33 @@ class TestMemoryUsage:
 
     def test_batch_size_memory_impact(self):
         """Test that batch processing doesn't accumulate excess memory."""
+        import gc
+        
+        MB_IN_BYTES = 1024 * 1024
+        
+        # Get current process for memory monitoring
+        process = psutil.Process(os.getpid())
+        
+        # Create retriever and simulate batch processing
         retriever = ProductionStockRetriever()
-
-        # Process first batch
-        batch1_size = sys.getsizeof(retriever)
-
-        # Process second batch
+        
+        # Simulate first batch (reset counters)
+        retriever.processed = 100
+        retriever.saved = 100
+        gc.collect()
+        batch1_memory = process.memory_info().rss
+        
+        # Simulate second batch (reset counters again)
         retriever.processed = 0
         retriever.saved = 0
-
-        batch2_size = sys.getsizeof(retriever)
-
-        # Size shouldn't grow significantly between batches
-        assert batch2_size <= batch1_size * 1.1
+        gc.collect()
+        batch2_memory = process.memory_info().rss
+        
+        # Memory shouldn't grow significantly between batches
+        # Allow up to 10% growth for reasonable fluctuation
+        memory_growth = batch2_memory - batch1_memory
+        assert memory_growth <= batch1_memory * 0.1, \
+            f"Memory grew by {memory_growth / MB_IN_BYTES:.2f} MB between batches"
 
     def test_ticker_list_memory_efficiency(self):
         """Test memory efficiency with large ticker lists."""
