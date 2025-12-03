@@ -167,9 +167,15 @@ time.sleep(0.01)  # 10ms delay = max 100 requests/second
 The database ID is in the URL:
 
 ```
+https://www.notion.so/myworkspace/<DATABASE_ID>?v=...
+                                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+                                  This is your database ID (32 hex characters)
+```
+
+Example:
+```
 https://www.notion.so/myworkspace/638a8018f09d4e159d6d84536f411441?v=...
                                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-                                  This is your database ID
 ```
 
 ### 4. Configure Notion Credentials
@@ -179,11 +185,20 @@ Set environment variables:
 ```bash
 # Linux/macOS
 export NOTION_API_KEY="secret_your_token_here"
-export NOTION_DATABASE_ID="638a8018f09d4e159d6d84536f411441"
+export NOTION_DATABASE_ID="your_database_id_here"
+export NOTION_DATA_SOURCE_ID="your_data_source_id_here"  # Optional, for collection references
 
-# Or add to .env file
+# Or add to .env file (recommended)
 NOTION_API_KEY=secret_your_token_here
-NOTION_DATABASE_ID=638a8018f09d4e159d6d84536f411441
+NOTION_DATABASE_ID=your_database_id_here
+NOTION_DATA_SOURCE_ID=your_data_source_id_here
+```
+
+**Important**: Copy `.env.example` to `.env` and fill in your actual values:
+
+```bash
+cp .env.example .env
+# Edit .env with your credentials
 ```
 
 ### 5. Database Schema
@@ -241,11 +256,12 @@ Create a `.env` file in the project root:
 
 ```env
 # Polygon API Configuration
-POLYGON_API_KEY=your_polygon_api_key
+POLYGON_API_KEY=your_polygon_api_key_here
 
 # Notion API Configuration
-NOTION_API_KEY=secret_your_notion_token
-NOTION_DATABASE_ID=638a8018f09d4e159d6d84536f411441
+NOTION_API_KEY=secret_your_notion_token_here
+NOTION_DATABASE_ID=your_notion_database_id_here
+NOTION_DATA_SOURCE_ID=your_notion_data_source_id_here
 
 # Application Configuration
 STOCK_APP_DATA_DIR=/path/to/data/directory

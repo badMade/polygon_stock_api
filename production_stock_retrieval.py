@@ -74,7 +74,16 @@ class ProductionStockRetriever:
         """
         # File path for the full 6,628 ticker list
         self.ticker_file = str(UPLOADS_DIR / "all_tickers.json")
-        self.data_source_id = "7c5225aa-429b-4580-946e-ba5b1db2ca6d"  # Notion database identifier
+        # Load Notion data source ID from environment, with fallback for backwards compatibility
+        self.data_source_id = os.getenv(
+            "NOTION_DATA_SOURCE_ID",
+            "7c5225aa-429b-4580-946e-ba5b1db2ca6d"  # Fallback for existing deployments
+        )
+        # Load Notion database ID from environment, with fallback for backwards compatibility
+        self.notion_database_id = os.getenv(
+            "NOTION_DATABASE_ID",
+            "638a8018f09d4e159d6d84536f411441"  # Fallback for existing deployments
+        )
         self.batch_size = 100  # Processes 100 tickers per batch file (500 records with 5 periods)
 
         # Processing state tracking
@@ -92,6 +101,14 @@ class ProductionStockRetriever:
             {"from": "2005-01-01", "to": "2009-12-31", "label": "2005-2009"},
             {"from": "2000-01-01", "to": "2004-12-31", "label": "2000-2004"}
         ]
+
+    def get_notion_database_url(self):
+        """Get the Notion database URL.
+
+        Returns:
+            str: The full Notion database URL.
+        """
+        return f"https://www.notion.so/{self.notion_database_id}"
 
     def load_tickers(self):
         """Load ticker symbols from the configured JSON file.
@@ -304,7 +321,7 @@ class ProductionStockRetriever:
         script = f'''#!/usr/bin/env python3
 """
 Upload all batch files to Notion database
-Database: https://www.notion.so/638a8018f09d4e159d6d84536f411441
+Database: {self.get_notion_database_url()}
 """
 
 import json
@@ -374,10 +391,7 @@ print(f"\\n✅ Upload complete: {{total_uploaded}} records uploaded to Notion")
         logger.info("=" * 80)
         logger.info("🚀 PRODUCTION STOCK DATA RETRIEVAL - 6,628 TICKERS")
         logger.info("=" * 80)
-        logger.info(
-            "📊 Notion Database: https://www.notion.so/"
-            "638a8018f09d4e159d6d84536f411441"
-        )
+        logger.info("📊 Notion Database: %s", self.get_notion_database_url())
         logger.info("🔗 Data Source ID: %s", self.data_source_id)
         logger.info("=" * 80)
 
@@ -487,10 +501,7 @@ print(f"\\n✅ Upload complete: {{total_uploaded}} records uploaded to Notion")
                     )
                 },
                 "notion": {
-                    "database_url": (
-                        "https://www.notion.so/"
-                        "638a8018f09d4e159d6d84536f411441"
-                    ),
+                    "database_url": self.get_notion_database_url(),
                     "data_source_id": self.data_source_id
                 }
             }
@@ -514,10 +525,7 @@ print(f"\\n✅ Upload complete: {{total_uploaded}} records uploaded to Notion")
                 "  1. Review batch files in %s/", OUTPUT_DIR
                 )
             logger.info("  2. Run notion_bulk_upload.py to upload to Notion")
-            logger.info(
-                "  3. Monitor at: https://www.notion.so/"
-                "638a8018f09d4e159d6d84536f411441"
-                )
+            logger.info("  3. Monitor at: %s", self.get_notion_database_url())
             logger.info("=" * 80)
 
         except KeyboardInterrupt:

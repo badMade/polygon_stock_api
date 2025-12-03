@@ -66,8 +66,10 @@ Key file locations:
 
 **Notion Configuration** (for production use):
 
-- `data_source_id`: `7c5225aa-429b-4580-946e-ba5b1db2ca6d`
-- Database URL: `https://www.notion.so/638a8018f09d4e159d6d84536f411441`
+Configure via environment variables (see `.env.example`):
+- `NOTION_DATA_SOURCE_ID`: Your Notion data source/collection ID
+- `NOTION_DATABASE_ID`: Your Notion database ID
+- Database URL format: `https://www.notion.so/<YOUR_DATABASE_ID>`
 
 ## Usage
 

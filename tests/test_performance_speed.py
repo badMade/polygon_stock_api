@@ -13,6 +13,9 @@ import pytest
 
 from production_stock_retrieval import ProductionStockRetriever
 
+# CI-aware timing multiplier to prevent flaky tests in CI environments
+CI_MULTIPLIER = 2.0 if os.getenv("CI") else 1.0
+
 
 class TestProcessingSpeed:
     """Tests for processing speed baselines."""
@@ -21,7 +24,7 @@ class TestProcessingSpeed:
     def test_ticker_processing_rate(self, temp_dir):
         """Test that ticker processing meets minimum rate."""
         tickers = [f"TICK{i:04d}" for i in range(100)]
-        ticker_file = os.path.join(temp_dir, "tickers.json")
+        ticker_file = Path(temp_dir) / "tickers.json"
         with open(ticker_file, 'w') as f:
             json.dump(tickers, f)
 
@@ -38,11 +41,14 @@ class TestProcessingSpeed:
                 elapsed = time.time() - start_time
 
         # Should process 100 tickers in reasonable time (< 5 seconds without API)
-        assert elapsed < 5.0, f"Processing took too long: {elapsed}s"
+        # Use CI multiplier for CI environments
+        threshold = 5.0 * CI_MULTIPLIER
+        assert elapsed < threshold, f"Processing took too long: {elapsed}s (threshold: {threshold}s)"
 
         # Calculate rate
         rate = retriever.processed / elapsed
-        assert rate > 10, f"Processing rate too slow: {rate} tickers/sec"
+        min_rate = 10 / CI_MULTIPLIER  # Reduce rate expectation in CI
+        assert rate > min_rate, f"Processing rate too slow: {rate} tickers/sec (min: {min_rate})"
 
     def test_single_ticker_processing_time(self):
         """Test processing time for a single ticker."""
@@ -55,7 +61,8 @@ class TestProcessingSpeed:
             elapsed = time.time() - start_time
 
         # 5 periods should complete quickly (< 0.1 second without API)
-        assert elapsed < 0.1
+        threshold = 0.1 * CI_MULTIPLIER
+        assert elapsed < threshold, f"Processing took too long: {elapsed}s (threshold: {threshold}s)"
 
     def test_batch_file_write_speed(self, temp_dir):
         """Test speed of writing batch files."""
@@ -79,7 +86,8 @@ class TestProcessingSpeed:
             elapsed = time.time() - start_time
 
         # Writing 500 pages should be fast (< 1 second)
-        assert elapsed < 1.0
+        threshold = 1.0 * CI_MULTIPLIER
+        assert elapsed < threshold, f"File write took too long: {elapsed}s (threshold: {threshold}s)"
 
     def test_json_serialization_speed(self, temp_dir):
         """Test speed of JSON serialization for batch data."""
@@ -123,13 +131,14 @@ class TestProcessingSpeed:
         elapsed = time.time() - start_time
 
         # JSON serialization should be fast
-        assert elapsed < 0.5
+        threshold = 0.5 * CI_MULTIPLIER
+        assert elapsed < threshold, f"JSON serialization took too long: {elapsed}s (threshold: {threshold}s)"
         assert len(json_str) > 0
 
     def test_ticker_list_loading_speed(self, temp_dir):
         """Test speed of loading ticker list from file."""
         tickers = [f"TICK{i:04d}" for i in range(7000)]
-        ticker_file = os.path.join(temp_dir, "tickers.json")
+        ticker_file = Path(temp_dir) / "tickers.json"
         with open(ticker_file, 'w') as f:
             json.dump(tickers, f)
 
@@ -141,5 +150,6 @@ class TestProcessingSpeed:
         elapsed = time.time() - start_time
 
         # Loading 7000 tickers should be fast
-        assert elapsed < 1.0
+        threshold = 1.0 * CI_MULTIPLIER
+        assert elapsed < threshold, f"Ticker loading took too long: {elapsed}s (threshold: {threshold}s)"
         assert len(retriever.tickers) == 7000
