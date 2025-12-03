@@ -133,7 +133,7 @@ class TestRealAPIRateLimiting:
     @pytest.mark.real_api
     @skip_without_api_key()
     def test_rate_limiting_respected(self, real_retriever):
-        """Test that rate limiting delays are applied correctly."""
+        """Test that rate limiting delays are applied correctly by _process_ticker_period."""
         period = {
             "from": "2024-01-01",
             "to": "2024-01-05",
@@ -142,35 +142,39 @@ class TestRealAPIRateLimiting:
 
         tickers = ["AAPL", "MSFT", "GOOGL", "AMZN", "META"]
 
+        # Test the actual production method that contains rate limiting
         start_time = time.time()
         for ticker in tickers:
-            real_retriever.get_polygon_data(ticker, period)
-            time.sleep(0.01)  # 10ms delay as per implementation
+            # _process_ticker_period contains time.sleep(0.01) at line 200
+            real_retriever._process_ticker_period(ticker, period, batch_num=1)
         elapsed = time.time() - start_time
 
-        # Should take at least 50ms (5 tickers * 10ms)
-        assert elapsed >= 0.05
+        # Should take at least 50ms (5 tickers * 10ms from _process_ticker_period)
+        # Allow for some timing variance but ensure rate limiting is working
+        assert elapsed >= 0.045, f"Rate limiting not working: only took {elapsed}s, expected >= 0.05s"
 
     @pytest.mark.real_api
     @skip_without_api_key()
     def test_burst_protection(self, real_retriever):
-        """Test that API doesn't get hit too quickly."""
+        """Test that production code includes rate limiting delays."""
         period = {
             "from": "2024-01-01",
             "to": "2024-01-02",
             "label": "test"
         }
 
+        # Measure time gaps between calls using production method
         call_times = []
         for i in range(5):
-            call_times.append(time.time())
-            real_retriever.get_polygon_data("AAPL", period)
-            time.sleep(0.02)  # Slightly longer delay for safety
+            start = time.time()
+            real_retriever._process_ticker_period("AAPL", period, batch_num=1)
+            end = time.time()
+            call_times.append(end - start)
 
-        # Verify calls are spaced out
-        for i in range(1, len(call_times)):
-            gap = call_times[i] - call_times[i-1]
-            assert gap >= 0.01, f"Calls too close together: {gap}s"
+        # Each call should take at least 10ms due to internal time.sleep(0.01)
+        # Use slightly lower threshold to account for timing variance
+        for i, duration in enumerate(call_times):
+            assert duration >= 0.008, f"Call {i} too fast: {duration}s (expected >= 0.01s from rate limiting)"
 
 
 class TestRealDataQuality:
