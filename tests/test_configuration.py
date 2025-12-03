@@ -10,17 +10,19 @@ from unittest.mock import patch
 
 import pytest
 
-from production_stock_retrieval import (
-    ProductionStockRetriever,
+from config import (
     OUTPUT_DIR,
     UPLOADS_DIR,
     BASE_DATA_DIR,
+    AppConfig,
+    Period,
+    get_default_periods,
+    NOTION_DATABASE_PROPERTIES,
 )
+from production_stock_retrieval import ProductionStockRetriever
 from stock_notion_retrieval import (
     StockDataNotionRetriever,
     TimeChunk,
-    OUTPUT_DIR as NOTION_OUTPUT_DIR,
-    UPLOADS_DIR as NOTION_UPLOADS_DIR,
 )
 
 
@@ -90,6 +92,35 @@ class TestDefaultConfiguration:
         assert len(retriever.failed) == 0
 
 
+class TestAppConfigClass:
+    """Tests for the AppConfig dataclass."""
+
+    def test_app_config_defaults(self):
+        """Test AppConfig default values."""
+        config = AppConfig()
+        assert config.batch_size == 100
+        assert config.data_source_id == "7c5225aa-429b-4580-946e-ba5b1db2ca6d"
+        assert config.rate_limit_delay == 0.01
+        assert config.checkpoint_interval == 10
+
+    def test_app_config_periods(self):
+        """Test AppConfig default periods."""
+        config = AppConfig()
+        assert len(config.periods) == 5
+        assert all(isinstance(p, Period) for p in config.periods)
+
+    def test_get_periods_as_dicts(self):
+        """Test conversion of periods to dictionaries."""
+        config = AppConfig()
+        periods = config.get_periods_as_dicts()
+
+        assert len(periods) == 5
+        for p in periods:
+            assert "from" in p
+            assert "to" in p
+            assert "label" in p
+
+
 class TestPeriodConfiguration:
     """Tests for time period configuration."""
 
@@ -137,6 +168,19 @@ class TestPeriodConfiguration:
 
             assert start_year in label
             assert end_year in label
+
+    def test_period_dataclass(self):
+        """Test the Period dataclass."""
+        period = Period("2020-01-01", "2024-11-23", "2020-2024")
+        assert period.from_date == "2020-01-01"
+        assert period.to_date == "2024-11-23"
+        assert period.label == "2020-2024"
+
+        # Test to_dict method
+        d = period.to_dict()
+        assert d["from"] == "2020-01-01"
+        assert d["to"] == "2024-11-23"
+        assert d["label"] == "2020-2024"
 
 
 class TestNotionRetrieverConfiguration:
@@ -209,7 +253,7 @@ class TestConstantValidation:
         import re
 
         retriever = ProductionStockRetriever()
-        uuid_pattern = r'^[0-9a-f]{8}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{12}$'
+        uuid_pattern = r"^[0-9a-f]{8}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{12}$"
 
         assert re.match(uuid_pattern, retriever.data_source_id)
 
@@ -219,6 +263,7 @@ class TestConstantValidation:
         retriever2 = ProductionStockRetriever()
 
         assert retriever1.data_source_id == retriever2.data_source_id
+
 
 class TestConfigurationOverrides:
     """Tests for configuration overrides."""
@@ -247,11 +292,9 @@ class TestConfigurationOverrides:
         retriever = ProductionStockRetriever()
 
         original_count = len(retriever.periods)
-        retriever.periods.append({
-            "from": "1995-01-01",
-            "to": "1999-12-31",
-            "label": "1995-1999"
-        })
+        retriever.periods.append(
+            {"from": "1995-01-01", "to": "1999-12-31", "label": "1995-1999"}
+        )
 
         assert len(retriever.periods) == original_count + 1
 
@@ -259,17 +302,52 @@ class TestConfigurationOverrides:
 class TestDatabaseConfiguration:
     """Tests for Notion database configuration."""
 
+    def test_notion_database_properties_constant(self):
+        """Test NOTION_DATABASE_PROPERTIES is correctly defined."""
+        required_properties = [
+            "Ticker",
+            "Date",
+            "Period",
+            "Open",
+            "High",
+            "Low",
+            "Close",
+            "Volume",
+            "VWAP",
+            "Transactions",
+            "Has Data",
+            "Data Points",
+            "Timespan",
+            "Retrieved",
+            "Batch",
+        ]
+
+        for prop in required_properties:
+            assert prop in NOTION_DATABASE_PROPERTIES
+
     def test_database_properties_structure(self, temp_dir):
         """Test that database properties have correct structure."""
         retriever = StockDataNotionRetriever()
 
-        with patch('stock_notion_retrieval.OUTPUT_DIR', temp_dir):
+        with patch("stock_notion_retrieval.OUTPUT_DIR", Path(temp_dir)):
             properties = retriever.create_notion_database()
 
         required_properties = [
-            "Ticker", "Date", "Period", "Open", "High", "Low", "Close",
-            "Volume", "VWAP", "Transactions", "Has Data", "Data Points",
-            "Timespan", "Retrieved", "Batch"
+            "Ticker",
+            "Date",
+            "Period",
+            "Open",
+            "High",
+            "Low",
+            "Close",
+            "Volume",
+            "VWAP",
+            "Transactions",
+            "Has Data",
+            "Data Points",
+            "Timespan",
+            "Retrieved",
+            "Batch",
         ]
 
         for prop in required_properties:
@@ -279,7 +357,7 @@ class TestDatabaseConfiguration:
         """Test that Period property has correct select options."""
         retriever = StockDataNotionRetriever()
 
-        with patch('stock_notion_retrieval.OUTPUT_DIR', temp_dir):
+        with patch("stock_notion_retrieval.OUTPUT_DIR", Path(temp_dir)):
             properties = retriever.create_notion_database()
 
         period_options = properties["Period"]["select"]["options"]
@@ -292,7 +370,7 @@ class TestDatabaseConfiguration:
         """Test that Timespan property has correct select options."""
         retriever = StockDataNotionRetriever()
 
-        with patch('stock_notion_retrieval.OUTPUT_DIR', temp_dir):
+        with patch("stock_notion_retrieval.OUTPUT_DIR", Path(temp_dir)):
             properties = retriever.create_notion_database()
 
         timespan_options = properties["Timespan"]["select"]["options"]

@@ -1,18 +1,8 @@
-# Include runtime dependencies
+# Include runtime and test dependencies
 -r requirements.txt
 
-# Test dependencies
-pytest==8.3.5          # Test runner; pinned for Python 3.8/3.9 compatibility (pytest 9.x requires 3.10+)
-pytest-cov==6.0.0      # Coverage reporting for pytest
-
-# Development / linting dependencies
-# Note: pylint is not pinned here to support multiple Python versions (3.8+).
-# The CI workflow installs a compatible pylint version separately.
-flake8==7.3.0          # Linter mentioned in README; latest 7.3.0 as of 2025-06
-
-# Optional integrations (install if you want real external APIs)
-# Install with: pip install -r requirements-optional.txt
-# Or use: ./install_dependencies.sh --all
-
-notion-client==2.7.0   # Official Notion API client; latest 2.7.0 as of 2025-10
-polygon-api-client==1.16.3  # Official Polygon.io client; latest 1.16.3 as of 2025-10
+# Additional development tools (if needed beyond requirements.txt)
+# All core dependencies are now in requirements.txt including:
+# - pytest, pytest-cov (testing)
+# - flake8, mypy, bandit (linting, type checking, security)
+# - notion-client, polygon-api-client (API integrations)

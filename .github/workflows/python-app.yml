@@ -19,24 +19,39 @@ jobs:
 
     steps:
     - uses: actions/checkout@v4
+
     - name: Set up Python 3.10
       uses: actions/setup-python@v3
       with:
         python-version: "3.10"
+
     - name: Install dependencies
       run: |
         python -m pip install --upgrade pip
-        pip install flake8 pytest pytest-cov
+        pip install flake8 pytest pytest-cov mypy bandit
         if [ -f requirements.txt ]; then pip install -r requirements.txt; fi
+
     - name: Lint with flake8
       run: |
         # stop the build if there are Python syntax errors or undefined names
         flake8 . --count --select=E9,F63,F7,F82 --show-source --statistics
         # exit-zero treats all errors as warnings. The GitHub editor is 127 chars wide
         flake8 . --count --exit-zero --max-complexity=10 --max-line-length=127 --statistics
+
+    - name: Type check with mypy
+      run: |
+        # Run mypy on main source files (non-blocking for now)
+        mypy config.py execute_stock_retrieval.py production_stock_retrieval.py stock_notion_retrieval.py --ignore-missing-imports --no-error-summary || true
+
+    - name: Security scan with bandit
+      run: |
+        # Run bandit security linter (low-medium severity findings are warnings)
+        bandit -r . -ll --exclude ./tests,./user-data,./.venv -f txt || true
+
     - name: Test with pytest and coverage
       run: |
         pytest --cov=. --cov-report=term --cov-report=xml --cov-fail-under=70
+
     - name: Upload coverage reports
       uses: codecov/codecov-action@v4
       if: always()
