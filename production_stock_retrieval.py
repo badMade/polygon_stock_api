@@ -213,6 +213,22 @@ class ProductionStockRetriever:
                 ticker,
             )
 
+    def calculate_eta(self, processed_count, total_count, elapsed_seconds):
+        """Calculate estimated time to completion.
+
+        Args:
+            processed_count: Number of items processed so far.
+            total_count: Total number of items to process.
+            elapsed_seconds: Time elapsed since processing started.
+
+        Returns:
+            timedelta: Estimated time remaining. Returns timedelta(0) if
+                processing rate is zero (no progress yet or zero elapsed time).
+        """
+        rate = processed_count / elapsed_seconds if elapsed_seconds > 0 else 0
+        remaining = total_count - processed_count
+        return timedelta(seconds=remaining/rate) if rate > 0 else timedelta(0)
+
     def process_batch(self, batch, batch_num, total_batches):
         """Process a batch of tickers through all time periods.
 
@@ -409,10 +425,8 @@ print(f"\\n✅ Upload complete: {{total_uploaded}} records uploaded to Notion")
                         self.processed / elapsed.total_seconds()
                         if elapsed.total_seconds() > 0 else 0
                     )
-                    remaining_tickers = ticker_count - self.processed
-                    eta = (
-                        timedelta(seconds=remaining_tickers/rate)
-                        if rate > 0 else timedelta(0)
+                    eta = self.calculate_eta(
+                        self.processed, ticker_count, elapsed.total_seconds()
                     )
 
                     logger.info("-" * 60)
