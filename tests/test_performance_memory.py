@@ -20,14 +20,10 @@ class TestMemoryUsage:
         """Test that batch processing doesn't accumulate excess memory."""
         import gc
         
+        MB_IN_BYTES = 1024 * 1024
+        
         # Get current process for memory monitoring
         process = psutil.Process(os.getpid())
-        
-        # Force garbage collection before measurement
-        gc.collect()
-        
-        # Measure memory before creating retriever
-        memory_before = process.memory_info().rss
         
         # Create retriever and simulate batch processing
         retriever = ProductionStockRetriever()
@@ -48,7 +44,7 @@ class TestMemoryUsage:
         # Allow up to 10% growth for reasonable fluctuation
         memory_growth = batch2_memory - batch1_memory
         assert memory_growth <= batch1_memory * 0.1, \
-            f"Memory grew by {memory_growth / (1024*1024):.2f} MB between batches"
+            f"Memory grew by {memory_growth / MB_IN_BYTES:.2f} MB between batches"
 
     def test_ticker_list_memory_efficiency(self):
         """Test memory efficiency with large ticker lists."""
