@@ -194,7 +194,7 @@ class TestPerformanceMetrics:
     def test_eta_calculation(self):
         """Test ETA (estimated time remaining) calculation."""
         retriever = ProductionStockRetriever()
-        
+
         processed = 1000
         total = 6626
         elapsed_seconds = 100.0
@@ -250,7 +250,7 @@ class TestPerformanceMetrics:
     def test_zero_division_protection(self):
         """Test that ETA calculation handles zero division correctly."""
         retriever = ProductionStockRetriever()
-        
+
         # Test with zero elapsed time (no progress yet)
         eta = retriever.calculate_eta(
             processed_count=0,
@@ -258,7 +258,7 @@ class TestPerformanceMetrics:
             elapsed_seconds=0.0
         )
         assert eta == timedelta(0), "Should return timedelta(0) when elapsed time is 0"
-        
+
         # Test with zero progress (rate would be 0)
         eta = retriever.calculate_eta(
             processed_count=0,
@@ -266,7 +266,7 @@ class TestPerformanceMetrics:
             elapsed_seconds=10.0
         )
         assert eta == timedelta(0), "Should return timedelta(0) when rate is 0"
-        
+
         # Test with valid progress
         eta = retriever.calculate_eta(
             processed_count=50,
