@@ -2,8 +2,8 @@
 """
 PRODUCTION EXECUTION SCRIPT
 Retrieves historical stock data for 6,628 tickers and saves to Notion
-Database URL: https://www.notion.so/638a8018f09d4e159d6d84536f411441
-Data Source: collection://7c5225aa-429b-4580-946e-ba5b1db2ca6d
+Database URL and Data Source ID are configured via environment variables.
+See .env.example for configuration options.
 """
 
 import json
@@ -57,10 +57,31 @@ class StockDataExecutor:
     """
 
     def __init__(self):
+        """Initialize the StockDataExecutor with default configuration.
+
+        Sets up file paths, processing parameters, and time period definitions.
+        All configuration values can be modified after instantiation if needed.
+
+        Configuration Defaults:
+            - ticker_file: OUTPUT_DIR/all_tickers.json
+            - batch_size: 100 (optimal for API rate limits and memory)
+            - periods: 5-year chunks from 2000-2024
+
+        State is initialized to zero/empty and populated during execution.
+        """
         # Configuration
         self.ticker_file = str(OUTPUT_DIR / "all_tickers.json")
-        self.data_source_id = "7c5225aa-429b-4580-946e-ba5b1db2ca6d"
-        self.batch_size = 100
+        # Load Notion data source ID from environment, with fallback for backwards compatibility
+        self.data_source_id = os.getenv(
+            "NOTION_DATA_SOURCE_ID",
+            "7c5225aa-429b-4580-946e-ba5b1db2ca6d"  # Fallback for existing deployments
+        )
+        # Load Notion database ID from environment, with fallback for backwards compatibility
+        self.notion_database_id = os.getenv(
+            "NOTION_DATABASE_ID",
+            "638a8018f09d4e159d6d84536f411441"  # Fallback for existing deployments
+        )
+        self.batch_size = 100  # Optimal balance between speed and memory usage
 
         # State tracking
         self.tickers = []
@@ -68,7 +89,8 @@ class StockDataExecutor:
         self.saved = 0
         self.failed = []
 
-        # Time periods (backwards from current)
+        # Time periods: 5-year chunks for manageable API responses
+        # Ordered newest to oldest for prioritizing recent data
         self.periods = [
             {"from": "2020-01-01", "to": "2024-11-23", "label": "2020-2024"},
             {"from": "2015-01-01", "to": "2019-12-31", "label": "2015-2019"},
@@ -76,6 +98,14 @@ class StockDataExecutor:
             {"from": "2005-01-01", "to": "2009-12-31", "label": "2005-2009"},
             {"from": "2000-01-01", "to": "2004-12-31", "label": "2000-2004"}
         ]
+
+    def get_notion_database_url(self):
+        """Get the Notion database URL.
+
+        Returns:
+            str: The full Notion database URL.
+        """
+        return f"https://www.notion.so/{self.notion_database_id}"
 
     def load_tickers(self):
         """Load ticker symbols from the configured JSON file.
@@ -351,7 +381,7 @@ class StockDataExecutor:
             total_batches: Total number of batch files to include.
         """
         script_content = f'''# Notion Upload Script
-# Database: https://www.notion.so/638a8018f09d4e159d6d84536f411441
+# Database: {self.get_notion_database_url()}
 # Data Source: collection://{self.data_source_id}
 
 import json
@@ -395,11 +425,7 @@ for batch_num in range(1, {total_batches + 1}):
         logger.info("=" * 70)
         logger.info("🚀 STOCK DATA RETRIEVAL EXECUTOR - PRODUCTION RUN")
         logger.info("=" * 70)
-        notion_url = (
-            "https://www.notion.so/"
-            "638a8018f09d4e159d6d84536f411441"
-        )
-        logger.info("📊 Database: %s", notion_url)
+        logger.info("📊 Database: %s", self.get_notion_database_url())
         logger.info("📁 Data Source: collection://%s", self.data_source_id)
         logger.info("=" * 70)
 
@@ -476,7 +502,7 @@ for batch_num in range(1, {total_batches + 1}):
                     if self.processed > 0 else 0
                 },
                 "database": {
-                    "url": notion_url,
+                    "url": self.get_notion_database_url(),
                     "data_source": f"collection://{self.data_source_id}",
                     "batch_files": total_batches
                 }
@@ -500,10 +526,7 @@ for batch_num in range(1, {total_batches + 1}):
             logger.info("🎯 Next steps:")
             logger.info("  1. Review batch files in %s/", OUTPUT_DIR)
             logger.info("  2. Run upload_to_notion.py to populate database")
-            logger.info(
-                "  3. View data at: "
-                "https://www.notion.so/638a8018f09d4e159d6d84536f411441"
-            )
+            logger.info("  3. View data at: %s", self.get_notion_database_url())
             logger.info("=" * 70)
 
             return summary

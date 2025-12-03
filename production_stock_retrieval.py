@@ -55,18 +55,45 @@ class ProductionStockRetriever:
     """
 
     def __init__(self):
-        # Using the actual 6,628 ticker file
+        """Initialize the ProductionStockRetriever with default configuration.
+
+        Sets up file paths, API parameters, and time period definitions for
+        bulk stock data retrieval. Configuration values can be modified after
+        instantiation to customize behavior.
+
+        Configuration Defaults:
+            - ticker_file: UPLOADS_DIR/all_tickers.json (6,628 tickers)
+            - batch_size: 100 (balances API rate limits with throughput)
+            - periods: 5 time chunks covering 2000-2024
+
+        Rate Limiting:
+            API calls include 10ms delays (100 requests/second max) to avoid
+            hitting Polygon API rate limits. Adjust via time.sleep() calls.
+
+        State is initialized to zero/empty and tracked during processing.
+        """
+        # File path for the full 6,628 ticker list
         self.ticker_file = str(UPLOADS_DIR / "all_tickers.json")
-        self.data_source_id = "7c5225aa-429b-4580-946e-ba5b1db2ca6d"
-        self.batch_size = 100
+        # Load Notion data source ID from environment, with fallback for backwards compatibility
+        self.data_source_id = os.getenv(
+            "NOTION_DATA_SOURCE_ID",
+            "7c5225aa-429b-4580-946e-ba5b1db2ca6d"  # Fallback for existing deployments
+        )
+        # Load Notion database ID from environment, with fallback for backwards compatibility
+        self.notion_database_id = os.getenv(
+            "NOTION_DATABASE_ID",
+            "638a8018f09d4e159d6d84536f411441"  # Fallback for existing deployments
+        )
+        self.batch_size = 100  # Processes 100 tickers per batch file (500 records with 5 periods)
 
-        # Tracking
-        self.processed = 0
-        self.saved = 0
-        self.failed = []
-        self.tickers = []
+        # Processing state tracking
+        self.processed = 0  # Total tickers processed across all batches
+        self.saved = 0  # Total records saved to batch files
+        self.failed = []  # Ticker symbols that encountered errors
+        self.tickers = []  # Populated by load_tickers()
 
-        # 5-year chunks backwards from current
+        # 5-year time chunks for historical data retrieval
+        # Ordered newest to oldest; each produces manageable API response sizes
         self.periods = [
             {"from": "2020-01-01", "to": "2024-11-23", "label": "2020-2024"},
             {"from": "2015-01-01", "to": "2019-12-31", "label": "2015-2019"},
@@ -74,6 +101,14 @@ class ProductionStockRetriever:
             {"from": "2005-01-01", "to": "2009-12-31", "label": "2005-2009"},
             {"from": "2000-01-01", "to": "2004-12-31", "label": "2000-2004"}
         ]
+
+    def get_notion_database_url(self):
+        """Get the Notion database URL.
+
+        Returns:
+            str: The full Notion database URL.
+        """
+        return f"https://www.notion.so/{self.notion_database_id}"
 
     def load_tickers(self):
         """Load ticker symbols from the configured JSON file.
@@ -195,6 +230,22 @@ class ProductionStockRetriever:
                 ticker,
             )
 
+    def calculate_eta(self, processed_count, total_count, elapsed_seconds):
+        """Calculate estimated time to completion.
+
+        Args:
+            processed_count: Number of items processed so far.
+            total_count: Total number of items to process.
+            elapsed_seconds: Time elapsed since processing started.
+
+        Returns:
+            timedelta: Estimated time remaining. Returns timedelta(0) if
+                processing rate is zero (no progress yet or zero elapsed time).
+        """
+        rate = processed_count / elapsed_seconds if elapsed_seconds > 0 else 0
+        remaining = total_count - processed_count
+        return timedelta(seconds=remaining/rate) if rate > 0 else timedelta(0)
+
     def process_batch(self, batch, batch_num, total_batches):
         """Process a batch of tickers through all time periods.
 
@@ -270,7 +321,7 @@ class ProductionStockRetriever:
         script = f'''#!/usr/bin/env python3
 """
 Upload all batch files to Notion database
-Database: https://www.notion.so/638a8018f09d4e159d6d84536f411441
+Database: {self.get_notion_database_url()}
 """
 
 import json
@@ -340,10 +391,7 @@ print(f"\\n✅ Upload complete: {{total_uploaded}} records uploaded to Notion")
         logger.info("=" * 80)
         logger.info("🚀 PRODUCTION STOCK DATA RETRIEVAL - 6,628 TICKERS")
         logger.info("=" * 80)
-        logger.info(
-            "📊 Notion Database: https://www.notion.so/"
-            "638a8018f09d4e159d6d84536f411441"
-        )
+        logger.info("📊 Notion Database: %s", self.get_notion_database_url())
         logger.info("🔗 Data Source ID: %s", self.data_source_id)
         logger.info("=" * 80)
 
@@ -391,10 +439,8 @@ print(f"\\n✅ Upload complete: {{total_uploaded}} records uploaded to Notion")
                         self.processed / elapsed.total_seconds()
                         if elapsed.total_seconds() > 0 else 0
                     )
-                    remaining_tickers = ticker_count - self.processed
-                    eta = (
-                        timedelta(seconds=remaining_tickers/rate)
-                        if rate > 0 else timedelta(0)
+                    eta = self.calculate_eta(
+                        self.processed, ticker_count, elapsed.total_seconds()
                     )
 
                     logger.info("-" * 60)
@@ -455,10 +501,7 @@ print(f"\\n✅ Upload complete: {{total_uploaded}} records uploaded to Notion")
                     )
                 },
                 "notion": {
-                    "database_url": (
-                        "https://www.notion.so/"
-                        "638a8018f09d4e159d6d84536f411441"
-                    ),
+                    "database_url": self.get_notion_database_url(),
                     "data_source_id": self.data_source_id
                 }
             }
@@ -482,10 +525,7 @@ print(f"\\n✅ Upload complete: {{total_uploaded}} records uploaded to Notion")
                 "  1. Review batch files in %s/", OUTPUT_DIR
                 )
             logger.info("  2. Run notion_bulk_upload.py to upload to Notion")
-            logger.info(
-                "  3. Monitor at: https://www.notion.so/"
-                "638a8018f09d4e159d6d84536f411441"
-                )
+            logger.info("  3. Monitor at: %s", self.get_notion_database_url())
             logger.info("=" * 80)
 
         except KeyboardInterrupt:

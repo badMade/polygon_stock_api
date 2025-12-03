@@ -60,15 +60,38 @@ class StockDataNotionRetriever:
     """
 
     def __init__(self):
-        self.ticker_file = str(UPLOADS_DIR / "all_tickers.json")
-        self.tickers = []
-        self.batch_size = 100
-        self.notion_database_url = None
-        self.processed_count = 0
-        self.failed_tickers = []
-        self.successful_saves = 0
+        """Initialize the StockDataNotionRetriever with default configuration.
 
-        # Time chunks configuration
+        Sets up file paths, processing parameters, and time period definitions
+        for retrieving stock data and preparing it for Notion database upload.
+        All configuration values can be modified after instantiation.
+
+        Configuration Defaults:
+            - ticker_file: UPLOADS_DIR/all_tickers.json
+            - batch_size: 100 (optimal for Notion's 100-page API limit)
+            - time_chunks: 5 periods covering 2000-2024
+
+        State Tracking:
+            - processed_count: Incremented for each ticker processed
+            - successful_saves: Incremented for each record saved
+            - failed_tickers: Collects symbols that encountered errors
+
+        The notion_database_url is set during create_notion_database() if
+        creating a new database, or can be set manually for existing databases.
+        """
+        # File path for ticker symbols (JSON array of strings)
+        self.ticker_file = str(UPLOADS_DIR / "all_tickers.json")
+        self.tickers = []  # Populated by load_tickers()
+        self.batch_size = 100  # Matches Notion API's 100-page-per-request limit
+        self.notion_database_url = None  # Set after database creation or manually
+
+        # Processing state tracking
+        self.processed_count = 0  # Total tickers processed
+        self.failed_tickers = []  # Symbols that failed during processing
+        self.successful_saves = 0  # Records successfully saved to files
+
+        # Time chunks: 5-year periods for historical data retrieval
+        # Using dataclass for type safety and cleaner access
         self.time_chunks = [
             TimeChunk("2020-01-01", "2024-11-23", "2020-2024"),
             TimeChunk("2015-01-01", "2019-12-31", "2015-2019"),
