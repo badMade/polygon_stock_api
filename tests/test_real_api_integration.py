@@ -20,13 +20,6 @@ import pytest
 from production_stock_retrieval import ProductionStockRetriever
 
 
-def pytest_configure(config):
-    """Register custom markers."""
-    config.addinivalue_line(
-        "markers", "real_api: mark test as requiring real API access"
-    )
-
-
 def has_api_key():
     """Check if Polygon API key is available."""
     return bool(os.environ.get("POLYGON_API_KEY"))
