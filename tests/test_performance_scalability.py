@@ -193,16 +193,17 @@ class TestPerformanceMetrics:
 
     def test_eta_calculation(self):
         """Test ETA (estimated time remaining) calculation."""
+        retriever = ProductionStockRetriever()
+
         processed = 1000
         total = 6626
         elapsed_seconds = 100.0
 
-        rate = processed / elapsed_seconds
-        remaining = total - processed
-        eta_seconds = remaining / rate if rate > 0 else 0
+        eta = retriever.calculate_eta(processed, total, elapsed_seconds)
 
-        expected_eta = (6626 - 1000) / 10.0  # 562.6 seconds
-        assert eta_seconds == pytest.approx(562.6, rel=0.01)
+        # Expected: (6626 - 1000) / (1000/100) = 5626 / 10 = 562.6 seconds
+        expected_eta = timedelta(seconds=562.6)
+        assert eta.total_seconds() == pytest.approx(expected_eta.total_seconds(), rel=0.01)
 
     def test_progress_percentage_calculation(self):
         """Test progress percentage calculation."""
@@ -247,20 +248,30 @@ class TestPerformanceMetrics:
         assert success_rate == 98.0
 
     def test_zero_division_protection(self):
-        """Test that calculations handle zero division."""
-        processed = 0
-        total = 100
-        elapsed_seconds = 0.0
+        """Test that ETA calculation handles zero division correctly."""
+        retriever = ProductionStockRetriever()
 
-        # Rate calculation with zero elapsed time
-        rate = processed / elapsed_seconds if elapsed_seconds > 0 else 0
-        assert rate == 0
+        # Test with zero elapsed time (no progress yet)
+        eta = retriever.calculate_eta(
+            processed_count=0,
+            total_count=100,
+            elapsed_seconds=0.0
+        )
+        assert eta == timedelta(0), "Should return timedelta(0) when elapsed time is 0"
 
-        # ETA calculation with zero rate
-        remaining = total - processed
-        eta = remaining / rate if rate > 0 else float('inf')
-        assert eta == float('inf')
+        # Test with zero progress (rate would be 0)
+        eta = retriever.calculate_eta(
+            processed_count=0,
+            total_count=100,
+            elapsed_seconds=10.0
+        )
+        assert eta == timedelta(0), "Should return timedelta(0) when rate is 0"
 
-        # Percentage with zero total
-        pct = (processed / total) * 100 if total > 0 else 0
-        assert pct == 0
+        # Test with valid progress
+        eta = retriever.calculate_eta(
+            processed_count=50,
+            total_count=100,
+            elapsed_seconds=10.0
+        )
+        # 50 remaining / (50/10) = 50 / 5 = 10 seconds
+        assert eta == timedelta(seconds=10), "Should calculate correct ETA with valid progress"
